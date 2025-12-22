@@ -4,6 +4,49 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-22 / early afternoon (session 2)
+
+### started building mira's profile + first developmental assessment
+
+**what we did:**
+- created `profile/notes-about-mira.md` - initial observations about mira
+  - basic info: birthdate 17.05.24, age 19 months
+  - letter recognition abilities
+  - speech & language development (vocabulary, contextual usage, comprehension)
+  - music & dance: daily ritual, copies steps quickly, sings along, uses google home
+  - observational skills: intentful observer, analytical approach to learning
+  - reading habits: 40-50 books, page-by-page memory, current favorites
+  - environmental print awareness: points out letters/numbers everywhere
+- created `profile/developmental-milestones.md` - thorough milestone tracking
+  - assessed mira against typical developmental milestones
+  - areas covered: language, gross motor, cognitive, musical, technology, literacy
+  - key findings: significantly advanced in receptive language, letter recognition, environmental print awareness; advanced in memory, observational learning, singing
+- added ongoing documentation protocol to `agents.md` and `claude.md`
+  - protocol: as observations come up in conversation, add to notes-about-mira.md with timestamps
+  - protocol: for each observation, add corresponding milestone assessment to developmental-milestones.md
+
+**discussed:**
+- language development approaches for mira from here
+- book recommendations (narrative, lift-the-flap, phonics - modern illustrations, no chicka chicka)
+- learning space and routine for homeschooling (environment > schedule, rhythm > rigid times)
+- clarifications: receptive language, simon says games, songs with actions, magnet safety, art supplies
+
+**key insight:**
+- mira shows metacognitive awareness - she knows when she's learning (pauses dancing to absorb a new step, watches analytically)
+- her analytical approach to observation + strong memory + early literacy = foundation for self-directed learning
+
+**files created:**
+- profile/notes-about-mira.md
+- profile/developmental-milestones.md
+
+**git commits:**
+- 38816a9: add initial observations about mira
+- c8ca80c: add developmental milestone assessments for mira at 19mo
+- 3a82bd6: add ongoing documentation protocol to agents.md and claude.md
+- e6e2c0a: remove profile/.gitkeep
+
+---
+
 ## 2025-12-22 / early afternoon
 
 ### defined project vision and structure
