@@ -4,6 +4,30 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-22 / early afternoon
+
+### defined project vision and structure
+
+**what we did:**
+- renamed branch to `early-days`
+- established the three pillars of this project:
+  1. **research/** - broad exploration of schooling history, pedagogy, modern learning platforms (khan academy, etc.), ai-first education tools, and what's possible in the near future
+  2. **resources/** - curated, personalized resources (books, toys, activities) centered around her developmental stage and needs
+  3. **profile/** - free-form observation notes on her - daily patterns, routines, what she can do, what she's learning, likes/dislikes/fears/curiosities - to later draw patterns and insights from
+- created folder structure: `/research`, `/resources`, `/profile`
+
+**why:**
+- the goal is to reimagine formative years learning, but grounded completely in *her* - who she is as a unique learner
+- separating into folders allows each area to grow organically with its own docs
+- free-form notes in profile/ lets us capture observations naturally, then pattern-match later
+
+**files created:**
+- /research/.gitkeep
+- /resources/.gitkeep
+- /profile/.gitkeep
+
+---
+
 ## 2025-12-20 / time: current session
 
 ### initialized project repository
