@@ -4,6 +4,14 @@ research, documentation, and conversations with claude
 
 ---
 
+## ongoing documentation protocol
+
+as we converse:
+1. **notes-about-mira.md** (profile/) - when mira-related observations come up naturally (things she does, likes, patterns, behaviors, routines, fears, curiosities), add them to this doc with date/time stamps
+2. **developmental-milestones.md** (profile/) - for every new observation added to notes-about-mira.md, create a corresponding entry here with the same date/time stamp, assessing what typical milestones suggest. be thorough.
+
+---
+
 ## project guidelines
 
 **formatting:**
