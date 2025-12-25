@@ -4,6 +4,21 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-25 / 12:32 pm
+
+### started bicycle research notes for mira (bangalore)
+
+**what we did:**
+- created `research/bicycles-mira.md` with early findings
+  - balance bike vs training wheels evidence snapshot
+  - sizing notes using inseam/height guidance
+  - india-available options (balance, convertible, pedal)
+  - transition plan + open questions
+
+**why:**
+- capture options and evidence before choosing a bike
+- keep research centralized for updates and decisions
+
 ## 2025-12-25 / 12:27 pm
 
 ### added new observations on growth, safety awareness, and motor control
