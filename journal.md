@@ -4,6 +4,18 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-25 / 03:27 pm
+
+### refined bicycle research links and specs
+
+**what we did:**
+- updated `research/bicycles-mira.md` with inline links and specs for todds, leader, strider, and babyhug
+- added india size guidance from decathlon + hero cycles
+- removed the broken beetle link and softened heavy-weight claims for pedal bikes
+
+**why:**
+- keep sources accurate and avoid stale or unreliable links
+
 ## 2025-12-25 / 03:23 pm
 
 ### refined bicycle research + added new height measurement

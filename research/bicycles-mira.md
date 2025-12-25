@@ -16,6 +16,7 @@
 
 ## sizing guidance (india)
 - decathlon india suggests 12" and 14" bikes for children between 90 cm and 1.05 m, and 10" for 85 cm to 1 m. [decathlon india size guide](https://www.decathlon.in/c/kids-cycles-25541)
+- hero cycles also provides a height-based size guide (82-98 cm = 12", 98-106 cm = 14"). [hero cycles size guide](https://www.herocycles.com/sonic-BSSON14BLWH002_main.html)
 - use inseam and foot-flat fit rather than age. the seat should allow both feet flat on the ground with a slight knee bend.
 
 ## mira fit estimate (90/91 cm)
@@ -26,23 +27,23 @@
 
 ### balance bikes (aesthetic + functional)
 - [todds balance bike](https://www.toddslife.com/products/the-balance-bike)
-  - 12" wheel, adjustable seat (12-16") + handlebar (17-20"), 4.5 kg, 18m+, iso 8124 certified.
+  - 12" wheel, adjustable seat (12-16") + handlebar (17-20"), 4.5 kg, 18m+, iso 8124 certified; listed at rs 6,999 and currently shows sold out.
 - [leader kiddo 12t balance cycle](https://leaderbicycles.com/products/leader-kiddo-12t-balance-cycle)
   - listed for 1-3 years; height range 65-91 cm.
 - [strider 12 sport balance bike (preloved)](https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years)
-  - listed 18 months-5 years; adjustable seat/handlebar; ~3 kg; note: preloved condition varies.
+  - listed 18 months-5 years; adjustable seat/handlebar to fit 12\"-20\" inseams; listed weight 3 kg; note: preloved condition varies.
 
 ### convertible / pedal-first options
 - [babyhug 2-in-1 balance bicycle 12"](https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/)
-  - removable pedals + training wheels; adjustable seat; listed 2-4 years; 30 kg capacity.
+  - removable pedals + training wheels; adjustable seat height; puncture-proof tyre; listed 2-4 years; 30 kg capacity.
 
 ### regular pedal bikes (aesthetic alternatives, india)
 - [decathlon india kids cycles](https://www.decathlon.in/c/kids-cycles-25541)
   - 12" and 14" options; helpful for sizing and availability.
 - [hero cycles sonic 14t](https://www.herocycles.com/sonic-BSSON14BLWH002_main.html)
-  - 14t bike listed ~10 kg; likely heavy for a 90/91 cm toddler.
+  - option for later once she is taller; use the height-based size guide above.
 - [hero cycles jimmy 14t](https://www.herocycles.com/jimmy-BSJIM14WH00001.html)
-  - 14t bike listed ~10.58 kg; also on the heavier side.
+  - another 14t option for later; check fit using height and inseam.
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
@@ -53,5 +54,4 @@
 
 ## open questions to finalize a pick
 - inseam measurement (floor to crotch)
-- any preference between wood vs metal frames
 - helmet choice and size (if needed, we can add to this doc)
