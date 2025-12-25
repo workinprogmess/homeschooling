@@ -1,34 +1,48 @@
 # bicycles research: mira (bangalore) - balance vs pedal
 
+## related
+- [notes about mira](../profile/notes-about-mira.md)
+- [developmental milestones](../profile/developmental-milestones.md)
+
 ## quick take (draft)
-- for ~19 months, a light balance bike is usually the fastest path to independent riding, especially for a tall, coordinated toddler.
+- with mira at 90/91 cm and leaning balance-bike first, a light 12" balance bike is the most practical path right now.
 - if you want to avoid buying two bikes, a 2-in-1 that removes pedals (and ideally training wheels) is the best compromise, but weight matters.
 
 ## evidence snapshot (balance bike vs training wheels)
-- a 2025 study reports faster learning and higher success on balance bikes vs training wheels (self-start, ride, brake, and independent cycling milestones).
-- a 2024 study explains why balance bikes can be more efficient: they require balance immediately and build more adaptive control while learning.
-- usa cycling notes balance bikes are lower and lighter; they also encourage natural leaning/turning, while pedal bikes sit higher and rely more on brakes.
+- a 2025 intervention study found higher success and faster learning for balance bike users (self-launch, ride, brake, independent cycling) compared with training wheels. [pubmed study](https://pubmed.ncbi.nlm.nih.gov/39982293/)
+- a 2022 questionnaire study found that kids who practiced on balance bikes started earlier, practiced for less time, and rode independently at younger ages than those who used training wheels. [pubmed study](https://pubmed.ncbi.nlm.nih.gov/35262200/)
+- a 2025 mechanics study explains why balance bikes can be more efficient: they impose balance demands immediately, building adaptive control during learning. [pubmed study](https://pubmed.ncbi.nlm.nih.gov/39728250/)
+- usa cycling notes balance bikes are lower and lighter and encourage natural leaning and turning; pedal bikes sit higher and rely more on brakes because kids may not reach the ground. [usa cycling overview](https://usacycling.org/article/balance-bike-vs-training-wheels)
 
 ## sizing guidance (india)
-- hero cycles size guide maps approx rider height to wheel size: 12" for 82-98 cm, 14" for 98-106 cm, 16" for 106-116 cm. use inseam/foot-flat fit rather than age.
+- decathlon india suggests 12" and 14" bikes for children between 90 cm and 1.05 m, and 10" for 85 cm to 1 m. [decathlon india size guide](https://www.decathlon.in/c/kids-cycles-25541)
+- use inseam and foot-flat fit rather than age. the seat should allow both feet flat on the ground with a slight knee bend.
+
+## mira fit estimate (90/91 cm)
+- 12" is likely the right starting size for a balance bike; 14" may be too tall unless her inseam is long.
+- once you measure inseam, we can confirm seat height fit against the bike's minimum saddle height.
 
 ## india-available options worth comparing
 
 ### balance bikes (aesthetic + functional)
-- todds balance bike (12")
-  - recommended age: 18m+; weight: 4.5 kg; adjustable seat/handlebar.
-- r for rabbit tiny toes trainer balance bike (listed at mothercare)
-  - age 2-5y; designed to teach balance + steering first; adjustable seat.
-- strider 12 (preloved in india via chubchub)
-  - suitable 18 months-5 years; very light (listed ~3 kg).
-- beetle toddler 12t balance bike
-  - listed as 1-4 years; 12" wheel.
+- [todds balance bike](https://www.toddslife.com/products/the-balance-bike)
+  - 12" wheel, adjustable seat (12-16") + handlebar (17-20"), 4.5 kg, 18m+, iso 8124 certified.
+- [leader kiddo 12t balance cycle](https://leaderbicycles.com/products/leader-kiddo-12t-balance-cycle)
+  - listed for 1-3 years; height range 65-91 cm.
+- [strider 12 sport balance bike (preloved)](https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years)
+  - listed 18 months-5 years; adjustable seat/handlebar; ~3 kg; note: preloved condition varies.
 
 ### convertible / pedal-first options
-- babyhug 2-in-1 balance bicycle 12"
-  - removable pedals and training wheels; listed 2-4 years; carrying capacity 30 kg.
-- hero cycles kids lineup (pedal bikes in 12t/14t/16t)
-  - use the size guide above; consider models that allow training wheels if you go pedal-first.
+- [babyhug 2-in-1 balance bicycle 12"](https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/)
+  - removable pedals + training wheels; adjustable seat; listed 2-4 years; 30 kg capacity.
+
+### regular pedal bikes (aesthetic alternatives, india)
+- [decathlon india kids cycles](https://www.decathlon.in/c/kids-cycles-25541)
+  - 12" and 14" options; helpful for sizing and availability.
+- [hero cycles sonic 14t](https://www.herocycles.com/sonic-BSSON14BLWH002_main.html)
+  - 14t bike listed ~10 kg; likely heavy for a 90/91 cm toddler.
+- [hero cycles jimmy 14t](https://www.herocycles.com/jimmy-BSJIM14WH00001.html)
+  - 14t bike listed ~10.58 kg; also on the heavier side.
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
@@ -38,18 +52,6 @@
 5. skip training wheels if possible: try direct transition; if needed, use training wheels briefly and raise them slightly to preserve balance skills.
 
 ## open questions to finalize a pick
-- mira's height + inseam (floor to crotch), and whether she can run confidently
-- preferred budget range
-- where she will ride (smooth floor, park paths, or uneven roads)
-- do you want a single convertible bike or are you ok with a balance bike first?
-
-## sources (for quick lookup)
-- https://pubmed.ncbi.nlm.nih.gov/39728250/
-- https://www.mdpi.com/2411-5142/9/4/266
-- https://usacycling.org/article/balance-bike-vs-training-wheels
-- https://www.toddslife.com/products/the-balance-bike
-- https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
-- https://www.herocycles.com/massive-BSMAS20BK00002_main.html
-- https://mothercare.in/product/r-for-rabbit-tiny-toes-trainer-baby-tricycles-red-a81ymu4yqy6
-- https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years
-- https://beetlebikes.in/product/beetle-toddler-12t-balance-bike-neon-orange
+- inseam measurement (floor to crotch)
+- any preference between wood vs metal frames
+- helmet choice and size (if needed, we can add to this doc)

@@ -4,6 +4,22 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ---
 
+## 2025-12-25 / 03:23 pm
+
+### age: 19 months
+
+---
+
+### physical growth
+
+#### stature (measured)
+**observation:** height measured at 90/91 cm
+
+**milestone context:**
+- height in toddlerhood varies widely; this measurement suggests she is likely above average for age
+- for gross-motor equipment like bikes, inseam and stand-over fit are more useful than age bands
+- this supports choosing bike size based on foot-flat reach rather than age ranges
+
 ## 2025-12-25 / 12:27 pm
 
 ### age: 19 months

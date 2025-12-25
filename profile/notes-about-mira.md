@@ -4,6 +4,14 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ---
 
+## 2025-12-25 / 03:23 pm
+
+### physical growth
+- height: 90/91 cm
+
+### related
+- [bicycles research](../research/bicycles-mira.md)
+
 ## 2025-12-25 / 12:27 pm
 
 ### physical growth & body awareness

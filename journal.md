@@ -4,6 +4,23 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-25 / 03:23 pm
+
+### refined bicycle research + added new height measurement
+
+**what we did:**
+- updated `profile/notes-about-mira.md` with measured height (90/91 cm) and linked to bicycle research
+- updated `profile/developmental-milestones.md` with a matching height milestone note
+- rewrote `research/bicycles-mira.md`
+  - added inline hyperlinks in place of a sources list
+  - updated evidence section with current studies and clearer claims
+  - refreshed india-available options and removed the broken beetle link
+  - added a mira-specific fit estimate based on 90/91 cm
+
+**why:**
+- keep the research readable and directly actionable
+- ensure the doc reflects mira's current measurements and preference for balance-bike first
+
 ## 2025-12-25 / 12:32 pm
 
 ### started bicycle research notes for mira (bangalore)
