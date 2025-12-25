@@ -1,4 +1,5 @@
 # bicycles research: mira (bangalore) - balance vs pedal
+tags: research, bicycles, gross-motor, equipment, india, eu
 
 ## related
 - [notes about mira](../profile/notes-about-mira.md)
@@ -27,11 +28,11 @@
 
 ### balance bikes (aesthetic + functional)
 - [todds balance bike](https://www.toddslife.com/products/the-balance-bike)
-  - 12" wheel, adjustable seat (12-16") + handlebar (17-20"), 4.5 kg, 18m+, iso 8124 certified; listed at rs 6,999 and currently shows sold out.
+  - 12" wheel; adjustable seat (12-16") and handlebar (17-20"); weight 4.5 kg; recommended 18m+; iso 8124 certified. price shown on site: rs 6,999 (checked 2025-12-25).
 - [leader kiddo 12t balance cycle](https://leaderbicycles.com/products/leader-kiddo-12t-balance-cycle)
   - listed for 1-3 years; height range 65-91 cm.
 - [strider 12 sport balance bike (preloved)](https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years)
-  - listed 18 months-5 years; adjustable seat/handlebar to fit 12\"-20\" inseams; listed weight 3 kg; note: preloved condition varies.
+  - listed 18 months-5 years; adjustable seat/handlebar to fit 12"-20" inseams; listed weight 3 kg; note: preloved condition varies.
 
 ### convertible / pedal-first options
 - [babyhug 2-in-1 balance bicycle 12"](https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/)
@@ -44,6 +45,45 @@
   - option for later once she is taller; use the height-based size guide above.
 - [hero cycles jimmy 14t](https://www.herocycles.com/jimmy-BSJIM14WH00001.html)
   - another 14t option for later; check fit using height and inseam.
+
+## eu pedal-bike shortlist (minimal aesthetics)
+- [woom original 2 (14")](https://woom.com/en_INT/woom-2-with-kickstand-click-on-mudguards-bell)
+  - height 95-110 cm; weight 5 kg; age 3-4.5 years. note: woom original 2 is marked discontinued on site and replaced by woom go 2.
+- [puky ls-pro 14](https://www.puky.de/en/ls-pro-14-00004433.html)
+  - height 95-115 cm; inseam 42-54 cm; weight 5.3 kg (without pedals).
+- [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
+  - size of leg 37 cm; standover height 37 cm; weight 5.48 kg (without pedals).
+- [islabikes cnoc 14](https://www.islabikes.co.uk/bikes/cnoc-14-bike)
+  - min inside leg 34 cm; max inside leg 42 cm; approx min height 92 cm.
+- [frog 38](https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html)
+  - inside leg 36-41 cm; weight 6.06 kg; 14" wheels; age 3-4.
+
+## import + logistics (india)
+- baggage rules allow used personal effects duty-free (excluding jewellery). [baggage rules (dor, india)](https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf)
+- duty-free allowance for other articles depends on trip length:
+  - passengers 10+ years: rs 25,000 if abroad >3 days; rs 12,000 if abroad <=3 days.
+  - children up to 10 years: rs 6,000 if abroad >3 days; rs 3,000 if abroad <=3 days. [baggage rules (dor, india)](https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf)
+- india uses a red/green channel system at customs; use the red channel if you are carrying dutiable goods over the allowance. [cbic guide for travellers](https://referencer.in/Gr1q0/pdf/guide_for_travellers.pdf)
+- practical takeaway: if a pedal bike is brought from europe and its value exceeds the allowance, it may attract duty; keep invoices and be ready to declare.
+
+## india store sweep (offline + boutique leads)
+
+### bangalore
+- [decathlon store locator](https://www.decathlon.in/store-locator)
+- [cycle world store list](https://cycleworld.in/storelist/)
+- [procycle store locator](https://www.procycle.in/store-locator)
+- [trek experience store - bengaluru (bums on the saddle)](https://www.trekbikes.com/in/en_IN/retail/bengaluru/)
+
+### delhi ncr
+- [hamleys store locator](https://hamleys.in/store-locator/)
+- [firefox kids bike stations (delhi list)](https://www.firefoxbikes.com/kids-bike-stations.html)
+- [hero cycles store locator](https://www.herocycles.com/stores)
+
+### mumbai
+- [jalaram house of cycles](https://www.jalaramhouseofcycles.com/)
+- [firefox kids bike stations (navi mumbai)](https://www.firefoxbikes.com/kids-bike-stations.html)
+- [decathlon store locator](https://www.decathlon.in/store-locator)
+- [hamleys store locator](https://hamleys.in/store-locator/)
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.

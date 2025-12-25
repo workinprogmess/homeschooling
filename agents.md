@@ -1,4 +1,8 @@
 # agents.md
+tags: meta, workflow, agents
+related:
+- [wiki index](./wiki/index.md)
+- [journal](./journal.md)
 
 notes on ai agents, workflows, and automations
 

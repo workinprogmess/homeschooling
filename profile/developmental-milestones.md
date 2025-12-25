@@ -1,4 +1,8 @@
 # developmental milestones
+tags: profile, mira, milestones, development
+related:
+- [notes about mira](./notes-about-mira.md)
+- [bicycles research](../research/bicycles-mira.md)
 
 tracking mira's development against typical milestones - updated alongside notes-about-mira.md
 

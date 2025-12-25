@@ -1,4 +1,8 @@
 # notes about mira
+tags: profile, mira, observations, growth
+related:
+- [developmental milestones](./developmental-milestones.md)
+- [bicycles research](../research/bicycles-mira.md)
 
 free-form observations, things she does, likes, patterns - captured as they come up naturally
 

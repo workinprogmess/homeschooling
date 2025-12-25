@@ -1,8 +1,28 @@
 # journal.md
+tags: journal, log
+related:
+- [wiki index](./wiki/index.md)
+- [agents](./agents.md)
 
 project development log - newest entries on top
 
 ---
+
+## 2025-12-25 / 05:00 pm
+
+### added wiki structure + expanded bicycle research (eu + india)
+
+**what we did:**
+- created `wiki/index.md` and `wiki/tags.md` and added a tags refresh script at `scripts/wiki-refresh.py`
+- added `tags:` + `related:` blocks to `agents.md`, `journal.md`, `profile/notes-about-mira.md`, `profile/developmental-milestones.md`, and `research/bicycles-mira.md`
+- refreshed `research/bicycles-mira.md` with:
+  - eu pedal-bike shortlist + sizing specs
+  - india offline store sweep (bangalore/delhi/mumbai)
+  - import + baggage logistics notes
+
+**why:**
+- make the docs navigable as a continuous wiki without constant manual backfilling
+- keep the bike decision doc current and practical for india + eu options
 
 ## 2025-12-25 / 03:27 pm
 
