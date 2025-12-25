@@ -4,6 +4,24 @@ project development log - newest entries on top
 
 ---
 
+## 2025-12-25 / 12:27 pm
+
+### added new observations on growth, safety awareness, and motor control
+
+**what we did:**
+- updated `profile/notes-about-mira.md` with new observations
+  - tall for age; parents tall
+  - good understanding of instructions and danger
+  - good motor control
+- updated `profile/developmental-milestones.md` with matching milestone context
+  - physical growth and inseam-based sizing note
+  - safety comprehension assessment
+  - gross motor coordination assessment
+
+**why:**
+- capture new context from the bicycle conversation for future planning and equipment fit
+- keep milestone tracking aligned with new observations
+
 ## 2025-12-22 / early afternoon (session 2)
 
 ### started building mira's profile + first developmental assessment

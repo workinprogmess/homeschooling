@@ -4,6 +4,18 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ---
 
+## 2025-12-25 / 12:27 pm
+
+### physical growth & body awareness
+- tall for her age
+- parents are tall (for atima and i are tall: 5'11/6)
+
+### safety awareness & comprehension
+- good understanding of instructions and danger
+
+### motor skills
+- good control of her motor skills
+
 ## 2025-12-22 / early afternoon
 
 ### basic info
