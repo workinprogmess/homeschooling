@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-26 / 10:24 pm](#2025-12-26-1024-pm)
 - [2025-12-26 / 10:19 pm](#2025-12-26-1019-pm)
 - [2025-12-26 / 10:15 pm](#2025-12-26-1015-pm)
 - [2025-12-26 / 09:02 pm](#2025-12-26-0902-pm)
@@ -21,6 +22,18 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-26 / 10:24 pm
+
+### refined eu bike shortlist + todds origin note
+
+**what we did:**
+- corrected eu bike sources (rascal official page, kubikes 16s page) and updated specs accordingly
+- removed an unverified academy shipping note
+- refreshed toc and wiki tags
+
+**why:**
+- keep the research accurate and aligned to primary sources
 
 ## 2025-12-26 / 10:19 pm
 
