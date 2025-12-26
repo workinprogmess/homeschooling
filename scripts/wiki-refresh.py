@@ -8,31 +8,33 @@ import re
 
 root = Path(__file__).resolve().parents[1]
 wiki_dir = root / "wiki"
-output_path = wiki_dir / "tags.md"
+index_path = wiki_dir / "index.md"
+tags_path = wiki_dir / "tags.md"
 
-ignore_paths = {
-    Path("wiki/tags.md"),
-}
+ignore_paths = {index_path, tags_path}
 
-md_files = []
+md_files: list[Path] = []
 for path in root.rglob("*.md"):
     rel = path.relative_to(root)
     if any(part in {".git", ".context"} for part in rel.parts):
         continue
-    if rel in ignore_paths:
+    if path in ignore_paths:
         continue
     md_files.append(path)
 
 
-tag_map: dict[str, list[dict[str, str]]] = {}
+tag_line_re = re.compile(r"^\s*(?:\*\*tags:\*\*|tags:)\s*(.+)\s*$", re.IGNORECASE)
 
-tag_re = re.compile(r"^tags:\s*(.+)\s*$")
+tag_re = re.compile(r"#([a-z0-9-]+)")
 
 title_re = re.compile(r"^#\s+(.+)$")
 
+
+docs: list[dict[str, object]] = []
 for path in md_files:
     rel = path.relative_to(root)
     rel_from_wiki = Path("..") / rel
+
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
     except Exception:
@@ -45,44 +47,146 @@ for path in md_files:
             title = match.group(1).strip()
             break
 
-    tags_line = None
-    for line in lines[:30]:
-        match = tag_re.match(line.strip())
+    tags: list[str] = []
+    for line in lines[:40]:
+        match = tag_line_re.match(line.strip())
         if match:
-            tags_line = match.group(1)
+            tags = [f"#{t}" for t in tag_re.findall(match.group(1))]
             break
 
-    if not tags_line:
-        continue
+    docs.append(
+        {
+            "title": title or rel.name,
+            "rel": rel,
+            "rel_from_wiki": rel_from_wiki.as_posix(),
+            "tags": tags,
+        }
+    )
 
-    tags = [t.strip() for t in tags_line.split(",") if t.strip()]
-    for tag in tags:
+# add wiki docs explicitly
+wiki_docs = [
+    {
+        "title": "wiki index",
+        "rel": Path("wiki/index.md"),
+        "rel_from_wiki": "./index.md",
+        "tags": ["#wiki-index", "#documentation-map"],
+    },
+    {
+        "title": "tags",
+        "rel": Path("wiki/tags.md"),
+        "rel_from_wiki": "./tags.md",
+        "tags": ["#wiki-tags", "#documentation-map"],
+    },
+]
+
+# avoid duplicates if they already exist
+existing = {str(doc["rel"]) for doc in docs}
+for doc in wiki_docs:
+    if str(doc["rel"]) not in existing:
+        docs.append(doc)
+
+# build tag map
+
+tag_map: dict[str, list[dict[str, str]]] = {}
+for doc in docs:
+    for tag in doc["tags"]:
         tag_map.setdefault(tag, []).append(
             {
-                "title": title or rel.name,
-                "path": rel_from_wiki.as_posix(),
+                "title": str(doc["title"]),
+                "path": str(doc["rel_from_wiki"]),
             }
         )
 
 for tag in tag_map:
     tag_map[tag] = sorted(tag_map[tag], key=lambda x: x["title"])
 
+# build folder map
+folder_map: dict[str, list[dict[str, str]]] = {}
+for doc in docs:
+    rel = doc["rel"]
+    if isinstance(rel, Path):
+        parts = rel.parts
+    else:
+        parts = Path(rel).parts
+
+    folder = "root" if len(parts) == 1 else parts[0]
+    folder_map.setdefault(folder, []).append(
+        {
+            "title": str(doc["title"]),
+            "path": str(doc["rel_from_wiki"]),
+        }
+    )
+
+for folder in folder_map:
+    folder_map[folder] = sorted(folder_map[folder], key=lambda x: x["title"])
+
 now = datetime.now().strftime("%Y-%m-%d / %I:%M %p").lower()
 
-lines_out = [
+# write wiki/index.md
+index_lines = [
+    "# wiki index",
+    "",
+    "map of content across the repo.",
+    "",
+    "**tags:** #wiki-index #documentation-map",
+    "**related:** [tags](./tags.md), [journal](../journal.md)",
+    "",
+    "## table of contents",
+    "- [by folder](#by-folder)",
+    "- [by tag](#by-tag)",
+    "- [sources / references](#sources--references)",
+    "",
+    "---",
+    "",
+    "## by folder",
+]
+
+for folder in sorted(folder_map.keys()):
+    index_lines.append(f"### {folder}")
+    for item in folder_map[folder]:
+        index_lines.append(f"- [{item['title']}]({item['path']})")
+    index_lines.append("")
+
+index_lines.append("## by tag")
+for tag in sorted(tag_map.keys()):
+    anchor = tag[1:]
+    index_lines.append(f"- [{tag}](./tags.md#{anchor})")
+index_lines.append("")
+
+index_lines.append("## sources / references")
+index_lines.append("- none yet")
+index_lines.append("")
+
+index_path.write_text("\n".join(index_lines).rstrip() + "\n", encoding="utf-8")
+
+# write wiki/tags.md
+
+tags_lines = [
     "# tags",
-    "tags: wiki, index",
-    "related:",
-    "- [wiki index](./index.md)",
+    "",
+    "tag index across the repo.",
+    "",
+    "**tags:** #wiki-tags #documentation-map",
+    "**related:** [wiki index](./index.md)",
+    "",
+    "## table of contents",
+    "- [tags](#tags)",
+    "- [sources / references](#sources--references)",
     "",
     f"generated: {now}",
     "",
+    "---",
+    "",
+    "## tags",
 ]
 
 for tag in sorted(tag_map.keys()):
-    lines_out.append(f"## {tag}")
+    tags_lines.append(f"### {tag}")
     for item in tag_map[tag]:
-        lines_out.append(f"- [{item['title']}]({item['path']})")
-    lines_out.append("")
+        tags_lines.append(f"- [{item['title']}]({item['path']})")
+    tags_lines.append("")
 
-output_path.write_text("\n".join(lines_out).rstrip() + "\n", encoding="utf-8")
+tags_lines.append("## sources / references")
+tags_lines.append("- none yet")
+
+tags_path.write_text("\n".join(tags_lines).rstrip() + "\n", encoding="utf-8")

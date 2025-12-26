@@ -1,9 +1,24 @@
 # bicycles research: mira (bangalore) - balance vs pedal
-tags: research, bicycles, gross-motor, equipment, india, eu
 
-## related
-- [notes about mira](../profile/notes-about-mira.md)
-- [developmental milestones](../profile/developmental-milestones.md)
+research notes for choosing a first bike now and a pedal bike later.
+
+**tags:** #mira-first-bicycle #balance-bike-research #future-pedal-bike #india-bike-options #eu-bike-options #import-to-india
+**related:** [notes about mira](../profile/notes-about-mira.md), [developmental milestones](../profile/developmental-milestones.md), [wiki index](../wiki/index.md)
+
+## table of contents
+- [quick take (draft)](#quick-take-draft)
+- [evidence snapshot (balance bike vs training wheels)](#evidence-snapshot-balance-bike-vs-training-wheels)
+- [sizing guidance (india)](#sizing-guidance-india)
+- [mira fit estimate (90/91 cm)](#mira-fit-estimate-9091-cm)
+- [india-available options worth comparing](#india-available-options-worth-comparing)
+- [eu pedal-bike shortlist (minimal aesthetics)](#eu-pedal-bike-shortlist-minimal-aesthetics)
+- [import + logistics (india)](#import--logistics-india)
+- [india store sweep (offline + boutique leads)](#india-store-sweep-offline--boutique-leads)
+- [transition plan (balance bike -> pedal)](#transition-plan-balance-bike---pedal)
+- [open questions to finalize a pick](#open-questions-to-finalize-a-pick)
+- [sources / references](#sources--references)
+
+---
 
 ## quick take (draft)
 - with mira at 90/91 cm and leaning balance-bike first, a light 12" balance bike is the most practical path right now.
@@ -95,3 +110,31 @@ tags: research, bicycles, gross-motor, equipment, india, eu
 ## open questions to finalize a pick
 - inseam measurement (floor to crotch)
 - helmet choice and size (if needed, we can add to this doc)
+
+## sources / references
+- https://pubmed.ncbi.nlm.nih.gov/39982293/
+- https://pubmed.ncbi.nlm.nih.gov/35262200/
+- https://pubmed.ncbi.nlm.nih.gov/39728250/
+- https://usacycling.org/article/balance-bike-vs-training-wheels
+- https://www.decathlon.in/c/kids-cycles-25541
+- https://www.herocycles.com/sonic-BSSON14BLWH002_main.html
+- https://www.toddslife.com/products/the-balance-bike
+- https://leaderbicycles.com/products/leader-kiddo-12t-balance-cycle
+- https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years
+- https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
+- https://www.herocycles.com/jimmy-BSJIM14WH00001.html
+- https://woom.com/en_INT/woom-2-with-kickstand-click-on-mudguards-bell
+- https://www.puky.de/en/ls-pro-14-00004433.html
+- https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
+- https://www.islabikes.co.uk/bikes/cnoc-14-bike
+- https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
+- https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf
+- https://referencer.in/Gr1q0/pdf/guide_for_travellers.pdf
+- https://www.decathlon.in/store-locator
+- https://cycleworld.in/storelist/
+- https://www.procycle.in/store-locator
+- https://www.trekbikes.com/in/en_IN/retail/bengaluru/
+- https://hamleys.in/store-locator/
+- https://www.firefoxbikes.com/kids-bike-stations.html
+- https://www.herocycles.com/stores
+- https://www.jalaramhouseofcycles.com/

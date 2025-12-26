@@ -1,12 +1,21 @@
 # developmental milestones
-tags: profile, mira, milestones, development
-related:
-- [notes about mira](./notes-about-mira.md)
-- [bicycles research](../research/bicycles-mira.md)
 
 tracking mira's development against typical milestones - updated alongside notes-about-mira.md
 
+**tags:** #mira-development #milestone-tracking #developmental-assessment
+**related:** [notes about mira](./notes-about-mira.md), [bicycles research](../research/bicycles-mira.md), [wiki index](../wiki/index.md)
+
+## table of contents
+- [2025-12-25 / 03:23 pm](#2025-12-25--0323-pm)
+- [2025-12-25 / 12:27 pm](#2025-12-25--1227-pm)
+- [2025-12-22 / early afternoon](#2025-12-22--early-afternoon)
+- [2025-12-22 / early afternoon (continued)](#2025-12-22--early-afternoon-continued)
+- [sources / references](#sources--references)
+
 ---
+
+## sources / references
+- none yet
 
 ## 2025-12-25 / 03:23 pm
 
