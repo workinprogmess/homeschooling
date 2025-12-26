@@ -2,6 +2,16 @@
 
 **børnehav** (literally "children's garden") is the danish kindergarten system built on a philosophy that children ages 3-6 aren't developmentally ready for formal academics - so the focus is entirely on **play-based learning**.
 
+**tags:** #danish-early-childhood #play-based-learning #international-education-models
+**related:** [wiki index](../wiki/index.md)
+
+## table of contents
+<!-- toc:start -->
+- [core philosophy](#core-philosophy)
+- [what it looks like in practice](#what-it-looks-like-in-practice)
+- [the brain science rationale](#the-brain-science-rationale)
+- [danish parenting philosophy connection](#danish-parenting-philosophy-connection)
+<!-- toc:end -->
 ---
 
 ## core philosophy
@@ -41,8 +51,7 @@ this ties into broader danish child-rearing: raising resilient, emotionally secu
 
 ---
 
-## sources
-
+## sources / references
 - [danish kindergartens - international house north denmark](https://ihnd.dk/ihnd-articles/danish-kindergartens)
 - [what is børnehave in denmark](https://copenhagenexpats.com/glossary/bornehave/)
 - [nurturing childhood wonder through exploratory play](https://www.nurturewithyally.com/danish-kindergartens-nurturing-childhood-wonder-through-exploratory-play/)

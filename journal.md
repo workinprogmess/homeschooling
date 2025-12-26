@@ -2,7 +2,155 @@
 
 project development log - newest entries on top
 
+**tags:** #project-journal #work-log #decision-history
+**related:** [wiki index](./wiki/index.md), [agents](./agents.md), [claude](./CLAUDE.md)
+
+## table of contents
+<!-- toc:start -->
+- [2025-12-26 / 10:19 pm](#2025-12-26-1019-pm)
+- [2025-12-26 / 10:15 pm](#2025-12-26-1015-pm)
+- [2025-12-26 / 09:02 pm](#2025-12-26-0902-pm)
+- [2025-12-26 / 05:31 pm](#2025-12-26-0531-pm)
+- [2025-12-25 / 05:00 pm](#2025-12-25-0500-pm)
+- [2025-12-25 / 03:27 pm](#2025-12-25-0327-pm)
+- [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
+- [2025-12-25 / 12:32 pm](#2025-12-25-1232-pm)
+- [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
+- [2025-12-22 / early afternoon (session 2)](#2025-12-22-early-afternoon-session-2)
+- [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
+- [2025-12-20 / time: current session](#2025-12-20-time-current-session)
+<!-- toc:end -->
 ---
+
+## 2025-12-26 / 10:19 pm
+
+### added merge guidelines to agents + claude
+
+**what we did:**
+- added a new merging branches section to `agents.md` and `claude.md`
+- refreshed toc and wiki indices
+
+**why:**
+- codify merge practice and pr documentation expectations
+
+## 2025-12-26 / 10:15 pm
+
+### expanded eu pedal-bike shortlist + clarified import policy notes
+
+**what we did:**
+- expanded the eu minimal-aesthetic pedal-bike shortlist with academy, beany, kubikes, kokua, and rascal (retailer specs)
+- clarified brand shipping constraints and added the academy shipping note
+- added a small decisions section (todds helmet + wooden wedge) to the bike research doc
+
+**why:**
+- align the research with the design-first brief and reduce dead links
+- make import expectations clearer
+
+## 2025-12-26 / 09:02 pm
+
+### added toc generator + corrected bike research (eu + import + india leads)
+
+**what we did:**
+- added `scripts/toc-refresh.py` and updated `agents.md` / `claude.md` to reference it
+- refreshed `research/bicycles-mira.md` with corrected eu models, brand shipping policies, and updated import/baggage guidance
+- replaced india store-locator sweep with design-first local leads
+
+**why:**
+- keep toc updates automatic and reduce manual churn
+- make the bike research more accurate and aligned with the design-first brief
+
+## 2025-12-26 / 05:31 pm
+
+### added wiki + documentation standards and refreshed tags/toc
+
+**what we did:**
+- updated `agents.md` and `claude.md` with wiki system + documentation structure guidelines
+- added tags/related header blocks, table of contents, and sources sections across docs
+- expanded wiki automation: `scripts/wiki-refresh.py` now regenerates `wiki/index.md` and `wiki/tags.md`
+- refreshed `research/bicycles-mira.md` with tags and sources, plus doc formatting updates
+- updated the denmark research doc to the new doc structure format
+
+**why:**
+- standardize doc navigation and make the wiki low-maintenance
+- make tags more searchable and meaningful across the repo
+
+## 2025-12-25 / 05:00 pm
+
+### added wiki structure + expanded bicycle research (eu + india)
+
+**what we did:**
+- created `wiki/index.md` and `wiki/tags.md` and added a tags refresh script at `scripts/wiki-refresh.py`
+- added `tags:` + `related:` blocks to `agents.md`, `journal.md`, `profile/notes-about-mira.md`, `profile/developmental-milestones.md`, and `research/bicycles-mira.md`
+- refreshed `research/bicycles-mira.md` with:
+  - eu pedal-bike shortlist + sizing specs
+  - india offline store sweep (bangalore/delhi/mumbai)
+  - import + baggage logistics notes
+
+**why:**
+- make the docs navigable as a continuous wiki without constant manual backfilling
+- keep the bike decision doc current and practical for india + eu options
+
+## 2025-12-25 / 03:27 pm
+
+### refined bicycle research links and specs
+
+**what we did:**
+- updated `research/bicycles-mira.md` with inline links and specs for todds, leader, strider, and babyhug
+- added india size guidance from decathlon + hero cycles
+- removed the broken beetle link and softened heavy-weight claims for pedal bikes
+
+**why:**
+- keep sources accurate and avoid stale or unreliable links
+
+## 2025-12-25 / 03:23 pm
+
+### refined bicycle research + added new height measurement
+
+**what we did:**
+- updated `profile/notes-about-mira.md` with measured height (90/91 cm) and linked to bicycle research
+- updated `profile/developmental-milestones.md` with a matching height milestone note
+- rewrote `research/bicycles-mira.md`
+  - added inline hyperlinks in place of a sources list
+  - updated evidence section with current studies and clearer claims
+  - refreshed india-available options and removed the broken beetle link
+  - added a mira-specific fit estimate based on 90/91 cm
+
+**why:**
+- keep the research readable and directly actionable
+- ensure the doc reflects mira's current measurements and preference for balance-bike first
+
+## 2025-12-25 / 12:32 pm
+
+### started bicycle research notes for mira (bangalore)
+
+**what we did:**
+- created `research/bicycles-mira.md` with early findings
+  - balance bike vs training wheels evidence snapshot
+  - sizing notes using inseam/height guidance
+  - india-available options (balance, convertible, pedal)
+  - transition plan + open questions
+
+**why:**
+- capture options and evidence before choosing a bike
+- keep research centralized for updates and decisions
+
+## 2025-12-25 / 12:27 pm
+
+### added new observations on growth, safety awareness, and motor control
+
+**what we did:**
+- updated `profile/notes-about-mira.md` with new observations
+  - tall for age; parents tall
+  - good understanding of instructions and danger
+  - good motor control
+- updated `profile/developmental-milestones.md` with matching milestone context
+  - physical growth and inseam-based sizing note
+  - safety comprehension assessment
+  - gross motor coordination assessment
+
+**why:**
+- capture new context from the bicycle conversation for future planning and equipment fit
+- keep milestone tracking aligned with new observations
 
 ## 2025-12-22 / early afternoon (session 2)
 
@@ -100,3 +248,6 @@ project development log - newest entries on top
 - 74c3a3a: initial commit
 
 ---
+
+## sources / references
+- none yet

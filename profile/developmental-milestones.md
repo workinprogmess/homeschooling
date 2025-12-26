@@ -2,7 +2,77 @@
 
 tracking mira's development against typical milestones - updated alongside notes-about-mira.md
 
+**tags:** #mira-development #milestone-tracking #developmental-assessment
+**related:** [notes about mira](./notes-about-mira.md), [bicycles research](../research/bicycles-mira.md), [wiki index](../wiki/index.md)
+
+## table of contents
+<!-- toc:start -->
+- [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
+- [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
+- [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
+- [2025-12-22 / early afternoon (continued)](#2025-12-22-early-afternoon-continued)
+<!-- toc:end -->
 ---
+
+## sources / references
+- none yet
+
+## 2025-12-25 / 03:23 pm
+
+### age: 19 months
+
+---
+
+### physical growth
+
+#### stature (measured)
+**observation:** height measured at 90/91 cm
+
+**milestone context:**
+- height in toddlerhood varies widely; this measurement suggests she is likely above average for age
+- for gross-motor equipment like bikes, inseam and stand-over fit are more useful than age bands
+- this supports choosing bike size based on foot-flat reach rather than age ranges
+
+## 2025-12-25 / 12:27 pm
+
+### age: 19 months
+
+---
+
+### physical growth
+
+#### stature
+**observation:** tall for her age; parents are tall (5'11/6)
+
+**milestone context:**
+- height varies widely in toddlerhood and is strongly influenced by genetics
+- being tall for age suggests she may be above average percentiles for stature, which can affect comfort and fit in gross-motor equipment (bikes, balance bikes, scooters)
+- practical implication: prioritize inseam-based sizing over age-based sizing for bikes
+
+---
+
+### safety awareness & comprehension
+
+#### understanding instructions and danger
+**observation:** good understanding of instructions and danger
+
+**milestone context:**
+- typical 18-24 month milestone: follows simple safety directions with reminders (e.g., "stop", "no touch")
+- consistent comprehension of "danger" concepts suggests strong receptive language and situational awareness for her age
+- still typical at this age: limited impulse control, so adult supervision remains essential even with good understanding
+- assessment: **on track to advanced** for safety comprehension
+
+---
+
+### gross motor & coordination
+
+#### motor control
+**observation:** good control of her motor skills
+
+**milestone context:**
+- typical 18-24 month milestones: walking confidently, beginning to run, climbing onto furniture, kicking a ball
+- "good control" suggests she is stable and coordinated in movement, which supports early balance activities
+- assessment: **on track to advanced** for gross-motor coordination
 
 ## 2025-12-22 / early afternoon
 
