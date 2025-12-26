@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-26 / 10:15 pm](#2025-12-26-1015-pm)
 - [2025-12-26 / 09:02 pm](#2025-12-26-0902-pm)
 - [2025-12-26 / 05:31 pm](#2025-12-26-0531-pm)
 - [2025-12-25 / 05:00 pm](#2025-12-25-0500-pm)
@@ -19,6 +20,19 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-26 / 10:15 pm
+
+### expanded eu pedal-bike shortlist + clarified import policy notes
+
+**what we did:**
+- expanded the eu minimal-aesthetic pedal-bike shortlist with academy, beany, kubikes, kokua, and rascal (retailer specs)
+- clarified brand shipping constraints and added the academy shipping note
+- added a small decisions section (todds helmet + wooden wedge) to the bike research doc
+
+**why:**
+- align the research with the design-first brief and reduce dead links
+- make import expectations clearer
 
 ## 2025-12-26 / 09:02 pm
 

@@ -16,6 +16,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - [direct shipping to india (brand policies)](#direct-shipping-to-india-brand-policies)
 - [import + customs (india) - baggage vs courier](#import-customs-india-baggage-vs-courier)
 - [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
+- [current picks (confirmed)](#current-picks-confirmed)
 - [transition plan (balance bike -> pedal)](#transition-plan-balance-bike-pedal)
 - [open questions to finalize a pick](#open-questions-to-finalize-a-pick)
 <!-- toc:end -->
@@ -64,18 +65,28 @@ research notes for choosing a first bike now and a pedal bike later.
 
 ## eu pedal-bike shortlist (minimal aesthetics, updated)
 - [woom go 2 (14")](https://woom.com/en_INT/bikes/woom-2)
-  - height 95-110 cm; weight 5 kg; age 3-4.5 years. note: woom go replaces woom original (woom original is only while stocks last). [woom go replacement faq](https://faq.us.woombikes.com/article/412-will-the-woom-go-replace-the-woom-original)
-- [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
-  - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+.
-- [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004240.html)
-  - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+.
-  - note: puky’s youke classic line currently lists 12" and 16" sizes (no 14" on the official catalog pages above).
+  - height 95-110 cm; weight 5 kg; age 3-4.5 years. [woom go 2](https://woom.com/en_INT/bikes/woom-2)
+- [academy grade 2 (14")](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
+  - height from 95 cm; weight 5.3 kg; min saddle height 410 mm; max saddle height 500 mm. [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
 - [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
-  - size of leg 37 cm; weight 5.48 kg; age 3-5.
+  - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
+- [rascal 14 (retailer listing)](https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/)
+  - height 90-105 cm; inseam 40-48 cm; weight 5.5 kg; belt drive. (retailer listing used for specs) [rascal 14 retailer listing](https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/)
+- [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
+  - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
+- [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
+  - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+. [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
+  - note: puky’s youke classic line currently lists 12\" and 16\" sizes (no 14\" on the official catalog pages above).
+- [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
+  - height 90-110 cm; weight 5.1 kg; min saddle height 430 mm; max saddle height 550 mm. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
+- [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+  - weight 5.307 kg; built for very small riders from ~2.5 years; assembled in germany. [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+- [kokua liketobike 16s (singlespeed)](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
+  - saddle height 46-64 cm; weight from 6.8 kg; inside leg length approx 38-55 cm. [kokua liketobike 16s](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
 - [islabikes cnoc 14](https://www.islabikes.co.uk/bikes/cnoc-14-bike)
   - min inside leg 34 cm; max inside leg 42 cm; approx min height 92 cm.
 - [frog 38](https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html)
-  - inside leg 36-41 cm; weight 6.06 kg; 14" wheels; age 3-4.
+  - inside leg 36-41 cm; weight 6.06 kg; 14\" wheels; age 3-4.
 
 ## direct shipping to india (brand policies)
 - woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
@@ -84,6 +95,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
 - islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
 - frog bikes note that international deliveries may incur import duties/taxes and these are the buyer’s responsibility; they say they can ship to many countries. [frog bikes terms](https://www.frogbikes.com/en_FI/info/terms-conditions.html) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html)
+- academy ships within listed european countries only and explicitly says they do not ship to the uk or switzerland. [academy shipping section](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
 
 ## import + customs (india) - baggage vs courier
 
@@ -108,8 +120,12 @@ research notes for choosing a first bike now and a pedal bike later.
 - duty ≈ 36.05% × rs 31,462 ≈ rs 11,338. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
 
 ## india design-first / boutique leads (non-loud aesthetics)
-- [todds](https://www.toddslife.com/) - design-first local brand; minimal palette; thoughtful accessories like the wooden stand.
+- [todds](https://www.toddslife.com/pages/about-us) - design-led brand designed, engineered, and handcrafted in india; minimal palette and thoughtful accessories like the wooden stand.
 - [vamshycle tipayi](https://vamshycle.com/pages/tipayi) - wooden, minimalist balance bike / ride-on hybrid; 12 months to 5 years; wood aesthetic and minimal branding.
+- no verified india-based boutique pedal-bike brands found yet; most design-first pedal bikes appear to be european imports.
+
+## current picks (confirmed)
+- todds helmet + wooden wedge (stand) for balance bike setup.
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
@@ -120,7 +136,6 @@ research notes for choosing a first bike now and a pedal bike later.
 
 ## open questions to finalize a pick
 - inseam measurement (floor to crotch)
-- helmet choice and size (if needed, we can add to this doc)
 - who will bring the eu bike (if importing) and whether they have remaining allowance
 
 ## sources / references
@@ -136,10 +151,14 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
 - https://www.herocycles.com/jimmy-BSJIM14WH00001.html
 - https://woom.com/en_INT/bikes/woom-2
-- https://faq.us.woombikes.com/article/412-will-the-woom-go-replace-the-woom-original
-- https://www.puky.de/en/youke-classic-12-00004126.html
-- https://www.puky.de/en/youke-classic-16-00004240.html
+- https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad
 - https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
+- https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/
+- https://www.puky.de/youke-classic-12-00004126.html
+- https://www.puky.de/en/youke-classic-16-00004241.html
+- https://www.beany-sport.com/beany-zero-16_z155/
+- https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html
+- https://kokua-shop.com/en/p/liketobike-16s-singlespeed
 - https://www.islabikes.co.uk/bikes/cnoc-14-bike
 - https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
 - https://faq.us.woombikes.com/article/227-do-you-ship-internationally
@@ -152,4 +171,5 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://www.apcustoms.gov.in/NL/BaggageRules.html
 - https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx
 - https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/
+- https://www.toddslife.com/pages/about-us
 - https://vamshycle.com/pages/tipayi
