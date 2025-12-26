@@ -11,6 +11,7 @@ notes on ai agents, workflows, and automations
 - [wiki system](#wiki-system)
 - [documentation structure](#documentation-structure)
 - [project guidelines](#project-guidelines)
+- [merging branches](#merging-branches)
 <!-- toc:end -->
 ---
 
@@ -68,6 +69,18 @@ source linking format:
 - reference git commits + docs/files/code along with notes in plain english about what we did & why
 - include date+time stamps with each entry
 - arrange in reverse chronology order with latest/newest log on top
+
+---
+
+## merging branches
+
+use regular merge commits (no squash/rebase) to preserve individual commits in history.
+
+merge rules:
+- use a standard merge (with merge commit)
+- write comprehensive pr messages that summarize all commits being merged, not just the latest work
+- pr messages are documentation on github; commit messages are what show in git log
+- merge after logical chunks of work, not every small commit
 
 ---
 

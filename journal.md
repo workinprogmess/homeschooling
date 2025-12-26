@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-26 / 10:19 pm](#2025-12-26-1019-pm)
 - [2025-12-26 / 10:15 pm](#2025-12-26-1015-pm)
 - [2025-12-26 / 09:02 pm](#2025-12-26-0902-pm)
 - [2025-12-26 / 05:31 pm](#2025-12-26-0531-pm)
@@ -20,6 +21,17 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-26 / 10:19 pm
+
+### added merge guidelines to agents + claude
+
+**what we did:**
+- added a new merging branches section to `agents.md` and `claude.md`
+- refreshed toc and wiki indices
+
+**why:**
+- codify merge practice and pr documentation expectations
 
 ## 2025-12-26 / 10:15 pm
 
