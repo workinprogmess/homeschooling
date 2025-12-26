@@ -70,8 +70,8 @@ research notes for choosing a first bike now and a pedal bike later.
   - height from 95 cm; weight 5.3 kg; min saddle height 410 mm; max saddle height 500 mm. [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
 - [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
   - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
-- [rascal 14 (retailer listing)](https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/)
-  - height 90-105 cm; inseam 40-48 cm; weight 5.5 kg; belt drive. (retailer listing used for specs) [rascal 14 retailer listing](https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/)
+- [rascal 14](https://rascal-bikes.com/en/kids-bike-rascal-14)
+  - height 90-105 cm; inseam 40-48 cm; weight 5.5 kg; belt drive. [rascal 14](https://rascal-bikes.com/en/kids-bike-rascal-14)
 - [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
   - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
 - [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
@@ -79,8 +79,8 @@ research notes for choosing a first bike now and a pedal bike later.
   - note: puky’s youke classic line currently lists 12\" and 16\" sizes (no 14\" on the official catalog pages above).
 - [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
   - height 90-110 cm; weight 5.1 kg; min saddle height 430 mm; max saddle height 550 mm. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
-- [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
-  - weight 5.307 kg; built for very small riders from ~2.5 years; assembled in germany. [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+- [kubikes 16s superlight](https://www.kubikes.de/kubikes_16s-superlight.html)
+  - weight from 5.0 kg; suitable for riders from ~2.5 years / 92 cm. [kubikes 16s superlight](https://www.kubikes.de/kubikes_16s-superlight.html)
 - [kokua liketobike 16s (singlespeed)](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
   - saddle height 46-64 cm; weight from 6.8 kg; inside leg length approx 38-55 cm. [kokua liketobike 16s](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
 - [islabikes cnoc 14](https://www.islabikes.co.uk/bikes/cnoc-14-bike)
@@ -95,7 +95,6 @@ research notes for choosing a first bike now and a pedal bike later.
 - early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
 - islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
 - frog bikes note that international deliveries may incur import duties/taxes and these are the buyer’s responsibility; they say they can ship to many countries. [frog bikes terms](https://www.frogbikes.com/en_FI/info/terms-conditions.html) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html)
-- academy ships within listed european countries only and explicitly says they do not ship to the uk or switzerland. [academy shipping section](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
 
 ## import + customs (india) - baggage vs courier
 
@@ -153,11 +152,11 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://woom.com/en_INT/bikes/woom-2
 - https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad
 - https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
-- https://www.blackcomb-shop.eu/en-US/bicycle-rascal-14-aquamarine-kid-s/
+- https://rascal-bikes.com/en/kids-bike-rascal-14
 - https://www.puky.de/youke-classic-12-00004126.html
 - https://www.puky.de/en/youke-classic-16-00004241.html
 - https://www.beany-sport.com/beany-zero-16_z155/
-- https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html
+- https://www.kubikes.de/kubikes_16s-superlight.html
 - https://kokua-shop.com/en/p/liketobike-16s-singlespeed
 - https://www.islabikes.co.uk/bikes/cnoc-14-bike
 - https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
