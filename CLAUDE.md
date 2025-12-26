@@ -6,12 +6,12 @@ research, documentation, and conversations with claude
 **related:** [wiki index](./wiki/index.md), [journal](./journal.md), [agents](./agents.md)
 
 ## table of contents
+<!-- toc:start -->
 - [ongoing documentation protocol](#ongoing-documentation-protocol)
 - [wiki system](#wiki-system)
 - [documentation structure](#documentation-structure)
 - [project guidelines](#project-guidelines)
-- [sources / references](#sources--references)
-
+<!-- toc:end -->
 ---
 
 ## ongoing documentation protocol
@@ -49,6 +49,7 @@ source linking format:
 - use hyperlinks inline where relevant (reader clicks through to source immediately)
 - also include a sources / references section at the bottom (footnote style - for full list of sources)
 - format: hyperlink + footnote combined approach
+- refresh toc with `python3 scripts/toc-refresh.py` when you add or edit headings
 
 ---
 

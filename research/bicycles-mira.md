@@ -6,18 +6,19 @@ research notes for choosing a first bike now and a pedal bike later.
 **related:** [notes about mira](../profile/notes-about-mira.md), [developmental milestones](../profile/developmental-milestones.md), [wiki index](../wiki/index.md)
 
 ## table of contents
+<!-- toc:start -->
 - [quick take (draft)](#quick-take-draft)
 - [evidence snapshot (balance bike vs training wheels)](#evidence-snapshot-balance-bike-vs-training-wheels)
 - [sizing guidance (india)](#sizing-guidance-india)
 - [mira fit estimate (90/91 cm)](#mira-fit-estimate-9091-cm)
 - [india-available options worth comparing](#india-available-options-worth-comparing)
-- [eu pedal-bike shortlist (minimal aesthetics)](#eu-pedal-bike-shortlist-minimal-aesthetics)
-- [import + logistics (india)](#import--logistics-india)
-- [india store sweep (offline + boutique leads)](#india-store-sweep-offline--boutique-leads)
-- [transition plan (balance bike -> pedal)](#transition-plan-balance-bike---pedal)
+- [eu pedal-bike shortlist (minimal aesthetics, updated)](#eu-pedal-bike-shortlist-minimal-aesthetics-updated)
+- [direct shipping to india (brand policies)](#direct-shipping-to-india-brand-policies)
+- [import + customs (india) - baggage vs courier](#import-customs-india-baggage-vs-courier)
+- [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
+- [transition plan (balance bike -> pedal)](#transition-plan-balance-bike-pedal)
 - [open questions to finalize a pick](#open-questions-to-finalize-a-pick)
-- [sources / references](#sources--references)
-
+<!-- toc:end -->
 ---
 
 ## quick take (draft)
@@ -61,44 +62,54 @@ research notes for choosing a first bike now and a pedal bike later.
 - [hero cycles jimmy 14t](https://www.herocycles.com/jimmy-BSJIM14WH00001.html)
   - another 14t option for later; check fit using height and inseam.
 
-## eu pedal-bike shortlist (minimal aesthetics)
-- [woom original 2 (14")](https://woom.com/en_INT/woom-2-with-kickstand-click-on-mudguards-bell)
-  - height 95-110 cm; weight 5 kg; age 3-4.5 years. note: woom original 2 is marked discontinued on site and replaced by woom go 2.
-- [puky ls-pro 14](https://www.puky.de/en/ls-pro-14-00004433.html)
-  - height 95-115 cm; inseam 42-54 cm; weight 5.3 kg (without pedals).
+## eu pedal-bike shortlist (minimal aesthetics, updated)
+- [woom go 2 (14")](https://woom.com/en_INT/bikes/woom-2)
+  - height 95-110 cm; weight 5 kg; age 3-4.5 years. note: woom go replaces woom original (woom original is only while stocks last). [woom go replacement faq](https://faq.us.woombikes.com/article/412-will-the-woom-go-replace-the-woom-original)
+- [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
+  - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+.
+- [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004240.html)
+  - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+.
+  - note: puky’s youke classic line currently lists 12" and 16" sizes (no 14" on the official catalog pages above).
 - [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
-  - size of leg 37 cm; standover height 37 cm; weight 5.48 kg (without pedals).
+  - size of leg 37 cm; weight 5.48 kg; age 3-5.
 - [islabikes cnoc 14](https://www.islabikes.co.uk/bikes/cnoc-14-bike)
   - min inside leg 34 cm; max inside leg 42 cm; approx min height 92 cm.
 - [frog 38](https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html)
   - inside leg 36-41 cm; weight 6.06 kg; 14" wheels; age 3-4.
 
-## import + logistics (india)
-- baggage rules allow used personal effects duty-free (excluding jewellery). [baggage rules (dor, india)](https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf)
-- duty-free allowance for other articles depends on trip length:
-  - passengers 10+ years: rs 25,000 if abroad >3 days; rs 12,000 if abroad <=3 days.
-  - children up to 10 years: rs 6,000 if abroad >3 days; rs 3,000 if abroad <=3 days. [baggage rules (dor, india)](https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf)
-- india uses a red/green channel system at customs; use the red channel if you are carrying dutiable goods over the allowance. [cbic guide for travellers](https://referencer.in/Gr1q0/pdf/guide_for_travellers.pdf)
-- practical takeaway: if a pedal bike is brought from europe and its value exceeds the allowance, it may attract duty; keep invoices and be ready to declare.
+## direct shipping to india (brand policies)
+- woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
+- woom international shop lists eu/uk delivery countries and uses an international shop for other countries, but does not explicitly list india in shipping info; check at checkout. [woom shipping info](https://woom.com/en_INT/shipping-information)
+- puky.de shipping costs are listed for specific european countries (germany, austria, france, benelux, italy, sweden); india is not listed. [puky shipping & payment](https://www.puky.de/en/our-service/shipping-payment)
+- early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
+- islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
+- frog bikes note that international deliveries may incur import duties/taxes and these are the buyer’s responsibility; they say they can ship to many countries. [frog bikes terms](https://www.frogbikes.com/en_FI/info/terms-conditions.html) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html)
 
-## india store sweep (offline + boutique leads)
+## import + customs (india) - baggage vs courier
 
-### bangalore
-- [decathlon store locator](https://www.decathlon.in/store-locator)
-- [cycle world store list](https://cycleworld.in/storelist/)
-- [procycle store locator](https://www.procycle.in/store-locator)
-- [trek experience store - bengaluru (bums on the saddle)](https://www.trekbikes.com/in/en_IN/retail/bengaluru/)
+### if relatives bring the bike as accompanied baggage
+- official baggage rules allow duty-free clearance of used personal effects + “other articles” up to rs 50,000 for indian residents/tourists of indian origin arriving from countries other than nepal, bhutan, or myanmar; the allowance cannot be pooled. [baggage rules 2016 (govt of india)](https://www.apcustoms.gov.in/NL/BaggageRules.html)
+- goods beyond the free allowance are chargeable at 35% + 3% cess (effective 36.05%) per the traveller guide summary. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
 
-### delhi ncr
-- [hamleys store locator](https://hamleys.in/store-locator/)
-- [firefox kids bike stations (delhi list)](https://www.firefoxbikes.com/kids-bike-stations.html)
-- [hero cycles store locator](https://www.herocycles.com/stores)
+### if you order directly and ship to india (courier/import)
+- duties/igst are assessed at import and collected by the courier; rates vary by hs code and customs valuation, so the final landed cost can be higher than sticker price.
+- given the policy differences above, direct shipping is realistic mainly for brands that explicitly offer international shipping (early rider, frog) and will still attract indian import duties.
 
-### mumbai
-- [jalaram house of cycles](https://www.jalaramhouseofcycles.com/)
-- [firefox kids bike stations (navi mumbai)](https://www.firefoxbikes.com/kids-bike-stations.html)
-- [decathlon store locator](https://www.decathlon.in/store-locator)
-- [hamleys store locator](https://hamleys.in/store-locator/)
+### example calculation (puky youke classic 12)
+- bike price: €299.99 (puky youke classic 12). [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
+- example exchange rate: 1 eur = 104.877336 inr (dec 21, 2025). [forbes eur/inr](https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/)
+- price in inr ≈ 299.99 × 104.877336 ≈ rs 31,462.
+
+**scenario a: arriving passenger with rs 50,000 allowance**
+- if the full allowance is available, duty on this bike would be rs 0 because rs 31,462 < rs 50,000. [baggage rules 2016 (govt of india)](https://www.apcustoms.gov.in/NL/BaggageRules.html)
+
+**scenario b: allowance already used or not available**
+- dutiable value ≈ rs 31,462.
+- duty ≈ 36.05% × rs 31,462 ≈ rs 11,338. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
+
+## india design-first / boutique leads (non-loud aesthetics)
+- [todds](https://www.toddslife.com/) - design-first local brand; minimal palette; thoughtful accessories like the wooden stand.
+- [vamshycle tipayi](https://vamshycle.com/pages/tipayi) - wooden, minimalist balance bike / ride-on hybrid; 12 months to 5 years; wood aesthetic and minimal branding.
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
@@ -110,6 +121,7 @@ research notes for choosing a first bike now and a pedal bike later.
 ## open questions to finalize a pick
 - inseam measurement (floor to crotch)
 - helmet choice and size (if needed, we can add to this doc)
+- who will bring the eu bike (if importing) and whether they have remaining allowance
 
 ## sources / references
 - https://pubmed.ncbi.nlm.nih.gov/39982293/
@@ -123,18 +135,21 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years
 - https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
 - https://www.herocycles.com/jimmy-BSJIM14WH00001.html
-- https://woom.com/en_INT/woom-2-with-kickstand-click-on-mudguards-bell
-- https://www.puky.de/en/ls-pro-14-00004433.html
+- https://woom.com/en_INT/bikes/woom-2
+- https://faq.us.woombikes.com/article/412-will-the-woom-go-replace-the-woom-original
+- https://www.puky.de/en/youke-classic-12-00004126.html
+- https://www.puky.de/en/youke-classic-16-00004240.html
 - https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
 - https://www.islabikes.co.uk/bikes/cnoc-14-bike
 - https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
-- https://dor.gov.in/sites/default/files/2020-12/Baggage%20Rules%2C%202016.pdf
-- https://referencer.in/Gr1q0/pdf/guide_for_travellers.pdf
-- https://www.decathlon.in/store-locator
-- https://cycleworld.in/storelist/
-- https://www.procycle.in/store-locator
-- https://www.trekbikes.com/in/en_IN/retail/bengaluru/
-- https://hamleys.in/store-locator/
-- https://www.firefoxbikes.com/kids-bike-stations.html
-- https://www.herocycles.com/stores
-- https://www.jalaramhouseofcycles.com/
+- https://faq.us.woombikes.com/article/227-do-you-ship-internationally
+- https://woom.com/en_INT/shipping-information
+- https://www.puky.de/en/our-service/shipping-payment
+- https://earlyrider.com/pages/shipping-returns
+- https://www.islabikes.co.uk/delivery-information
+- https://www.frogbikes.com/en_FI/info/terms-conditions.html
+- https://www.frogbikes.com/en_GB/info/faqs.html
+- https://www.apcustoms.gov.in/NL/BaggageRules.html
+- https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx
+- https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/
+- https://vamshycle.com/pages/tipayi

@@ -6,9 +6,9 @@ homeschooling my 19 months old and might, in the process, re-imagine the future 
 **related:** [wiki index](./wiki/index.md), [journal](./journal.md)
 
 ## table of contents
+<!-- toc:start -->
 - [overview](#overview)
-- [sources / references](#sources--references)
-
+<!-- toc:end -->
 ---
 
 ## overview

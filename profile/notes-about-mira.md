@@ -6,12 +6,12 @@ free-form observations, things she does, likes, patterns - captured as they come
 **related:** [developmental milestones](./developmental-milestones.md), [bicycles research](../research/bicycles-mira.md), [wiki index](../wiki/index.md)
 
 ## table of contents
-- [2025-12-25 / 03:23 pm](#2025-12-25--0323-pm)
-- [2025-12-25 / 12:27 pm](#2025-12-25--1227-pm)
-- [2025-12-22 / early afternoon](#2025-12-22--early-afternoon)
-- [2025-12-22 / early afternoon (continued)](#2025-12-22--early-afternoon-continued)
-- [sources / references](#sources--references)
-
+<!-- toc:start -->
+- [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
+- [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
+- [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
+- [2025-12-22 / early afternoon (continued)](#2025-12-22-early-afternoon-continued)
+<!-- toc:end -->
 ---
 
 ## sources / references

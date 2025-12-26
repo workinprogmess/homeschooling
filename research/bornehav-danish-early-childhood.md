@@ -6,12 +6,12 @@
 **related:** [wiki index](../wiki/index.md)
 
 ## table of contents
+<!-- toc:start -->
 - [core philosophy](#core-philosophy)
 - [what it looks like in practice](#what-it-looks-like-in-practice)
 - [the brain science rationale](#the-brain-science-rationale)
 - [danish parenting philosophy connection](#danish-parenting-philosophy-connection)
-- [sources / references](#sources--references)
-
+<!-- toc:end -->
 ---
 
 ## core philosophy

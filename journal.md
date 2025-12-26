@@ -6,21 +6,32 @@ project development log - newest entries on top
 **related:** [wiki index](./wiki/index.md), [agents](./agents.md), [claude](./CLAUDE.md)
 
 ## table of contents
-- [2025-12-26 / 05:31 pm](#2025-12-26--0531-pm)
-- [2025-12-25 / 05:00 pm](#2025-12-25--0500-pm)
-- [2025-12-25 / 03:27 pm](#2025-12-25--0327-pm)
-- [2025-12-25 / 03:23 pm](#2025-12-25--0323-pm)
-- [2025-12-25 / 12:32 pm](#2025-12-25--1232-pm)
-- [2025-12-25 / 12:27 pm](#2025-12-25--1227-pm)
-- [2025-12-22 / early afternoon (session 2)](#2025-12-22--early-afternoon-session-2)
-- [2025-12-22 / early afternoon](#2025-12-22--early-afternoon)
-- [2025-12-20 / time: current session](#2025-12-20--time-current-session)
-- [sources / references](#sources--references)
-
+<!-- toc:start -->
+- [2025-12-26 / 09:02 pm](#2025-12-26-0902-pm)
+- [2025-12-26 / 05:31 pm](#2025-12-26-0531-pm)
+- [2025-12-25 / 05:00 pm](#2025-12-25-0500-pm)
+- [2025-12-25 / 03:27 pm](#2025-12-25-0327-pm)
+- [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
+- [2025-12-25 / 12:32 pm](#2025-12-25-1232-pm)
+- [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
+- [2025-12-22 / early afternoon (session 2)](#2025-12-22-early-afternoon-session-2)
+- [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
+- [2025-12-20 / time: current session](#2025-12-20-time-current-session)
+<!-- toc:end -->
 ---
 
-## sources / references
-- none yet
+## 2025-12-26 / 09:02 pm
+
+### added toc generator + corrected bike research (eu + import + india leads)
+
+**what we did:**
+- added `scripts/toc-refresh.py` and updated `agents.md` / `claude.md` to reference it
+- refreshed `research/bicycles-mira.md` with corrected eu models, brand shipping policies, and updated import/baggage guidance
+- replaced india store-locator sweep with design-first local leads
+
+**why:**
+- keep toc updates automatic and reduce manual churn
+- make the bike research more accurate and aligned with the design-first brief
 
 ## 2025-12-26 / 05:31 pm
 
@@ -211,3 +222,6 @@ project development log - newest entries on top
 - 74c3a3a: initial commit
 
 ---
+
+## sources / references
+- none yet
