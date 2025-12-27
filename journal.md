@@ -7,6 +7,8 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-27 / 04:44 pm](#2025-12-27-0444-pm)
+- [2025-12-27 / 04:17 pm](#2025-12-27-0417-pm)
 - [2025-12-27 / 12:38 pm](#2025-12-27-1238-pm)
 - [2025-12-27 / 11:57 am](#2025-12-27-1157-am)
 - [2025-12-27 / 11:46 am](#2025-12-27-1146-am)
@@ -25,6 +27,30 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-27 / 04:44 pm
+
+### cleaned duplicate mira notes + pre-merge housekeeping
+
+**what we did:**
+- removed the duplicate 2025-12-27 entry from `profile/notes-about-mira.md` and `profile/developmental-milestones.md`
+- refreshed toc and wiki indices after the cleanup
+
+**why:**
+- keep the profile docs non-redundant before merging to main
+
+## 2025-12-27 / 04:17 pm
+
+### expanded bike research + added safety + cost snapshot
+
+**what we did:**
+- updated `research/bicycles-mira.md` with woom go note, puky youke sizing note, kubikes automatix explanation + fallback links, and added new eu style-first options
+- added purchase path + safety standards + packing guidance, plus a 1-page cost snapshot table and india local price baseline
+- updated `profile/notes-about-mira.md` + `profile/developmental-milestones.md` with a new observation entry
+- refreshed toc and wiki indices
+
+**why:**
+- clarify the import path, safety expectations, and total cost tradeoffs for eu/us options
 
 ## 2025-12-27 / 12:38 pm
 

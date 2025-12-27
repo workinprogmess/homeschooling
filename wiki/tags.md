@@ -9,16 +9,34 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2025-12-27 / 12:38 pm
+generated: 2025-12-27 / 04:45 pm
 
 ---
 
 ## tags
+### #19mo
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
+
+### #activities
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
+
 ### #agent-guidelines
 - [agents.md](../agents.md)
 
 ### #balance-bike-research
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #bike-comparison
+- [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #bike-import-costs
+- [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #bike-shipping-safety
+- [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #books
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### #claude-guidelines
 - [claude.md](../CLAUDE.md)
@@ -52,17 +70,20 @@ generated: 2025-12-27 / 12:38 pm
 ### #growth-notes
 - [notes about mira](../profile/notes-about-mira.md)
 
+### #homeschool-setup
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
+
 ### #homeschooling-vision
 - [homeschooling](../README.md)
-
-### #import-to-india
-- [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 
 ### #india-bike-options
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 
 ### #international-education-models
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
+
+### #language-development
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### #milestone-tracking
 - [developmental milestones](../profile/developmental-milestones.md)
@@ -87,6 +108,9 @@ generated: 2025-12-27 / 12:38 pm
 
 ### #project-overview
 - [homeschooling](../README.md)
+
+### #temp
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### #us-bike-options
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)

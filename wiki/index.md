@@ -21,6 +21,9 @@ map of content across the repo.
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
 
+### resources
+- [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
+
 ### root
 - [agents.md](../agents.md)
 - [claude.md](../CLAUDE.md)
@@ -32,8 +35,14 @@ map of content across the repo.
 - [wiki index](./index.md)
 
 ## by tag
+- [#19mo](./tags.md#19mo)
+- [#activities](./tags.md#activities)
 - [#agent-guidelines](./tags.md#agent-guidelines)
 - [#balance-bike-research](./tags.md#balance-bike-research)
+- [#bike-comparison](./tags.md#bike-comparison)
+- [#bike-import-costs](./tags.md#bike-import-costs)
+- [#bike-shipping-safety](./tags.md#bike-shipping-safety)
+- [#books](./tags.md#books)
 - [#claude-guidelines](./tags.md#claude-guidelines)
 - [#daily-patterns](./tags.md#daily-patterns)
 - [#danish-early-childhood](./tags.md#danish-early-childhood)
@@ -44,10 +53,11 @@ map of content across the repo.
 - [#eu-bike-options](./tags.md#eu-bike-options)
 - [#future-pedal-bike](./tags.md#future-pedal-bike)
 - [#growth-notes](./tags.md#growth-notes)
+- [#homeschool-setup](./tags.md#homeschool-setup)
 - [#homeschooling-vision](./tags.md#homeschooling-vision)
-- [#import-to-india](./tags.md#import-to-india)
 - [#india-bike-options](./tags.md#india-bike-options)
 - [#international-education-models](./tags.md#international-education-models)
+- [#language-development](./tags.md#language-development)
 - [#milestone-tracking](./tags.md#milestone-tracking)
 - [#mira-development](./tags.md#mira-development)
 - [#mira-first-bicycle](./tags.md#mira-first-bicycle)
@@ -56,6 +66,7 @@ map of content across the repo.
 - [#play-based-learning](./tags.md#play-based-learning)
 - [#project-journal](./tags.md#project-journal)
 - [#project-overview](./tags.md#project-overview)
+- [#temp](./tags.md#temp)
 - [#us-bike-options](./tags.md#us-bike-options)
 - [#wiki-building](./tags.md#wiki-building)
 - [#wiki-index](./tags.md#wiki-index)

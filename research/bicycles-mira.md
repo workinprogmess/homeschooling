@@ -2,7 +2,7 @@
 
 research notes for choosing a first bike now and a pedal bike later.
 
-**tags:** #mira-first-bicycle #balance-bike-research #future-pedal-bike #india-bike-options #eu-bike-options #us-bike-options #import-to-india
+**tags:** #mira-first-bicycle #balance-bike-research #future-pedal-bike #india-bike-options #eu-bike-options #us-bike-options #bike-import-costs #bike-shipping-safety #bike-comparison
 **related:** [notes about mira](../profile/notes-about-mira.md), [developmental milestones](../profile/developmental-milestones.md), [wiki index](../wiki/index.md)
 
 ## table of contents
@@ -16,6 +16,8 @@ research notes for choosing a first bike now and a pedal bike later.
 - [us pedal-bike shortlist (importable, design-first)](#us-pedal-bike-shortlist-importable-design-first)
 - [direct shipping to india (brand policies)](#direct-shipping-to-india-brand-policies)
 - [import + customs (india) - baggage vs courier](#import-customs-india-baggage-vs-courier)
+- [purchase path + safety (relative carry vs direct shipping)](#purchase-path-safety-relative-carry-vs-direct-shipping)
+- [1-page comparison (price + landed cost snapshot)](#1-page-comparison-price-landed-cost-snapshot)
 - [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
 - [current picks (confirmed)](#current-picks-confirmed)
 - [transition plan (balance bike -> pedal)](#transition-plan-balance-bike-pedal)
@@ -67,25 +69,35 @@ research notes for choosing a first bike now and a pedal bike later.
 ## eu pedal-bike shortlist (minimal aesthetics, updated)
 - [woom go 2 (14\")](https://woom.com/en_INT/bikes/go-2)
   - height 95-110 cm; weight 5 kg; age 3-4.5 years. [woom go 2](https://woom.com/en_INT/bikes/go-2)
+  - note: woom go (release h) is the current version of woom original for sizes 1-4. [woom original release history](https://woom.com/en_US/learn/find-your-woom-original)
 - [academy grade 2 (14\")](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
   - height from 95 cm; weight 5.3 kg; age 2-4. [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
-- [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
-  - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
+- [early rider belter 14](https://earlyrider.com/collections/belter/products/belter-14)
+  - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/belter/products/belter-14)
   - min inside leg 36.5 cm per brand sizing table. [early rider sizing](https://us.earlyrider.com/pages/sizing)
 - [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
-  - height 90-105 cm; inseam 40-48 cm; belt drive; weight 5.5 kg. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+  - height 90-105 cm; inseam 40-48 cm; belt drive; weight 5.5 kg; iso 8098:2014 compliant. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
   - note: rascal punk is their balance bike line (14\"/12\" wheel mix), not a pedal bike. [rascal punk](https://www.rascal-bikes.com/rascal-punk_z24/)
+  - if the rascal site is down, a retailer reference page is here: [rascal 14 retailer](https://www.cargobikedaddy.com/rascal-14/)
 - [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
   - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
 - [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
   - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+. [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
+- note: the youke classic line currently shows 12\", 16\", and 18\" sizes (no 14\"). [puky youke series](https://www.puky.de/en/catalogsearch/result/?q=youke%20classic)
 - [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
   - height 90-110 cm; weight 5.1 kg. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
 - [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
   - weight 5.307 kg; configurable with singlespeed (no gears) or 2‑speed automatic hub. [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
-  - singlespeed = lighter, simpler; automatix = auto 2‑speed hub that shifts by speed (more range, more weight). (inference from the “2‑gang automatik” option) [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+  - singlespeed = lighter, simpler; automatix = 2‑speed automatic hub option for more range and easier starts on slopes. (based on kubikes' “2‑gang automatik” option) [kubikes 2‑gang automatik](https://www.kubikes.de/kubikes_shop/english/KUbikes-2-speed-automatic-113.html)
+  - if the kubikes page 404s, retailer reference: [kubikes 16s superlight (bike24)](https://www.bike24.com/p2444948.html)
 - [kokua liketobike 16s](https://kokua-shop.com/en)
   - saddle height 46-64 cm; weight from 6.8 kg. [kokua liketobike 16s](https://kokua-shop.com/en)
+
+### eu style-first but heavier (still minimal)
+- [banwood classic 16](https://banwood.us/products/classic-16-bike)
+  - vintage aesthetic, steel frame; heavier than the lightweight brands. [banwood classic 16](https://banwood.us/products/classic-16-bike)
+- [bobbin gingersnap 16](https://bobbinbikes.com/products/gingersnap-16)
+  - retro aesthetic, steel frame and included accessories; weight not listed on the product page. [bobbin gingersnap 16](https://bobbinbikes.com/products/gingersnap-16)
 
 ## us pedal-bike shortlist (importable, design-first)
 - [prevelo alpha one (14\")](https://prevelo.com/products/alpha-one)
@@ -104,7 +116,7 @@ research notes for choosing a first bike now and a pedal bike later.
 
 ## direct shipping to india (brand policies)
 - woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
-- woom international shop lists eu/uk delivery countries and uses an international shop for other countries, but does not explicitly list india in shipping info; check at checkout. [woom shipping info](https://woom.com/en_INT/shipping-information)
+- woom go product pages note “plus customs fees where applicable,” but their shipping info lists eu/uk destinations and does not explicitly include india; check at checkout. [woom go 2](https://woom.com/en_INT/bikes/go-2) [woom shipping info](https://woom.com/en_INT/shipping-information)
 - puky.de shipping costs are listed for specific european countries (germany, austria, france, benelux, italy, sweden); india is not listed. [puky shipping & payment](https://www.puky.de/en/our-service/shipping-payment)
 - early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
 - islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
@@ -115,7 +127,9 @@ research notes for choosing a first bike now and a pedal bike later.
 ## import + customs (india) - baggage vs courier
 
 ### if relatives bring the bike as accompanied baggage
-- official baggage rules allow duty-free clearance of used personal effects + “other articles” up to rs 50,000 for indian residents/tourists of indian origin arriving from countries other than nepal, bhutan, or myanmar; the allowance cannot be pooled. [baggage rules 2016 (govt of india)](https://www.apcustoms.gov.in/NL/BaggageRules.html)
+- the baggage rules 2016 text specifies a duty‑free allowance of rs 50,000 for indian residents/returning travellers and tourists of indian origin arriving from countries other than nepal, bhutan, or myanmar; this allowance cannot be pooled. [baggage rules 2016 text](https://indiankanoon.org/doc/128558461/)
+- the same rules list rs 15,000 allowance for tourists of foreign origin. [baggage rules 2016 text](https://indiankanoon.org/doc/128558461/)
+- the department of revenue site lists a separate allowance table (appendix a) based on stay length; allowances may differ from the rule text, so confirm the latest at the time of travel. [dor baggage rules page](https://dor.gov.in/baggage-rules)
 - goods beyond the free allowance are chargeable at 35% + 3% cess (effective 36.05%) per the traveller guide summary. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
 
 ### if you order directly and ship to india (courier/import)
@@ -124,20 +138,59 @@ research notes for choosing a first bike now and a pedal bike later.
 
 ### example calculation (puky youke classic 12)
 - bike price: €299.99 (puky youke classic 12). [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
-- example exchange rate: 1 eur = 104.877336 inr (dec 21, 2025). [forbes eur/inr](https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/)
-- price in inr ≈ 299.99 × 104.877336 ≈ rs 31,462.
+- example exchange rate: 1 eur = 105.709723 inr (dec 27, 2025). [forbes eur/inr](https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/)
+- price in inr ≈ 299.99 × 105.709723 ≈ rs 31,712.
 
 **scenario a: arriving passenger with rs 50,000 allowance**
-- if the full allowance is available, duty on this bike would be rs 0 because rs 31,462 < rs 50,000. [baggage rules 2016 (govt of india)](https://www.apcustoms.gov.in/NL/BaggageRules.html)
+- if the full allowance is available, duty on this bike would be rs 0 because rs 31,712 < rs 50,000. [baggage rules 2016 text](https://indiankanoon.org/doc/128558461/)
 
 **scenario b: allowance already used or not available**
-- dutiable value ≈ rs 31,462.
-- duty ≈ 36.05% × rs 31,462 ≈ rs 11,338. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
+- dutiable value ≈ rs 31,712.
+- duty ≈ 36.05% × rs 31,712 ≈ rs 11,432. [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
+
+## purchase path + safety (relative carry vs direct shipping)
+
+### safety standards to check (baseline)
+- **eu/international:** look for compliance with iso 8098 (current standard is iso 8098:2023) or equivalent; ask the seller for conformity documentation. [iso 8098:2023](https://www.iso.org/standard/82302.html)
+- **us:** look for compliance with cpsc 16 cfr 1512 (us bicycle safety requirements). [16 cfr 1512](https://www.ecfr.gov/current/title-16/chapter-ii/subchapter-c/part-1512)
+- note: rascal lists iso 8098:2014 compliance on the product page. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+
+### transit safety (airline or courier)
+- if a relative carries it: use a bike box, remove pedals, turn or remove the handlebar, remove the front wheel, protect the fork ends, and pad the frame. [fedex bike packing guide](https://www.fedex.com/en-us/shipping/how-to-pack/bicycles.html)
+- for courier shipping: use double-wall cardboard, bubble wrap + foam, and secure all loose parts to avoid rubbing. [packlink bicycle packing tips](https://www.packlink.com/en-US/blog/pack-a-bike/)
+
+### purchase path: best-to-worst for simplicity
+1. **relative carry (best landed cost):** buy in eu/us, keep invoice, carry as accompanied baggage; if within allowance, duty can be zero. [baggage rules 2016 text](https://indiankanoon.org/doc/128558461/)
+2. **direct shipping (easiest checkout, highest landed cost):** available for some brands (early rider, frog, prevelo, trailcraft); duties/taxes collected on arrival. [early rider shipping](https://earlyrider.com/pages/shipping-returns) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html) [prevelo international shipping](https://prevelo.com/pages/international-shipping) [trailcraft shipping](https://www.trailcraftcycles.com/shipping/)
+
+## 1-page comparison (price + landed cost snapshot)
+**fx used (dec 27, 2025):** eur/inr 105.709723, usd/inr 89.3465, gbp/inr 121.2, czk/inr 4.360753. [eur/inr](https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/) [usd/inr](https://www.ofx.com/en-us/forex-news/historical-exchange-rates/usd/inr/) [gbp/inr](https://wise.com/gb/currency-converter/gbp-to-inr-rate) [czk/inr](https://www.forbes.com/advisor/money-transfer/currency-converter/czk-inr/)
+
+**assumption for duty estimate:** 36.05% baggage duty on dutiable value (if allowance not available). [travellers guide summary](https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx)
+**note:** if a duty-free allowance applies, duty is only on the amount above the allowance; use the baggage rules section above to decide which allowance applies.
+
+| bike | wheel | list price | approx inr | duty @ 36.05% | total if duty applies |
+| --- | --- | --- | --- | --- | --- |
+| puky youke classic 12 | 12" | €299.99 | ₹31,712 | ₹11,432 | ₹43,144 |
+| puky youke classic 16 | 16" | €319.99 | ₹33,826 | ₹12,194 | ₹46,020 |
+| academy grade 2 | 14" | €379 | ₹40,064 | ₹14,443 | ₹54,507 |
+| woom go 2 | 14" | €429 | ₹45,349 | ₹16,348 | ₹61,698 |
+| rascal 14 (retailer ref) | 14" | czk 12,490 | ₹54,466 | ₹19,635 | ₹74,101 |
+| prevelo alpha one | 14" | $469 | ₹41,904 | ₹15,106 | ₹57,010 |
+| priority start 16 | 16" | $339 | ₹30,288 | ₹10,919 | ₹41,207 |
+| guardian 14 | 14" | $269 | ₹24,034 | ₹8,664 | ₹32,699 |
+
+**price sources (for the table above):** [puky 12](https://www.puky.de/en/youke-classic-12-00004126.html) [puky 16](https://www.puky.de/en/youke-classic-16-00004241.html) [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad) [woom go 2](https://woom.com/en_INT/bikes/go-2) [rascal 14 price (retailer)](https://www.cargobikedaddy.com/rascal-14/) [prevelo alpha one](https://prevelo.com/products/alpha-one) [priority start 16](https://www.prioritybicycles.com/products/startfw2) [guardian 14](https://guardianbikes.com/products/14-inch-bike)
+
+### india popular pedal bikes (local price baseline)
+- [caya magwheel 14](https://cayabikes.com/collections/all-cycle/products/caya-14-magwheel) — listed at rs 3,749 on product page (price can change). [caya magwheel 14](https://cayabikes.com/collections/all-cycle/products/caya-14-magwheel)
+- [decathlon india kids cycles](https://www.decathlon.in/c/kids-cycles-25541) — wide 12\"/14\" range; prices vary by model and availability.
 
 ## india design-first / boutique leads (non-loud aesthetics)
-- [todds](https://www.toddslife.com/pages/about-us) - design-led brand designed, engineered, and handcrafted in india; minimal palette and thoughtful accessories like the wooden stand.
+- [todds](https://www.toddslife.com/pages/about-us) - design-led brand designed/engineered/handcrafted in india; minimal palette and thoughtful accessories like the wooden stand.
 - [vamshycle tipayi](https://vamshycle.com/pages/tipayi) - wooden, minimalist balance bike / ride-on hybrid; 12 months to 5 years; wood aesthetic and minimal branding.
-- no verified india-based boutique pedal-bike brands found yet; most design-first pedal bikes appear to be european imports.
+- [caya bikes](https://cayabikes.com/collections/all-cycle) - india d2c brand; some simpler colorways but not as minimal as eu design‑first brands.
+- still no clear india-based boutique pedal-bike brand that matches the minimalist eu aesthetic; most design-first pedal bikes appear to be european imports.
 
 ## current picks (confirmed)
 - todds helmet + wooden wedge (stand) for balance bike setup.
@@ -166,16 +219,22 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
 - https://www.herocycles.com/jimmy-BSJIM14WH00001.html
 - https://woom.com/en_INT/bikes/go-2
+- https://woom.com/en_US/learn/find-your-woom-original
 - https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad
-- https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
+- https://earlyrider.com/collections/belter/products/belter-14
 - https://us.earlyrider.com/pages/sizing
 - https://www.rascal-bikes.com/rascal-14_z25/
 - https://www.rascal-bikes.com/rascal-punk_z24/
 - https://www.puky.de/en/youke-classic-12-00004126.html
 - https://www.puky.de/en/youke-classic-16-00004241.html
+- https://www.puky.de/en/catalogsearch/result/?q=youke%20classic
 - https://www.beany-sport.com/beany-zero-16_z155/
 - https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html
+- https://www.kubikes.de/kubikes_shop/english/KUbikes-2-speed-automatic-113.html
+- https://www.bike24.com/p2444948.html
 - https://kokua-shop.com/en
+- https://banwood.us/products/classic-16-bike
+- https://bobbinbikes.com/products/gingersnap-16
 - https://prevelo.com/products/alpha-one
 - https://www.trailcraftcycles.com/size-chart/
 - https://www.prioritybicycles.com/products/startfw2
@@ -193,8 +252,19 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://www.frogbikes.com/en_GB/info/faqs.html
 - https://prevelo.com/pages/international-shipping
 - https://www.trailcraftcycles.com/shipping/
-- https://www.apcustoms.gov.in/NL/BaggageRules.html
+- https://indiankanoon.org/doc/128558461/
+- https://dor.gov.in/baggage-rules
 - https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx
 - https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/
+- https://www.ofx.com/en-us/forex-news/historical-exchange-rates/usd/inr/
+- https://wise.com/gb/currency-converter/gbp-to-inr-rate
+- https://www.forbes.com/advisor/money-transfer/currency-converter/czk-inr/
+- https://www.cargobikedaddy.com/rascal-14/
+- https://cayabikes.com/collections/all-cycle/products/caya-14-magwheel
+- https://cayabikes.com/collections/all-cycle
 - https://www.toddslife.com/pages/about-us
 - https://vamshycle.com/pages/tipayi
+- https://www.iso.org/standard/82302.html
+- https://www.ecfr.gov/current/title-16/chapter-ii/subchapter-c/part-1512
+- https://www.fedex.com/en-us/shipping/how-to-pack/bicycles.html
+- https://www.packlink.com/en-US/blog/pack-a-bike/
