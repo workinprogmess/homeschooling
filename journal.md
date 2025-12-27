@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-27 / 11:57 am](#2025-12-27-1157-am)
 - [2025-12-27 / 11:46 am](#2025-12-27-1146-am)
 - [2025-12-26 / 10:24 pm](#2025-12-26-1024-pm)
 - [2025-12-26 / 10:19 pm](#2025-12-26-1019-pm)
@@ -23,6 +24,18 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-27 / 11:57 am
+
+### refreshed eu/us bike list with verified sources
+
+**what we did:**
+- replaced eu/us bike specs with data from official brand pages and known retailer listings
+- added priority and guardian shipping constraints to the us section
+- refreshed toc and wiki indices
+
+**why:**
+- keep import options accurate and source-backed
 
 ## 2025-12-27 / 11:46 am
 
