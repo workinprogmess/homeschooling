@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-27 / 11:46 am](#2025-12-27-1146-am)
 - [2025-12-26 / 10:24 pm](#2025-12-26-1024-pm)
 - [2025-12-26 / 10:19 pm](#2025-12-26-1019-pm)
 - [2025-12-26 / 10:15 pm](#2025-12-26-1015-pm)
@@ -22,6 +23,18 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-27 / 11:46 am
+
+### added us importable bike shortlist + shipping notes
+
+**what we did:**
+- added a us pedal-bike shortlist (prevelo, trailcraft, priority, guardian) with links and specs
+- added shipping/import policy notes for prevelo and trailcraft
+- refreshed toc and wiki tags
+
+**why:**
+- broaden importable options beyond europe while keeping design-first constraints
 
 ## 2025-12-26 / 10:24 pm
 

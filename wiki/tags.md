@@ -9,7 +9,7 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2025-12-26 / 10:24 pm
+generated: 2025-12-27 / 11:46 am
 
 ---
 
@@ -87,6 +87,9 @@ generated: 2025-12-26 / 10:24 pm
 
 ### #project-overview
 - [homeschooling](../README.md)
+
+### #us-bike-options
+- [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 
 ### #wiki-building
 - [agents.md](../agents.md)

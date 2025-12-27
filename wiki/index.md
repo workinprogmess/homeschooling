@@ -56,6 +56,7 @@ map of content across the repo.
 - [#play-based-learning](./tags.md#play-based-learning)
 - [#project-journal](./tags.md#project-journal)
 - [#project-overview](./tags.md#project-overview)
+- [#us-bike-options](./tags.md#us-bike-options)
 - [#wiki-building](./tags.md#wiki-building)
 - [#wiki-index](./tags.md#wiki-index)
 - [#wiki-tags](./tags.md#wiki-tags)
