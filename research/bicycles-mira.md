@@ -65,40 +65,36 @@ research notes for choosing a first bike now and a pedal bike later.
   - another 14t option for later; check fit using height and inseam.
 
 ## eu pedal-bike shortlist (minimal aesthetics, updated)
-- [woom go 2 (14")](https://woom.com/en_INT/bikes/woom-2)
-  - height 95-110 cm; weight 5 kg; age 3-4.5 years. [woom go 2](https://woom.com/en_INT/bikes/woom-2)
-- [academy grade 2 (14")](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
-  - height from 95 cm; weight 5.3 kg; min saddle height 410 mm; max saddle height 500 mm. [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
+- [woom go 2 (14\")](https://woom.com/en_INT/bikes/go-2)
+  - height 95-110 cm; weight 5 kg; age 3-4.5 years. [woom go 2](https://woom.com/en_INT/bikes/go-2)
+- [academy grade 2 (14\")](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
+  - height from 95 cm; weight 5.3 kg; age 2-4. [academy grade 2](https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad)
 - [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
   - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
-- [rascal 14](https://rascal-bikes.com/en/kids-bike-rascal-14)
-  - height 90-105 cm; inseam 40-48 cm; weight 5.5 kg; belt drive. [rascal 14](https://rascal-bikes.com/en/kids-bike-rascal-14)
-- [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
-  - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/youke-classic-12-00004126.html)
+  - min inside leg 36.5 cm per brand sizing table. [early rider sizing](https://us.earlyrider.com/pages/sizing)
+- [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+  - height 90-105 cm; inseam 40-48 cm; belt drive. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+- [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
+  - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
 - [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
   - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+. [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
-  - note: puky’s youke classic line currently lists 12\" and 16\" sizes (no 14\" on the official catalog pages above).
 - [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
-  - height 90-110 cm; weight 5.1 kg; min saddle height 430 mm; max saddle height 550 mm. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
-- [kubikes 16s superlight](https://www.kubikes.de/kubikes_16s-superlight.html)
-  - weight from 5.0 kg; suitable for riders from ~2.5 years / 92 cm. [kubikes 16s superlight](https://www.kubikes.de/kubikes_16s-superlight.html)
-- [kokua liketobike 16s (singlespeed)](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
-  - saddle height 46-64 cm; weight from 6.8 kg; inside leg length approx 38-55 cm. [kokua liketobike 16s](https://kokua-shop.com/en/p/liketobike-16s-singlespeed)
-- [islabikes cnoc 14](https://www.islabikes.co.uk/bikes/cnoc-14-bike)
-  - min inside leg 34 cm; max inside leg 42 cm; approx min height 92 cm.
-- [frog 38](https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html)
-  - inside leg 36-41 cm; weight 6.06 kg; 14\" wheels; age 3-4.
+  - height 90-110 cm; weight 5.1 kg. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
+- [kubikes 16s superlight](https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight)
+  - height from 92 cm; inseam from 37 cm; weight 5.40-6.90 kg (listing). [kubikes 16s listing](https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight)
+- [kokua liketobike 16s](https://kokua-shop.com/en)
+  - saddle height 46-64 cm; weight from 6.8 kg. [kokua liketobike 16s](https://kokua-shop.com/en)
 
 ## us pedal-bike shortlist (importable / design-first)
-- [prevelo alpha one (14\")](https://prevelo.com/products/alpha-one?variant=31149370937437)
-  - suggested height 3'0\"-3'6\" (91-107 cm); inseam 14\"-17\" (36-43 cm); weight 13.4 lbs (6.1 kg). [prevelo spec sheet](https://cdn.shopify.com/s/files/1/1738/8829/files/Spec_Sheet_Alpha_One.pdf)
-- [trailcraft blue sky 16](https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/)
-  - lightweight 16\" trail bike; size info listed on the product page. [trailcraft blue sky 16](https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/)
-- [priority start 16 (belt drive)](https://www.prioritybicycles.com/products/start16)
-  - belt-drive, minimal branding; sizing and specs on product page. [priority start 16](https://www.prioritybicycles.com/products/start16)
+- [prevelo alpha one (14\")](https://prevelo.com/products/alpha-one)
+  - weight 11.3 lbs; min saddle height 14.75\"; max saddle height 25.2\". [prevelo alpha one](https://prevelo.com/products/alpha-one)
+- [trailcraft blue sky 20](https://www.trailcraftcycles.com/size-chart/)
+  - smallest trailcraft size is 20\"; size chart lists height 3'9\"-4'2\" with minimum inseam 21\". [trailcraft size chart](https://www.trailcraftcycles.com/size-chart/)
+- [priority start 16 (belt drive)](https://www.prioritybicycles.com/products/startfw2)
+  - belt-drive; size range 3'5\"-3'11\" with leg inseam 18.5\"-24\"; weight 15.9 lbs. [priority start 16](https://www.prioritybicycles.com/products/startfw2)
   - note: priority does not clearly state international shipping; delivery options focus on us regions, so confirm before ordering. [priority delivery options](https://www.prioritybicycles.com/pages/delivery-options)
-- [guardian 14](https://guardianbikes.com/products/14-inch-kids-bikes)
-  - us-only retail model; listed as shipping to all 50 states (no international shipping). [guardian faq](https://guardianbikes.com/pages/faqs)
+- [guardian 14](https://guardianbikes.com/products/14-inch-bike)
+  - us-only retail model; guardian states they currently sell only in the usa and ship to all 50 states. [guardian international shipping faq](https://help.guardianbikes.com/en-US/do-you-offer-international-shipping-or-shipping-to-canada-519129)
 
 ## direct shipping to india (brand policies)
 - woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
@@ -107,7 +103,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
 - islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
 - frog bikes note that international deliveries may incur import duties/taxes and these are the buyer’s responsibility; they say they can ship to many countries. [frog bikes terms](https://www.frogbikes.com/en_FI/info/terms-conditions.html) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html)
-- prevelo ships internationally; international delivery duties/taxes are paid by the recipient unless the destination is listed as duties prepaid (india not listed). [prevelo shipping](https://prevelo.com/pages/terms-conditions) [prevelo international duties list](https://prevelo.com/pages/international-shipping)
+- prevelo ships internationally; duties and taxes are paid by the recipient for destinations not listed as prepaid (india not listed). [prevelo international shipping](https://prevelo.com/pages/international-shipping)
 - trailcraft ships worldwide via fedex international priority; import duties/taxes are the buyer's responsibility. [trailcraft shipping](https://www.trailcraftcycles.com/shipping/)
 
 ## import + customs (india) - baggage vs courier
@@ -163,24 +159,22 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://chubchub.in/products/strider-12-sport-balance-bike-for-18-months-5-years
 - https://babyhug.in/shop/babyhug-2-1-balance-bicycle-12-inches-red-blue/
 - https://www.herocycles.com/jimmy-BSJIM14WH00001.html
-- https://woom.com/en_INT/bikes/woom-2
+- https://woom.com/en_INT/bikes/go-2
 - https://academy-bikes.de/products/grade-2-14-zoll-kinderfahrrad
 - https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
-- https://rascal-bikes.com/en/kids-bike-rascal-14
-- https://www.puky.de/youke-classic-12-00004126.html
+- https://us.earlyrider.com/pages/sizing
+- https://www.rascal-bikes.com/rascal-14_z25/
+- https://www.puky.de/en/youke-classic-12-00004126.html
 - https://www.puky.de/en/youke-classic-16-00004241.html
 - https://www.beany-sport.com/beany-zero-16_z155/
-- https://www.kubikes.de/kubikes_16s-superlight.html
-- https://kokua-shop.com/en/p/liketobike-16s-singlespeed
-- https://www.islabikes.co.uk/bikes/cnoc-14-bike
-- https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
-- https://prevelo.com/products/alpha-one?variant=31149370937437
-- https://cdn.shopify.com/s/files/1/1738/8829/files/Spec_Sheet_Alpha_One.pdf
-- https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/
-- https://www.prioritybicycles.com/products/start16
+- https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight
+- https://kokua-shop.com/en
+- https://prevelo.com/products/alpha-one
+- https://www.trailcraftcycles.com/size-chart/
+- https://www.prioritybicycles.com/products/startfw2
 - https://www.prioritybicycles.com/pages/delivery-options
-- https://guardianbikes.com/products/14-inch-kids-bikes
-- https://guardianbikes.com/pages/faqs
+- https://guardianbikes.com/products/14-inch-bike
+- https://help.guardianbikes.com/en-US/do-you-offer-international-shipping-or-shipping-to-canada-519129
 - https://faq.us.woombikes.com/article/227-do-you-ship-internationally
 - https://woom.com/en_INT/shipping-information
 - https://www.puky.de/en/our-service/shipping-payment
@@ -188,7 +182,6 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://www.islabikes.co.uk/delivery-information
 - https://www.frogbikes.com/en_FI/info/terms-conditions.html
 - https://www.frogbikes.com/en_GB/info/faqs.html
-- https://prevelo.com/pages/terms-conditions
 - https://prevelo.com/pages/international-shipping
 - https://www.trailcraftcycles.com/shipping/
 - https://www.apcustoms.gov.in/NL/BaggageRules.html
