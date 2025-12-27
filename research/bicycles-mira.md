@@ -2,7 +2,7 @@
 
 research notes for choosing a first bike now and a pedal bike later.
 
-**tags:** #mira-first-bicycle #balance-bike-research #future-pedal-bike #india-bike-options #eu-bike-options #import-to-india
+**tags:** #mira-first-bicycle #balance-bike-research #future-pedal-bike #india-bike-options #eu-bike-options #us-bike-options #import-to-india
 **related:** [notes about mira](../profile/notes-about-mira.md), [developmental milestones](../profile/developmental-milestones.md), [wiki index](../wiki/index.md)
 
 ## table of contents
@@ -13,6 +13,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - [mira fit estimate (90/91 cm)](#mira-fit-estimate-9091-cm)
 - [india-available options worth comparing](#india-available-options-worth-comparing)
 - [eu pedal-bike shortlist (minimal aesthetics, updated)](#eu-pedal-bike-shortlist-minimal-aesthetics-updated)
+- [us pedal-bike shortlist (importable / design-first)](#us-pedal-bike-shortlist-importable-design-first)
 - [direct shipping to india (brand policies)](#direct-shipping-to-india-brand-policies)
 - [import + customs (india) - baggage vs courier](#import-customs-india-baggage-vs-courier)
 - [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
@@ -88,6 +89,17 @@ research notes for choosing a first bike now and a pedal bike later.
 - [frog 38](https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html)
   - inside leg 36-41 cm; weight 6.06 kg; 14\" wheels; age 3-4.
 
+## us pedal-bike shortlist (importable / design-first)
+- [prevelo alpha one (14\")](https://prevelo.com/products/alpha-one?variant=31149370937437)
+  - suggested height 3'0\"-3'6\" (91-107 cm); inseam 14\"-17\" (36-43 cm); weight 13.4 lbs (6.1 kg). [prevelo spec sheet](https://cdn.shopify.com/s/files/1/1738/8829/files/Spec_Sheet_Alpha_One.pdf)
+- [trailcraft blue sky 16](https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/)
+  - lightweight 16\" trail bike; size info listed on the product page. [trailcraft blue sky 16](https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/)
+- [priority start 16 (belt drive)](https://www.prioritybicycles.com/products/start16)
+  - belt-drive, minimal branding; sizing and specs on product page. [priority start 16](https://www.prioritybicycles.com/products/start16)
+  - note: priority does not clearly state international shipping; delivery options focus on us regions, so confirm before ordering. [priority delivery options](https://www.prioritybicycles.com/pages/delivery-options)
+- [guardian 14](https://guardianbikes.com/products/14-inch-kids-bikes)
+  - us-only retail model; listed as shipping to all 50 states (no international shipping). [guardian faq](https://guardianbikes.com/pages/faqs)
+
 ## direct shipping to india (brand policies)
 - woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
 - woom international shop lists eu/uk delivery countries and uses an international shop for other countries, but does not explicitly list india in shipping info; check at checkout. [woom shipping info](https://woom.com/en_INT/shipping-information)
@@ -95,6 +107,8 @@ research notes for choosing a first bike now and a pedal bike later.
 - early rider ships internationally; rates are calculated at checkout and international shipments typically go by dhl express or similar. [early rider shipping & returns](https://earlyrider.com/pages/shipping-returns)
 - islabikes do not deliver to any non-uk addresses and do not deliver to freight forwarders. [islabikes delivery info](https://www.islabikes.co.uk/delivery-information)
 - frog bikes note that international deliveries may incur import duties/taxes and these are the buyer’s responsibility; they say they can ship to many countries. [frog bikes terms](https://www.frogbikes.com/en_FI/info/terms-conditions.html) [frog bikes faq](https://www.frogbikes.com/en_GB/info/faqs.html)
+- prevelo ships internationally; international delivery duties/taxes are paid by the recipient unless the destination is listed as duties prepaid (india not listed). [prevelo shipping](https://prevelo.com/pages/terms-conditions) [prevelo international duties list](https://prevelo.com/pages/international-shipping)
+- trailcraft ships worldwide via fedex international priority; import duties/taxes are the buyer's responsibility. [trailcraft shipping](https://www.trailcraftcycles.com/shipping/)
 
 ## import + customs (india) - baggage vs courier
 
@@ -160,6 +174,13 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://kokua-shop.com/en/p/liketobike-16s-singlespeed
 - https://www.islabikes.co.uk/bikes/cnoc-14-bike
 - https://www.frogbikes.com/en_EU/frog-38-14-inch-kids-first-pedal-bike.html
+- https://prevelo.com/products/alpha-one?variant=31149370937437
+- https://cdn.shopify.com/s/files/1/1738/8829/files/Spec_Sheet_Alpha_One.pdf
+- https://www.trailcraftcycles.com/kids-bikes/blue-sky-16/
+- https://www.prioritybicycles.com/products/start16
+- https://www.prioritybicycles.com/pages/delivery-options
+- https://guardianbikes.com/products/14-inch-kids-bikes
+- https://guardianbikes.com/pages/faqs
 - https://faq.us.woombikes.com/article/227-do-you-ship-internationally
 - https://woom.com/en_INT/shipping-information
 - https://www.puky.de/en/our-service/shipping-payment
@@ -167,6 +188,9 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://www.islabikes.co.uk/delivery-information
 - https://www.frogbikes.com/en_FI/info/terms-conditions.html
 - https://www.frogbikes.com/en_GB/info/faqs.html
+- https://prevelo.com/pages/terms-conditions
+- https://prevelo.com/pages/international-shipping
+- https://www.trailcraftcycles.com/shipping/
 - https://www.apcustoms.gov.in/NL/BaggageRules.html
 - https://www.referencer.in/Baggage_Rules/Travellers_Guide.aspx
 - https://www.forbes.com/advisor/money-transfer/currency-converter/eur-inr/
