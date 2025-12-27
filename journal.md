@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2025-12-27 / 12:38 pm](#2025-12-27-1238-pm)
 - [2025-12-27 / 11:57 am](#2025-12-27-1157-am)
 - [2025-12-27 / 11:46 am](#2025-12-27-1146-am)
 - [2025-12-26 / 10:24 pm](#2025-12-26-1024-pm)
@@ -24,6 +25,18 @@ project development log - newest entries on top
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
 ---
+
+## 2025-12-27 / 12:38 pm
+
+### corrected eu links + expanded us options
+
+**what we did:**
+- fixed rascal and kubikes links; added rascal punk clarification
+- added glerc and belsize as us belt-drive options with sources
+- refreshed toc + wiki tags
+
+**why:**
+- resolve broken links and capture additional importable options
 
 ## 2025-12-27 / 11:57 am
 
