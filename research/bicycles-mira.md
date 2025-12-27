@@ -13,7 +13,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - [mira fit estimate (90/91 cm)](#mira-fit-estimate-9091-cm)
 - [india-available options worth comparing](#india-available-options-worth-comparing)
 - [eu pedal-bike shortlist (minimal aesthetics, updated)](#eu-pedal-bike-shortlist-minimal-aesthetics-updated)
-- [us pedal-bike shortlist (importable / design-first)](#us-pedal-bike-shortlist-importable-design-first)
+- [us pedal-bike shortlist (importable, design-first)](#us-pedal-bike-shortlist-importable-design-first)
 - [direct shipping to india (brand policies)](#direct-shipping-to-india-brand-policies)
 - [import + customs (india) - baggage vs courier](#import-customs-india-baggage-vs-courier)
 - [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
@@ -73,19 +73,21 @@ research notes for choosing a first bike now and a pedal bike later.
   - size of leg 37 cm; weight 5.48 kg; age 3-5; belt drive. [early rider belter 14](https://earlyrider.com/collections/kids-bikes-belter/products/belter-14)
   - min inside leg 36.5 cm per brand sizing table. [early rider sizing](https://us.earlyrider.com/pages/sizing)
 - [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
-  - height 90-105 cm; inseam 40-48 cm; belt drive. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+  - height 90-105 cm; inseam 40-48 cm; belt drive; weight 5.5 kg. [rascal 14](https://www.rascal-bikes.com/rascal-14_z25/)
+  - note: rascal punk is their balance bike line (14\"/12\" wheel mix), not a pedal bike. [rascal punk](https://www.rascal-bikes.com/rascal-punk_z24/)
 - [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
   - height 95-115 cm; inseam 41-50 cm; weight 7.2 kg; age 3+. [puky youke classic 12](https://www.puky.de/en/youke-classic-12-00004126.html)
 - [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
   - height 105-120 cm; inseam 45-54 cm; weight 8.2 kg; age 4+. [puky youke classic 16](https://www.puky.de/en/youke-classic-16-00004241.html)
 - [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
   - height 90-110 cm; weight 5.1 kg. [beany zero 16](https://www.beany-sport.com/beany-zero-16_z155/)
-- [kubikes 16s superlight](https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight)
-  - height from 92 cm; inseam from 37 cm; weight 5.40-6.90 kg (listing). [kubikes 16s listing](https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight)
+- [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+  - weight 5.307 kg; configurable with singlespeed (no gears) or 2‑speed automatic hub. [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
+  - singlespeed = lighter, simpler; automatix = auto 2‑speed hub that shifts by speed (more range, more weight). (inference from the “2‑gang automatik” option) [kubikes 16s superlight](https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html)
 - [kokua liketobike 16s](https://kokua-shop.com/en)
   - saddle height 46-64 cm; weight from 6.8 kg. [kokua liketobike 16s](https://kokua-shop.com/en)
 
-## us pedal-bike shortlist (importable / design-first)
+## us pedal-bike shortlist (importable, design-first)
 - [prevelo alpha one (14\")](https://prevelo.com/products/alpha-one)
   - weight 11.3 lbs; min saddle height 14.75\"; max saddle height 25.2\". [prevelo alpha one](https://prevelo.com/products/alpha-one)
 - [trailcraft blue sky 20](https://www.trailcraftcycles.com/size-chart/)
@@ -95,6 +97,10 @@ research notes for choosing a first bike now and a pedal bike later.
   - note: priority does not clearly state international shipping; delivery options focus on us regions, so confirm before ordering. [priority delivery options](https://www.prioritybicycles.com/pages/delivery-options)
 - [guardian 14](https://guardianbikes.com/products/14-inch-bike)
   - us-only retail model; guardian states they currently sell only in the usa and ship to all 50 states. [guardian international shipping faq](https://help.guardianbikes.com/en-US/do-you-offer-international-shipping-or-shipping-to-canada-519129)
+- [glerc 14 belt-drive](https://www.glercbikes.com/products/glerc-14-belt-drive-bike-zero)
+  - belt-drive 14\" option; listed weight 12.46 lbs on product page. [glerc belt drive 14](https://www.glercbikes.com/products/glerc-14-belt-drive-bike-zero)
+- [belsize 16 belt-drive](https://belsizebike.com/)
+  - 16\" belt-drive bike listed 12-13 lbs; minimalist branding. [belsize bike](https://belsizebike.com/)
 
 ## direct shipping to india (brand policies)
 - woom usa does not ship internationally (except canada). [woom usa faq](https://faq.us.woombikes.com/article/227-do-you-ship-internationally)
@@ -164,10 +170,11 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://earlyrider.com/collections/kids-bikes-belter/products/belter-14
 - https://us.earlyrider.com/pages/sizing
 - https://www.rascal-bikes.com/rascal-14_z25/
+- https://www.rascal-bikes.com/rascal-punk_z24/
 - https://www.puky.de/en/youke-classic-12-00004126.html
 - https://www.puky.de/en/youke-classic-16-00004241.html
 - https://www.beany-sport.com/beany-zero-16_z155/
-- https://www.kinderfahrradfinder.de/bicycle/kubikes-16-s-superlight
+- https://www.kubikes.de/kubikes_shop/Bikes/KUbikes-superlight/KUbikes-16S-superlight-784.html
 - https://kokua-shop.com/en
 - https://prevelo.com/products/alpha-one
 - https://www.trailcraftcycles.com/size-chart/
@@ -175,6 +182,8 @@ research notes for choosing a first bike now and a pedal bike later.
 - https://www.prioritybicycles.com/pages/delivery-options
 - https://guardianbikes.com/products/14-inch-bike
 - https://help.guardianbikes.com/en-US/do-you-offer-international-shipping-or-shipping-to-canada-519129
+- https://www.glercbikes.com/products/glerc-14-belt-drive-bike-zero
+- https://belsizebike.com/
 - https://faq.us.woombikes.com/article/227-do-you-ship-internationally
 - https://woom.com/en_INT/shipping-information
 - https://www.puky.de/en/our-service/shipping-payment
