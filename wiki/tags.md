@@ -9,7 +9,7 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2025-12-27 / 04:45 pm
+generated: 2025-12-28 / 09:53 pm
 
 ---
 
@@ -22,6 +22,9 @@ generated: 2025-12-27 / 04:45 pm
 
 ### #agent-guidelines
 - [agents.md](../agents.md)
+
+### #attachment-theory
+- [formative years](../research/formative-years.md)
 
 ### #balance-bike-research
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
@@ -38,8 +41,17 @@ generated: 2025-12-27 / 04:45 pm
 ### #books
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
+### #brain-development
+- [formative years](../research/formative-years.md)
+
+### #child-development-stages
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
+
 ### #claude-guidelines
 - [claude.md](../CLAUDE.md)
+
+### #cognitive-development
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
 
 ### #daily-patterns
 - [notes about mira](../profile/notes-about-mira.md)
@@ -53,6 +65,9 @@ generated: 2025-12-27 / 04:45 pm
 ### #developmental-assessment
 - [developmental milestones](../profile/developmental-milestones.md)
 
+### #developmental-milestones
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
+
 ### #documentation-map
 - [tags](./tags.md)
 - [wiki index](./index.md)
@@ -61,8 +76,17 @@ generated: 2025-12-27 / 04:45 pm
 - [agents.md](../agents.md)
 - [claude.md](../CLAUDE.md)
 
+### #early-childhood-development
+- [formative years](../research/formative-years.md)
+
 ### #eu-bike-options
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #forest-kindergarten
+- [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
+
+### #formative-years
+- [formative years](../research/formative-years.md)
 
 ### #future-pedal-bike
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
@@ -83,6 +107,7 @@ generated: 2025-12-27 / 04:45 pm
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
 
 ### #language-development
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### #milestone-tracking
@@ -100,6 +125,12 @@ generated: 2025-12-27 / 04:45 pm
 ### #mira-profile
 - [notes about mira](../profile/notes-about-mira.md)
 
+### #parenting-research
+- [formative years](../research/formative-years.md)
+
+### #physical-development
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
+
 ### #play-based-learning
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
 
@@ -108,6 +139,12 @@ generated: 2025-12-27 / 04:45 pm
 
 ### #project-overview
 - [homeschooling](../README.md)
+
+### #scandinavian-education
+- [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
+
+### #social-emotional
+- [developmental milestones overview](../research/developmental-milestones-overview.md)
 
 ### #temp
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)

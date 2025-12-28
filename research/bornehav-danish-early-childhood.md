@@ -14,7 +14,7 @@
 - [danish parenting philosophy connection](#danish-parenting-philosophy-connection)
 - [alternative approaches by country](#alternative-approaches-by-country)
 - [example schools in denmark](#example-schools-in-denmark)
-- [india context - playschools and homeschooling](#india-context---playschools-and-homeschooling)
+- [india context - playschools and homeschooling](#india-context-playschools-and-homeschooling)
 - [books and resources](#books-and-resources)
 - [people to follow](#people-to-follow)
 <!-- toc:end -->
