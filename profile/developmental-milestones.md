@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
 - [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
@@ -16,6 +17,236 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-01 / afternoon
+
+### age: 19.5 months
+
+---
+
+### cognitive development
+
+#### spatial awareness & environmental navigation
+**observation:** while walking towards apartment block (e), when asked "what block are we at?", she looked around, identified "d", and pointed toward "e" ahead, understanding there were a few more steps to go
+
+**milestone context:**
+- typical 18-24 month milestone: understands simple spatial concepts (in, on, under)
+- typical 24-30 month milestone: beginning to understand "near" and "far", basic orientation
+- typical 3-4 year milestone: navigates familiar environments, understands building/room layouts
+- mira at 19.5mo:
+  - reads environmental signage (letter recognition applied functionally)
+  - orients herself spatially within a complex environment (apartment building with multiple blocks)
+  - understands relative position (we are at d, e is ahead)
+  - communicates progress toward destination
+- this combines: letter recognition + spatial reasoning + environmental awareness + communication
+- assessment: **significantly advanced** - integrating multiple skills in real-world navigation
+
+---
+
+### feeding & oral motor development
+
+#### dream feeding
+**observation:** continues to dream feed at night - at least 2 bottles of puree + milk during sleep hours; daytime still more bottles than solids
+
+**milestone context:**
+- typical 12-18 month milestone: transition from bottle to cup, gradual reduction in night feeds
+- typical 18-24 month milestone: most nutrition from solids, night weaning often complete or near-complete
+- mira at 19.5mo: still relies significantly on bottles, especially at night
+- context: regression due to teething, illness (cold/cough), and 3 weeks of travel
+- **considerations:**
+  - dream feeding at this age is not uncommon, especially during developmental/health disruptions
+  - teething discomfort can make solids less appealing
+  - travel disrupts routines and often leads to comfort-seeking behaviors
+  - daytime improvement is a positive sign of recovery
+- assessment: **temporary regression** - developmentally not concerning given context; monitor as routines stabilize
+- **recommendations to consider:**
+  - gradual reduction of night bottles as health/routine stabilizes
+  - consult pediatric dentist about night feeding and dental hygiene
+  - continue offering varied solid textures during day when she's receptive
+
+#### drooling
+**observation:** still drools - wears bib constantly; has slowed down from 2 months ago but not stopped
+
+**milestone context:**
+- typical milestone: excessive drooling usually decreases significantly by 18-24 months as oral motor control improves
+- persistent drooling at 19.5mo can be associated with:
+  - active teething (most common cause)
+  - developing oral motor skills
+  - mouth breathing (if congested)
+- given her recent cold/cough and teething, this is likely within normal variation
+- the improvement over past 2 months is a positive trend
+- assessment: **on track** - likely teething-related; continue monitoring as molars complete
+
+---
+
+### language & communication (update)
+
+#### vocabulary explosion
+**observation:** uses words for nearly everything - specific food requests (pronthi, chilla, sandwich, apple, banana), book/song requests, action words ("open"), social phrases ("hi baba", "hi tree", "bye aunty"), bilingual expressions ("jao, please")
+
+**milestone context:**
+- typical 18-month milestone: 10-25 words
+- typical 24-month milestone: 50+ words, vocabulary explosion often occurs 18-24mo
+- mira at 19.5mo:
+  - vocabulary has expanded dramatically in past 1-2 months
+  - uses specific nouns for preferences (not just "food" but "pronthi" vs "chilla")
+  - social language: greetings and farewells to people, objects, and nature ("hi tree")
+  - bilingual code-switching: "jao, please" (hindi verb + english politeness marker)
+- assessment: **advanced** - vocabulary explosion in full swing, earlier than typical; bilingual usage is sophisticated
+
+---
+
+#### pragmatic language (social use)
+**observation:** clearly expresses preferences - what she wants done, what she doesn't want done; uses "jao" when she wants someone to leave
+
+**milestone context:**
+- typical 18-24 month milestone: protests with "no", may push away
+- typical 24-30 month milestone: uses words to express refusal and preferences more specifically
+- mira at 19.5mo: uses specific words to communicate preferences across contexts
+- "jao, please" shows:
+  - understanding of social dynamics (asking someone to leave)
+  - polite framing (adding "please")
+  - bilingual pragmatic competence
+- assessment: **advanced** - sophisticated use of language for social regulation
+
+---
+
+### social-emotional development
+
+#### body autonomy & boundaries
+**observation:** strict body boundaries - does not like anyone touching her without permission (literally anyone); exceptions only for mumma/papa on certain occasions; this is consistent and enforced by her
+
+**milestone context:**
+- typical 18-24 month development: beginning sense of self as separate from others
+- typical 24-30 month development: more assertive about preferences, may resist unwanted touch
+- typical 3-4 year development: can articulate body boundaries verbally
+- mira at 19.5mo:
+  - has clear, consistent body boundaries
+  - enforces them actively
+  - differentiates between people (parents get limited exceptions)
+  - this shows strong sense of self, agency, and communication of limits
+- **note:** this is a healthy developmental sign and should be respected/supported
+- assessment: **advanced** - strong self-advocacy and body autonomy awareness
+
+---
+
+### routines & self-regulation
+
+#### reading ritual (comfort routine)
+**observation:** has established a specific multi-step routine for reading: bottle → bed → blanket → massage (hand on stomach/back) → book of her choice
+
+**milestone context:**
+- typical 18-24 month development: enjoys familiar routines, may resist changes
+- typical 24-30 month development: begins to create own rituals, expects sequences
+- mira at 19.5mo:
+  - has created a complex, self-directed comfort routine
+  - the routine has 5 distinct steps that must occur in order
+  - chooses the book herself (agency)
+  - this shows: sequencing ability, self-regulation through ritual, comfort-seeking, autonomy
+- assessment: **advanced** - sophisticated self-regulation through established ritual
+
+---
+
+### fine motor development
+
+#### building blocks
+**observation:** building with egg stands + differently shaped blocks; can stack 5-6 layers with verbal guidance, acting independently
+
+**milestone context:**
+- typical 18-month milestone: stacks 2-4 blocks
+- typical 24-month milestone: stacks 6-7 blocks
+- typical 30-month milestone: stacks 8+ blocks, begins building structures
+- mira at 19.5mo: 5-6 layers with verbal guidance
+- the combination of:
+  - receiving verbal instructions
+  - translating them to motor action
+  - completing independently
+  - shows good receptive language + fine motor + executive function integration
+- assessment: **on track to advanced** - at upper end of 18-24mo range
+
+---
+
+### metacognition & self-awareness
+
+#### help-seeking vs independence (differentiation)
+**observation:**
+- seeks help: climbing wooden steps + slider (asks to hold hands while climbing adventurously)
+- insists on independence: building blocks, bead strings, answering book questions after being told once or twice
+
+**milestone context:**
+- typical 18-24 month development: may resist help broadly ("me do it") or seek help broadly
+- typical 24-30+ month development: begins to differentiate when help is needed vs not
+- mira at 19.5mo:
+  - accurately assesses her own competence in different domains
+  - seeks help for physically risky activities (climbing) - appropriate
+  - insists on independence for cognitive/fine motor tasks she can manage
+  - shows frustration tolerance: "i've been told twice, let me figure it out"
+  - this differentiation requires: self-awareness, task analysis, risk assessment
+- this independent streak "from a very early age" suggests temperamental autonomy drive
+- assessment: **advanced** - metacognitive self-assessment beyond typical for age
+
+---
+
+### literacy development (update)
+
+#### sustained reading engagement
+**observation:** reads 30-40-50 minutes in one sitting (multiple books); goes deep into every visual on each page/spread
+
+**milestone context:**
+- typical 18-24 month attention span: 2-6 minutes for any single activity
+- typical 24-36 month attention span: 5-10 minutes, sometimes longer for preferred activities
+- typical preschool (3-5 years): 10-20 minutes sustained attention
+- mira at 19.5mo: 30-50 minutes of sustained reading engagement
+- depth of engagement:
+  - examines every visual element (letters, flowers, butterflies, photo frames)
+  - counts elements (number of butterflies)
+  - analyzes actions (what is the dog/person doing)
+  - notices environmental details (sun/moon, day/night)
+- this requires: sustained attention, visual scanning, analytical processing, vocabulary application
+- assessment: **significantly advanced** - sustained attention and depth of engagement far exceed typical
+
+#### book collection & satiation
+**observation:** 40+ books, 80% read 40-50+ times; seems to have outgrown current collection, may need new books
+
+**milestone context:**
+- typical development: toddlers love repetition and often want the same few books repeatedly
+- mira's pattern: has thoroughly mastered her collection to the point of seeking novelty
+- this suggests:
+  - strong memory (knows books thoroughly)
+  - readiness for more complex content
+  - intrinsic motivation for learning/reading
+- **recommendation:** consider expanding collection with slightly more complex texts; age 2-3 or even 3-4 year level books may be appropriate given her engagement level
+
+---
+
+### updated overall assessment at 19.5 months
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| spatial navigation | 3-4 years | reads signs, orients in environment | significantly advanced |
+| vocabulary size | 24mo (explosion) | uses words for everything | advanced |
+| bilingual pragmatics | 24-30mo+ | code-switches appropriately | advanced |
+| body autonomy | 24-30mo+ | consistent, enforced boundaries | advanced |
+| self-regulation ritual | 24-30mo | 5-step comfort routine | advanced |
+| block stacking | 24mo | 5-6 layers with guidance | on track to advanced |
+| help-seeking differentiation | 24-30mo+ | accurate self-assessment | advanced |
+| sustained attention | 3-5 years | 30-50 minutes reading | significantly advanced |
+| reading depth | preschool+ | analyzes every visual element | significantly advanced |
+| dream feeding | 12-18mo weaning typical | ongoing, but regressing due to illness/travel | temporary regression |
+| drooling | 18-24mo decrease | improving, teething-related | on track |
+
+**updated summary:** at 19.5 months, mira demonstrates remarkable cognitive sophistication, particularly in:
+- **spatial-environmental integration**: combining letter recognition with real-world navigation
+- **language explosion**: vocabulary has dramatically expanded, with bilingual code-switching
+- **metacognitive self-assessment**: differentiating when she needs help vs wants independence
+- **sustained attention**: 30-50 minute reading sessions far exceed typical attention spans
+- **body autonomy**: unusually clear and consistent boundaries for her age
+
+areas of temporary regression (dream feeding, drooling) are likely explained by recent teething, illness, and travel disruption, and show signs of improvement. these are not developmental concerns.
+
+the combination of advanced receptive language, early literacy, sustained attention, and self-awareness suggests a child who is cognitively tracking well ahead of typical milestones while developing healthy self-regulation and autonomy.
+
+---
 
 ## 2025-12-25 / 03:23 pm
 
