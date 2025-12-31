@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-27 / 04:44 pm](#2025-12-27-0444-pm)
 - [2025-12-27 / 04:17 pm](#2025-12-27-0417-pm)
 - [2025-12-27 / 12:38 pm](#2025-12-27-1238-pm)
@@ -26,6 +27,42 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-01-01 / afternoon
+
+### added observations at 19.5 months
+
+**what we did:**
+- updated `profile/notes-about-mira.md` with new observations:
+  - spatial navigation: identifies apartment blocks (d→e), understands relative position
+  - vocabulary explosion: uses words for nearly everything, bilingual code-switching ("jao, please")
+  - strict body autonomy: consistent boundaries enforced by her
+  - 5-step reading ritual: bottle + bed + blanket + massage + book
+  - building blocks: 5-6 layers with verbal guidance
+  - help-seeking differentiation: seeks help for climbing, insists on independence for cognition
+  - sustained attention: 30-50 min reading sessions
+  - feeding patterns: dream feeds ongoing (teething/travel regression)
+  - drooling: improving but continues
+- updated `profile/developmental-milestones.md` with corresponding assessments:
+  - spatial navigation: significantly advanced (3-4 yr level)
+  - vocabulary size: advanced
+  - bilingual pragmatics: advanced
+  - body autonomy: advanced
+  - self-regulation ritual: advanced
+  - help-seeking differentiation: advanced (metacognitive)
+  - sustained attention: significantly advanced (preschool level)
+  - dream feeding: temporary regression (teething/travel/illness context)
+  - drooling: on track, likely teething-related
+- refreshed toc in both files
+
+**why:**
+- capture ongoing developmental observations and compare against typical milestones
+- track temporary regressions (feeding) alongside advanced areas
+
+**git commits:**
+- 4a80e00: add observations at 19.5 months (2026-01-01)
+
 ---
 
 ## 2025-12-27 / 04:44 pm
