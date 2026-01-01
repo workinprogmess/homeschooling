@@ -14,6 +14,8 @@ a living journal that mira creates (with help) - scribbles, stamps, stickers, te
 - [materials](#materials)
 - [materials shopping list (amazon.in)](#materials-shopping-list-amazonin)
 - [fabric swatches & textured paper - explained](#fabric-swatches-textured-paper-explained)
+- [how to use each material](#how-to-use-each-material)
+- [sample journal page](#sample-journal-page)
 - [notes as we go](#notes-as-we-go)
 <!-- toc:end -->
 ---
@@ -218,11 +220,134 @@ a living journal that mira creates (with help) - scribbles, stamps, stickers, te
 - she learns texture words: "smooth", "rough", "soft", "bumpy"
 - connects to real world: "this feels like your blanket", "this is scratchy like the doormat"
 
-**how to use:**
-- cut small swatches
-- she chooses which to glue on a page
-- you can narrate: "you picked the soft one today"
-- over time, patterns emerge (does she prefer smooth? rough?)
+---
+
+## how to use each material
+
+### dot markers
+
+**what they are:** chunky bottles with a sponge tip - press down, get a big colored dot. no fine motor precision needed.
+
+**use cases:**
+
+| use | how it works |
+|-----|--------------|
+| weather tracking | sun = yellow dot, rain = blue dot, cloudy = gray dot. one dot per day. |
+| mood/feelings | happy = yellow, sad = blue, angry = red. she picks the color. |
+| counting | "how many crows did we see?" - she dots that many times |
+| color of the day | she picks one color to dot on the page. pattern emerges over time. |
+| filling shapes | you draw a big circle/heart/star outline, she fills it with dots |
+| random expression | she just dots. that's the entry. valid. |
+| borders/frames | dot around the edge of a photo, leaf, or sticker |
+| connecting things | dot a path between two stickers (bird flying to tree) |
+
+**why they work at this age:**
+- instant gratification (press = color)
+- no "wrong" way to use them
+- big marks feel powerful when you're small
+- builds cause-and-effect understanding
+
+---
+
+### glue stick
+
+**what it's for:** attaching things to pages. she learns to apply it herself (messy at first, that's fine).
+
+**what to glue:**
+
+| item | example |
+|------|---------|
+| leaves/petals | from walks, balcony plants |
+| fabric swatches | felt, cotton, jute pieces |
+| textured paper | tissue, crepe, handmade paper |
+| feathers | found or craft feathers |
+| tickets/wrappers | metro ticket, candy wrapper, sticker backing |
+| small photos | printed moments |
+| cutouts | shapes you cut from magazines/paper |
+| natural items | dried flowers, flat seeds, tiny twigs |
+| her own drawings | if she draws on separate paper, glue it in |
+
+**the learning:**
+- cause and effect (glue makes things stick)
+- fine motor (twisting the glue stick, applying pressure)
+- decision-making (where does this go?)
+- permanence (once it's glued, it stays - different from stickers)
+
+**practical tip:** let her apply glue even if it's "too much" or "in the wrong place." the process is the point.
+
+---
+
+### textures - how to use them
+
+**setup:**
+- cut small pieces in advance (2x2 or 3x3 inch)
+- keep them in a box or envelope she can access
+- offer 3-4 choices at a time (not the whole pile)
+
+**during journal time:**
+
+**option 1: texture of the day**
+- she picks one texture to glue on today's page
+- you narrate: "you picked the bumpy one" or "that's soft like your blanket"
+- over time, patterns emerge (does she always pick soft? avoid rough?)
+
+**option 2: match to mood/moment**
+- balcony meal? glue a rough jute piece (like the outdoor mat)
+- cozy reading time? glue soft felt (like her blanket)
+- rainy day? crinkly tissue paper (sounds like rain)
+
+**option 3: texture story**
+- she glues 2-3 textures on one page
+- you caption: "smooth, then bumpy, then soft"
+- or she arranges them however she wants (no story needed)
+
+**option 4: combine with other materials**
+- glue felt, then stamp on top of it
+- glue tissue paper, then dot marker through it (colors bleed nicely)
+- tape washi around a fabric piece to frame it
+
+**texture vocabulary to narrate:**
+
+| material | words |
+|----------|-------|
+| felt | soft, fuzzy |
+| jute/burlap | rough, scratchy |
+| tissue paper | crinkly, thin, see-through |
+| velvet | plush, smooth-soft |
+| corrugated cardboard | bumpy, ridged |
+| cotton | smooth, plain |
+| crepe paper | stretchy, wrinkly |
+
+she won't say these words yet - but she's absorbing them. in a few months, she'll start using them.
+
+**why textures matter developmentally:**
+- sensory integration: touch is a primary learning channel at this age
+- vocabulary: texture words are abstract concepts made concrete
+- choice-making: she decides what goes where
+- memory: "this is the rough one from when we sat on the balcony"
+- cross-modal learning: connecting sight + touch + language
+
+---
+
+## sample journal page
+
+```
++----------------------------------+
+|  01-JAN-2026  (date stamp)       |
+|                                  |
+|  [yellow dot]  (sunny day)       |
+|                                  |
+|  [felt square - blue, soft]      |
+|  "mira picked soft today"        |
+|                                  |
+|  [leaf from walk - glued]        |
+|                                  |
+|  [her scribble]                  |
+|                                  |
+|  [bird sticker]                  |
+|  "saw crows on balcony"          |
++----------------------------------+
+```
 
 ---
 
