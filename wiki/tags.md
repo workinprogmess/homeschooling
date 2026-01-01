@@ -9,7 +9,7 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2026-01-01 / 12:14 pm
+generated: 2026-01-01 / 07:48 pm
 
 ---
 
