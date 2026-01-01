@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-01 / evening](#2026-01-01-evening)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-27 / 04:44 pm](#2025-12-27-0444-pm)
 - [2025-12-27 / 04:17 pm](#2025-12-27-0417-pm)
@@ -27,6 +28,31 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-01-01 / evening
+
+### created mira's journal resource doc
+
+**what we did:**
+- created `resources/mira-journal.md` - a guide for mira's first journal
+  - why it works for her: plays to her strengths (ritualistic, sustained attention, metacognitive, loves visuals, independence streak)
+  - the ritual: tie to existing rhythm, same spot/setup, open→date stamp→create→caption→close
+  - what goes in: weather, food, people, textures, feelings, moments, walks, balcony meals
+  - materials list with amazon.in links: journal, crayons, stamps, stickers, washi tape, felt, textures
+  - explained fabric swatches & textured paper (sensory exploration, touch vocabulary)
+- refreshed wiki index and tags
+
+**key ideas:**
+- ritual over task: tie journaling to an existing rhythm (after breakfast, before nap, balcony time)
+- process over product: some pages will be "empty" or "chaotic" - the habit is the point
+- psychological ownership first: she chooses where it lives, opens/closes it herself
+- physical carrying comes later (2.5-3+)
+- textures: felt, cotton, jute, velvet, corrugated cardboard, tissue paper - so she can *feel* her journal
+
+**git commits:**
+- e8ab1d4: add mira's journal resource doc
+
 ---
 
 ## 2026-01-01 / afternoon

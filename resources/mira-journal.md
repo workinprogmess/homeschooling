@@ -13,7 +13,7 @@ a living journal that mira creates (with help) - scribbles, stamps, stickers, te
 - [what goes in the journal](#what-goes-in-the-journal)
 - [materials](#materials)
 - [materials shopping list (amazon.in)](#materials-shopping-list-amazonin)
-- [fabric swatches & textured paper - explained](#fabric-swatches--textured-paper---explained)
+- [fabric swatches & textured paper - explained](#fabric-swatches-textured-paper-explained)
 - [notes as we go](#notes-as-we-go)
 <!-- toc:end -->
 ---
