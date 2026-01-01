@@ -9,7 +9,7 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2025-12-28 / 09:53 pm
+generated: 2026-01-01 / 12:14 pm
 
 ---
 
@@ -53,6 +53,9 @@ generated: 2025-12-28 / 09:53 pm
 ### #cognitive-development
 - [developmental milestones overview](../research/developmental-milestones-overview.md)
 
+### #creative-expression
+- [mira's journal](../resources/mira-journal.md)
+
 ### #daily-patterns
 - [notes about mira](../profile/notes-about-mira.md)
 
@@ -81,6 +84,9 @@ generated: 2025-12-28 / 09:53 pm
 
 ### #eu-bike-options
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
+
+### #fine-motor-development
+- [mira's journal](../resources/mira-journal.md)
 
 ### #forest-kindergarten
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
@@ -119,6 +125,9 @@ generated: 2025-12-28 / 09:53 pm
 ### #mira-first-bicycle
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 
+### #mira-journal
+- [mira's journal](../resources/mira-journal.md)
+
 ### #mira-observations
 - [notes about mira](../profile/notes-about-mira.md)
 
@@ -140,8 +149,14 @@ generated: 2025-12-28 / 09:53 pm
 ### #project-overview
 - [homeschooling](../README.md)
 
+### #ritual-building
+- [mira's journal](../resources/mira-journal.md)
+
 ### #scandinavian-education
 - [børnehav - denmark's approach to early childhood (ages 3-6)](../research/bornehav-danish-early-childhood.md)
+
+### #sensory-exploration
+- [mira's journal](../resources/mira-journal.md)
 
 ### #social-emotional
 - [developmental milestones overview](../research/developmental-milestones-overview.md)

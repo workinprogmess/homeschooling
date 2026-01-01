@@ -24,6 +24,7 @@ map of content across the repo.
 - [formative years](../research/formative-years.md)
 
 ### resources
+- [mira's journal](../resources/mira-journal.md)
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### root
@@ -50,6 +51,7 @@ map of content across the repo.
 - [#child-development-stages](./tags.md#child-development-stages)
 - [#claude-guidelines](./tags.md#claude-guidelines)
 - [#cognitive-development](./tags.md#cognitive-development)
+- [#creative-expression](./tags.md#creative-expression)
 - [#daily-patterns](./tags.md#daily-patterns)
 - [#danish-early-childhood](./tags.md#danish-early-childhood)
 - [#decision-history](./tags.md#decision-history)
@@ -59,6 +61,7 @@ map of content across the repo.
 - [#documentation-standards](./tags.md#documentation-standards)
 - [#early-childhood-development](./tags.md#early-childhood-development)
 - [#eu-bike-options](./tags.md#eu-bike-options)
+- [#fine-motor-development](./tags.md#fine-motor-development)
 - [#forest-kindergarten](./tags.md#forest-kindergarten)
 - [#formative-years](./tags.md#formative-years)
 - [#future-pedal-bike](./tags.md#future-pedal-bike)
@@ -71,6 +74,7 @@ map of content across the repo.
 - [#milestone-tracking](./tags.md#milestone-tracking)
 - [#mira-development](./tags.md#mira-development)
 - [#mira-first-bicycle](./tags.md#mira-first-bicycle)
+- [#mira-journal](./tags.md#mira-journal)
 - [#mira-observations](./tags.md#mira-observations)
 - [#mira-profile](./tags.md#mira-profile)
 - [#parenting-research](./tags.md#parenting-research)
@@ -78,7 +82,9 @@ map of content across the repo.
 - [#play-based-learning](./tags.md#play-based-learning)
 - [#project-journal](./tags.md#project-journal)
 - [#project-overview](./tags.md#project-overview)
+- [#ritual-building](./tags.md#ritual-building)
 - [#scandinavian-education](./tags.md#scandinavian-education)
+- [#sensory-exploration](./tags.md#sensory-exploration)
 - [#social-emotional](./tags.md#social-emotional)
 - [#temp](./tags.md#temp)
 - [#us-bike-options](./tags.md#us-bike-options)
