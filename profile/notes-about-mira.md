@@ -83,6 +83,26 @@ free-form observations, things she does, likes, patterns - captured as they come
 - **insists on independence:** building blocks, making bead strings, answering questions about books after being told once or twice (who lives on the farm? what color is banana?)
 - this independent streak has been present from a very early age
 
+### balcony meals & sharing with nature
+- mumma and mira developed a new routine: breakfast or lunch on the balcony
+- keeps meals simple, less distracting, less running around
+- they eat outside with "ant, fly, and birdy" as companions
+- learned that when ants/flies aren't there, we leave a little food on the edge of the fencing for them
+- **evidence of learning:** one day while reading with papa, mira had a bowl of bhujiya (indian tiny potato mixer); when coming in, she took some pieces out and spread them on the edge, saying to herself "birdy, ant, fly" (in her own broken pronunciations)
+- mumma and papa exchanged smiles watching this unprompted behavior
+
+### hide & seek
+- loves playing hide & seek at every opportunity
+- hiding spots: under the blanket, under a pillow (on bed), behind doors, behind curtains
+- if mumma/papa haven't initiated the hunt, she prompts with "are you?"
+- the game involves imaginative questions:
+  - "are you with the squirrel on the tree?"
+  - "are you at nani's house?"
+  - "are you taking a bath in your bathtub with your toys?"
+  - "are you dancing with audrey or painting with frida or sewing with coco?" (references from little people big dreams books)
+- she says "no" to everything, then when asked "where is mira?" or "where is doody doo?" (papa's name) or "mimu?" (mumma's name), she reveals herself with surprise, laughter, and a big smile
+- nicknames: doody doo (papa calls her), mimu (mumma calls her)
+
 ### reading engagement (depth)
 - 40+ books in collection, 80% read 40-50+ times
 - book collection includes:

@@ -219,6 +219,57 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ---
 
+### prosocial behavior & empathy
+
+#### sharing with nature (generalization of learned behavior)
+**observation:** mumma established a balcony meal routine where they eat with "ant, fly, and birdy" and leave food for them on the fencing edge when they're not around. one day with papa, mira independently took bhujiya pieces from her bowl and spread them on the edge, saying "birdy, ant, fly" - completely unprompted.
+
+**milestone context:**
+- typical 18-24 month development: begins to show empathy, may comfort others who are upset
+- typical 24-30 month development: shows caring behaviors toward familiar people, pets
+- typical 3-4 year development: understands sharing, takes turns, shows prosocial behavior toward strangers
+- mira at 19.5mo:
+  - **generalized a learned behavior**: took a routine learned with mumma and independently applied it in a different context (with papa, different food)
+  - **extended care to non-human creatures**: shows empathy/thoughtfulness toward animals/insects
+  - **unprompted prosocial action**: no reminder or instruction needed - initiated on her own
+  - **verbalized her intent**: named the recipients ("birdy, ant, fly") showing clear purpose
+- this demonstrates:
+  - **deferred imitation**: remembered the routine and recreated it later
+  - **generalization**: applied the concept across contexts (different parent, different food, different time)
+  - **theory of mind precursors**: understanding that other creatures might want/need food
+  - **prosocial motivation**: intrinsic desire to share/care for others
+- assessment: **advanced** - spontaneous, generalized prosocial behavior toward nature is sophisticated for 19.5mo
+
+---
+
+### play & social-emotional development
+
+#### hide & seek (imaginative play with narrative)
+**observation:** loves hide & seek at every opportunity; hides under blankets, pillows, behind doors/curtains; prompts the game herself with "are you?"; engages in elaborate imaginative questions during the game (are you with the squirrel? are you dancing with audrey? painting with frida? sewing with coco?); responds "no" to all, then reveals herself with laughter when asked "where is mira?"
+
+**milestone context:**
+- typical 18-24 month development: enjoys simple hide & seek (peek-a-boo evolving), understands object permanence
+- typical 24-30 month development: plays hide & seek with simple hiding, may cover eyes thinking they're hidden
+- typical 3-4 year development: more sophisticated hiding, can wait patiently, understands the game structure
+- mira at 19.5mo:
+  - **initiates the game herself**: prompts with "are you?" if parents don't start
+  - **understands game structure**: hide → questions → "no" → reveal → surprise/joy
+  - **engages with imaginative narrative**: the "are you with..." questions involve:
+    - fictional scenarios (with squirrel, in bathtub with toys)
+    - book references (dancing with audrey, painting with frida, sewing with coco from little people big dreams)
+    - real-world references (nani's house)
+  - **responds appropriately**: says "no" to maintain game tension, then reveals with delight
+  - **uses multiple names**: responds to mira, doody doo (papa's name for her), mimu (mumma's name)
+- this demonstrates:
+  - **symbolic play**: understanding that the questions are playful, not literal
+  - **narrative engagement**: participating in an extended imaginative storyline
+  - **book-to-life connection**: references book characters in play
+  - **social reciprocity**: turn-taking in a game structure
+  - **anticipation and timing**: delays reveal for maximum joy
+- assessment: **advanced** - imaginative narrative play with book references and game structure beyond typical 19.5mo
+
+---
+
 ### updated overall assessment at 19.5 months
 
 | area | typical milestone age | mira's level | assessment |
@@ -232,6 +283,8 @@ tracking mira's development against typical milestones - updated alongside notes
 | help-seeking differentiation | 24-30mo+ | accurate self-assessment | advanced |
 | sustained attention | 3-5 years | 30-50 minutes reading | significantly advanced |
 | reading depth | preschool+ | analyzes every visual element | significantly advanced |
+| prosocial behavior | 24-30mo+ | spontaneous sharing with nature, generalized | advanced |
+| imaginative play | 3-4 years | narrative hide & seek with book references | advanced |
 | dream feeding | 12-18mo weaning typical | ongoing, but regressing due to illness/travel | temporary regression |
 | drooling | 18-24mo decrease | improving, teething-related | on track |
 
@@ -241,10 +294,12 @@ tracking mira's development against typical milestones - updated alongside notes
 - **metacognitive self-assessment**: differentiating when she needs help vs wants independence
 - **sustained attention**: 30-50 minute reading sessions far exceed typical attention spans
 - **body autonomy**: unusually clear and consistent boundaries for her age
+- **prosocial behavior**: spontaneously generalizes caring routines (sharing food with nature) across contexts
+- **imaginative play**: engages in narrative hide & seek with book character references, showing symbolic play and story engagement
 
 areas of temporary regression (dream feeding, drooling) are likely explained by recent teething, illness, and travel disruption, and show signs of improvement. these are not developmental concerns.
 
-the combination of advanced receptive language, early literacy, sustained attention, and self-awareness suggests a child who is cognitively tracking well ahead of typical milestones while developing healthy self-regulation and autonomy.
+the combination of advanced receptive language, early literacy, sustained attention, self-awareness, and emerging prosocial/imaginative capacities suggests a child who is cognitively and socially tracking well ahead of typical milestones while developing healthy self-regulation and autonomy.
 
 ---
 
