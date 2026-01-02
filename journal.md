@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-01 / night](#2026-01-01-night)
 - [2026-01-01 / evening](#2026-01-01-evening)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-27 / 04:44 pm](#2025-12-27-0444-pm)
@@ -28,6 +29,46 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-01-01 / night
+
+### research: indian parents on homeschooling - sentiments & questions
+
+**what we did:**
+- conducted extensive research sweep across web, forums, podcasts, social media, and communities
+- captured what indian parents are actually thinking, asking, and debating about homeschooling and alternative education (2024-2025)
+- created comprehensive research doc at `research/indian-parents-homeschooling-sentiments.md`
+
+**key findings:**
+- homeschooling growing but still niche (~4% of parents, ~10,000+ families) - concentrated in metros
+- post-covid interest spike - 60% of parents globally held more favorable views after pandemic
+- primary drivers: broken traditional system (stress, rote learning, competition), personalized learning desire, ai/future anxiety
+- biggest concerns: socialization, board exam pathways (nios/igcse), family pressure, working parent feasibility
+- early childhood (1-5yo): parents questioning necessity of preschool, play-based home learning gaining traction
+- the ai narrative: 38% of indian students worried about job security; parents sensing school-to-job pipeline breaking
+
+**platforms/voices captured:**
+- communities: swashikshan, apni pathshala, aarohi, shikshantar
+- facebook groups: homeschooling india, city-specific groups
+- podcasts: the modern indian parent, big talk about tiny humans, kidsstoppress
+- creators: that indian mom (aparajita), @myteenytot, nidhi
+- quora threads on homeschooling questions
+
+**themes:**
+- tension between desire (personalized, stress-free) and fear (ruining future, societal judgment)
+- early years feel natural for home learning; anxiety increases as board exams approach
+- working parents question feasibility but strategies exist (flexible schedules, outside help)
+- legal status clear (legal, not regulated) but grey area creates uncertainty
+
+**why:**
+- understand the broader landscape of what parents in india are thinking about education
+- ground our approach in real conversations happening now
+- identify where our work on mira's learning connects to larger trends
+
+**files created:**
+- research/indian-parents-homeschooling-sentiments.md
+
 ---
 
 ## 2026-01-01 / evening

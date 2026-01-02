@@ -9,7 +9,7 @@ tag index across the repo.
 - [tags](#tags)
 - [sources / references](#sources--references)
 
-generated: 2026-01-01 / 07:48 pm
+generated: 2026-01-01 / 08:06 pm
 
 ---
 
@@ -22,6 +22,12 @@ generated: 2026-01-01 / 07:48 pm
 
 ### #agent-guidelines
 - [agents.md](../agents.md)
+
+### #ai-education-future
+- [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
+
+### #alternative-education
+- [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
 
 ### #attachment-theory
 - [formative years](../research/formative-years.md)
@@ -79,6 +85,9 @@ generated: 2026-01-01 / 07:48 pm
 - [agents.md](../agents.md)
 - [claude.md](../CLAUDE.md)
 
+### #early-childhood
+- [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
+
 ### #early-childhood-development
 - [formative years](../research/formative-years.md)
 
@@ -102,6 +111,9 @@ generated: 2026-01-01 / 07:48 pm
 
 ### #homeschool-setup
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
+
+### #homeschooling-india
+- [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
 
 ### #homeschooling-vision
 - [homeschooling](../README.md)
@@ -133,6 +145,9 @@ generated: 2026-01-01 / 07:48 pm
 
 ### #mira-profile
 - [notes about mira](../profile/notes-about-mira.md)
+
+### #parent-sentiments
+- [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
 
 ### #parenting-research
 - [formative years](../research/formative-years.md)

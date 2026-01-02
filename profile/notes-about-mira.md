@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
 - [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
@@ -17,6 +18,46 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-02 / 08:56 pm
+
+### emotional connection & rituals (bedtime/waking)
+
+**bedtime ritual (tonight):**
+- going to room with mumma, said "bye baba, see you"
+- papa said "good night, doody, sweet dreams, sleep well"
+- she came running back saying "huggie" - we hugged
+- then said "kissi" (her word for kiss) - bent down, hugged again
+- she brought her face forward for nose-to-nose rubbing kiss (our version)
+- then said bye to christmas tree, lights, santa, and papa again
+- took two books from her library (on the mat)
+- walked inside continuing "bye baba, bye bye"
+
+**waking ritual:**
+- if we're sleeping and she wakes up (most mornings), she says "hi mumma, hi baba"
+- comes to huggie us
+- sometimes lies down hugging mumma/papa for a bit before starting her day
+- sometimes lies there and asks papa to read a book while she sips milk/puree
+
+### social awareness & people tracking
+
+**in-the-moment awareness:**
+- example: in a car going to gurudwara/temple with mumma, baba, doody, nanu, nani
+- she repeats everyone's names to herself (like she does with other things)
+- uses "saare" (everyone) with "jai jai" (hindi version of praying to god)
+- in a big space where people might not be visible, she asks "nanu?" "nani?"
+- especially notices if someone is missing when walking back to car - mentions it
+
+**event-people memory:**
+- when we mention christmas, she starts calling out names of friends who visited:
+  - neha → "nia"
+  - abhishek → "a-jake"
+  - anaisha → "shaisha"
+  - krishay → "sishay"
+- she takes their names as if remembering them, the event, what she did
+- does this for a good number of events from the past
+
+---
 
 ## 2026-01-01 / afternoon
 
