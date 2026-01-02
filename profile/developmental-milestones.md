@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
 - [2025-12-25 / 12:27 pm](#2025-12-25-1227-pm)
@@ -17,6 +18,105 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-02 / 08:56 pm
+
+### age: 19.5 months
+
+---
+
+### social-emotional development
+
+#### attachment & emotional expression (bedtime/waking rituals)
+**observation:** at bedtime, mira said "bye baba, see you", then ran back for "huggie", then requested "kissi" (kiss), did nose-to-nose rubbing kiss, said bye to christmas tree/lights/santa/papa again, took two books, and continued saying "bye baba, bye bye" while walking inside. in the mornings, she wakes saying "hi mumma, hi baba", hugs parents, sometimes lies there hugging before starting her day, sometimes asks for a book while sipping milk.
+
+**milestone context:**
+- typical 18-24 month development: shows affection for familiar people, may wave goodbye
+- typical 24-30 month development: engages in simple back-and-forth with caregivers, shows more elaborate greeting/parting behaviors
+- typical 3-4 year development: engages in extended emotional exchanges, expresses love verbally and physically
+- mira at 19.5mo:
+  - **multi-step parting ritual**: not just "bye" but returns for hug, then kiss, then nose-rub, then says bye to objects, then continues saying bye
+  - **initiates physical affection**: uses words ("huggie", "kissi") to request specific forms of connection
+  - **extends goodbye to objects**: says bye to christmas tree, lights, santa - animistic connection or ritual completeness
+  - **morning connection-seeking**: wakes with greetings, seeks physical closeness, sometimes just lies there hugging
+  - **verbal emotional vocabulary**: "see you", "huggie", "kissi" - expressive language for emotional connection
+- this demonstrates:
+  - **secure attachment**: comfortable leaving but wants to mark the transition with connection
+  - **emotional regulation through ritual**: the extended goodbye helps her manage the separation
+  - **verbal-physical integration**: uses words to initiate physical expressions of affection
+  - **relationship prioritization**: even while leaving, comes back to complete the emotional exchange
+- assessment: **advanced** - sophisticated emotional expression and attachment rituals beyond typical 19.5mo
+
+---
+
+#### social awareness & group tracking
+**observation:** in a car with family (mumma, baba, doody, nanu, nani), she repeats everyone's names, uses "saare" (everyone) + "jai jai" (praying). in large spaces, asks about people not visible ("nanu?" "nani?"). notices if someone is missing when returning to car.
+
+**milestone context:**
+- typical 18-24 month development: recognizes familiar people, may notice when parent leaves the room
+- typical 24-30 month development: names family members, notices who is present/absent in immediate context
+- typical 3-4 year development: understands group membership, can account for who "should" be present
+- mira at 19.5mo:
+  - **actively inventories group members**: repeats everyone's names to herself (a form of counting/accounting)
+  - **uses collective language**: "saare" (everyone) - understands group as a unit
+  - **monitors group integrity**: in unfamiliar/large spaces, checks that everyone is still together
+  - **notices absence**: specifically asks about missing members, alerts when someone isn't visible
+- this demonstrates:
+  - **working memory for social groups**: holds mental representation of who "should" be present
+  - **social responsibility/care**: concerned about group completeness, not just self
+  - **spatial-social integration**: tracks people across physical space
+  - **verbal checking**: uses language to verify group status
+- assessment: **advanced** - social group tracking and concern for completeness is sophisticated for 19.5mo
+
+---
+
+### memory & cognitive development
+
+#### episodic memory (event-people associations)
+**observation:** when "christmas" is mentioned, she starts calling out names of friends who visited: neha → "nia", abhishek → "a-jake", anaisha → "shaisha", krishay → "sishay". she takes their names as if remembering them, the event, what she did. does this for multiple past events.
+
+**milestone context:**
+- typical 18-24 month development: remembers familiar routines, may recognize places/objects from past
+- typical 24-30 month development: beginning episodic memory - can recall specific events when prompted
+- typical 3-4 year development: can narrate past events, remembers and discusses experiences
+- mira at 19.5mo:
+  - **event-triggered recall**: hearing "christmas" activates memory of the event and associated people
+  - **person-event binding**: associates specific people with specific events
+  - **phonological approximations**: creates consistent pronunciations for names (neha→nia, abhishek→a-jake)
+  - **multi-event memory**: does this for "a good number of events" - not just one
+  - **apparent reliving**: the way she says names suggests she's re-experiencing/remembering, not just listing
+- this demonstrates:
+  - **episodic memory formation**: encoding specific events with contextual details (who was there)
+  - **retrieval cues**: verbal triggers ("christmas") activate associated memories
+  - **social memory**: people are central to her event memories
+  - **autobiographical development**: early formation of personal event history
+- assessment: **advanced** - episodic memory with person-event binding and verbal recall is sophisticated for 19.5mo
+
+---
+
+### updated assessment additions at 19.5 months
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| attachment rituals | 24-30mo+ | multi-step bedtime/waking connection rituals | advanced |
+| emotional vocabulary | 24mo+ | "huggie", "kissi", "see you" - initiates affection | advanced |
+| social group tracking | 24-30mo+ | inventories group, notices missing members | advanced |
+| episodic memory | 24-30mo+ | event-triggered recall with person associations | advanced |
+
+**what these observations reveal:**
+
+1. **emotional intelligence**: mira's bedtime ritual isn't just attachment - it's emotional regulation. the multi-step goodbye (bye → returns for hug → kiss → nose-rub → bye to objects → continued bye) helps her manage the transition. this is a self-created ritual for emotional processing.
+
+2. **social cognition depth**: her group tracking behavior (repeating names, noticing absences, checking on people in unfamiliar spaces) suggests:
+   - **theory of mind precursors**: understanding that people exist when not visible
+   - **social responsibility**: concern for group integrity, not just self
+   - **mental representation**: holding a "who should be here" model in working memory
+
+3. **memory architecture**: her event-people associations show early autobiographical memory formation. she's not just remembering "christmas happened" but "christmas happened with these specific people" - this is the foundation of narrative self-understanding.
+
+4. **verbal-emotional integration**: she uses language to initiate emotional exchanges ("huggie", "kissi") rather than just responding to them. this shows language as a tool for emotional connection, not just communication.
+
+---
 
 ## 2026-01-01 / afternoon
 
