@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
@@ -18,6 +19,124 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-05 / 07:51 pm
+
+### age: ~20 months
+
+---
+
+### language & communication
+
+#### vocabulary breadth & categorization
+**observation:** vocabulary continues to expand rapidly across multiple domains:
+- help/action: "help", "open/open nahi", "spoon", "glass", "plate", "fork", "uthao", "hato", "up up"
+- social: "how are you?", "see you", "thank you", "please"
+- calling/directing: "aao, aaja, come, aa jao" (come) / "jao" (go)
+- clothing: shoes, socks, bib, diaper, panty, shorts (everything else = "clothes")
+- color+noun: "black ant", "red shoes", "yellow ball"
+- book titles: "apple go", "audrey", "coco", "lion", "kevin", "welcome", "time"
+
+**milestone context:**
+- typical 18-month milestone: 10-25 words, mostly nouns
+- typical 24-month milestone: 50+ words, beginning two-word combinations
+- typical 24-30 month milestone: vocabulary explosion, beginning to categorize, simple adjective+noun
+- mira at ~20mo:
+  - **domain-specific vocabulary**: has specific words for utensils, clothing items, actions
+  - **categorical thinking**: uses "clothes" as a category term for items without specific names
+  - **adjective+noun combinations**: prefixes colors to nouns ("black ant", "red shoes")
+  - **bilingual action verbs**: uses hindi verbs appropriately (uthao, hato, jao, aao)
+  - **abbreviated book titles**: creates her own shorthand for book names
+- assessment: **advanced** - vocabulary breadth, categorization, and adjective+noun combinations ahead of typical 20mo
+
+---
+
+#### pragmatic language (social conventions)
+**observation:**
+- uses "how are you?" selectively after greetings (not automatic, context-dependent)
+- uses "see you" consistently with goodbyes
+- knows when to use "thank you" and "please" appropriately
+- "thank you" used heavily 4-6 months ago, slightly less now
+
+**milestone context:**
+- typical 18-24 month milestone: may wave bye, beginning to use simple social words
+- typical 24-30 month milestone: uses please/thank you with prompting
+- typical 3-4 year milestone: uses social conventions appropriately without prompting
+- mira at ~20mo:
+  - **selective use of "how are you?"**: not scripted/automatic - she chooses when to use it
+  - **consistent "see you"**: has integrated this into her goodbye ritual
+  - **appropriate please/thank you**: knows the contexts (though thank you frequency has naturally varied)
+- the selective use of "how are you?" is notable - she's not just mimicking, she's applying social judgment
+- assessment: **advanced** - pragmatic language with social judgment beyond typical 20mo
+
+---
+
+#### verb usage & directives
+**observation:**
+- uses verbs to direct others: "aao/aaja/come/aa jao" (come), "jao" (go), "uthao" (pick up), "hato" (move aside)
+- combines name + directive: "baba, aaja" / "mumma, aa jao" / "baba, jao"
+- uses these playfully and functionally (e.g., "baba, jao" to lock papa out on balcony)
+
+**milestone context:**
+- typical 18-24 month milestone: uses simple verbs, may combine with noun
+- typical 24-30 month milestone: uses verbs to direct others, beginning to give commands
+- mira at ~20mo:
+  - **bilingual verb commands**: uses both hindi and english verbs for directing
+  - **name+verb combinations**: structures commands with person addressed first
+  - **playful vs functional use**: understands the difference, uses "jao" both playfully and seriously
+- assessment: **advanced** - directive verb use with bilingual competence and playful application
+
+---
+
+#### semantic organization (book titles)
+**observation:** refers to books by abbreviated/key words she's created:
+- "apple go" → how do apples grow
+- "audrey" → audrey hepburn
+- "coco" → coco chanel
+- "lion" → the lion inside
+- "kevin" → the koala who could
+- "welcome" → welcome
+- "time" → garden time
+
+**milestone context:**
+- typical 18-24 month development: may recognize book by cover, point to request
+- typical 24-30 month development: may name books, often by a key word or character
+- mira at ~20mo:
+  - **creates consistent abbreviations**: "apple go" for "how do apples grow" shows she's extracted key words
+  - **character-based naming**: "audrey", "coco", "lion", "kevin" - identifies books by protagonist
+  - **single-word titles**: "welcome", "time" - efficient retrieval labels
+- this shows:
+  - **semantic extraction**: pulling meaningful words from longer titles
+  - **consistent naming**: uses the same abbreviation each time (not random)
+  - **memory organization**: has created a personal indexing system for her book collection
+- assessment: **advanced** - semantic organization and self-created naming conventions
+
+---
+
+### updated assessment additions at ~20 months
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| vocabulary breadth | 24mo+ | domain-specific across utensils, clothing, actions, colors | advanced |
+| categorical thinking | 24-30mo | uses "clothes" as category, specific items named | advanced |
+| adjective+noun combinations | 24-30mo | "black ant", "red shoes" | advanced |
+| social conventions | 24-30mo+ | selective "how are you?", consistent "see you", appropriate please/thank you | advanced |
+| directive verbs | 24-30mo | bilingual commands, name+verb structure | advanced |
+| semantic organization | 24-30mo | self-created book title abbreviations | advanced |
+
+**what this vocabulary snapshot reveals:**
+
+1. **categorical thinking emergence**: using "clothes" as a superordinate category while having specific words for common items (shoes, socks, bib) shows emerging taxonomic organization - a cognitive milestone typically seen 24-30mo.
+
+2. **bilingual pragmatic competence**: she's not just using two languages - she's using the right language for the right context. hindi action verbs (uthao, hato, jao, aao) feel natural for household directives, while english serves other functions.
+
+3. **selective social language**: the key insight on "how are you?" is that she uses it *selectively*. this isn't scripted mimicry - she's making social judgments about when it's appropriate. this is pragmatic sophistication.
+
+4. **self-created indexing**: her book abbreviations ("apple go", "kevin", "time") show she's created her own retrieval system. this is a form of metacognitive organization - she knows what *she* needs to say to get what she wants.
+
+5. **playful language use**: using "baba, jao" to playfully lock papa out shows she understands language can be used for play and social maneuvering, not just functional communication.
+
+---
 
 ## 2026-01-02 / 08:56 pm
 

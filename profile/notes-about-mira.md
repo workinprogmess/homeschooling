@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
 - [2025-12-25 / 03:23 pm](#2025-12-25-0323-pm)
@@ -18,6 +19,47 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-05 / 07:51 pm
+
+### vocabulary expansion (continued)
+
+**help & action requests:**
+- "help" - general request when she needs assistance and doesn't have a specific word yet (e.g., taking off shoes)
+- "open" / "open nahi" - for cupboards, jars; "open nahi" when struggling to open something
+- "spoon", "glass", "plate", "fork" - specific utensil requests
+- "uthao" (hindi: pick me up) - when she wants to be picked up
+- "hato" (hindi: get aside/move) - when something/someone is in her way
+- "up up" - when something is up somewhere
+
+**social phrases (expanded):**
+- "how are you?" - added to greetings (hi aunty/didi/bhaiya/uncle), used selectively not every time
+- "see you" - added to goodbyes, used almost every time she says bye to someone
+- "thank you" - knows when to use it, used it heavily in past 4-6 months, slightly less now
+- "please" - knows when to use it, uses well
+
+**calling & directing people:**
+- calling someone: uses "aao, aaja, come, aa jao" as suffix → "baba, aaja" / "mumma, aa jao"
+- sending someone away: uses "jao" → "baba, jao" (e.g., playfully wants papa to go to balcony so she can lock him out by sliding door)
+
+**clothing vocabulary:**
+- specific words: shoes, socks, bib, diaper, panty, shorts
+- everything else: "clothes"
+
+**color + noun combinations:**
+- now prefixes colors to describe things
+- examples: "black ant", "red shoes", "yellow ball"
+
+**book names (abbreviated/remembered):**
+- "apple go" → how do apples grow
+- "audrey" → audrey hepburn (little people big dreams)
+- "coco" → coco chanel
+- "lion" → the lion inside
+- "kevin" → the koala who could
+- "welcome" → welcome (book about friendship)
+- "time" → garden time
+
+---
 
 ## 2026-01-02 / 08:56 pm
 
