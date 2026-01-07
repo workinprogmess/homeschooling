@@ -10,17 +10,17 @@ let currentTab = 'library';
 let selectedBook = null;
 
 // initialize
-document.addEventListener('DOMContentLoaded', () => {
-  initSupabase();
+document.addEventListener('DOMContentLoaded', async () => {
   setupEventListeners();
+  await initSupabase();
   loadBooks();
 });
 
-function initSupabase() {
+async function initSupabase() {
   // check if supabase credentials are configured
   if (SUPABASE_URL === 'YOUR_SUPABASE_URL') {
     console.warn('supabase not configured - using demo mode');
-    loadDemoData();
+    await loadDemoData();
     return;
   }
 
@@ -107,185 +107,71 @@ async function loadBooks() {
   }
 }
 
-function loadDemoData() {
-  // demo data based on mira's actual book collection
+async function loadDemoData() {
+  // full book collection from mira's library
   allBooks = [
-    {
-      id: '1',
-      title: 'how do apples grow',
-      author: 'harriet ziefert',
-      mira_name: 'apple go',
-      status: 'current_favorite',
-      read_count: 50,
-      notes: 'loves the lifecycle, asks for it by her name',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '2',
-      title: 'garden time',
-      author: null,
-      mira_name: 'time',
-      status: 'current_favorite',
-      read_count: 50,
-      notes: null,
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '3',
-      title: 'here we are',
-      author: 'oliver jeffers',
-      mira_name: null,
-      status: 'current_favorite',
-      read_count: 40,
-      notes: 'visual depth, lots to explore',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '4',
-      title: 'the leaf thief',
-      author: 'alice hemming',
-      mira_name: null,
-      status: 'current_favorite',
-      read_count: 30,
-      notes: 'squirrel character, seasonal theme',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '5',
-      title: 'tap the magic tree',
-      author: 'christie matheson',
-      mira_name: null,
-      status: 'current_favorite',
-      read_count: 40,
-      notes: 'interactive, loves the changes',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '6',
-      title: 'the lion inside',
-      author: 'rachel bright',
-      mira_name: 'lion',
-      status: 'outgrown',
-      read_count: 50,
-      notes: 'used to be top favorite, memorized completely',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '7',
-      title: 'the koala who could',
-      author: 'rachel bright',
-      mira_name: 'kevin',
-      status: 'outgrown',
-      read_count: 50,
-      notes: 'memorized, calls it kevin',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '8',
-      title: 'the very hungry caterpillar',
-      author: 'eric carle',
-      mira_name: null,
-      status: 'classic',
-      read_count: 50,
-      notes: 'classic, fully memorized',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '9',
-      title: 'welcome',
-      author: 'julia donaldson',
-      mira_name: 'welcome',
-      status: 'currently_reading',
-      read_count: 30,
-      notes: 'friendship theme',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '10',
-      title: 'press here',
-      author: 'hervé tullet',
-      mira_name: null,
-      status: 'currently_reading',
-      read_count: 30,
-      notes: 'interactive dots',
-      is_recommendation: false,
-      cover_url: null
-    },
-    {
-      id: '11',
-      title: 'audrey hepburn',
-      author: 'little people big dreams',
-      mira_name: 'audrey',
-      status: 'outgrown',
-      read_count: 50,
-      notes: 'lots of visual detail, dancing/acting relatable',
-      is_recommendation: false,
-      series: 'little people big dreams',
-      cover_url: null
-    },
-    {
-      id: '12',
-      title: 'coco chanel',
-      author: 'little people big dreams',
-      mira_name: 'coco',
-      status: 'outgrown',
-      read_count: 50,
-      notes: 'sewing/fashion relatable',
-      is_recommendation: false,
-      series: 'little people big dreams',
-      cover_url: null
-    },
-    {
-      id: '13',
-      title: "we're going on a bear hunt",
-      author: 'michael rosen',
-      mira_name: null,
-      status: null,
-      read_count: 0,
-      notes: 'rhythmic, predictable',
-      is_recommendation: true,
-      recommendation_status: null,
-      recommendation_notes: null,
-      cover_url: null
-    },
-    {
-      id: '14',
-      title: 'lost and found',
-      author: 'oliver jeffers',
-      mira_name: null,
-      status: null,
-      read_count: 0,
-      notes: 'she likes here we are by same author',
-      is_recommendation: true,
-      recommendation_status: null,
-      recommendation_notes: null,
-      cover_url: null
-    },
-    {
-      id: '15',
-      title: 'the day the crayons quit',
-      author: 'drew daywalt',
-      mira_name: null,
-      status: null,
-      read_count: 0,
-      notes: 'visual storytelling',
-      is_recommendation: true,
-      recommendation_status: null,
-      recommendation_notes: null,
-      cover_url: null
-    }
+    // current favorites
+    { id: '1', title: 'how do apples grow', author: 'harriet ziefert', mira_name: 'apple go', status: 'current_favorite', read_count: 50, notes: 'loves the lifecycle', is_recommendation: false },
+    { id: '2', title: 'garden time', author: 'felicity brooks', mira_name: 'time', status: 'current_favorite', read_count: 50, notes: null, is_recommendation: false },
+    { id: '3', title: 'here we are', author: 'oliver jeffers', mira_name: null, status: 'current_favorite', read_count: 40, notes: 'visual depth, lots to explore', is_recommendation: false },
+    { id: '4', title: 'the leaf thief', author: 'alice hemming', mira_name: null, status: 'current_favorite', read_count: 30, notes: 'squirrel character, seasonal theme', is_recommendation: false },
+    { id: '5', title: 'tap the magic tree', author: 'christie matheson', mira_name: null, status: 'current_favorite', read_count: 40, notes: 'interactive, loves the changes', is_recommendation: false },
+
+    // currently reading
+    { id: '6', title: 'welcome', author: 'mo willems', mira_name: 'welcome', status: 'currently_reading', read_count: 30, notes: 'friendship theme', is_recommendation: false },
+    { id: '7', title: 'press here', author: 'hervé tullet', mira_name: null, status: 'currently_reading', read_count: 30, notes: 'interactive dots', is_recommendation: false },
+    { id: '8', title: 'the wonderful things you will be', author: 'emily winfield martin', mira_name: null, status: 'currently_reading', read_count: 20, notes: 'gentle, aspirational', is_recommendation: false },
+    { id: '9', title: 'a color of his own', author: 'leo lionni', mira_name: null, status: 'currently_reading', read_count: 20, notes: 'chameleon, colors', is_recommendation: false },
+    { id: '10', title: '1000 words', author: 'dk', mira_name: null, status: 'currently_reading', read_count: 30, notes: 'vocabulary reference', is_recommendation: false },
+    { id: '11', title: '1000 things', author: 'dk', mira_name: null, status: 'currently_reading', read_count: 30, notes: 'vocabulary reference', is_recommendation: false },
+
+    // outgrown favorites
+    { id: '12', title: 'the lion inside', author: 'rachel bright', mira_name: 'lion', status: 'outgrown', read_count: 50, notes: 'used to be top favorite, memorized completely', is_recommendation: false },
+    { id: '13', title: 'the koala who could', author: 'rachel bright', mira_name: 'kevin', status: 'outgrown', read_count: 50, notes: 'memorized', is_recommendation: false },
+
+    // classics
+    { id: '14', title: 'the very hungry caterpillar', author: 'eric carle', mira_name: null, status: 'classic', read_count: 50, notes: 'classic, fully memorized', is_recommendation: false },
+    { id: '15', title: 'from head to toe', author: 'eric carle', mira_name: null, status: 'classic', read_count: 40, notes: 'action book', is_recommendation: false },
+
+    // little people big dreams series (outgrown)
+    { id: '16', title: 'audrey hepburn', author: 'maria isabel sánchez vegara', mira_name: 'audrey', status: 'outgrown', read_count: 50, notes: 'dancing/acting relatable, visual detail', series: 'little people big dreams', is_recommendation: false },
+    { id: '17', title: 'coco chanel', author: 'maria isabel sánchez vegara', mira_name: 'coco', status: 'outgrown', read_count: 50, notes: 'sewing/fashion relatable', series: 'little people big dreams', is_recommendation: false },
+    { id: '18', title: 'frida kahlo', author: 'maria isabel sánchez vegara', mira_name: null, status: 'outgrown', read_count: 40, notes: 'painting relatable', series: 'little people big dreams', is_recommendation: false },
+    { id: '19', title: 'steve jobs', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 30, notes: 'tech visuals less relatable', series: 'little people big dreams', is_recommendation: false },
+    { id: '20', title: 'stephen hawking', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 20, notes: 'space visuals interesting but abstract', series: 'little people big dreams', is_recommendation: false },
+    { id: '21', title: 'david attenborough', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 20, notes: 'animals work well', series: 'little people big dreams', is_recommendation: false },
+    { id: '22', title: 'jane goodall', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 20, notes: 'animals + nature', series: 'little people big dreams', is_recommendation: false },
+    { id: '23', title: 'taylor swift', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 15, notes: 'music/dancing relatable', series: 'little people big dreams', is_recommendation: false },
+    { id: '24', title: 'princess diana', author: 'maria isabel sánchez vegara', mira_name: null, status: 'other', read_count: 15, notes: 'less visual density', series: 'little people big dreams', is_recommendation: false },
+
+    // new additions
+    { id: '25', title: 'giraffes can\'t dance', author: 'giles andreae', mira_name: null, status: 'currently_reading', read_count: 5, notes: 'just added', is_recommendation: false },
+    { id: '26', title: 'the snail and the whale', author: 'julia donaldson', mira_name: null, status: 'currently_reading', read_count: 5, notes: 'just added', is_recommendation: false },
+    { id: '27', title: 'slowly slowly slowly said the sloth', author: 'eric carle', mira_name: null, status: 'currently_reading', read_count: 5, notes: 'just added', is_recommendation: false },
+    { id: '28', title: 'tomorrow\'s alphabet', author: 'george shannon', mira_name: null, status: 'currently_reading', read_count: 5, notes: 'concept loved', is_recommendation: false },
+
+    // recommendations
+    { id: '29', title: 'we\'re going on a bear hunt', author: 'michael rosen', mira_name: null, status: null, read_count: 0, notes: 'rhythmic, predictable', is_recommendation: true, recommendation_status: null },
+    { id: '30', title: 'lost and found', author: 'oliver jeffers', mira_name: null, status: null, read_count: 0, notes: 'she likes here we are by same author', is_recommendation: true, recommendation_status: null },
+    { id: '31', title: 'the day the crayons quit', author: 'drew daywalt', mira_name: null, status: null, read_count: 0, notes: 'visual storytelling', is_recommendation: true, recommendation_status: null }
   ];
 
+  // fetch covers for all books
+  await fetchAllCovers();
   renderBooks();
+}
+
+// fetch covers from openlibrary for all books without covers
+async function fetchAllCovers() {
+  const booksNeedingCovers = allBooks.filter(b => !b.cover_url);
+
+  // fetch in batches to avoid overwhelming the api
+  for (const book of booksNeedingCovers) {
+    const cover = await searchBookCover(book.title, book.author);
+    if (cover) {
+      book.cover_url = cover;
+    }
+  }
 }
 
 function renderBooks() {
