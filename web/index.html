@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mira's library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>mira's library</h1>
+      <p class="subtitle">books she loves, books she's exploring, books we're thinking about</p>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="library">my books</button>
+      <button class="tab" data-tab="recommendations">recommendations</button>
+    </nav>
+
+    <main>
+      <!-- library section -->
+      <section id="library" class="tab-content active">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">all</button>
+          <button class="filter-btn" data-filter="current_favorite">current favorites</button>
+          <button class="filter-btn" data-filter="currently_reading">currently reading</button>
+          <button class="filter-btn" data-filter="outgrown">outgrown</button>
+          <button class="filter-btn" data-filter="classic">classics</button>
+          <button class="filter-btn" data-filter="read_50_plus">read 50+ times</button>
+        </div>
+        <div class="books-grid" id="library-grid">
+          <!-- books will be inserted here -->
+        </div>
+      </section>
+
+      <!-- recommendations section -->
+      <section id="recommendations" class="tab-content">
+        <p class="section-intro">books we're thinking about adding to the collection</p>
+        <div class="books-grid" id="recommendations-grid">
+          <!-- recommendations will be inserted here -->
+        </div>
+      </section>
+    </main>
+
+    <!-- book detail modal -->
+    <div class="modal" id="book-modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div class="modal-body">
+          <div class="modal-cover">
+            <img src="" alt="" id="modal-cover-img">
+          </div>
+          <div class="modal-info">
+            <h2 id="modal-title"></h2>
+            <p class="modal-author" id="modal-author"></p>
+            <p class="modal-mira-name" id="modal-mira-name"></p>
+            <div class="modal-stats">
+              <span class="stat" id="modal-read-count"></span>
+              <span class="stat status-badge" id="modal-status"></span>
+            </div>
+            <div class="modal-notes-section">
+              <label for="modal-notes">notes</label>
+              <textarea id="modal-notes" placeholder="add notes about this book..."></textarea>
+              <button class="save-notes-btn" id="save-notes-btn">save notes</button>
+            </div>
+            <!-- for recommendations only -->
+            <div class="modal-recommendation-section" id="modal-rec-section" style="display: none;">
+              <div class="yay-nay-buttons">
+                <button class="yay-btn" id="yay-btn">yay - want it!</button>
+                <button class="nay-btn" id="nay-btn">nay - not for us</button>
+              </div>
+              <textarea id="modal-rec-notes" placeholder="why we want/don't want this..."></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- add book modal -->
+    <button class="add-book-btn" id="add-book-btn">+ add book</button>
+    <div class="modal" id="add-modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2>add a book</h2>
+        <form id="add-book-form">
+          <div class="form-group">
+            <label for="add-title">title *</label>
+            <input type="text" id="add-title" required>
+          </div>
+          <div class="form-group">
+            <label for="add-author">author</label>
+            <input type="text" id="add-author">
+          </div>
+          <div class="form-group">
+            <label for="add-isbn">isbn (for cover lookup)</label>
+            <input type="text" id="add-isbn" placeholder="optional - helps find cover">
+          </div>
+          <div class="form-group">
+            <label for="add-mira-name">mira's name for it</label>
+            <input type="text" id="add-mira-name" placeholder="e.g., 'apple go'">
+          </div>
+          <div class="form-group">
+            <label for="add-status">status</label>
+            <select id="add-status">
+              <option value="currently_reading">currently reading</option>
+              <option value="current_favorite">current favorite</option>
+              <option value="outgrown">outgrown</option>
+              <option value="classic">classic</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="add-read-count">read count</label>
+            <input type="number" id="add-read-count" value="0" min="0">
+          </div>
+          <div class="form-group">
+            <label for="add-notes">notes</label>
+            <textarea id="add-notes"></textarea>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="add-is-recommendation">
+            <label for="add-is-recommendation">this is a recommendation (not owned yet)</label>
+          </div>
+          <button type="submit" class="submit-btn">add book</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

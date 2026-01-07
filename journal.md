@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-07 / evening](#2026-01-07-evening)
 - [2026-01-01 / night](#2026-01-01-night)
 - [2026-01-01 / evening](#2026-01-01-evening)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
@@ -29,6 +30,56 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-01-07 / evening
+
+### mira's library - books page project
+
+**what we did:**
+- created `resources/books-mira.md` - comprehensive catalog of mira's 44+ book collection with patterns and observations
+- built `web/` folder with full books page application:
+  - `index.html` - clean, playful ui for library browsing
+  - `styles.css` - soft colors (pink, sage, lavender, peach), rounded corners, gentle shadows
+  - `app.js` - full functionality with tabs, filters, book details, add book form
+  - `config.js` - supabase configuration placeholder
+  - `supabase-schema.sql` - database schema for books table
+
+**features built:**
+- "my books" tab with filters: all, current favorites, currently reading, outgrown, classics, read 50+ times
+- "recommendations" tab for books we're considering
+- book detail modal with notes editing
+- yay/nay interaction for recommendations (to track what we want vs don't want)
+- add book form with cover lookup via openlibrary api
+- demo mode with sample data from mira's actual collection (works without supabase)
+
+**patterns identified from book analysis:**
+- visual density matters for engagement
+- lifecycle/transformation books are strong draw (apples, caterpillar, magic tree)
+- memorization = mastery = ready for new
+- lpbd series works when actions are relatable (dancing, painting) + visual richness
+- naming = ownership (she gives books her own names: apple go, kevin, audrey, coco, time)
+
+**technical decisions:**
+- supabase for data persistence (user already uses for other projects)
+- openlibrary api for book covers (free, no auth needed)
+- vanilla js - no frameworks, keep it simple
+- vercel deployment ready
+
+**files created:**
+- `resources/books-mira.md`
+- `web/index.html`
+- `web/styles.css`
+- `web/app.js`
+- `web/config.js`
+- `web/supabase-schema.sql`
+
+**next steps:**
+- user to share remaining 10-15 books to add
+- configure supabase credentials
+- deploy to vercel
+- add book covers via openlibrary lookup
+
 ---
 
 ## 2026-01-01 / night
