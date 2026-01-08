@@ -15,6 +15,10 @@ mira's book collection - what she has, what she loves, what she's outgrown, and 
 - [other books](#other-books)
 - [patterns we've noticed](#patterns-weve-noticed)
 - [recommendations to consider](#recommendations-to-consider)
+- [new recommendations (jan 2026)](#new-recommendations-jan-2026)
+- [cause-effect toys & activities](#cause-effect-toys--activities)
+- [imaginative play (emerging at ~20mo)](#imaginative-play-emerging-at-20mo)
+- [top 3 to order (jan 2026)](#top-3-to-order-jan-2026)
 <!-- toc:end -->
 ---
 
@@ -137,6 +141,90 @@ books we're thinking about adding (from earlier research)
 
 **rejected:**
 - lift-the-flap books - too simple for her current level
+
+---
+
+## new recommendations (jan 2026)
+
+based on patterns + developmental stage (~20mo) - focusing on new authors/styles, discovery over repetition
+
+### vocabulary explosion
+
+| title | author | why |
+|-------|--------|-----|
+| the big book of words and pictures | ole könnecke | 1500+ words grouped by scenes, european illustration style different from dk |
+| richard scarry's best word book ever | richard scarry | dense detailed scenes with labels everywhere, lots to discover |
+
+### numbers beyond counting
+
+| title | author | why |
+|-------|--------|-----|
+| one is a snail, ten is a crab | april pulley sayre | counting by feet (snail=1, person=2, dog=4), introduces adding/grouping naturally |
+| anno's counting book | mitsumasa anno | wordless, same landscape through months with increasing objects, subtle, layered |
+| how many? | christopher danielson | asks "how many?" of ambiguous groupings, builds number sense not rote counting |
+| quack and count | keith baker | 7 ducklings in different groupings (3+4, 2+5), part-whole relationships |
+
+### science for toddlers
+
+| title | author | why |
+|-------|--------|-----|
+| baby loves quarks | ruth spiro | actual science simplified, charisse fosberry illustrations, new style |
+| the elements | theodore gray | photo-based, gorgeous visual density, coffee table style |
+| rosie revere, engineer | andrea beaty | failure/persistence + building/making, different from collection |
+
+### new authors/styles (discovery)
+
+| title | author | why |
+|-------|--------|-----|
+| over and under the pond | kate messner | cross-section nature, shows above/below water, lifecycle elements |
+| the quiet book | deborah underwood | explores kinds of quiet, renata liwska illustrations |
+| little blue truck | alice schertle | farm animals, sounds, jill mcelmurry's distinct style |
+| rosie's walk | pat hutchins | simple text, visually rich (fox following hen), classic different style |
+| the napping house | audrey wood | cumulative story, don wood's detailed paintings, stacking/layering |
+
+### imaginative play books
+
+| title | author | why |
+|-------|--------|-----|
+| llama llama red pajama | anna dewdney | bedtime routine, emotional resonance |
+| maisy series | lucy cousins | maisy does everyday things, models pretend play scenarios |
+
+---
+
+## cause-effect toys & activities
+
+for her developmental stage - cause-effect understanding growing
+
+**toys:**
+- ball runs / marble runs (hape quadrilla or simpler) - drop ball, watch path, predict outcome
+- stacking/knocking down - kapla blocks, mega bloks - build, topple, repeat
+- pop-up toys - push button → thing pops (melissa & doug)
+- musical instruments - drum, maraca - action → sound
+
+**activities:**
+- water play - pouring, funnels, waterwheels - cause-effect + physics
+- simple puzzles with knobs - action → completion
+
+---
+
+## imaginative play (emerging at ~20mo)
+
+**toys/props:**
+- play kitchen / food - she'll start "cooking" and "feeding" dolls/you
+- baby doll + accessories - bathing, feeding, putting to sleep - mimics her routines
+- cleaning toys - broom, mop, dustpan - she'll want to "help"
+- doctor kit - check heartbeat, give shots - processing experiences
+- phone/keys - pretend conversations (probably already doing this)
+- animal figures - schleich, safari ltd - make them walk, talk, eat - early storytelling
+- dress-up items - hats, bags, scarves - not full costumes yet, just accessories
+
+---
+
+## top 3 to order (jan 2026)
+
+1. **one is a snail, ten is a crab** - numbers beyond counting, clever concept, new
+2. **richard scarry's best word book ever** - vocabulary explosion, visual density she loves
+3. **baby loves quarks** - science intro, new author/illustrator, feeds curiosity
 
 ---
 
