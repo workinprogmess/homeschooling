@@ -20,6 +20,7 @@ research notes for choosing a first bike now and a pedal bike later.
 - [1-page comparison (price + landed cost snapshot)](#1-page-comparison-price-landed-cost-snapshot)
 - [india design-first / boutique leads (non-loud aesthetics)](#india-design-first-boutique-leads-non-loud-aesthetics)
 - [current picks (confirmed)](#current-picks-confirmed)
+- [introduction log](#introduction-log)
 - [transition plan (balance bike -> pedal)](#transition-plan-balance-bike-pedal)
 - [open questions to finalize a pick](#open-questions-to-finalize-a-pick)
 <!-- toc:end -->
@@ -193,7 +194,44 @@ research notes for choosing a first bike now and a pedal bike later.
 - still no clear india-based boutique pedal-bike brand that matches the minimalist eu aesthetic; most design-first pedal bikes appear to be european imports.
 
 ## current picks (confirmed)
-- todds helmet + wooden wedge (stand) for balance bike setup.
+- todds balance bike + helmet + wooden wedge (stand)
+- arrived: 03.01.2026
+
+## introduction log
+
+### 2026-01-07 (day 4)
+- bike is in the open, visible in the living space
+- she loved unboxing the bike, stand, and helmet
+- has not sat on it yet - shows no active interest in trying
+- papa asks daily (playfully): "today is the day" / "doody, lets cycle, shall we?" - no interest so far
+- **attempts so far (3 total):**
+  1. at unboxing (03.01)
+  2. a couple of days back
+  3. today (07.01)
+- all attempts were guided/prompted by papa, not self-initiated
+- she tries to sit but doesn't fully commit - **the issue is height**
+- her feet only just touch the ground; they don't settle flat with knee bend
+- she's correctly assessing that she doesn't have full control
+
+**fit analysis:**
+- todds minimum seat height: 12" (~30.5 cm)
+- mira's height: 90/91 cm → estimated inseam: ~32-35 cm (typical ratio)
+- margin is thin - she may be right at the edge of comfortable fit
+- **action:** measure inseam (floor to crotch) to confirm
+
+**what this tells us about her:**
+- consistent with documented metacognitive pattern: seeks help for risky/uncertain activities, insists on independence when competent
+- not fear - just accurate self-assessment that she doesn't have control yet
+- the relationship with the bike is forming (loved unboxing, sees it daily)
+
+**approach going forward:**
+1. stop asking - let it become "her thing" not "papa's thing"
+2. let the bike just *be there* in her space
+3. wait 2-4 weeks - growth at this age can make a real difference
+4. consider: can mumma/papa model scooting on it? videos of other toddlers?
+5. re-assess fit after measuring inseam
+
+---
 
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
