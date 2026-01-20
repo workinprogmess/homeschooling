@@ -108,6 +108,8 @@ async function loadBooks() {
 }
 
 async function loadDemoData() {
+  showLoading(true);
+
   // full book collection from mira's library (jan 2026)
   allBooks = [
     // current favorites (4)
@@ -176,7 +178,50 @@ async function loadDemoData() {
 
   // fetch covers for all books
   await fetchAllCovers();
+  updateFilterCounts();
   renderBooks();
+  showLoading(false);
+}
+
+// show/hide loading overlay
+function showLoading(show) {
+  const overlay = document.getElementById('loading-overlay');
+  if (overlay) {
+    if (show) {
+      overlay.classList.remove('hidden');
+    } else {
+      overlay.classList.add('hidden');
+    }
+  }
+}
+
+// update filter button counts
+function updateFilterCounts() {
+  const ownedBooks = allBooks.filter(b => !b.is_recommendation);
+
+  const counts = {
+    all: ownedBooks.length,
+    current_favorite: ownedBooks.filter(b => b.status === 'current_favorite').length,
+    currently_reading: ownedBooks.filter(b => b.status === 'currently_reading').length,
+    all_time_classic: ownedBooks.filter(b => b.status === 'all_time_classic').length,
+    read_50_plus: ownedBooks.filter(b => b.status === 'read_50_plus').length,
+    not_a_fan: ownedBooks.filter(b => b.status === 'not_a_fan').length
+  };
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const filter = btn.dataset.filter;
+    const count = counts[filter];
+    if (count !== undefined) {
+      // add count span if not exists
+      let countSpan = btn.querySelector('.filter-count');
+      if (!countSpan) {
+        countSpan = document.createElement('span');
+        countSpan.className = 'filter-count';
+        btn.appendChild(countSpan);
+      }
+      countSpan.textContent = count;
+    }
+  });
 }
 
 // fetch covers from openlibrary for all books without covers
@@ -240,11 +285,15 @@ function createBookCard(book, isRecommendation = false) {
   };
 
   const coverHtml = book.cover_url
-    ? `<img src="${book.cover_url}" alt="${book.title}" class="book-cover">`
+    ? `<img src="${book.cover_url}" alt="${book.title}" class="book-cover" loading="lazy">`
     : `<div class="book-cover placeholder">📚</div>`;
 
   const miraNameHtml = book.mira_name
     ? `<p class="book-mira-name">"${book.mira_name}"</p>`
+    : '';
+
+  const seriesHtml = book.series
+    ? `<span class="series-badge">${book.series === 'little people big dreams' ? 'lpbd' : book.series}</span>`
     : '';
 
   const statsHtml = !isRecommendation
@@ -258,14 +307,25 @@ function createBookCard(book, isRecommendation = false) {
     ? `<span class="rec-status ${book.recommendation_status}">${book.recommendation_status}</span>`
     : '';
 
+  // truncate notes for preview
+  const notesPreview = book.notes && book.notes.length > 60
+    ? book.notes.substring(0, 60) + '...'
+    : book.notes;
+
+  const notesHtml = notesPreview && !isRecommendation
+    ? `<p class="book-notes-preview">${notesPreview}</p>`
+    : '';
+
   return `
     <div class="book-card" data-id="${book.id}">
       ${coverHtml}
+      ${seriesHtml}
       <h3 class="book-title">${book.title}</h3>
       ${book.author ? `<p class="book-author">${book.author}</p>` : ''}
       ${miraNameHtml}
       ${statsHtml}
       ${recStatusHtml}
+      ${notesHtml}
     </div>
   `;
 }
