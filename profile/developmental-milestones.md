@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
@@ -19,6 +20,175 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-21 / 12:30 am
+
+### age: ~20 months
+
+---
+
+### cognitive development (from book inventory review)
+
+#### vocabulary acquisition from books
+**observation:** from full book collection review, documented specific vocabulary learned from individual books:
+- 'rainbow' from steve jobs
+- 'cheers', cutting/sharing cake, parachuting from where is the green sheep
+- waving the hand from michelle obama
+- singing from taylor swift
+- sewing from coco chanel
+- painting, awareness of feet from frida kahlo
+- chimpanzee names (fifi, gigi, dave) from jane goodall
+- big/small, stompy & noisy v shy & quiet, games including chess, clothes from welcome
+
+**milestone context:**
+- typical 18-24 month development: learns words from repeated exposure, primarily nouns and some verbs
+- typical 24-30 month development: vocabulary explosion, learns words from context, beginning to learn abstract concepts
+- mira at ~20mo:
+  - **source-specific vocabulary**: can trace specific words back to specific books - shows episodic memory for learning
+  - **concept learning from narrative**: learned "cheers", "parachuting", "sewing" from seeing them in book contexts
+  - **proper name retention**: remembers character names from books (fifi, gigi, dave - chimpanzees from jane goodall)
+  - **action-to-concept mapping**: learned "singing" from taylor swift book, "sewing" from coco chanel
+  - **physical awareness transfer**: looking at her own feet after reading about frida's feet
+- this demonstrates:
+  - **book-to-life transfer**: applying learned concepts outside book context
+  - **episodic learning memory**: remembers not just what she learned but where she learned it
+  - **active engagement**: not passive absorption but active incorporation of new vocabulary
+- assessment: **advanced** - vocabulary acquisition with source memory and concept transfer beyond typical 20mo
+
+---
+
+#### conceptual reasoning (from books)
+**observation:** from "what's right, what's wrong" book, understands that a question can have multiple wrong answers before arriving at a right answer (e.g., what color is banana? blue no, pink no, orange no, yellow yes)
+
+**milestone context:**
+- typical 18-24 month development: understands yes/no, correct/incorrect in simple terms
+- typical 24-30 month development: beginning to understand that there can be more than one answer
+- typical 3-4 year development: understands process of elimination, multiple choice reasoning
+- mira at ~20mo:
+  - **sequential elimination**: understands that "no" to one answer leads to trying another
+  - **persistence through incorrect answers**: doesn't get frustrated when first answer is wrong
+  - **convergence on correct**: understands the process leads to the "yes"
+- this is a precursor to logical reasoning and process of elimination
+- assessment: **advanced** - understanding multi-step elimination reasoning is sophisticated for 20mo
+
+---
+
+### social-emotional development (from book inventory review)
+
+#### emotional response to narrative
+**observation:**
+- feels sad on the page when frida meets with an accident
+- chuckles at "the nuns thought gabrielle was very strange" in coco chanel (unprompted, reason unclear)
+- stopped reading "the heart and the bottle" because the dad dies - too young to understand death, especially of a father she's so attached to
+
+**milestone context:**
+- typical 18-24 month development: beginning to show emotional reactions to stories, may react to obvious emotions (crying, laughing)
+- typical 24-30 month development: shows empathy for characters, may express concern or sadness
+- typical 3-4 year development: engages emotionally with more complex narratives, understands character feelings
+- mira at ~20mo:
+  - **empathic response to adversity**: feels sad when frida has accident - responds to depicted hardship
+  - **humor response**: chuckles at "strange/different" line - may be responding to tone, rhythm, or early understanding of social commentary
+  - **protective avoidance**: father noticed her reaction to death theme and stopped - suggests she was responding to emotional weight
+  - **attachment-relevant content**: the dad dying in the book touches on her strong attachment to her father
+- this demonstrates:
+  - **narrative empathy**: emotional investment in story characters
+  - **emerging humor comprehension**: responding to something in the "strange" line (even if we don't fully understand why)
+  - **emotional self-protection/parental co-regulation**: avoiding content that's emotionally overwhelming
+- assessment: **advanced** - emotional engagement with narrative content shows empathy and emotional processing beyond typical 20mo
+
+---
+
+#### character persistence in imaginative play
+**observation:** audrey, coco, frida from LPBD books keep coming back during play, especially during hide & seek games ("are you dancing with audrey?")
+
+**milestone context:**
+- typical 18-24 month development: may incorporate familiar characters in simple pretend play
+- typical 24-30 month development: references characters from books/shows in play
+- typical 3-4 year development: creates extended narratives incorporating multiple characters
+- mira at ~20mo:
+  - **character internalization**: book characters have become part of her imaginative world
+  - **action-character association**: links characters to their activities (audrey → dancing, frida → painting, coco → sewing)
+  - **cross-context play**: incorporates book characters into physical games (hide & seek)
+- this demonstrates:
+  - **symbolic representation**: characters exist in her mind beyond the book pages
+  - **activity-identity linking**: understands characters by what they do
+  - **narrative play integration**: weaves book content into everyday play
+- assessment: **advanced** - character internalization and narrative play integration exceed typical 20mo
+
+---
+
+### reading behavior patterns (from book inventory)
+
+#### book collection engagement
+**observation:** at ~20mo, has 48 books with clear categorical preferences:
+- 4 current favorites
+- 10 currently reading
+- 9 all-time classics (keeps returning to)
+- 16 read 50+ times
+- 9 not been a fan of
+- patterns identified: responds to visual density, lifecycle/transformation themes, interactive elements, relatable actions (dancing, painting, sewing)
+
+**milestone context:**
+- typical 18-24 month development: has favorite books, wants same books repeatedly
+- typical 24-30 month development: may express preferences, beginning to articulate why
+- typical 3-4 year development: can state preferences and reasons
+- mira at ~20mo:
+  - **large collection with differentiated engagement**: 48 books with clear patterns of preference
+  - **identifiable preference patterns**: responds to visual density, interactivity, relatable actions
+  - **negative preferences**: clear patterns of books that don't engage her (abstract concepts, low visual density)
+  - **evolution of preferences**: books move from favorite to outgrown as she masters them
+- this demonstrates:
+  - **active reading identity**: not passive consumer but active curator of her reading experience
+  - **self-knowledge about learning**: preferences align with how she learns (visual, interactive, relatable)
+  - **metacognitive reading patterns**: "memorization = mastery = ready for new" shows she recognizes when she's ready to move on
+- assessment: **advanced** - differentiated book preferences with identifiable patterns show reading identity development
+
+---
+
+#### interactive book engagement
+**observation:** with "press here": sometimes wants to create her own interactions but the next page is pre-fixed, which confuses her
+
+**milestone context:**
+- typical 18-24 month development: enjoys interactive books, follows instructions
+- typical 24-30 month development: may anticipate what happens next, plays along
+- typical 3-4 year development: understands book structure, may want to change stories
+- mira at ~20mo:
+  - **creative agency in reading**: wants to create her own interactions, not just follow prescribed ones
+  - **frustration with constraints**: the pre-fixed outcomes conflict with her creative intentions
+  - **understanding of cause-effect**: knows her actions "should" cause outcomes
+- this demonstrates:
+  - **emerging creative autonomy**: wanting to author her own experience, not just follow instructions
+  - **cognitive conflict recognition**: notices the mismatch between her expectations and the book's constraints
+- assessment: **advanced** - creative agency and frustration with constraints show emerging authorial thinking
+
+---
+
+### updated assessment additions at ~20 months
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| vocabulary acquisition from books | 24-30mo | source-specific learning with concept transfer | advanced |
+| conceptual reasoning (elimination) | 3-4 years | understands multi-step process to correct answer | advanced |
+| narrative empathy | 24-30mo | emotional response to character adversity | advanced |
+| character internalization | 24-30mo+ | incorporates book characters into play | advanced |
+| reading preference patterns | 24-30mo+ | differentiated engagement across 48 books | advanced |
+| creative agency in reading | 3-4 years | wants to create own interactions | advanced |
+
+**what the book inventory review reveals:**
+
+1. **books as primary learning vehicles**: mira's vocabulary, concepts, and emotional development are significantly mediated through books. she learns specific words from specific books and transfers them to life.
+
+2. **emotional engagement depth**: her reactions to book content (sadness at frida's accident, avoidance of death themes, humor at unexpected lines) show she's not just reading but emotionally processing narratives.
+
+3. **character permanence**: book characters exist for her beyond the pages - they come into play, especially imaginative games like hide & seek. this shows symbolic representation and narrative thinking.
+
+4. **metacognitive reading**: her pattern of "memorization = mastery = ready for new" shows she recognizes her own learning state and seeks appropriate challenge.
+
+5. **creative tension with structure**: wanting to create her own interactions in "press here" shows emerging authorial thinking - she's not just a reader but wants to be a creator.
+
+6. **preference self-knowledge**: the clear patterns in what engages her (visual density, relatable actions, interactivity) vs what doesn't (abstract concepts, sparse visuals) show developing self-knowledge about her own learning style.
+
+---
 
 ## 2026-01-05 / 07:51 pm
 

@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
 - [2026-01-01 / afternoon](#2026-01-01-afternoon)
@@ -19,6 +20,66 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-21 / 12:30 am
+
+### book inventory observations (from full collection review)
+
+**vocabulary learned from specific books:**
+- 'rainbow' from steve jobs (lpbd)
+- 'cheers', cutting/sharing cake, parachuting from where is the green sheep
+- waving the hand (from michelle obama - watching obamas wave during presidency tours)
+- singing from taylor swift
+- sewing from coco chanel
+- painting, awareness of feet from frida kahlo
+- chimpanzee names (fifi, gigi, dave) from jane goodall
+- big/small, stompy & noisy v shy & quiet, different games including chess, clothes from welcome
+
+**conceptual understanding from books:**
+- from "what's right, what's wrong": understands that a question can have multiple wrong answers before arriving at a right answer (e.g., what color is banana? blue no, pink no, orange no, yellow yes)
+
+**emotional resonance with books:**
+- feels sad on the page when frida meets with an accident
+- chuckles at "the nuns thought gabrielle was very strange" in coco chanel (don't know why)
+- stopped reading "the heart and the bottle" (oliver jeffers) because the dad dies - too young to understand death, especially of a father she's so very attached to
+
+**book naming patterns (expanded):**
+- "apple go" → how do apples grow
+- "time" → garden time
+- "lion" → the lion inside
+- "kevin" → the koala who could
+- "audrey" → audrey hepburn
+- "coco" → coco chanel
+- "welcome" → welcome
+
+**character persistence in play:**
+- audrey, coco, frida keep coming back during play, especially during hide & seek
+- asks questions like "are you dancing with audrey?" during hide & seek games
+
+**shoes obsession:**
+- picks up "red shoes" book because she's obsessed with shoes (especially mumma's red shoes)
+- loves the feeling of receiving a box of shoes and trying them out (in the book)
+
+**interactive book engagement:**
+- with "press here": sometimes wants to create her own interactions but the next page is pre-fixed, which confuses her
+- enacts when koala is about to fall (in "the koala who could")
+- looks at her own feet every time when reading about frida's feet
+
+**book preferences pattern - lpbd series:**
+- works well when: actions are relatable (dancing, painting, sewing) + visual richness
+- doesn't work when: abstract concepts (science) or visuals lack density
+- loved: audrey, coco, david attenborough, mother teresa
+- hasn't clicked: maya angelou, zaha hadid, mahatma gandhi, amelia earhart
+
+**current collection stats (jan 2026):**
+- 48 unique books owned
+- 4 current favorites
+- 10 currently reading
+- 9 all-time classics
+- 16 read 50+ times
+- 9 not been a fan of
+
+---
 
 ## 2026-01-05 / 07:51 pm
 
