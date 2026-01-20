@@ -435,18 +435,88 @@ async function handleAddBook(e) {
   renderBooks();
 }
 
-// utility: search openlibrary for cover
-async function searchBookCover(title, author) {
+// manual cover overrides for books that APIs can't find or get wrong
+const MANUAL_COVERS = {
+  'how do apples grow': 'https://m.media-amazon.com/images/I/81Gp5LXDWWL._SY466_.jpg',
+  'garden time': 'https://m.media-amazon.com/images/I/81UPpSvDURL._SY466_.jpg',
+  'what little girls are made of': 'https://m.media-amazon.com/images/I/81JCz8ZnURL._SY466_.jpg',
+  'the leaf thief': 'https://m.media-amazon.com/images/I/A1lpfPL6SQL._SY466_.jpg',
+  'richard scarry\'s biggest word book ever': 'https://m.media-amazon.com/images/I/A1zzluCbKTL._SY466_.jpg',
+  'what\'s right, what\'s wrong': 'https://m.media-amazon.com/images/I/61t0sNR82lL._SY466_.jpg',
+  'wonderful seasons': 'https://m.media-amazon.com/images/I/61AOYEJ4UjL._SY466_.jpg',
+  'busy christmas': 'https://m.media-amazon.com/images/I/91LN+RMZRML._SY466_.jpg',
+  'how many?': 'https://m.media-amazon.com/images/I/91mKJLDhPUL._SY466_.jpg',
+  'where is the green sheep': 'https://m.media-amazon.com/images/I/81Mz2L63+KL._SY466_.jpg',
+  'spot and friends': 'https://m.media-amazon.com/images/I/81nYhZFLURL._SY466_.jpg',
+  'one thousand things': 'https://m.media-amazon.com/images/I/A18YhS+-CaL._SY466_.jpg',
+  'you and the universe': 'https://m.media-amazon.com/images/I/91WqFfrekLL._SY466_.jpg',
+  'what can you see? on the farm': 'https://m.media-amazon.com/images/I/71d+P2YAjQL._SY466_.jpg',
+  'what can you see? at night': 'https://m.media-amazon.com/images/I/71Vh6AETQPL._SY466_.jpg',
+  'farm sounds': 'https://m.media-amazon.com/images/I/51rWC+7RDZL._SY466_.jpg',
+  'zoo sounds': 'https://m.media-amazon.com/images/I/51-K9zLh8EL._SY466_.jpg',
+  'words (chicka chicka boom boom)': 'https://m.media-amazon.com/images/I/91S6BTlPeEL._SY466_.jpg',
+  'the whale who wanted more': 'https://m.media-amazon.com/images/I/A1pwZOJcPYL._SY466_.jpg',
+  'freddie mercury, mohammed ali, david hockney, charles dickens (combined)': 'https://m.media-amazon.com/images/I/81cJTW7QMPL._SY466_.jpg',
+  'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'https://m.media-amazon.com/images/I/71P4H3hf8dL._SY466_.jpg',
+  'red shoes': 'https://m.media-amazon.com/images/I/91qjPNI6TZL._SY466_.jpg'
+};
+
+// utility: search google books api for cover (primary)
+async function searchGoogleBooks(title, author) {
+  try {
+    const query = encodeURIComponent(`${title} ${author || ''}`);
+    const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=1`);
+    const data = await response.json();
+
+    if (data.items && data.items[0]?.volumeInfo?.imageLinks) {
+      // prefer larger images, fallback to thumbnail
+      const links = data.items[0].volumeInfo.imageLinks;
+      let coverUrl = links.medium || links.small || links.thumbnail;
+      // google returns http, upgrade to https and remove edge=curl for cleaner image
+      if (coverUrl) {
+        coverUrl = coverUrl.replace('http://', 'https://').replace('&edge=curl', '');
+      }
+      return coverUrl;
+    }
+  } catch (err) {
+    console.error('google books search failed:', err);
+  }
+  return null;
+}
+
+// utility: search openlibrary for cover (fallback)
+async function searchOpenLibrary(title, author) {
   try {
     const query = encodeURIComponent(`${title} ${author || ''}`);
     const response = await fetch(`https://openlibrary.org/search.json?q=${query}&limit=1`);
     const data = await response.json();
 
     if (data.docs && data.docs[0] && data.docs[0].cover_i) {
-      return `https://covers.openlibrary.org/b/id/${data.docs[0].cover_i}-M.jpg`;
+      return `https://covers.openlibrary.org/b/id/${data.docs[0].cover_i}-L.jpg`; // use -L for larger
     }
   } catch (err) {
-    console.error('cover search failed:', err);
+    console.error('openlibrary search failed:', err);
   }
+  return null;
+}
+
+// utility: search for book cover with fallback chain
+async function searchBookCover(title, author) {
+  const titleLower = title.toLowerCase();
+
+  // 1. check manual overrides first
+  if (MANUAL_COVERS[titleLower]) {
+    return MANUAL_COVERS[titleLower];
+  }
+
+  // 2. try google books api
+  const googleCover = await searchGoogleBooks(title, author);
+  if (googleCover) return googleCover;
+
+  // 3. fallback to openlibrary
+  const openLibraryCover = await searchOpenLibrary(title, author);
+  if (openLibraryCover) return openLibraryCover;
+
+  // 4. no cover found
   return null;
 }
