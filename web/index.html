@@ -12,7 +12,6 @@
 <body>
   <!-- loading overlay -->
   <div class="loading-overlay" id="loading-overlay">
-    <div class="loading-spinner"></div>
     <p class="loading-text">loading mira's library...</p>
   </div>
 
@@ -22,33 +21,47 @@
       <p class="subtitle">books she loves, books she's exploring, books we're thinking about</p>
     </header>
 
-    <nav class="tabs">
-      <button class="tab active" data-tab="library">my books</button>
-      <button class="tab" data-tab="recommendations">recommendations</button>
-    </nav>
-
     <main>
-      <!-- library section -->
-      <section id="library" class="tab-content active">
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all">all</button>
-          <button class="filter-btn" data-filter="current_favorite">current favorites</button>
-          <button class="filter-btn" data-filter="currently_reading">currently reading</button>
-          <button class="filter-btn" data-filter="all_time_classic">all-time classics</button>
-          <button class="filter-btn" data-filter="read_50_plus">read 50+ times</button>
-          <button class="filter-btn" data-filter="not_a_fan">not been a fan of</button>
-        </div>
-        <div class="books-grid" id="library-grid">
-          <!-- books will be inserted here -->
-        </div>
+      <!-- current favorites -->
+      <section class="category-section" id="section-current-favorites">
+        <h2 class="category-header">current favorites</h2>
+        <p class="category-subtitle">books she's gravitating to right now</p>
+        <div class="books-grid" id="grid-current-favorites"></div>
       </section>
 
-      <!-- recommendations section -->
-      <section id="recommendations" class="tab-content">
-        <p class="section-intro">books we're thinking about adding to the collection</p>
-        <div class="books-grid" id="recommendations-grid">
-          <!-- recommendations will be inserted here -->
-        </div>
+      <!-- currently reading -->
+      <section class="category-section" id="section-currently-reading">
+        <h2 class="category-header">currently reading</h2>
+        <p class="category-subtitle">books in active rotation</p>
+        <div class="books-grid" id="grid-currently-reading"></div>
+      </section>
+
+      <!-- all-time classics -->
+      <section class="category-section" id="section-all-time-classics">
+        <h2 class="category-header">all-time classics</h2>
+        <p class="category-subtitle">books that have stood the test of time</p>
+        <div class="books-grid" id="grid-all-time-classics"></div>
+      </section>
+
+      <!-- read 50+ times -->
+      <section class="category-section" id="section-read-50-plus">
+        <h2 class="category-header">read 50+ times</h2>
+        <p class="category-subtitle">thoroughly experienced - some outgrown, some still visited</p>
+        <div class="books-grid" id="grid-read-50-plus"></div>
+      </section>
+
+      <!-- not been a fan of -->
+      <section class="category-section" id="section-not-a-fan">
+        <h2 class="category-header">not been a fan of</h2>
+        <p class="category-subtitle">books that haven't clicked (yet)</p>
+        <div class="books-grid" id="grid-not-a-fan"></div>
+      </section>
+
+      <!-- recommendations -->
+      <section class="category-section" id="section-recommendations">
+        <h2 class="category-header">recommendations</h2>
+        <p class="category-subtitle">books we're thinking about adding</p>
+        <div class="books-grid" id="grid-recommendations"></div>
       </section>
     </main>
 

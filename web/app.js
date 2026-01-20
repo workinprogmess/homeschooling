@@ -5,8 +5,6 @@ let supabase;
 
 // state
 let allBooks = [];
-let currentFilter = 'all';
-let currentTab = 'library';
 let selectedBook = null;
 
 // initialize
@@ -29,16 +27,6 @@ async function initSupabase() {
 }
 
 function setupEventListeners() {
-  // tabs
-  document.querySelectorAll('.tab').forEach(tab => {
-    tab.addEventListener('click', () => switchTab(tab.dataset.tab));
-  });
-
-  // filters
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => filterBooks(btn.dataset.filter));
-  });
-
   // modals
   document.querySelectorAll('.modal-close').forEach(btn => {
     btn.addEventListener('click', () => closeModals());
@@ -63,30 +51,6 @@ function setupEventListeners() {
   // yay/nay buttons
   document.getElementById('yay-btn').addEventListener('click', () => setRecommendationStatus('yay'));
   document.getElementById('nay-btn').addEventListener('click', () => setRecommendationStatus('nay'));
-}
-
-function switchTab(tabName) {
-  currentTab = tabName;
-
-  // update tab buttons
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
-
-  // update content
-  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-  document.getElementById(tabName).classList.add('active');
-
-  renderBooks();
-}
-
-function filterBooks(filter) {
-  currentFilter = filter;
-
-  // update filter buttons
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  document.querySelector(`[data-filter="${filter}"]`).classList.add('active');
-
-  renderBooks();
 }
 
 async function loadBooks() {
@@ -178,7 +142,6 @@ async function loadDemoData() {
 
   // fetch covers for all books
   await fetchAllCovers();
-  updateFilterCounts();
   renderBooks();
   showLoading(false);
 }
@@ -195,35 +158,6 @@ function showLoading(show) {
   }
 }
 
-// update filter button counts
-function updateFilterCounts() {
-  const ownedBooks = allBooks.filter(b => !b.is_recommendation);
-
-  const counts = {
-    all: ownedBooks.length,
-    current_favorite: ownedBooks.filter(b => b.status === 'current_favorite').length,
-    currently_reading: ownedBooks.filter(b => b.status === 'currently_reading').length,
-    all_time_classic: ownedBooks.filter(b => b.status === 'all_time_classic').length,
-    read_50_plus: ownedBooks.filter(b => b.status === 'read_50_plus').length,
-    not_a_fan: ownedBooks.filter(b => b.status === 'not_a_fan').length
-  };
-
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    const filter = btn.dataset.filter;
-    const count = counts[filter];
-    if (count !== undefined) {
-      // add count span if not exists
-      let countSpan = btn.querySelector('.filter-count');
-      if (!countSpan) {
-        countSpan = document.createElement('span');
-        countSpan.className = 'filter-count';
-        btn.appendChild(countSpan);
-      }
-      countSpan.textContent = count;
-    }
-  });
-}
-
 // fetch covers from openlibrary for all books without covers
 async function fetchAllCovers() {
   const booksNeedingCovers = allBooks.filter(b => !b.cover_url);
@@ -238,34 +172,40 @@ async function fetchAllCovers() {
 }
 
 function renderBooks() {
-  const libraryGrid = document.getElementById('library-grid');
-  const recsGrid = document.getElementById('recommendations-grid');
+  // category mappings
+  const categories = [
+    { id: 'current-favorites', status: 'current_favorite' },
+    { id: 'currently-reading', status: 'currently_reading' },
+    { id: 'all-time-classics', status: 'all_time_classic' },
+    { id: 'read-50-plus', status: 'read_50_plus' },
+    { id: 'not-a-fan', status: 'not_a_fan' }
+  ];
 
   // separate owned books from recommendations
   const ownedBooks = allBooks.filter(b => !b.is_recommendation);
   const recommendations = allBooks.filter(b => b.is_recommendation);
 
-  // filter owned books
-  let filteredOwned = ownedBooks;
-  if (currentFilter !== 'all') {
-    if (currentFilter === 'read_50_plus') {
-      filteredOwned = ownedBooks.filter(b => b.read_count >= 50);
-    } else {
-      filteredOwned = ownedBooks.filter(b => b.status === currentFilter);
-    }
-  }
+  // render each category
+  categories.forEach(cat => {
+    const grid = document.getElementById(`grid-${cat.id}`);
+    const section = document.getElementById(`section-${cat.id}`);
+    const booksInCategory = ownedBooks.filter(b => b.status === cat.status);
 
-  // render library
-  if (filteredOwned.length === 0) {
-    libraryGrid.innerHTML = '<div class="empty-state">no books match this filter</div>';
-  } else {
-    libraryGrid.innerHTML = filteredOwned.map(book => createBookCard(book)).join('');
-  }
+    if (booksInCategory.length === 0) {
+      section.style.display = 'none';
+    } else {
+      section.style.display = 'block';
+      grid.innerHTML = booksInCategory.map(book => createBookCard(book)).join('');
+    }
+  });
 
   // render recommendations
+  const recsGrid = document.getElementById('grid-recommendations');
+  const recsSection = document.getElementById('section-recommendations');
   if (recommendations.length === 0) {
-    recsGrid.innerHTML = '<div class="empty-state">no recommendations yet</div>';
+    recsSection.style.display = 'none';
   } else {
+    recsSection.style.display = 'block';
     recsGrid.innerHTML = recommendations.map(book => createBookCard(book, true)).join('');
   }
 
@@ -285,7 +225,7 @@ function createBookCard(book, isRecommendation = false) {
   };
 
   const coverHtml = book.cover_url
-    ? `<img src="${book.cover_url}" alt="${book.title}" class="book-cover" loading="lazy">`
+    ? `<img src="${book.cover_url}" alt="${book.title}" class="book-cover loading" loading="lazy" onload="this.classList.remove('loading'); this.classList.add('loaded')">`
     : `<div class="book-cover placeholder">📚</div>`;
 
   const miraNameHtml = book.mira_name
@@ -296,24 +236,12 @@ function createBookCard(book, isRecommendation = false) {
     ? `<span class="series-badge">${book.series === 'little people big dreams' ? 'lpbd' : book.series}</span>`
     : '';
 
-  const statsHtml = !isRecommendation
-    ? `<div class="book-stats">
-        ${book.read_count > 0 ? `<span class="stat">${book.read_count}+ reads</span>` : ''}
-        ${book.status ? `<span class="stat status-badge ${book.status}">${statusLabel[book.status] || book.status}</span>` : ''}
-      </div>`
+  const statsHtml = !isRecommendation && book.read_count > 0
+    ? `<div class="book-stats"><span class="stat">${book.read_count}+ reads</span></div>`
     : '';
 
   const recStatusHtml = isRecommendation && book.recommendation_status
     ? `<span class="rec-status ${book.recommendation_status}">${book.recommendation_status}</span>`
-    : '';
-
-  // truncate notes for preview
-  const notesPreview = book.notes && book.notes.length > 60
-    ? book.notes.substring(0, 60) + '...'
-    : book.notes;
-
-  const notesHtml = notesPreview && !isRecommendation
-    ? `<p class="book-notes-preview">${notesPreview}</p>`
     : '';
 
   return `
@@ -325,7 +253,6 @@ function createBookCard(book, isRecommendation = false) {
       ${miraNameHtml}
       ${statsHtml}
       ${recStatusHtml}
-      ${notesHtml}
     </div>
   `;
 }
@@ -495,30 +422,70 @@ async function handleAddBook(e) {
   renderBooks();
 }
 
-// manual cover overrides for books that APIs can't find or get wrong
+// manual cover overrides - using amazon image urls for all books
 const MANUAL_COVERS = {
+  // current favorites
   'how do apples grow': 'https://m.media-amazon.com/images/I/81Gp5LXDWWL._SY466_.jpg',
   'garden time': 'https://m.media-amazon.com/images/I/81UPpSvDURL._SY466_.jpg',
   'what little girls are made of': 'https://m.media-amazon.com/images/I/81JCz8ZnURL._SY466_.jpg',
   'the leaf thief': 'https://m.media-amazon.com/images/I/A1lpfPL6SQL._SY466_.jpg',
+
+  // currently reading
   'richard scarry\'s biggest word book ever': 'https://m.media-amazon.com/images/I/A1zzluCbKTL._SY466_.jpg',
+  'jane goodall': 'https://m.media-amazon.com/images/I/81qDkIu3PIL._SY466_.jpg',
+  'mother teresa': 'https://m.media-amazon.com/images/I/81JzxaLDBXL._SY466_.jpg',
+  'red shoes': 'https://m.media-amazon.com/images/I/91qjPNI6TZL._SY466_.jpg',
   'what\'s right, what\'s wrong': 'https://m.media-amazon.com/images/I/61t0sNR82lL._SY466_.jpg',
   'wonderful seasons': 'https://m.media-amazon.com/images/I/61AOYEJ4UjL._SY466_.jpg',
   'busy christmas': 'https://m.media-amazon.com/images/I/91LN+RMZRML._SY466_.jpg',
+  'tap the magic tree': 'https://m.media-amazon.com/images/I/81QF6cXC0EL._SY466_.jpg',
+  'press here': 'https://m.media-amazon.com/images/I/71cMCkeyp2L._SY466_.jpg',
   'how many?': 'https://m.media-amazon.com/images/I/91mKJLDhPUL._SY466_.jpg',
+
+  // all-time classics
+  'here we are': 'https://m.media-amazon.com/images/I/91rkI0ZNKXL._SY466_.jpg',
+  'audrey hepburn': 'https://m.media-amazon.com/images/I/71kH5U+lpfL._SY466_.jpg',
+  'coco chanel': 'https://m.media-amazon.com/images/I/81ufHxJljuL._SY466_.jpg',
+  'david attenborough': 'https://m.media-amazon.com/images/I/81hsjL0GQEL._SY466_.jpg',
   'where is the green sheep': 'https://m.media-amazon.com/images/I/81Mz2L63+KL._SY466_.jpg',
+  'the lion inside': 'https://m.media-amazon.com/images/I/A17SrBzhqlL._SY466_.jpg',
+  'the koala who could': 'https://m.media-amazon.com/images/I/A1ceuWOTGcL._SY466_.jpg',
+  'steve jobs': 'https://m.media-amazon.com/images/I/81bPYr5lHAL._SY466_.jpg',
   'spot and friends': 'https://m.media-amazon.com/images/I/81nYhZFLURL._SY466_.jpg',
+
+  // read 50+ times
+  'michelle obama': 'https://m.media-amazon.com/images/I/81DF5HHLF5L._SY466_.jpg',
+  'frida kahlo': 'https://m.media-amazon.com/images/I/81VzCzE3IRL._SY466_.jpg',
+  'stephen hawking': 'https://m.media-amazon.com/images/I/91JDlBR7RgL._SY466_.jpg',
+  'princess diana': 'https://m.media-amazon.com/images/I/81hZWM3WDFL._SY466_.jpg',
+  'taylor swift': 'https://m.media-amazon.com/images/I/81wwDSCOjWL._SY466_.jpg',
   'one thousand things': 'https://m.media-amazon.com/images/I/A18YhS+-CaL._SY466_.jpg',
+  'the wonderful things you\'ll be': 'https://m.media-amazon.com/images/I/91gXZ8CUVNL._SY466_.jpg',
   'you and the universe': 'https://m.media-amazon.com/images/I/91WqFfrekLL._SY466_.jpg',
   'what can you see? on the farm': 'https://m.media-amazon.com/images/I/71d+P2YAjQL._SY466_.jpg',
   'what can you see? at night': 'https://m.media-amazon.com/images/I/71Vh6AETQPL._SY466_.jpg',
+  'the very hungry caterpillar': 'https://m.media-amazon.com/images/I/81n7E0sGPvL._SY466_.jpg',
+  'from head to toe': 'https://m.media-amazon.com/images/I/81Wh67gm-YL._SY466_.jpg',
+  'welcome': 'https://m.media-amazon.com/images/I/81qeWLNGCeL._SY466_.jpg',
   'farm sounds': 'https://m.media-amazon.com/images/I/51rWC+7RDZL._SY466_.jpg',
   'zoo sounds': 'https://m.media-amazon.com/images/I/51-K9zLh8EL._SY466_.jpg',
   'words (chicka chicka boom boom)': 'https://m.media-amazon.com/images/I/91S6BTlPeEL._SY466_.jpg',
+
+  // not been a fan of
   'the whale who wanted more': 'https://m.media-amazon.com/images/I/A1pwZOJcPYL._SY466_.jpg',
+  'amelia earhart': 'https://m.media-amazon.com/images/I/71zf+bKueeL._SY466_.jpg',
+  'maya angelou': 'https://m.media-amazon.com/images/I/91wSX0W6W-L._SY466_.jpg',
+  'mahatma gandhi': 'https://m.media-amazon.com/images/I/81Bc1sULdVL._SY466_.jpg',
+  'zaha hadid': 'https://m.media-amazon.com/images/I/81bXvVP3wSL._SY466_.jpg',
   'freddie mercury, mohammed ali, david hockney, charles dickens (combined)': 'https://m.media-amazon.com/images/I/81cJTW7QMPL._SY466_.jpg',
+  'the heart and the bottle': 'https://m.media-amazon.com/images/I/71FnqFq0rYL._SY466_.jpg',
+  'a colour of his own': 'https://m.media-amazon.com/images/I/81uBMnqc0kL._SY466_.jpg',
   'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'https://m.media-amazon.com/images/I/71P4H3hf8dL._SY466_.jpg',
-  'red shoes': 'https://m.media-amazon.com/images/I/91qjPNI6TZL._SY466_.jpg'
+
+  // recommendations
+  'we\'re going on a bear hunt': 'https://m.media-amazon.com/images/I/81aGejPxQBL._SY466_.jpg',
+  'lost and found': 'https://m.media-amazon.com/images/I/71tT+Jn1pBL._SY466_.jpg',
+  'the day the crayons quit': 'https://m.media-amazon.com/images/I/91pnopVJYbL._SY466_.jpg'
 };
 
 // utility: search google books api for cover (primary)

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "miras-library",
+  "rootDirectory": "web",
   "buildCommand": null,
   "outputDirectory": ".",
   "headers": [
