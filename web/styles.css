@@ -55,97 +55,24 @@ header h1 {
   font-size: 1.1rem;
 }
 
-/* tabs */
-.tabs {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+/* category sections */
+.category-section {
+  margin-bottom: 3rem;
 }
 
-.tab {
-  padding: 0.75rem 2rem;
-  border: none;
-  background: var(--card-bg);
-  border-radius: var(--border-radius);
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-light);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 8px var(--shadow);
-}
-
-.tab:hover {
-  background: var(--peach);
+.category-header {
+  font-size: 1.5rem;
+  font-weight: 700;
   color: var(--text);
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--peach);
 }
 
-.tab.active {
-  background: var(--accent);
-  color: white;
-}
-
-/* filters */
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-  justify-content: center;
-}
-
-.filter-btn {
-  padding: 0.5rem 1rem;
-  border: none;
-  background: var(--card-bg);
-  border-radius: var(--border-radius-sm);
-  font-family: inherit;
+.category-subtitle {
+  color: var(--text-light);
   font-size: 0.9rem;
-  color: var(--text-light);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 4px var(--shadow);
-  white-space: nowrap;
-}
-
-.filter-btn:hover {
-  background: var(--lavender);
-  color: var(--text);
-}
-
-.filter-btn.active {
-  background: var(--sage);
-  color: var(--text);
-}
-
-.filter-count {
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 0.1rem 0.4rem;
-  font-size: 0.75rem;
-  margin-left: 0.3rem;
-}
-
-.filter-btn.active .filter-count {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-/* tab content */
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-.section-intro {
-  text-align: center;
-  color: var(--text-light);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* books grid */
@@ -172,15 +99,6 @@ header h1 {
 .book-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px var(--shadow-hover);
-}
-
-.book-cover {
-  width: 120px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: var(--border-radius-sm);
-  margin-bottom: 0.75rem;
-  background: var(--peach);
 }
 
 .book-cover.placeholder {
@@ -265,7 +183,7 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
-/* loading state */
+/* loading state - blur to clear */
 .loading-overlay {
   position: fixed;
   top: 0;
@@ -278,7 +196,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   z-index: 2000;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
 }
 
 .loading-overlay.hidden {
@@ -286,35 +204,34 @@ header h1 {
   pointer-events: none;
 }
 
-.loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid var(--peach);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
 .loading-text {
-  margin-top: 1rem;
   color: var(--text-light);
-  font-size: 0.9rem;
+  font-size: 1rem;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
-/* notes preview on card */
-.book-notes-preview {
-  font-size: 0.7rem;
-  color: var(--text-light);
-  margin-top: 0.5rem;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* blur-to-clear effect for book covers */
+.book-cover {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--border-radius-sm);
+  margin-bottom: 0.75rem;
+  background: var(--peach);
+  transition: filter 0.4s ease;
+}
+
+.book-cover.loading {
+  filter: blur(10px);
+}
+
+.book-cover.loaded {
+  filter: blur(0);
 }
 
 /* recommendation badges */
@@ -615,34 +532,118 @@ header h1 {
   color: var(--text-light);
 }
 
-/* responsive */
+/* responsive - tablet */
 @media (max-width: 768px) {
-  .filters {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    justify-content: flex-start;
-    padding-bottom: 0.5rem;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-
-  .filters::-webkit-scrollbar {
-    display: none;
+  .books-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
   }
 }
 
-@media (max-width: 600px) {
+/* responsive - mobile: one book at a time with color strip */
+@media (max-width: 480px) {
   header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
-  .tabs {
-    gap: 0.5rem;
+  .subtitle {
+    font-size: 0.95rem;
   }
 
-  .tab {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
+  .category-section {
+    margin-bottom: 2rem;
+  }
+
+  .category-header {
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-subtitle {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /* horizontal scroll for books - one at a time */
+  .books-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 0.5rem 0 1rem 0;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .books-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* book card with color strip */
+  .book-card {
+    flex: 0 0 calc(100vw - 3rem);
+    scroll-snap-align: center;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* color strip at bottom */
+  .book-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--peach);
+  }
+
+  /* category-specific color strips */
+  #grid-current-favorites .book-card::after {
+    background: var(--accent);
+  }
+
+  #grid-currently-reading .book-card::after {
+    background: var(--sage);
+  }
+
+  #grid-all-time-classics .book-card::after {
+    background: var(--sky);
+  }
+
+  #grid-read-50-plus .book-card::after {
+    background: var(--lavender);
+  }
+
+  #grid-not-a-fan .book-card::after {
+    background: var(--peach);
+  }
+
+  #grid-recommendations .book-card::after {
+    background: var(--sage);
+  }
+
+  .book-cover {
+    width: 140px;
+    height: 190px;
+  }
+
+  .book-title {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .book-author {
+    font-size: 0.85rem;
+  }
+
+  .book-mira-name {
+    font-size: 0.8rem;
   }
 
   .modal-body {
@@ -656,20 +657,6 @@ header h1 {
 
   .modal-stats {
     justify-content: center;
-  }
-
-  .books-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 1rem;
-  }
-
-  .book-card {
-    padding: 0.75rem;
-  }
-
-  .book-cover {
-    width: 100px;
-    height: 135px;
   }
 
   .add-book-btn {
