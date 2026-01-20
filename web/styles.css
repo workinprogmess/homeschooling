@@ -532,17 +532,117 @@ header h1 {
   color: var(--text-light);
 }
 
-/* responsive */
-@media (max-width: 600px) {
+/* responsive - tablet */
+@media (max-width: 768px) {
+  .books-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* responsive - mobile: one book at a time with color strip */
+@media (max-width: 480px) {
   header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .category-section {
+    margin-bottom: 2rem;
   }
 
   .category-header {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
   }
 
   .category-subtitle {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /* horizontal scroll for books - one at a time */
+  .books-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 0.5rem 0 1rem 0;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .books-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* book card with color strip */
+  .book-card {
+    flex: 0 0 calc(100vw - 3rem);
+    scroll-snap-align: center;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* color strip at bottom */
+  .book-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--peach);
+  }
+
+  /* category-specific color strips */
+  #grid-current-favorites .book-card::after {
+    background: var(--accent);
+  }
+
+  #grid-currently-reading .book-card::after {
+    background: var(--sage);
+  }
+
+  #grid-all-time-classics .book-card::after {
+    background: var(--sky);
+  }
+
+  #grid-read-50-plus .book-card::after {
+    background: var(--lavender);
+  }
+
+  #grid-not-a-fan .book-card::after {
+    background: var(--peach);
+  }
+
+  #grid-recommendations .book-card::after {
+    background: var(--sage);
+  }
+
+  .book-cover {
+    width: 140px;
+    height: 190px;
+  }
+
+  .book-title {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .book-author {
+    font-size: 0.85rem;
+  }
+
+  .book-mira-name {
     font-size: 0.8rem;
   }
 
@@ -557,20 +657,6 @@ header h1 {
 
   .modal-stats {
     justify-content: center;
-  }
-
-  .books-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 1rem;
-  }
-
-  .book-card {
-    padding: 0.75rem;
-  }
-
-  .book-cover {
-    width: 100px;
-    height: 135px;
   }
 
   .add-book-btn {
