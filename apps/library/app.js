@@ -129,15 +129,14 @@ async function loadDemoData() {
     { id: '42', title: 'maya angelou', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 2, notes: 'barely read, hasn\'t gotten past a page or two, haven\'t figured out why', series: 'little people big dreams', is_recommendation: false },
     { id: '43', title: 'mahatma gandhi', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'read a few times, visuals after first two pages (when mohandas is a child) don\'t say much, more in the story than visuals', series: 'little people big dreams', is_recommendation: false },
     { id: '44', title: 'zaha hadid', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 2, notes: 'doesn\'t go past first two pages, even when there\'s much going on visually', series: 'little people big dreams', is_recommendation: false },
-    { id: '45', title: 'freddie mercury, mohammed ali, david hockney, charles dickens (combined)', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'read a few times: freddie and hockney primarily, once/twice ali, never dickens', series: 'little people big dreams', is_recommendation: false },
+    { id: '45', title: 'freddie mercury', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'read a few times, one of the more engaging ones from the collection', series: 'little people big dreams', is_recommendation: false },
+    { id: '52', title: 'muhammad ali', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 2, notes: 'read once or twice', series: 'little people big dreams', is_recommendation: false },
+    { id: '53', title: 'david hockney', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'read a few times, likes the colorful art', series: 'little people big dreams', is_recommendation: false },
+    { id: '54', title: 'charles dickens', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 0, notes: 'never read', series: 'little people big dreams', is_recommendation: false },
+    { id: '55', title: 'neil armstrong', author: 'maria isabel sánchez vegara', mira_name: null, status: 'not_a_fan', read_count: 0, notes: 'not yet read', series: 'little people big dreams', is_recommendation: false },
     { id: '46', title: 'the heart and the bottle', author: 'oliver jeffers', mira_name: null, status: 'not_a_fan', read_count: 2, notes: 'read a couple times, stopped cause the dad dies - too young to understand death (especially of a father she\'s so attached to)', is_recommendation: false },
     { id: '47', title: 'a colour of his own', author: 'leo lionni', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'read a few times, played with colour wheel on cover more, just a chameleon in different colors, picks up here & there', is_recommendation: false },
-    { id: '48', title: 'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)', author: 'puffin books', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'picks up every now and then but doesn\'t read, just likes covers/characters, reads only lakshmi (and sometimes krishna), not til the end', is_recommendation: false },
-
-    // recommendations (3)
-    { id: '49', title: 'we\'re going on a bear hunt', author: 'michael rosen', mira_name: null, status: null, read_count: 0, notes: 'rhythmic, predictable', is_recommendation: true, recommendation_status: null },
-    { id: '50', title: 'lost and found', author: 'oliver jeffers', mira_name: null, status: null, read_count: 0, notes: 'she likes here we are by same author', is_recommendation: true, recommendation_status: null },
-    { id: '51', title: 'the day the crayons quit', author: 'drew daywalt', mira_name: null, status: null, read_count: 0, notes: 'visual storytelling', is_recommendation: true, recommendation_status: null }
+    { id: '48', title: 'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)', author: 'puffin books', mira_name: null, status: 'not_a_fan', read_count: 5, notes: 'picks up every now and then but doesn\'t read, just likes covers/characters, reads only lakshmi (and sometimes krishna), not til the end', is_recommendation: false }
   ];
 
   // fetch covers for all books
@@ -477,15 +476,14 @@ const LOCAL_COVERS = {
   'maya angelou': 'covers/maya-angelou-lpbd.jpg',
   'mahatma gandhi': 'covers/mahatma-gandhi-lpbd.jpg',
   'zaha hadid': 'covers/zaha-hadid-lpbd.jpg',
-  'freddie mercury, mohammed ali, david hockney, charles dickens (combined)': 'covers/lpbd-collection.jpg',
+  'freddie mercury': 'covers/freddie-mercury-lpbd.jpg',
+  'muhammad ali': 'covers/muhammad-ali-lpbd.jpg',
+  'david hockney': 'covers/david-hockney-lpbd.jpg',
+  'charles dickens': 'covers/charles-dickens-lpbd.jpg',
+  'neil armstrong': 'covers/neil-armstrong-lpbd.jpg',
   'the heart and the bottle': 'covers/the-heart-and-the-bottle.jpg',
   'a colour of his own': 'covers/a-colour-of-his-own.jpg',
-  'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'covers/my-little-book-of-krishna.jpg',
-
-  // recommendations
-  'we\'re going on a bear hunt': 'covers/were-going-on-a-bear-hunt.jpg',
-  'lost and found': 'covers/lost-and-found.jpg',
-  'the day the crayons quit': 'covers/the-day-the-crayons-quit.jpg'
+  'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'covers/my-little-book-of-krishna.jpg'
 };
 
 // utility: search google books api for cover (primary)

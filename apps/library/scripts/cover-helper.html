@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cover helper - mira's library</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #1a1a1a;
+      color: #e0e0e0;
+      padding: 20px;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+    .instructions {
+      text-align: center;
+      color: #888;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #2a2a2a;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      gap: 16px;
+    }
+    .cover-pair {
+      display: flex;
+      gap: 8px;
+    }
+    .cover-box {
+      text-align: center;
+    }
+    .cover-box img {
+      width: 80px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+      background: #333;
+    }
+    .cover-box p {
+      font-size: 10px;
+      color: #666;
+      margin: 4px 0 0;
+    }
+    .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .title {
+      font-weight: 500;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+    .filename {
+      font-size: 11px;
+      color: #666;
+      font-family: monospace;
+    }
+    .status {
+      margin-top: 8px;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .status.check { background: #2d4a2d; color: #8fbc8f; }
+    .status.warn { background: #4a4a2d; color: #bcbc8f; }
+  </style>
+</head>
+<body>
+  <h1>cover helper</h1>
+  <p class="instructions">
+    right-click the <strong>amazon</strong> image → "save image as" → save to <code>covers/</code> folder with the filename shown<br>
+    compare local (left) vs amazon (right) to spot wrong or low-res covers
+  </p>
+
+  <div class="grid">
+    <!-- current favorites -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/how-do-apples-grow.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81Gp5LXDWWL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">how do apples grow</div>
+        <div class="filename">how-do-apples-grow.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/garden-time.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81UPpSvDURL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">garden time</div>
+        <div class="filename">garden-time.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/what-little-girls-are-made-of.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81JCz8ZnURL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">what little girls are made of</div>
+        <div class="filename">what-little-girls-are-made-of.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-leaf-thief.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A1lpfPL6SQL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the leaf thief</div>
+        <div class="filename">the-leaf-thief.jpg</div>
+      </div>
+    </div>
+
+    <!-- currently reading -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/biggest-word-book-ever.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A1zzluCbKTL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">richard scarry's biggest word book ever</div>
+        <div class="filename">biggest-word-book-ever.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/jane-goodall-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81qDkIu3PIL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">jane goodall</div>
+        <div class="filename">jane-goodall-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/mother-teresa-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81JzxaLDBXL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">mother teresa</div>
+        <div class="filename">mother-teresa-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/red-shoes.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91qjPNI6TZL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">red shoes</div>
+        <div class="filename">red-shoes.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/whats-right-whats-wrong.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/61t0sNR82lL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">what's right, what's wrong</div>
+        <div class="filename">whats-right-whats-wrong.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/wonderful-seasons.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/61AOYEJ4UjL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">wonderful seasons</div>
+        <div class="filename">wonderful-seasons.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/busy-christmas.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91LN+RMZRML._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">busy christmas</div>
+        <div class="filename">busy-christmas.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/tap-the-magic-tree.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81QF6cXC0EL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">tap the magic tree</div>
+        <div class="filename">tap-the-magic-tree.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/press-here.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71cMCkeyp2L._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">press here</div>
+        <div class="filename">press-here.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/how-many-counting-book.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91mKJLDhPUL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">how many?</div>
+        <div class="filename">how-many-counting-book.jpg</div>
+      </div>
+    </div>
+
+    <!-- all-time classics -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/here-we-are.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91rkI0ZNKXL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">here we are</div>
+        <div class="filename">here-we-are.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/audrey-hepburn-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71kH5U+lpfL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">audrey hepburn</div>
+        <div class="filename">audrey-hepburn-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/coco-chanel-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81ufHxJljuL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">coco chanel</div>
+        <div class="filename">coco-chanel-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/david-attenborough-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81hsjL0GQEL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">david attenborough</div>
+        <div class="filename">david-attenborough-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/where-is-the-green-sheep.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81Mz2L63+KL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">where is the green sheep</div>
+        <div class="filename">where-is-the-green-sheep.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-lion-inside.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A17SrBzhqlL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the lion inside</div>
+        <div class="filename">the-lion-inside.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-koala-who-could.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A1ceuWOTGcL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the koala who could</div>
+        <div class="filename">the-koala-who-could.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/steve-jobs-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81bPYr5lHAL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">steve jobs</div>
+        <div class="filename">steve-jobs-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/spot-and-friends.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81nYhZFLURL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">spot and friends</div>
+        <div class="filename">spot-and-friends.jpg</div>
+      </div>
+    </div>
+
+    <!-- read 50+ times -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/michelle-obama-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81DF5HHLF5L._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">michelle obama</div>
+        <div class="filename">michelle-obama-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/frida-kahlo-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81VzCzE3IRL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">frida kahlo</div>
+        <div class="filename">frida-kahlo-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/stephen-hawking-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91JDlBR7RgL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">stephen hawking</div>
+        <div class="filename">stephen-hawking-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/princess-diana-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81hZWM3WDFL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">princess diana</div>
+        <div class="filename">princess-diana-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/taylor-swift-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81wwDSCOjWL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">taylor swift</div>
+        <div class="filename">taylor-swift-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/one-thousand-things.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A18YhS+-CaL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">one thousand things</div>
+        <div class="filename">one-thousand-things.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-wonderful-things-youll-be.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91gXZ8CUVNL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the wonderful things you'll be</div>
+        <div class="filename">the-wonderful-things-youll-be.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/you-and-the-universe.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91WqFfrekLL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">you and the universe</div>
+        <div class="filename">you-and-the-universe.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/what-can-you-see-on-the-farm.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71d+P2YAjQL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">what can you see? on the farm</div>
+        <div class="filename">what-can-you-see-on-the-farm.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/what-can-you-see-at-night.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71Vh6AETQPL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">what can you see? at night</div>
+        <div class="filename">what-can-you-see-at-night.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-very-hungry-caterpillar.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81n7E0sGPvL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the very hungry caterpillar</div>
+        <div class="filename">the-very-hungry-caterpillar.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/from-head-to-toe.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81Wh67gm-YL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">from head to toe</div>
+        <div class="filename">from-head-to-toe.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/welcome.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81qeWLNGCeL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">welcome</div>
+        <div class="filename">welcome.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/farm-sounds.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/51rWC+7RDZL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">farm sounds</div>
+        <div class="filename">farm-sounds.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/zoo-sounds.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/51-K9zLh8EL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">zoo sounds</div>
+        <div class="filename">zoo-sounds.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/chicka-chicka-boom-boom.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91S6BTlPeEL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">words (chicka chicka boom boom)</div>
+        <div class="filename">chicka-chicka-boom-boom.jpg</div>
+      </div>
+    </div>
+
+    <!-- not been a fan of -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-whale-who-wanted-more.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/A1pwZOJcPYL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the whale who wanted more</div>
+        <div class="filename">the-whale-who-wanted-more.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/amelia-earhart-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71zf+bKueeL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">amelia earhart</div>
+        <div class="filename">amelia-earhart-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/maya-angelou-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91wSX0W6W-L._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">maya angelou</div>
+        <div class="filename">maya-angelou-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/mahatma-gandhi-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81Bc1sULdVL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">mahatma gandhi</div>
+        <div class="filename">mahatma-gandhi-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/zaha-hadid-lpbd.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81bXvVP3wSL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">zaha hadid</div>
+        <div class="filename">zaha-hadid-lpbd.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/lpbd-collection.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81cJTW7QMPL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">lpbd collection (freddie, ali, hockney, dickens)</div>
+        <div class="filename">lpbd-collection.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-heart-and-the-bottle.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71FnqFq0rYL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the heart and the bottle</div>
+        <div class="filename">the-heart-and-the-bottle.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/a-colour-of-his-own.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81uBMnqc0kL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">a colour of his own</div>
+        <div class="filename">a-colour-of-his-own.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/my-little-book-of-krishna.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71P4H3hf8dL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">my little book of (hindu gods)</div>
+        <div class="filename">my-little-book-of-krishna.jpg</div>
+      </div>
+    </div>
+
+    <!-- recommendations -->
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/were-going-on-a-bear-hunt.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/81aGejPxQBL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">we're going on a bear hunt</div>
+        <div class="filename">were-going-on-a-bear-hunt.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/lost-and-found.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/71tT+Jn1pBL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">lost and found</div>
+        <div class="filename">lost-and-found.jpg</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cover-pair">
+        <div class="cover-box">
+          <img src="../covers/the-day-the-crayons-quit.jpg" alt="local">
+          <p>local</p>
+        </div>
+        <div class="cover-box">
+          <img src="https://m.media-amazon.com/images/I/91pnopVJYbL._SY466_.jpg" alt="amazon">
+          <p>amazon</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="title">the day the crayons quit</div>
+        <div class="filename">the-day-the-crayons-quit.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // add error handling for broken images
+    document.querySelectorAll('img').forEach(img => {
+      img.onerror = function() {
+        this.style.opacity = '0.3';
+        this.parentElement.querySelector('p').textContent += ' (failed)';
+      };
+    });
+  </script>
+</body>
+</html>
