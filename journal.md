@@ -29,7 +29,49 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon (session 2)](#2025-12-22-early-afternoon-session-2)
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
+- [2026-01-22 / evening](#2026-01-22-evening)
 <!-- toc:end -->
+---
+
+## 2026-01-22 / evening
+
+### mira's library - UI refresh
+
+**what we did:**
+- major visual overhaul of the library page based on inspiration from bookshelf designs
+- implemented 3 of 5 planned phases:
+  - **phase 1 (covers):** downloaded 52 book covers locally, fixed cover loading issues
+  - **phase 2 (colors):** added color extraction from covers using ColorThief, pastel conversion, complementary text colors
+  - **phase 3 (layout):** vertical stack layout (not grid), landscape cards on desktop, portrait on mobile, serif typography (Lora)
+
+**design changes:**
+- pastel card backgrounds extracted from each book cover (~88% lightness, 15-30% saturation)
+- text colors dynamically paired to background hue (rust for warm tones, forest for greens, navy for blues, etc.)
+- emoji category headers: 📚 current favorites, 📖 currently reading, ⭐ all-time classics, 🔁 read 50+ times, 🤷 not a fan, 💡 recommendations
+- removed category subtitles - emojis speak for themselves
+- removed status color strips - card colors provide visual differentiation
+
+**data changes:**
+- split lpbd collection (freddie, ali, hockney, dickens) into 4 individual books
+- added neil armstrong lpbd
+- removed 3 recommendation books (not owned yet)
+- total books: 52
+
+**files modified:**
+- `apps/library/index.html` - added ColorThief CDN, emoji headers, books-stack structure
+- `apps/library/styles.css` - complete overhaul for new layout
+- `apps/library/app.js` - color extraction system, updated card structure
+- `apps/library/plan-library-of-mira.md` - plan doc updated to v0.2
+
+**remaining (phase 4):**
+- notes side panel (desktop) / overlay (mobile) with colorful message blocks
+- edit mode detection (wip.* domain = editable)
+
+**inspiration sources:**
+- johannesklingebiel.de/wiki/Bookshelf/ (color blocks from covers)
+- highlights.sawyerh.com/ (cover display)
+- petargyurov.com/bookshelf/ (categorization)
+
 ---
 
 ## 2026-01-07 / evening

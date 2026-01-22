@@ -6,8 +6,8 @@
   <title>mira's library</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <!-- loading overlay -->
@@ -24,44 +24,38 @@
     <main>
       <!-- current favorites -->
       <section class="category-section" id="section-current-favorites">
-        <h2 class="category-header">current favorites</h2>
-        <p class="category-subtitle">books she's gravitating to right now</p>
-        <div class="books-grid" id="grid-current-favorites"></div>
+        <h2 class="category-header">📚 current favorites 📚</h2>
+        <div class="books-stack" id="grid-current-favorites"></div>
       </section>
 
       <!-- currently reading -->
       <section class="category-section" id="section-currently-reading">
-        <h2 class="category-header">currently reading</h2>
-        <p class="category-subtitle">books in active rotation</p>
-        <div class="books-grid" id="grid-currently-reading"></div>
+        <h2 class="category-header">📖 currently reading 📖</h2>
+        <div class="books-stack" id="grid-currently-reading"></div>
       </section>
 
       <!-- all-time classics -->
       <section class="category-section" id="section-all-time-classics">
-        <h2 class="category-header">all-time classics</h2>
-        <p class="category-subtitle">books that have stood the test of time</p>
-        <div class="books-grid" id="grid-all-time-classics"></div>
+        <h2 class="category-header">⭐ all-time classics ⭐</h2>
+        <div class="books-stack" id="grid-all-time-classics"></div>
       </section>
 
       <!-- read 50+ times -->
       <section class="category-section" id="section-read-50-plus">
-        <h2 class="category-header">read 50+ times</h2>
-        <p class="category-subtitle">thoroughly experienced - some outgrown, some still visited</p>
-        <div class="books-grid" id="grid-read-50-plus"></div>
+        <h2 class="category-header">🔁 read 50+ times 🔁</h2>
+        <div class="books-stack" id="grid-read-50-plus"></div>
       </section>
 
       <!-- not been a fan of -->
       <section class="category-section" id="section-not-a-fan">
-        <h2 class="category-header">not been a fan of</h2>
-        <p class="category-subtitle">books that haven't clicked (yet)</p>
-        <div class="books-grid" id="grid-not-a-fan"></div>
+        <h2 class="category-header">🤷 not been a fan of 🤷</h2>
+        <div class="books-stack" id="grid-not-a-fan"></div>
       </section>
 
       <!-- recommendations -->
       <section class="category-section" id="section-recommendations">
-        <h2 class="category-header">recommendations</h2>
-        <p class="category-subtitle">books we're thinking about adding</p>
-        <div class="books-grid" id="grid-recommendations"></div>
+        <h2 class="category-header">💡 recommendations 💡</h2>
+        <div class="books-stack" id="grid-recommendations"></div>
       </section>
     </main>
 
@@ -150,7 +144,8 @@
     </div>
   </div>
 
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+  <script src="config.js?v=3"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

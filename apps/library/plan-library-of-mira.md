@@ -1,8 +1,8 @@
 # plan: library of mira
 
-**version:** v0.1
+**version:** v0.2
 **created:** 2026-01-22, 6:14pm ist
-**last updated:** 2026-01-22, 6:14pm ist
+**last updated:** 2026-01-22
 
 **tags:** #mira-library #ui-design #web-app #book-tracking
 **related:** [journal](../../journal.md), [notes-about-mira](../../profile/notes-about-mira.md)
@@ -284,28 +284,27 @@ const isEditMode = window.location.hostname.startsWith('wip.');
 
 ## implementation tasks
 
-### phase 1: covers ✦ foundation
-- [ ] create `apps/library/covers/` folder
-- [ ] write node script to download all 51 covers from amazon urls
-- [ ] run script, verify all covers downloaded
-- [ ] update app.js to reference local cover paths
-- [ ] test cover loading in browser
-- [ ] commit: "fix: download covers locally for reliable loading"
+### phase 1: covers ✦ foundation ✅
+- [x] create `apps/library/covers/` folder
+- [x] download all 52 covers (open library + google books + manual)
+- [x] add cover_url directly to each book entry
+- [x] test cover loading in browser
+- [x] commit: "fix: download covers locally for reliable loading"
 
-### phase 2: color system
-- [ ] add color extraction (color-thief or canvas-based)
-- [ ] create pastel conversion function (lighten + desaturate)
-- [ ] build text color pairing system (predefined pairs to start)
-- [ ] test across all 51 books
+### phase 2: color system ✅
+- [x] add color extraction (color-thief via CDN)
+- [x] create pastel conversion function (88% lightness, 15-30% saturation)
+- [x] build text color pairing system (hue-based predefined pairs)
+- [x] apply colors to cards on image load
 - [ ] commit: "feat: extract colors from covers for card backgrounds"
 
-### phase 3: layout overhaul
-- [ ] restructure html for new card layout
-- [ ] implement desktop layout (landscape, vertical stack)
-- [ ] implement mobile layout (portrait, vertical stack)
-- [ ] add serif typography (choose font)
-- [ ] style category headers with emojis
-- [ ] add whitespace between categories
+### phase 3: layout overhaul ✅
+- [x] restructure html for new card layout (book-info, book-meta)
+- [x] implement desktop layout (landscape, vertical stack)
+- [x] implement mobile layout (portrait, vertical stack)
+- [x] add serif typography (Lora font)
+- [x] style category headers with emojis
+- [x] add generous whitespace between categories
 - [ ] commit: "feat: new card layout with serif typography"
 
 ### phase 4: notes system
@@ -318,11 +317,12 @@ const isEditMode = window.location.hostname.startsWith('wip.');
 - [ ] migrate existing notes to new format
 - [ ] commit: "feat: notes side panel with colorful message blocks"
 
-### phase 5: polish
-- [ ] review all colors/pairings
+### phase 5: polish (partial)
+- [x] css reorganized and cleaned up
+- [ ] review all colors/pairings (needs visual testing)
 - [ ] fine-tune spacing and typography
 - [ ] test on real devices
-- [ ] performance check (lazy loading covers)
+- [x] lazy loading covers (loading="lazy")
 - [ ] commit: "polish: final ui tweaks and optimizations"
 
 ---
@@ -343,6 +343,14 @@ const isEditMode = window.location.hostname.startsWith('wip.');
 ---
 
 ## changelog
+
+### v0.2 — 2026-01-22
+- **phase 1 complete:** 52 covers downloaded locally, cover_url added to each book
+- **phase 2 complete:** color extraction with ColorThief, pastel conversion, text color pairing
+- **phase 3 complete:** new vertical stack layout, Lora serif font, emoji headers
+- split lpbd collection into 5 individual books (freddie, ali, hockney, dickens, armstrong)
+- removed 3 recommendation books
+- books-grid → books-stack, card structure updated (book-info, book-meta)
 
 ### v0.1 — 2026-01-22
 - initial plan created
