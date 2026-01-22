@@ -422,70 +422,70 @@ async function handleAddBook(e) {
   renderBooks();
 }
 
-// manual cover overrides - using amazon image urls for all books
-const MANUAL_COVERS = {
+// local covers - all 51 book covers stored in covers/ folder
+const LOCAL_COVERS = {
   // current favorites
-  'how do apples grow': 'https://m.media-amazon.com/images/I/81Gp5LXDWWL._SY466_.jpg',
-  'garden time': 'https://m.media-amazon.com/images/I/81UPpSvDURL._SY466_.jpg',
-  'what little girls are made of': 'https://m.media-amazon.com/images/I/81JCz8ZnURL._SY466_.jpg',
-  'the leaf thief': 'https://m.media-amazon.com/images/I/A1lpfPL6SQL._SY466_.jpg',
+  'how do apples grow': 'covers/how-do-apples-grow.jpg',
+  'garden time': 'covers/garden-time.jpg',
+  'what little girls are made of': 'covers/what-little-girls-are-made-of.jpg',
+  'the leaf thief': 'covers/the-leaf-thief.jpg',
 
   // currently reading
-  'richard scarry\'s biggest word book ever': 'https://m.media-amazon.com/images/I/A1zzluCbKTL._SY466_.jpg',
-  'jane goodall': 'https://m.media-amazon.com/images/I/81qDkIu3PIL._SY466_.jpg',
-  'mother teresa': 'https://m.media-amazon.com/images/I/81JzxaLDBXL._SY466_.jpg',
-  'red shoes': 'https://m.media-amazon.com/images/I/91qjPNI6TZL._SY466_.jpg',
-  'what\'s right, what\'s wrong': 'https://m.media-amazon.com/images/I/61t0sNR82lL._SY466_.jpg',
-  'wonderful seasons': 'https://m.media-amazon.com/images/I/61AOYEJ4UjL._SY466_.jpg',
-  'busy christmas': 'https://m.media-amazon.com/images/I/91LN+RMZRML._SY466_.jpg',
-  'tap the magic tree': 'https://m.media-amazon.com/images/I/81QF6cXC0EL._SY466_.jpg',
-  'press here': 'https://m.media-amazon.com/images/I/71cMCkeyp2L._SY466_.jpg',
-  'how many?': 'https://m.media-amazon.com/images/I/91mKJLDhPUL._SY466_.jpg',
+  'richard scarry\'s biggest word book ever': 'covers/biggest-word-book-ever.jpg',
+  'jane goodall': 'covers/jane-goodall-lpbd.jpg',
+  'mother teresa': 'covers/mother-teresa-lpbd.jpg',
+  'red shoes': 'covers/red-shoes.jpg',
+  'what\'s right, what\'s wrong': 'covers/whats-right-whats-wrong.jpg',
+  'wonderful seasons': 'covers/wonderful-seasons.jpg',
+  'busy christmas': 'covers/busy-christmas.jpg',
+  'tap the magic tree': 'covers/tap-the-magic-tree.jpg',
+  'press here': 'covers/press-here.jpg',
+  'how many?': 'covers/how-many-counting-book.jpg',
 
   // all-time classics
-  'here we are': 'https://m.media-amazon.com/images/I/91rkI0ZNKXL._SY466_.jpg',
-  'audrey hepburn': 'https://m.media-amazon.com/images/I/71kH5U+lpfL._SY466_.jpg',
-  'coco chanel': 'https://m.media-amazon.com/images/I/81ufHxJljuL._SY466_.jpg',
-  'david attenborough': 'https://m.media-amazon.com/images/I/81hsjL0GQEL._SY466_.jpg',
-  'where is the green sheep': 'https://m.media-amazon.com/images/I/81Mz2L63+KL._SY466_.jpg',
-  'the lion inside': 'https://m.media-amazon.com/images/I/A17SrBzhqlL._SY466_.jpg',
-  'the koala who could': 'https://m.media-amazon.com/images/I/A1ceuWOTGcL._SY466_.jpg',
-  'steve jobs': 'https://m.media-amazon.com/images/I/81bPYr5lHAL._SY466_.jpg',
-  'spot and friends': 'https://m.media-amazon.com/images/I/81nYhZFLURL._SY466_.jpg',
+  'here we are': 'covers/here-we-are.jpg',
+  'audrey hepburn': 'covers/audrey-hepburn-lpbd.jpg',
+  'coco chanel': 'covers/coco-chanel-lpbd.jpg',
+  'david attenborough': 'covers/david-attenborough-lpbd.jpg',
+  'where is the green sheep': 'covers/where-is-the-green-sheep.jpg',
+  'the lion inside': 'covers/the-lion-inside.jpg',
+  'the koala who could': 'covers/the-koala-who-could.jpg',
+  'steve jobs': 'covers/steve-jobs-lpbd.jpg',
+  'spot and friends': 'covers/spot-and-friends.jpg',
 
   // read 50+ times
-  'michelle obama': 'https://m.media-amazon.com/images/I/81DF5HHLF5L._SY466_.jpg',
-  'frida kahlo': 'https://m.media-amazon.com/images/I/81VzCzE3IRL._SY466_.jpg',
-  'stephen hawking': 'https://m.media-amazon.com/images/I/91JDlBR7RgL._SY466_.jpg',
-  'princess diana': 'https://m.media-amazon.com/images/I/81hZWM3WDFL._SY466_.jpg',
-  'taylor swift': 'https://m.media-amazon.com/images/I/81wwDSCOjWL._SY466_.jpg',
-  'one thousand things': 'https://m.media-amazon.com/images/I/A18YhS+-CaL._SY466_.jpg',
-  'the wonderful things you\'ll be': 'https://m.media-amazon.com/images/I/91gXZ8CUVNL._SY466_.jpg',
-  'you and the universe': 'https://m.media-amazon.com/images/I/91WqFfrekLL._SY466_.jpg',
-  'what can you see? on the farm': 'https://m.media-amazon.com/images/I/71d+P2YAjQL._SY466_.jpg',
-  'what can you see? at night': 'https://m.media-amazon.com/images/I/71Vh6AETQPL._SY466_.jpg',
-  'the very hungry caterpillar': 'https://m.media-amazon.com/images/I/81n7E0sGPvL._SY466_.jpg',
-  'from head to toe': 'https://m.media-amazon.com/images/I/81Wh67gm-YL._SY466_.jpg',
-  'welcome': 'https://m.media-amazon.com/images/I/81qeWLNGCeL._SY466_.jpg',
-  'farm sounds': 'https://m.media-amazon.com/images/I/51rWC+7RDZL._SY466_.jpg',
-  'zoo sounds': 'https://m.media-amazon.com/images/I/51-K9zLh8EL._SY466_.jpg',
-  'words (chicka chicka boom boom)': 'https://m.media-amazon.com/images/I/91S6BTlPeEL._SY466_.jpg',
+  'michelle obama': 'covers/michelle-obama-lpbd.jpg',
+  'frida kahlo': 'covers/frida-kahlo-lpbd.jpg',
+  'stephen hawking': 'covers/stephen-hawking-lpbd.jpg',
+  'princess diana': 'covers/princess-diana-lpbd.jpg',
+  'taylor swift': 'covers/taylor-swift-lpbd.jpg',
+  'one thousand things': 'covers/one-thousand-things.jpg',
+  'the wonderful things you\'ll be': 'covers/the-wonderful-things-youll-be.jpg',
+  'you and the universe': 'covers/you-and-the-universe.jpg',
+  'what can you see? on the farm': 'covers/what-can-you-see-on-the-farm.jpg',
+  'what can you see? at night': 'covers/what-can-you-see-at-night.jpg',
+  'the very hungry caterpillar': 'covers/the-very-hungry-caterpillar.jpg',
+  'from head to toe': 'covers/from-head-to-toe.jpg',
+  'welcome': 'covers/welcome.jpg',
+  'farm sounds': 'covers/farm-sounds.jpg',
+  'zoo sounds': 'covers/zoo-sounds.jpg',
+  'words (chicka chicka boom boom)': 'covers/chicka-chicka-boom-boom.jpg',
 
   // not been a fan of
-  'the whale who wanted more': 'https://m.media-amazon.com/images/I/A1pwZOJcPYL._SY466_.jpg',
-  'amelia earhart': 'https://m.media-amazon.com/images/I/71zf+bKueeL._SY466_.jpg',
-  'maya angelou': 'https://m.media-amazon.com/images/I/91wSX0W6W-L._SY466_.jpg',
-  'mahatma gandhi': 'https://m.media-amazon.com/images/I/81Bc1sULdVL._SY466_.jpg',
-  'zaha hadid': 'https://m.media-amazon.com/images/I/81bXvVP3wSL._SY466_.jpg',
-  'freddie mercury, mohammed ali, david hockney, charles dickens (combined)': 'https://m.media-amazon.com/images/I/81cJTW7QMPL._SY466_.jpg',
-  'the heart and the bottle': 'https://m.media-amazon.com/images/I/71FnqFq0rYL._SY466_.jpg',
-  'a colour of his own': 'https://m.media-amazon.com/images/I/81uBMnqc0kL._SY466_.jpg',
-  'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'https://m.media-amazon.com/images/I/71P4H3hf8dL._SY466_.jpg',
+  'the whale who wanted more': 'covers/the-whale-who-wanted-more.jpg',
+  'amelia earhart': 'covers/amelia-earhart-lpbd.jpg',
+  'maya angelou': 'covers/maya-angelou-lpbd.jpg',
+  'mahatma gandhi': 'covers/mahatma-gandhi-lpbd.jpg',
+  'zaha hadid': 'covers/zaha-hadid-lpbd.jpg',
+  'freddie mercury, mohammed ali, david hockney, charles dickens (combined)': 'covers/lpbd-collection.jpg',
+  'the heart and the bottle': 'covers/the-heart-and-the-bottle.jpg',
+  'a colour of his own': 'covers/a-colour-of-his-own.jpg',
+  'my little book of (krishna, lakshmi, ganesh, durga, shiva, hanuman)': 'covers/my-little-book-of-krishna.jpg',
 
   // recommendations
-  'we\'re going on a bear hunt': 'https://m.media-amazon.com/images/I/81aGejPxQBL._SY466_.jpg',
-  'lost and found': 'https://m.media-amazon.com/images/I/71tT+Jn1pBL._SY466_.jpg',
-  'the day the crayons quit': 'https://m.media-amazon.com/images/I/91pnopVJYbL._SY466_.jpg'
+  'we\'re going on a bear hunt': 'covers/were-going-on-a-bear-hunt.jpg',
+  'lost and found': 'covers/lost-and-found.jpg',
+  'the day the crayons quit': 'covers/the-day-the-crayons-quit.jpg'
 };
 
 // utility: search google books api for cover (primary)
@@ -527,16 +527,16 @@ async function searchOpenLibrary(title, author) {
   return null;
 }
 
-// utility: search for book cover with fallback chain
+// utility: search for book cover - uses local covers first, then apis as fallback
 async function searchBookCover(title, author) {
   const titleLower = title.toLowerCase();
 
-  // 1. check manual overrides first
-  if (MANUAL_COVERS[titleLower]) {
-    return MANUAL_COVERS[titleLower];
+  // 1. check local covers first (fast, no network)
+  if (LOCAL_COVERS[titleLower]) {
+    return LOCAL_COVERS[titleLower];
   }
 
-  // 2. try google books api
+  // 2. try google books api as fallback for new books
   const googleCover = await searchGoogleBooks(title, author);
   if (googleCover) return googleCover;
 
