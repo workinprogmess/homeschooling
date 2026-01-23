@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100+ book recommendations for mira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --card-bg: #ffffff;
+      --text: #3d3d3d;
+      --text-light: #6b6b6b;
+      --accent: #e8b4b8;
+      --sage: #b8c9b8;
+      --lavender: #c5b8d9;
+      --peach: #f5d5c8;
+      --sky: #b8d4e3;
+      --border-radius: 12px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    /* back link */
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--text); }
+
+    /* markdown content styling */
+    .content h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .content h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--peach);
+    }
+
+    .content p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .content strong {
+      font-weight: 700;
+    }
+
+    .content ul, .content ol {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    .content li {
+      margin-bottom: 0.3rem;
+    }
+
+    .content hr {
+      border: none;
+      border-top: 1px solid var(--peach);
+      margin: 2rem 0;
+    }
+
+    .content em {
+      color: var(--text-light);
+    }
+
+    /* tables */
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 2rem;
+      font-size: 0.85rem;
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .content thead {
+      background: var(--peach);
+    }
+
+    .content th {
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: var(--text);
+    }
+
+    .content td {
+      padding: 0.5rem 0.75rem;
+      border-top: 1px solid #f0ebe6;
+    }
+
+    .content tbody tr:hover {
+      background: #fdf9f6;
+    }
+
+    .content a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .content a:hover {
+      color: #d4929a;
+    }
+
+    /* responsive table scroll */
+    .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 1rem; }
+      .content h1 { font-size: 1.5rem; }
+      .content h2 { font-size: 1.2rem; }
+      .content table { font-size: 0.75rem; }
+      .content th, .content td { padding: 0.4rem 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">&larr; back to library</a>
+    <div class="content" id="content">
+      <p style="color: var(--text-light);">loading...</p>
+    </div>
+  </div>
+
+  <script>
+    async function loadContent() {
+      try {
+        const response = await fetch('./content.md');
+        const markdown = await response.text();
+        const html = marked.parse(markdown);
+        document.getElementById('content').innerHTML = html;
+
+        // wrap tables for horizontal scroll on mobile
+        document.querySelectorAll('.content table').forEach(table => {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'table-wrapper';
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        });
+      } catch (err) {
+        document.getElementById('content').innerHTML = '<p>error loading content</p>';
+        console.error(err);
+      }
+    }
+    loadContent();
+  </script>
+</body>
+</html>
