@@ -16,6 +16,11 @@
       --text-light: #6b6b6b;
       --accent: #e8b4b8;
       --peach: #f5d5c8;
+      --sage: #c8dcc8;
+      --lavender: #d4c8e8;
+      --sky: #c8dce8;
+      --butter: #f0e4c8;
+      --rose: #f0d0d4;
       --border-radius: 20px;
       --border-radius-sm: 12px;
       --font-title: 'Instrument Serif', Georgia, serif;
@@ -105,7 +110,7 @@
     }
 
     .content thead {
-      background: var(--peach);
+      background: var(--peach); /* fallback, overridden per-table by JS */
     }
 
     .content th {
@@ -429,8 +434,12 @@ based on gaps in her collection and developmental readiness:
     const html = marked.parse(mdSource);
     document.getElementById('content').innerHTML = html;
 
-    // wrap tables for horizontal scroll on mobile
-    document.querySelectorAll('.content table').forEach(table => {
+    // color each table header with rotating pastels
+    const colors = ['#f5d5c8', '#c8dcc8', '#d4c8e8', '#f0d0d4', '#c8dce8', '#f0e4c8'];
+    document.querySelectorAll('.content table').forEach((table, i) => {
+      const thead = table.querySelector('thead');
+      if (thead) thead.style.background = colors[i % colors.length];
+      // wrap for horizontal scroll on mobile
       const wrapper = document.createElement('div');
       wrapper.className = 'table-wrapper';
       table.parentNode.insertBefore(wrapper, table);
