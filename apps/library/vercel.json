@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "name": "miras-library",
   "buildCommand": null,
   "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/100-books", "destination": "/100-books/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
