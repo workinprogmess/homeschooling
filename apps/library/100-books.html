@@ -7,7 +7,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter+Tight:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     :root {
       --bg: #faf8f5;
@@ -21,8 +20,7 @@
       --sky: #c8dce8;
       --butter: #f0e4c8;
       --rose: #f0d0d4;
-      --border-radius: 20px;
-      --border-radius-sm: 12px;
+      --border-radius: 12px;
       --font-title: 'Lora', Georgia, serif;
       --font-body: 'Inter Tight', system-ui, sans-serif;
     }
@@ -34,12 +32,12 @@
       font-size: 15px;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.7;
+      line-height: 1.6;
       min-height: 100vh;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 720px;
       margin: 0 auto;
       padding: 2rem 1.5rem;
     }
@@ -49,403 +47,333 @@
       margin-bottom: 1.5rem;
       color: var(--text-light);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       transition: color 0.2s;
     }
     .back-link:hover { color: var(--text); }
 
-    .content h1 {
+    .page-title {
       font-family: var(--font-title);
-      font-size: 2.2rem;
+      font-size: 2rem;
       font-weight: 400;
-      margin-bottom: 0.5rem;
-    }
-
-    .content h2 {
-      font-family: var(--font-title);
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-top: 2.5rem;
       margin-bottom: 0.75rem;
-      padding-bottom: 0.4rem;
-      border-bottom: 2px solid var(--peach);
     }
 
-    .content p {
+    .intro {
+      color: var(--text-light);
+      margin-bottom: 2.5rem;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .category-section {
+      margin-bottom: 3rem;
+    }
+
+    .category-header {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: var(--text-light);
       margin-bottom: 1rem;
-      color: var(--text);
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 10;
+      border-bottom: 1px solid #f0ebe6;
     }
 
-    .content strong {
-      font-weight: 500;
-    }
-
-    .content ul, .content ol {
+    .category-note {
+      font-size: 13px;
+      color: var(--text-light);
       margin-bottom: 1rem;
-      padding-left: 1.5rem;
+      font-style: italic;
     }
 
-    .content li {
+    .book-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .book-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 1rem 1.25rem;
+      border-left: 4px solid var(--peach);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      transition: box-shadow 0.2s;
+    }
+
+    .book-card:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .book-title {
+      font-family: var(--font-title);
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 0.2rem;
+    }
+
+    .book-author {
+      font-size: 13px;
+      color: var(--text-light);
       margin-bottom: 0.3rem;
     }
 
-    .content hr {
-      border: none;
-      border-top: 1px solid var(--peach);
-      margin: 2rem 0;
+    .book-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .content em {
+    .book-note {
+      font-size: 13px;
       color: var(--text-light);
+      flex: 1;
     }
 
-    .content table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0 2rem;
-      font-size: 15px;
-      background: var(--card-bg);
-      border-radius: var(--border-radius-sm);
-      overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-
-    .content thead {
-      background: var(--peach); /* fallback, overridden per-table by JS */
-    }
-
-    .content th {
-      padding: 0.6rem 0.75rem;
-      text-align: left;
-      font-weight: 500;
-      font-size: 14px;
-      color: var(--text);
-    }
-
-    .content td {
-      padding: 0.5rem 0.75rem;
-      border-top: 1px solid #f0ebe6;
-    }
-
-    .content tbody tr:hover {
-      background: #fdf9f6;
-    }
-
-    .content a {
+    .book-price {
+      font-size: 13px;
       color: var(--accent);
       text-decoration: none;
       font-weight: 500;
+      white-space: nowrap;
+      margin-left: 1rem;
       transition: color 0.2s;
     }
 
-    .content a:hover {
+    .book-price:hover {
       color: #d4929a;
     }
 
-    .table-wrapper {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
+    /* category border colors */
+    .cat-cause .book-card { border-left-color: var(--peach); }
+    .cat-science .book-card { border-left-color: var(--sage); }
+    .cat-story .book-card { border-left-color: var(--lavender); }
+    .cat-lpbd .book-card { border-left-color: var(--rose); }
+    .cat-math .book-card { border-left-color: var(--sky); }
+    .cat-vocab .book-card { border-left-color: var(--butter); }
+    .cat-visual .book-card { border-left-color: var(--peach); }
+    .cat-rhythm .book-card { border-left-color: var(--sage); }
+    .cat-top10 .book-card { border-left-color: var(--accent); }
 
     @media (max-width: 600px) {
       .container { padding: 1rem; }
-      .content h1 { font-size: 1.5rem; }
-      .content h2 { font-size: 1.2rem; }
-      .content table { font-size: 0.75rem; }
-      .content th, .content td { padding: 0.4rem 0.5rem; }
+      .page-title { font-size: 1.6rem; }
+      .book-title { font-size: 1rem; }
+      .book-meta { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+      .book-price { margin-left: 0; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <a href="/" class="back-link">&larr; back to library</a>
-    <div class="content" id="content">
-      <p style="color: var(--text-light);">loading...</p>
-    </div>
+    <h1 class="page-title">100+ book recommendations for mira</h1>
+    <p class="intro">
+      mira's ~20mo. she loves visual density (finds something new each read), lifecycle/transformation themes, and books where actions are relatable — dancing, painting, sewing. she sits through 30-50min sessions and emotionally processes stories. these are books we're planning to get her.
+    </p>
+
+    <!-- cause-effect -->
+    <section class="category-section cat-cause">
+      <h2 class="category-header">🔄 cause-effect 🔄</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">if you give a mouse a cookie</div><div class="book-author">laura numeroff</div><div class="book-meta"><span class="book-note">delightful chain of consequences</span><a class="book-price" href="https://www.amazon.in/dp/0060245867">₹566</a></div></div>
+        <div class="book-card"><div class="book-title">if you give a pig a pancake</div><div class="book-author">laura numeroff</div><div class="book-meta"><span class="book-note">predictable cause chains</span><a class="book-price" href="https://www.amazon.in/s?k=if+you+give+a+pig+a+pancake">₹948</a></div></div>
+        <div class="book-card"><div class="book-title">if you give a moose a muffin</div><div class="book-author">laura numeroff</div><div class="book-meta"><span class="book-note">familiar pattern, new story</span><a class="book-price" href="https://www.amazon.in/s?k=if+you+give+a+moose+a+muffin">₹739</a></div></div>
+        <div class="book-card"><div class="book-title">the napping house</div><div class="book-author">audrey wood</div><div class="book-meta"><span class="book-note">cumulative cause-effect (everyone piles on)</span><a class="book-price" href="https://www.amazon.in/s?k=the+napping+house+audrey+wood">₹730</a></div></div>
+        <div class="book-card"><div class="book-title">plant the tiny seed</div><div class="book-author">christie matheson</div><div class="book-meta"><span class="book-note">growth cycle with interaction</span><a class="book-price" href="https://www.amazon.in/s?k=plant+the+tiny+seed+christie+matheson">₹409</a></div></div>
+        <div class="book-card"><div class="book-title">over and under the snow</div><div class="book-author">kate messner</div><div class="book-meta"><span class="book-note">hidden worlds revealed, above/below</span><a class="book-price" href="https://www.amazon.in/dp/1452136467">₹655</a></div></div>
+        <div class="book-card"><div class="book-title">up in the garden and down in the dirt</div><div class="book-author">kate messner</div><div class="book-meta"><span class="book-note">transformation above/below ground</span><a class="book-price" href="https://www.amazon.in/s?k=up+in+the+garden+down+in+the+dirt">₹820</a></div></div>
+        <div class="book-card"><div class="book-title">red leaf, yellow leaf</div><div class="book-author">lois ehlert</div><div class="book-meta"><span class="book-note">tree lifecycle with collage art</span><a class="book-price" href="https://www.amazon.in/s?k=red+leaf+yellow+leaf+lois+ehlert">₹315</a></div></div>
+        <div class="book-card"><div class="book-title">planting a rainbow</div><div class="book-author">lois ehlert</div><div class="book-meta"><span class="book-note">bulb→flower transformation</span><a class="book-price" href="https://www.amazon.in/s?k=planting+a+rainbow+lois+ehlert">₹392</a></div></div>
+        <div class="book-card"><div class="book-title">waiting</div><div class="book-author">kevin henkes</div><div class="book-meta"><span class="book-note">anticipation and seasonal change</span><a class="book-price" href="https://www.amazon.in/s?k=waiting+kevin+henkes">₹1,194</a></div></div>
+        <div class="book-card"><div class="book-title">when spring comes</div><div class="book-author">kevin henkes</div><div class="book-meta"><span class="book-note">transformation of seasons</span><a class="book-price" href="https://www.amazon.in/s?k=when+spring+comes+kevin+henkes">₹647</a></div></div>
+        <div class="book-card"><div class="book-title">egg</div><div class="book-author">kevin henkes</div><div class="book-meta"><span class="book-note">what comes from an egg?</span><a class="book-price" href="https://www.amazon.in/s?k=egg+kevin+henkes">₹668</a></div></div>
+        <div class="book-card"><div class="book-title">a seed is sleepy</div><div class="book-author">dianna hutts aston</div><div class="book-meta"><span class="book-note">seed science, gorgeous illustrations</span><a class="book-price" href="https://www.amazon.in/s?k=a+seed+is+sleepy+dianna+aston">₹663</a></div></div>
+        <div class="book-card"><div class="book-title">an egg is quiet</div><div class="book-author">dianna hutts aston</div><div class="book-meta"><span class="book-note">egg diversity (visual density!)</span><a class="book-price" href="https://www.amazon.in/s?k=an+egg+is+quiet+dianna+aston">₹601</a></div></div>
+        <div class="book-card"><div class="book-title">a butterfly is patient</div><div class="book-author">dianna hutts aston</div><div class="book-meta"><span class="book-note">lifecycle with rich detail</span><a class="book-price" href="https://www.amazon.in/s?k=a+butterfly+is+patient+dianna+aston">₹808</a></div></div>
+        <div class="book-card"><div class="book-title">the very busy spider</div><div class="book-author">eric carle</div><div class="book-meta"><span class="book-note">cause-effect through web building</span><a class="book-price" href="https://www.amazon.in/s?k=the+very+busy+spider+eric+carle">₹290</a></div></div>
+      </div>
+    </section>
+
+    <!-- science-y -->
+    <section class="category-section cat-science">
+      <h2 class="category-header">🔬 science-y 🔬</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">what do you do with a tail like this?</div><div class="book-author">steve jenkins</div><div class="book-meta"><span class="book-note">animal adaptations, guessing game</span><a class="book-price" href="https://www.amazon.in/dp/061899713X">₹349</a></div></div>
+        <div class="book-card"><div class="book-title">actual size</div><div class="book-author">steve jenkins</div><div class="book-meta"><span class="book-note">scale and comparison (life-size!)</span><a class="book-price" href="https://www.amazon.in/s?k=actual+size+steve+jenkins">₹653</a></div></div>
+        <div class="book-card"><div class="book-title">living sunlight</div><div class="book-author">molly bang</div><div class="book-meta"><span class="book-note">photosynthesis as story</span><a class="book-price" href="https://www.amazon.in/s?k=living+sunlight+molly+bang">₹1,540</a></div></div>
+        <div class="book-card"><div class="book-title">ocean sunlight</div><div class="book-author">molly bang</div><div class="book-meta"><span class="book-note">underwater ecosystems</span><a class="book-price" href="https://www.amazon.in/s?k=ocean+sunlight+molly+bang">₹302</a></div></div>
+        <div class="book-card"><div class="book-title">what makes a shadow?</div><div class="book-author">clyde bulla</div><div class="book-meta"><span class="book-note">light and dark explained</span><a class="book-price" href="https://www.amazon.in/s?k=what+makes+a+shadow+clyde+bulla">₹1,684</a></div></div>
+        <div class="book-card"><div class="book-title">what is the world made of?</div><div class="book-author">kathleen zoehfeld</div><div class="book-meta"><span class="book-note">matter basics (solid, liquid, gas)</span><a class="book-price" href="https://www.amazon.in/s?k=what+is+the+world+made+of+zoehfeld">₹285</a></div></div>
+        <div class="book-card"><div class="book-title">a rock is lively</div><div class="book-author">dianna hutts aston</div><div class="book-meta"><span class="book-note">geology with beautiful art</span><a class="book-price" href="https://www.amazon.in/s?k=a+rock+is+lively+dianna+aston">₹596</a></div></div>
+        <div class="book-card"><div class="book-title">the reason for a flower</div><div class="book-author">ruth heller</div><div class="book-meta"><span class="book-note">pollination, visual feast</span><a class="book-price" href="https://www.amazon.in/s?k=the+reason+for+a+flower+ruth+heller">₹313</a></div></div>
+        <div class="book-card"><div class="book-title">animals in winter</div><div class="book-author">henrietta bancroft</div><div class="book-meta"><span class="book-note">hibernation explained</span><a class="book-price" href="https://www.amazon.in/s?k=animals+in+winter+henrietta+bancroft">₹326</a></div></div>
+        <div class="book-card"><div class="book-title">how a seed grows</div><div class="book-author">helene jordan</div><div class="book-meta"><span class="book-note">step by step growth</span><a class="book-price" href="https://www.amazon.in/s?k=how+a+seed+grows+helene+jordan">₹525</a></div></div>
+        <div class="book-card"><div class="book-title">me and my amazing body</div><div class="book-author">joan sweeney</div><div class="book-meta"><span class="book-note">body systems for kids</span><a class="book-price" href="https://www.amazon.in/s?k=me+and+my+amazing+body+joan+sweeney">₹130</a></div></div>
+        <div class="book-card"><div class="book-title">what's inside your tummy, mommy?</div><div class="book-author">abby cocovini</div><div class="book-meta"><span class="book-note">pregnancy explained</span><a class="book-price" href="https://www.amazon.in/s?k=whats+inside+your+tummy+mommy">link</a></div></div>
+        <div class="book-card"><div class="book-title">look inside your body</div><div class="book-author">usborne</div><div class="book-meta"><span class="book-note">body exploration (windows)</span><a class="book-price" href="https://www.amazon.in/s?k=usborne+look+inside+your+body">₹707</a></div></div>
+        <div class="book-card"><div class="book-title">nat geo little kids first big book of animals</div><div class="book-author">national geographic</div><div class="book-meta"><span class="book-note">visual density + facts</span><a class="book-price" href="https://www.amazon.in/s?k=national+geographic+little+kids+first+big+book+animals">₹1,740</a></div></div>
+        <div class="book-card"><div class="book-title">the magic school bus</div><div class="book-author">joanna cole</div><div class="book-meta"><span class="book-note">science adventures (any title)</span><a class="book-price" href="https://www.amazon.in/s?k=magic+school+bus+joanna+cole">₹167</a></div></div>
+      </div>
+    </section>
+
+    <!-- imaginative / story-narrative -->
+    <section class="category-section cat-story">
+      <h2 class="category-header">✨ imaginative / story-narrative ✨</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">where the wild things are</div><div class="book-author">maurice sendak</div><div class="book-meta"><span class="book-note">imagination journey, emotional arc</span><a class="book-price" href="https://www.amazon.in/dp/1782955038">₹317</a></div></div>
+        <div class="book-card"><div class="book-title">harold and the purple crayon</div><div class="book-author">crockett johnson</div><div class="book-meta"><span class="book-note">creating your own world</span><a class="book-price" href="https://www.amazon.in/dp/0007464371">₹299</a></div></div>
+        <div class="book-card"><div class="book-title">the snowy day</div><div class="book-author">ezra jack keats</div><div class="book-meta"><span class="book-note">simple perfect narrative</span><a class="book-price" href="https://www.amazon.in/dp/0670867330">₹537</a></div></div>
+        <div class="book-card"><div class="book-title">whistle for willie</div><div class="book-author">ezra jack keats</div><div class="book-meta"><span class="book-note">determination story</span><a class="book-price" href="https://www.amazon.in/s?k=whistle+for+willie+ezra+jack+keats">₹491</a></div></div>
+        <div class="book-card"><div class="book-title">owl babies</div><div class="book-author">martin waddell</div><div class="book-meta"><span class="book-note">separation and reunion</span><a class="book-price" href="https://www.amazon.in/s?k=owl+babies+martin+waddell">₹333</a></div></div>
+        <div class="book-card"><div class="book-title">guess how much i love you</div><div class="book-author">sam mcbratney</div><div class="book-meta"><span class="book-note">love comparison</span><a class="book-price" href="https://www.amazon.in/s?k=guess+how+much+i+love+you">₹287</a></div></div>
+        <div class="book-card"><div class="book-title">the runaway bunny</div><div class="book-author">margaret wise brown</div><div class="book-meta"><span class="book-note">unconditional love</span><a class="book-price" href="https://www.amazon.in/s?k=the+runaway+bunny+margaret+wise+brown">₹880</a></div></div>
+        <div class="book-card"><div class="book-title">goodnight moon</div><div class="book-author">margaret wise brown</div><div class="book-meta"><span class="book-note">bedtime ritual</span><a class="book-price" href="https://www.amazon.in/dp/1509829466">₹257</a></div></div>
+        <div class="book-card"><div class="book-title">blueberries for sal</div><div class="book-author">robert mccloskey</div><div class="book-meta"><span class="book-note">parallel narrative</span><a class="book-price" href="https://www.amazon.in/s?k=blueberries+for+sal+mccloskey">₹495</a></div></div>
+        <div class="book-card"><div class="book-title">make way for ducklings</div><div class="book-author">robert mccloskey</div><div class="book-meta"><span class="book-note">family journey</span><a class="book-price" href="https://www.amazon.in/s?k=make+way+for+ducklings+mccloskey">₹728</a></div></div>
+        <div class="book-card"><div class="book-title">corduroy</div><div class="book-author">don freeman</div><div class="book-meta"><span class="book-note">friendship and belonging</span><a class="book-price" href="https://www.amazon.in/dp/0451470796">₹369</a></div></div>
+        <div class="book-card"><div class="book-title">a pocket for corduroy</div><div class="book-author">don freeman</div><div class="book-meta"><span class="book-note">adventure and return</span><a class="book-price" href="https://www.amazon.in/s?k=a+pocket+for+corduroy">₹181</a></div></div>
+        <div class="book-card"><div class="book-title">sylvester and the magic pebble</div><div class="book-author">william steig</div><div class="book-meta"><span class="book-note">transformation, family reunion</span><a class="book-price" href="https://www.amazon.in/s?k=sylvester+and+the+magic+pebble">₹216</a></div></div>
+        <div class="book-card"><div class="book-title">amos & boris</div><div class="book-author">william steig</div><div class="book-meta"><span class="book-note">unlikely friendship</span><a class="book-price" href="https://www.amazon.in/s?k=amos+and+boris+william+steig">₹510</a></div></div>
+        <div class="book-card"><div class="book-title">frog and toad are friends</div><div class="book-author">arnold lobel</div><div class="book-meta"><span class="book-note">chapter stories, friendship</span><a class="book-price" href="https://www.amazon.in/s?k=frog+and+toad+are+friends+lobel">₹150</a></div></div>
+        <div class="book-card"><div class="book-title">mouse soup</div><div class="book-author">arnold lobel</div><div class="book-meta"><span class="book-note">stories within stories</span><a class="book-price" href="https://www.amazon.in/s?k=mouse+soup+arnold+lobel">₹191</a></div></div>
+        <div class="book-card"><div class="book-title">owl at home</div><div class="book-author">arnold lobel</div><div class="book-meta"><span class="book-note">gentle humor</span><a class="book-price" href="https://www.amazon.in/s?k=owl+at+home+arnold+lobel">₹4,584</a></div></div>
+        <div class="book-card"><div class="book-title">time for bed</div><div class="book-author">mem fox</div><div class="book-meta"><span class="book-note">bedtime animals, rhythmic</span><a class="book-price" href="https://www.amazon.in/s?k=time+for+bed+mem+fox">₹667</a></div></div>
+        <div class="book-card"><div class="book-title">koala lou</div><div class="book-author">mem fox</div><div class="book-meta"><span class="book-note">love and competition</span><a class="book-price" href="https://www.amazon.in/s?k=koala+lou+mem+fox">₹693</a></div></div>
+        <div class="book-card"><div class="book-title">possum magic</div><div class="book-author">mem fox</div><div class="book-meta"><span class="book-note">australian adventure</span><a class="book-price" href="https://www.amazon.in/s?k=possum+magic+mem+fox">₹637</a></div></div>
+        <div class="book-card"><div class="book-title">lost and found</div><div class="book-author">oliver jeffers</div><div class="book-meta"><span class="book-note">she loves "here we are"</span><a class="book-price" href="https://www.amazon.in/dp/0007150369">₹275</a></div></div>
+        <div class="book-card"><div class="book-title">the day the crayons quit</div><div class="book-author">drew daywalt</div><div class="book-meta"><span class="book-note">visual storytelling, personality</span><a class="book-price" href="https://www.amazon.in/dp/0008167923">₹299</a></div></div>
+        <div class="book-card"><div class="book-title">we're going on a bear hunt</div><div class="book-author">michael rosen</div><div class="book-meta"><span class="book-note">rhythmic, predictable</span><a class="book-price" href="https://www.amazon.in/s?k=were+going+on+a+bear+hunt+rosen">₹273</a></div></div>
+        <div class="book-card"><div class="book-title">not a box</div><div class="book-author">antoinette portis</div><div class="book-meta"><span class="book-note">imagination, clever</span><a class="book-price" href="https://www.amazon.in/s?k=not+a+box+antoinette+portis">₹385</a></div></div>
+        <div class="book-card"><div class="book-title">extra yarn</div><div class="book-author">mac barnett</div><div class="book-meta"><span class="book-note">generosity, magical realism</span><a class="book-price" href="https://www.amazon.in/s?k=extra+yarn+mac+barnett">₹1,198</a></div></div>
+        <div class="book-card"><div class="book-title">sam and dave dig a hole</div><div class="book-author">mac barnett & jon klassen</div><div class="book-meta"><span class="book-note">humor, irony</span><a class="book-price" href="https://www.amazon.in/s?k=sam+and+dave+dig+a+hole">₹777</a></div></div>
+        <div class="book-card"><div class="book-title">this is not my hat</div><div class="book-author">jon klassen</div><div class="book-meta"><span class="book-note">dry humor, visual storytelling</span><a class="book-price" href="https://www.amazon.in/s?k=this+is+not+my+hat+klassen">₹360</a></div></div>
+        <div class="book-card"><div class="book-title">i want my hat back</div><div class="book-author">jon klassen</div><div class="book-meta"><span class="book-note">mystery, humor</span><a class="book-price" href="https://www.amazon.in/s?k=i+want+my+hat+back+klassen">₹410</a></div></div>
+      </div>
+    </section>
+
+    <!-- little people big dreams -->
+    <section class="category-section cat-lpbd">
+      <h2 class="category-header">🌟 little people big dreams 🌟</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">ella fitzgerald</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">singing, performing</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+ella+fitzgerald">₹400</a></div></div>
+        <div class="book-card"><div class="book-title">dolly parton</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">music, storytelling, sparkle</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+dolly+parton">₹407</a></div></div>
+        <div class="book-card"><div class="book-title">georgia o'keeffe</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">painting flowers (visual!)</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+georgia+okeeffe">₹584</a></div></div>
+        <div class="book-card"><div class="book-title">yayoi kusama</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">dots, patterns, visual wow</span><a class="book-price" href="https://www.amazon.in/dp/0711292965">₹457</a></div></div>
+        <div class="book-card"><div class="book-title">jean-michel basquiat</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">drawing, colors, energy</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+basquiat">₹497</a></div></div>
+        <div class="book-card"><div class="book-title">mary anning</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">digging, fossils, dinosaurs</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+mary+anning">₹465</a></div></div>
+        <div class="book-card"><div class="book-title">dian fossey</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">gorillas, animals, observation</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+dian+fossey">₹563</a></div></div>
+        <div class="book-card"><div class="book-title">steve irwin</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">animals, enthusiasm, action</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+steve+irwin">₹458</a></div></div>
+        <div class="book-card"><div class="book-title">david hockney</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">painting, bright colors</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+david+hockney">₹400</a></div></div>
+        <div class="book-card"><div class="book-title">freddie mercury</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">singing, performing</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+freddie+mercury">₹415</a></div></div>
+        <div class="book-card"><div class="book-title">ada lovelace</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">numbers, patterns</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+ada+lovelace">₹474</a></div></div>
+        <div class="book-card"><div class="book-title">marie curie</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">science, discovery</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+marie+curie">₹272</a></div></div>
+        <div class="book-card"><div class="book-title">rosa parks</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">standing up, buses</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+rosa+parks">₹563</a></div></div>
+        <div class="book-card"><div class="book-title">greta thunberg</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">nature, speaking</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+greta+thunberg">₹444</a></div></div>
+        <div class="book-card"><div class="book-title">bruce lee</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">movement, discipline</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+bruce+lee">₹929</a></div></div>
+        <div class="book-card"><div class="book-title">simone biles</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">gymnastics, movement</span><a class="book-price" href="https://www.amazon.in/s?k=little+people+big+dreams+simone+biles">₹497</a></div></div>
+      </div>
+    </section>
+
+    <!-- math / counting -->
+    <section class="category-section cat-math">
+      <h2 class="category-header">🔢 math / counting 🔢</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">one is a snail ten is a crab</div><div class="book-author">april pulley sayre</div><div class="book-meta"><span class="book-note">additive counting with feet</span><a class="book-price" href="https://www.amazon.in/dp/0763626317">₹484</a></div></div>
+        <div class="book-card"><div class="book-title">anno's counting book</div><div class="book-author">mitsumasa anno</div><div class="book-meta"><span class="book-note">visual counting, wordless</span><a class="book-price" href="https://www.amazon.in/dp/0064431231">₹636</a></div></div>
+        <div class="book-card"><div class="book-title">each orange had 8 slices</div><div class="book-author">paul giganti</div><div class="book-meta"><span class="book-note">multiplication intro</span><a class="book-price" href="https://www.amazon.in/s?k=each+orange+had+8+slices">₹315</a></div></div>
+        <div class="book-card"><div class="book-title">the doorbell rang</div><div class="book-author">pat hutchins</div><div class="book-meta"><span class="book-note">division through cookies</span><a class="book-price" href="https://www.amazon.in/s?k=the+doorbell+rang+pat+hutchins">₹776</a></div></div>
+        <div class="book-card"><div class="book-title">how many snails?</div><div class="book-author">paul giganti</div><div class="book-meta"><span class="book-note">counting categories</span><a class="book-price" href="https://www.amazon.in/s?k=how+many+snails+paul+giganti">₹353</a></div></div>
+        <div class="book-card"><div class="book-title">more, fewer, less</div><div class="book-author">tana hoban</div><div class="book-meta"><span class="book-note">comparison concepts</span><a class="book-price" href="https://www.amazon.in/s?k=more+fewer+less+tana+hoban">₹1,172</a></div></div>
+        <div class="book-card"><div class="book-title">shapes, shapes, shapes</div><div class="book-author">tana hoban</div><div class="book-meta"><span class="book-note">geometry in real world</span><a class="book-price" href="https://www.amazon.in/s?k=shapes+shapes+shapes+tana+hoban">₹291</a></div></div>
+        <div class="book-card"><div class="book-title">is it larger? is it smaller?</div><div class="book-author">tana hoban</div><div class="book-meta"><span class="book-note">relative size</span><a class="book-price" href="https://www.amazon.in/s?k=is+it+larger+is+it+smaller+tana+hoban">₹938</a></div></div>
+        <div class="book-card"><div class="book-title">ten black dots</div><div class="book-author">donald crews</div><div class="book-meta"><span class="book-note">creative counting</span><a class="book-price" href="https://www.amazon.in/s?k=ten+black+dots+donald+crews">₹618</a></div></div>
+        <div class="book-card"><div class="book-title">mouse count</div><div class="book-author">ellen stoll walsh</div><div class="book-meta"><span class="book-note">counting + narrative</span><a class="book-price" href="https://www.amazon.in/s?k=mouse+count+ellen+stoll+walsh">₹711</a></div></div>
+        <div class="book-card"><div class="book-title">fish eyes</div><div class="book-author">lois ehlert</div><div class="book-meta"><span class="book-note">adding one more</span><a class="book-price" href="https://www.amazon.in/s?k=fish+eyes+lois+ehlert">₹349</a></div></div>
+        <div class="book-card"><div class="book-title">what comes in 2's, 3's, and 4's?</div><div class="book-author">suzanne aker</div><div class="book-meta"><span class="book-note">grouping in real life</span><a class="book-price" href="https://www.amazon.in/s?k=what+comes+in+2s+3s+4s">₹604</a></div></div>
+        <div class="book-card"><div class="book-title">chicka chicka 1, 2, 3</div><div class="book-author">bill martin jr</div><div class="book-meta"><span class="book-note">numbers to 100</span><a class="book-price" href="https://www.amazon.in/s?k=chicka+chicka+1+2+3">₹290</a></div></div>
+        <div class="book-card"><div class="book-title">math fables</div><div class="book-author">greg tang</div><div class="book-meta"><span class="book-note">problem solving stories</span><a class="book-price" href="https://www.amazon.in/s?k=math+fables+greg+tang">₹1,799</a></div></div>
+        <div class="book-card"><div class="book-title">the greedy triangle</div><div class="book-author">marilyn burns</div><div class="book-meta"><span class="book-note">shapes + transformation</span><a class="book-price" href="https://www.amazon.in/s?k=the+greedy+triangle+marilyn+burns">₹685</a></div></div>
+      </div>
+    </section>
+
+    <!-- vocab / speech -->
+    <section class="category-section cat-vocab">
+      <h2 class="category-header">💬 vocab / speech / words 💬</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">brown bear, brown bear</div><div class="book-author">bill martin jr</div><div class="book-meta"><span class="book-note">pattern + animals</span><a class="book-price" href="https://www.amazon.in/s?k=brown+bear+brown+bear+bill+martin">₹338</a></div></div>
+        <div class="book-card"><div class="book-title">polar bear, polar bear</div><div class="book-author">bill martin jr</div><div class="book-meta"><span class="book-note">pattern + sounds</span><a class="book-price" href="https://www.amazon.in/s?k=polar+bear+polar+bear+bill+martin">₹277</a></div></div>
+        <div class="book-card"><div class="book-title">panda bear, panda bear</div><div class="book-author">bill martin jr</div><div class="book-meta"><span class="book-note">pattern + endangered animals</span><a class="book-price" href="https://www.amazon.in/s?k=panda+bear+panda+bear+bill+martin">₹794</a></div></div>
+        <div class="book-card"><div class="book-title">chicka chicka boom boom</div><div class="book-author">bill martin jr</div><div class="book-meta"><span class="book-note">alphabet rhythm</span><a class="book-price" href="https://www.amazon.in/dp/1442450703">₹715</a></div></div>
+        <div class="book-card"><div class="book-title">eating the alphabet</div><div class="book-author">lois ehlert</div><div class="book-meta"><span class="book-note">food + letters</span><a class="book-price" href="https://www.amazon.in/s?k=eating+the+alphabet+lois+ehlert">₹368</a></div></div>
+        <div class="book-card"><div class="book-title">alphabet city</div><div class="book-author">stephen johnson</div><div class="book-meta"><span class="book-note">letters in city photos</span><a class="book-price" href="https://www.amazon.in/s?k=alphabet+city+stephen+johnson">₹908</a></div></div>
+        <div class="book-card"><div class="book-title">freight train</div><div class="book-author">donald crews</div><div class="book-meta"><span class="book-note">train vocabulary, colors</span><a class="book-price" href="https://www.amazon.in/s?k=freight+train+donald+crews">₹480</a></div></div>
+        <div class="book-card"><div class="book-title">school bus</div><div class="book-author">donald crews</div><div class="book-meta"><span class="book-note">transportation</span><a class="book-price" href="https://www.amazon.in/s?k=school+bus+donald+crews">₹608</a></div></div>
+        <div class="book-card"><div class="book-title">truck</div><div class="book-author">donald crews</div><div class="book-meta"><span class="book-note">vehicle vocabulary</span><a class="book-price" href="https://www.amazon.in/s?k=truck+donald+crews">₹633</a></div></div>
+        <div class="book-card"><div class="book-title">sheep in a jeep</div><div class="book-author">nancy shaw</div><div class="book-meta"><span class="book-note">rhyming + humor</span><a class="book-price" href="https://www.amazon.in/s?k=sheep+in+a+jeep+nancy+shaw">₹663</a></div></div>
+        <div class="book-card"><div class="book-title">jamberry</div><div class="book-author">bruce degen</div><div class="book-meta"><span class="book-note">berry word explosion</span><a class="book-price" href="https://www.amazon.in/s?k=jamberry+bruce+degen">₹484</a></div></div>
+        <div class="book-card"><div class="book-title">the word collector</div><div class="book-author">peter h. reynolds</div><div class="book-meta"><span class="book-note">collecting words</span><a class="book-price" href="https://www.amazon.in/s?k=the+word+collector+peter+reynolds">₹852</a></div></div>
+        <div class="book-card"><div class="book-title">green eggs and ham</div><div class="book-author">dr. seuss</div><div class="book-meta"><span class="book-note">sentence patterns</span><a class="book-price" href="https://www.amazon.in/s?k=green+eggs+and+ham+dr+seuss">₹226</a></div></div>
+        <div class="book-card"><div class="book-title">hop on pop</div><div class="book-author">dr. seuss</div><div class="book-meta"><span class="book-note">word families</span><a class="book-price" href="https://www.amazon.in/s?k=hop+on+pop+dr+seuss">₹189</a></div></div>
+        <div class="book-card"><div class="book-title">go, dog. go!</div><div class="book-author">p.d. eastman</div><div class="book-meta"><span class="book-note">simple sentences</span><a class="book-price" href="https://www.amazon.in/s?k=go+dog+go+pd+eastman">₹527</a></div></div>
+        <div class="book-card"><div class="book-title">are you my mother?</div><div class="book-author">p.d. eastman</div><div class="book-meta"><span class="book-note">question patterns</span><a class="book-price" href="https://www.amazon.in/s?k=are+you+my+mother+pd+eastman">₹213</a></div></div>
+        <div class="book-card"><div class="book-title">put me in the zoo</div><div class="book-author">robert lopshire</div><div class="book-meta"><span class="book-note">action words</span><a class="book-price" href="https://www.amazon.in/s?k=put+me+in+the+zoo+robert+lopshire">₹258</a></div></div>
+      </div>
+    </section>
+
+    <!-- visual density -->
+    <section class="category-section cat-visual">
+      <h2 class="category-header">🔍 visual density / detailed exploration 🔍</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">richard scarry's cars and trucks and things that go</div><div class="book-author">richard scarry</div><div class="book-meta"><span class="book-note">visual overload, goldbugs</span><a class="book-price" href="https://www.amazon.in/s?k=richard+scarry+cars+trucks+things+that+go">₹374</a></div></div>
+        <div class="book-card"><div class="book-title">richard scarry's what do people do all day</div><div class="book-author">richard scarry</div><div class="book-meta"><span class="book-note">community, jobs</span><a class="book-price" href="https://www.amazon.in/s?k=richard+scarry+what+do+people+do+all+day">₹346</a></div></div>
+        <div class="book-card"><div class="book-title">look-alikes</div><div class="book-author">joan steiner</div><div class="book-meta"><span class="book-note">objects hidden in scenes</span><a class="book-price" href="https://www.amazon.in/s?k=look+alikes+joan+steiner">₹3,229</a></div></div>
+        <div class="book-card"><div class="book-title">i spy</div><div class="book-author">jean marzollo</div><div class="book-meta"><span class="book-note">search and find</span><a class="book-price" href="https://www.amazon.in/s?k=i+spy+jean+marzollo">₹608</a></div></div>
+        <div class="book-card"><div class="book-title">where's waldo</div><div class="book-author">martin handford</div><div class="book-meta"><span class="book-note">challenge mode</span><a class="book-price" href="https://www.amazon.in/s?k=wheres+waldo+martin+handford">₹462</a></div></div>
+        <div class="book-card"><div class="book-title">busy town</div><div class="book-author">richard scarry</div><div class="book-meta"><span class="book-note">another scarry angle</span><a class="book-price" href="https://www.amazon.in/s?k=richard+scarry+busy+town">₹999</a></div></div>
+        <div class="book-card"><div class="book-title">animalia</div><div class="book-author">graeme base</div><div class="book-meta"><span class="book-note">alphabet + insane visual density</span><a class="book-price" href="https://www.amazon.in/s?k=animalia+graeme+base">₹450</a></div></div>
+        <div class="book-card"><div class="book-title">the eleventh hour</div><div class="book-author">graeme base</div><div class="book-meta"><span class="book-note">mystery + visual puzzle</span><a class="book-price" href="https://www.amazon.in/s?k=the+eleventh+hour+graeme+base">₹443</a></div></div>
+      </div>
+    </section>
+
+    <!-- rhythmic / predictable -->
+    <section class="category-section cat-rhythm">
+      <h2 class="category-header">🎵 rhythmic / predictable 🎵</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">each peach pear plum</div><div class="book-author">janet & allan ahlberg</div><div class="book-meta"><span class="book-note">rhyme + hidden characters</span><a class="book-price" href="https://www.amazon.in/s?k=each+peach+pear+plum+ahlberg">₹325</a></div></div>
+        <div class="book-card"><div class="book-title">room on the broom</div><div class="book-author">julia donaldson</div><div class="book-meta"><span class="book-note">rhythm + cumulative</span><a class="book-price" href="https://www.amazon.in/s?k=room+on+the+broom+julia+donaldson">₹283</a></div></div>
+        <div class="book-card"><div class="book-title">the gruffalo</div><div class="book-author">julia donaldson</div><div class="book-meta"><span class="book-note">rhythm + clever ending</span><a class="book-price" href="https://www.amazon.in/dp/1509804757">₹296</a></div></div>
+        <div class="book-card"><div class="book-title">stick man</div><div class="book-author">julia donaldson</div><div class="book-meta"><span class="book-note">adventure + rhythm</span><a class="book-price" href="https://www.amazon.in/s?k=stick+man+julia+donaldson">₹301</a></div></div>
+        <div class="book-card"><div class="book-title">giraffes can't dance</div><div class="book-author">giles andreae</div><div class="book-meta"><span class="book-note">rhythm + determination</span><a class="book-price" href="https://www.amazon.in/s?k=giraffes+cant+dance+giles+andreae">₹321</a></div></div>
+        <div class="book-card"><div class="book-title">llama llama red pajama</div><div class="book-author">anna dewdney</div><div class="book-meta"><span class="book-note">rhythm + bedtime + emotion</span><a class="book-price" href="https://www.amazon.in/s?k=llama+llama+red+pajama+anna+dewdney">₹419</a></div></div>
+      </div>
+    </section>
+
+    <!-- top 10 -->
+    <section class="category-section cat-top10">
+      <h2 class="category-header">🏆 top 10 to order first 🏆</h2>
+      <div class="book-list">
+        <div class="book-card"><div class="book-title">one is a snail ten is a crab</div><div class="book-author">april pulley sayre</div><div class="book-meta"><span class="book-note">math beyond counting, visual, clever</span><a class="book-price" href="https://www.amazon.in/dp/0763626317">₹484</a></div></div>
+        <div class="book-card"><div class="book-title">where the wild things are</div><div class="book-author">maurice sendak</div><div class="book-meta"><span class="book-note">narrative imagination, emotional arc</span><a class="book-price" href="https://www.amazon.in/dp/1782955038">₹317</a></div></div>
+        <div class="book-card"><div class="book-title">what do you do with a tail like this?</div><div class="book-author">steve jenkins</div><div class="book-meta"><span class="book-note">animal science, guessing game</span><a class="book-price" href="https://www.amazon.in/dp/061899713X">₹349</a></div></div>
+        <div class="book-card"><div class="book-title">if you give a mouse a cookie</div><div class="book-author">laura numeroff</div><div class="book-meta"><span class="book-note">cause-effect chains</span><a class="book-price" href="https://www.amazon.in/dp/0060245867">₹566</a></div></div>
+        <div class="book-card"><div class="book-title">lost and found</div><div class="book-author">oliver jeffers</div><div class="book-meta"><span class="book-note">she loves oliver jeffers</span><a class="book-price" href="https://www.amazon.in/dp/0007150369">₹275</a></div></div>
+        <div class="book-card"><div class="book-title">yayoi kusama</div><div class="book-author">lpbd</div><div class="book-meta"><span class="book-note">visual density, dots, patterns</span><a class="book-price" href="https://www.amazon.in/dp/0711292965">₹457</a></div></div>
+        <div class="book-card"><div class="book-title">the snowy day</div><div class="book-author">ezra jack keats</div><div class="book-meta"><span class="book-note">perfect narrative, beautiful</span><a class="book-price" href="https://www.amazon.in/dp/0670867330">₹537</a></div></div>
+        <div class="book-card"><div class="book-title">over and under the snow</div><div class="book-author">kate messner</div><div class="book-meta"><span class="book-note">nature cause-effect, hidden worlds</span><a class="book-price" href="https://www.amazon.in/dp/1452136467">₹655</a></div></div>
+        <div class="book-card"><div class="book-title">anno's counting book</div><div class="book-author">mitsumasa anno</div><div class="book-meta"><span class="book-note">wordless, visual counting scenes</span><a class="book-price" href="https://www.amazon.in/dp/0064431231">₹636</a></div></div>
+        <div class="book-card"><div class="book-title">the gruffalo</div><div class="book-author">julia donaldson</div><div class="book-meta"><span class="book-note">rhythm, clever story, character</span><a class="book-price" href="https://www.amazon.in/dp/1509804757">₹296</a></div></div>
+      </div>
+      <p class="category-note">top 10 total: ₹4,371</p>
+    </section>
+
+    <p style="color: var(--text-light); font-size: 12px; margin-top: 2rem;">prices from amazon.in, jan 2026. may vary.</p>
   </div>
-
-  <script id="md-source" type="text/markdown">
-# 100+ book recommendations for mira (revised)
-
-**based on:** ~20mo, significantly advanced literacy/attention (30-50min sessions), visual density lover, lifecycle/transformation themes, relatable actions, narrative complexity ready
-
-**what works for her:**
-- visual density where she finds something new each read
-- lifecycle/transformation (how things grow/change)
-- lpbd when actions are relatable (dancing, painting, sewing) + visually rich
-- narrative depth - she's emotionally processing stories
-- naming = ownership (gives books her own names)
-
-**avoiding:**
-- lift-the-flap / simple interactive (explicitly outgrown per doc)
-- touch-and-feel / texture books (too simple)
-- basic word/concept books (outgrown "one thousand things")
-- authors she has heavily: rachel bright (3 books), eric carle (2+)
-- lpbd she owns: steve jobs, audrey, coco, frida, michelle obama, stephen hawking, princess diana, taylor swift, david attenborough, jane goodall, mother teresa
-- lpbd that didn't work: maya angelou, zaha hadid, amelia earhart, mahatma gandhi
-- books she already has: press here, tap the magic tree, where is the green sheep, richard scarry's biggest word book ever, spot and friends, from head to toe, very hungry caterpillar
-
-**pricing guide (typical ranges on amazon.in):**
-- board book: ₹250-450
-- paperback: ₹200-400
-- hardcover: ₹350-700
-- imported hardcover: ₹600-1500
-- lpbd hardcover: ₹350-500
-
----
-
-## cause-effect (transformation, action→result, if-then)
-
-what her brain is wiring for - clear cause and effect, chain reactions, transformation.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 1 | if you give a mouse a cookie | laura numeroff | delightful chain of consequences | [buy](https://www.amazon.in/dp/0060245867) | hardcover | ₹566 |
-| 2 | if you give a pig a pancake | laura numeroff | predictable cause chains | [buy](https://www.amazon.in/s?k=if+you+give+a+pig+a+pancake) | hardcover | ₹948 |
-| 3 | if you give a moose a muffin | laura numeroff | familiar pattern, new story | [buy](https://www.amazon.in/s?k=if+you+give+a+moose+a+muffin) | hardcover | ₹739 |
-| 4 | the napping house | audrey wood | cumulative cause-effect (everyone piles on) | [buy](https://www.amazon.in/s?k=the+napping+house+audrey+wood) | board book | ₹730 |
-| 5 | plant the tiny seed | christie matheson | growth cycle with interaction | [buy](https://www.amazon.in/s?k=plant+the+tiny+seed+christie+matheson) | board book | ₹409 |
-| 6 | over and under the snow | kate messner | hidden worlds revealed, above/below | [buy](https://www.amazon.in/dp/1452136467) | paperback | ₹655 |
-| 7 | up in the garden and down in the dirt | kate messner | transformation above/below ground | [buy](https://www.amazon.in/s?k=up+in+the+garden+down+in+the+dirt) | paperback | ₹820 |
-| 8 | red leaf, yellow leaf | lois ehlert | tree lifecycle with collage art | [buy](https://www.amazon.in/s?k=red+leaf+yellow+leaf+lois+ehlert) | paperback | ₹315 |
-| 9 | planting a rainbow | lois ehlert | bulb→flower transformation | [buy](https://www.amazon.in/s?k=planting+a+rainbow+lois+ehlert) | paperback | ₹392 |
-| 10 | waiting | kevin henkes | anticipation and seasonal change | [buy](https://www.amazon.in/s?k=waiting+kevin+henkes) | hardcover | ₹1,194 |
-| 11 | when spring comes | kevin henkes | transformation of seasons | [buy](https://www.amazon.in/s?k=when+spring+comes+kevin+henkes) | paperback | ₹647 |
-| 12 | egg | kevin henkes | what comes from an egg? | [buy](https://www.amazon.in/s?k=egg+kevin+henkes) | hardcover | ₹668 |
-| 13 | a seed is sleepy | dianna hutts aston | seed science, gorgeous illustrations | [buy](https://www.amazon.in/s?k=a+seed+is+sleepy+dianna+aston) | paperback | ₹663 |
-| 14 | an egg is quiet | dianna hutts aston | egg diversity (visual density!) | [buy](https://www.amazon.in/s?k=an+egg+is+quiet+dianna+aston) | paperback | ₹601 |
-| 15 | a butterfly is patient | dianna hutts aston | lifecycle with rich detail | [buy](https://www.amazon.in/s?k=a+butterfly+is+patient+dianna+aston) | paperback | ₹808 |
-| 16 | the very busy spider | eric carle | cause-effect through web building | [buy](https://www.amazon.in/s?k=the+very+busy+spider+eric+carle) | board book | ₹290 |
-
----
-
-## science-y (physics, biology, nature, how things work)
-
-building on her lifecycle curiosity + advanced comprehension.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 17 | what do you do with a tail like this? | steve jenkins | animal adaptations, guessing game | [buy](https://www.amazon.in/dp/061899713X) | paperback | ₹349 |
-| 18 | actual size | steve jenkins | scale and comparison (life-size!) | [buy](https://www.amazon.in/s?k=actual+size+steve+jenkins) | paperback | ₹653 |
-| 19 | living sunlight | molly bang | photosynthesis as story | [buy](https://www.amazon.in/s?k=living+sunlight+molly+bang) | hardcover | ₹1,540 |
-| 20 | ocean sunlight | molly bang | underwater ecosystems | [buy](https://www.amazon.in/s?k=ocean+sunlight+molly+bang) | hardcover | ₹302 |
-| 21 | what makes a shadow? | clyde bulla | light and dark explained | [buy](https://www.amazon.in/s?k=what+makes+a+shadow+clyde+bulla) | paperback | ₹1,684 |
-| 22 | what is the world made of? | kathleen zoehfeld | matter basics (solid, liquid, gas) | [buy](https://www.amazon.in/s?k=what+is+the+world+made+of+zoehfeld) | paperback | ₹285 |
-| 23 | a rock is lively | dianna hutts aston | geology with beautiful art | [buy](https://www.amazon.in/s?k=a+rock+is+lively+dianna+aston) | paperback | ₹596 |
-| 24 | the reason for a flower | ruth heller | pollination, visual feast | [buy](https://www.amazon.in/s?k=the+reason+for+a+flower+ruth+heller) | paperback | ₹313 |
-| 25 | animals in winter | henrietta bancroft | hibernation explained | [buy](https://www.amazon.in/s?k=animals+in+winter+henrietta+bancroft) | paperback | ₹326 |
-| 26 | how a seed grows | helene jordan | step by step growth | [buy](https://www.amazon.in/s?k=how+a+seed+grows+helene+jordan) | paperback | ₹525 |
-| 27 | me and my amazing body | joan sweeney | body systems for kids | [buy](https://www.amazon.in/s?k=me+and+my+amazing+body+joan+sweeney) | paperback | ₹130 |
-| 28 | what's inside your tummy, mommy? | abby cocovini | pregnancy explained | [buy](https://www.amazon.in/s?k=whats+inside+your+tummy+mommy) | paperback | n/a |
-| 29 | look inside your body | usborne | body exploration (windows) | [buy](https://www.amazon.in/s?k=usborne+look+inside+your+body) | board book | ₹707 |
-| 30 | nat geo little kids first big book of animals | national geographic | visual density + facts | [buy](https://www.amazon.in/s?k=national+geographic+little+kids+first+big+book+animals) | hardcover | ₹1,740 |
-| 31 | the magic school bus | joanna cole | science adventures (any title) | [buy](https://www.amazon.in/s?k=magic+school+bus+joanna+cole) | paperback | ₹167 |
-
----
-
-## imaginative / story-narrative
-
-she's ready for narrative complexity - emotional arcs, character journeys.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 32 | where the wild things are | maurice sendak | imagination journey, emotional arc | [buy](https://www.amazon.in/dp/1782955038) | paperback | ₹317 |
-| 33 | harold and the purple crayon | crockett johnson | creating your own world | [buy](https://www.amazon.in/dp/0007464371) | paperback | ₹299 |
-| 34 | the snowy day | ezra jack keats | simple perfect narrative | [buy](https://www.amazon.in/dp/0670867330) | board book | ₹537 |
-| 35 | whistle for willie | ezra jack keats | determination story | [buy](https://www.amazon.in/s?k=whistle+for+willie+ezra+jack+keats) | paperback | ₹491 |
-| 36 | owl babies | martin waddell | separation and reunion | [buy](https://www.amazon.in/s?k=owl+babies+martin+waddell) | board book | ₹333 |
-| 37 | guess how much i love you | sam mcbratney | love comparison | [buy](https://www.amazon.in/s?k=guess+how+much+i+love+you) | board book | ₹287 |
-| 38 | the runaway bunny | margaret wise brown | unconditional love | [buy](https://www.amazon.in/s?k=the+runaway+bunny+margaret+wise+brown) | board book | ₹880 |
-| 39 | goodnight moon | margaret wise brown | bedtime ritual | [buy](https://www.amazon.in/dp/1509829466) | paperback | ₹257 |
-| 40 | blueberries for sal | robert mccloskey | parallel narrative | [buy](https://www.amazon.in/s?k=blueberries+for+sal+mccloskey) | paperback | ₹495 |
-| 41 | make way for ducklings | robert mccloskey | family journey | [buy](https://www.amazon.in/s?k=make+way+for+ducklings+mccloskey) | paperback | ₹728 |
-| 42 | corduroy | don freeman | friendship and belonging | [buy](https://www.amazon.in/dp/0451470796) | board book | ₹369 |
-| 43 | a pocket for corduroy | don freeman | adventure and return | [buy](https://www.amazon.in/s?k=a+pocket+for+corduroy) | paperback | ₹181 |
-| 44 | sylvester and the magic pebble | william steig | transformation, family reunion | [buy](https://www.amazon.in/s?k=sylvester+and+the+magic+pebble) | paperback | ₹216 |
-| 45 | amos & boris | william steig | unlikely friendship | [buy](https://www.amazon.in/s?k=amos+and+boris+william+steig) | paperback | ₹510 |
-| 46 | frog and toad are friends | arnold lobel | chapter stories, friendship | [buy](https://www.amazon.in/s?k=frog+and+toad+are+friends+lobel) | paperback | ₹150 |
-| 47 | mouse soup | arnold lobel | stories within stories | [buy](https://www.amazon.in/s?k=mouse+soup+arnold+lobel) | paperback | ₹191 |
-| 48 | owl at home | arnold lobel | gentle humor | [buy](https://www.amazon.in/s?k=owl+at+home+arnold+lobel) | library binding | ₹4,584 |
-| 49 | time for bed | mem fox | bedtime animals, rhythmic | [buy](https://www.amazon.in/s?k=time+for+bed+mem+fox) | board book | ₹667 |
-| 50 | koala lou | mem fox | love and competition | [buy](https://www.amazon.in/s?k=koala+lou+mem+fox) | paperback | ₹693 |
-| 51 | possum magic | mem fox | australian adventure | [buy](https://www.amazon.in/s?k=possum+magic+mem+fox) | paperback | ₹637 |
-| 52 | lost and found | oliver jeffers | she loves "here we are" | [buy](https://www.amazon.in/dp/0007150369) | paperback | ₹275 |
-| 53 | the day the crayons quit | drew daywalt | visual storytelling, personality | [buy](https://www.amazon.in/dp/0008167923) | paperback | ₹299 |
-| 54 | we're going on a bear hunt | michael rosen | rhythmic, predictable | [buy](https://www.amazon.in/s?k=were+going+on+a+bear+hunt+rosen) | board book | ₹273 |
-| 55 | not a box | antoinette portis | imagination, clever | [buy](https://www.amazon.in/s?k=not+a+box+antoinette+portis) | board book | ₹385 |
-| 56 | extra yarn | mac barnett | generosity, magical realism | [buy](https://www.amazon.in/s?k=extra+yarn+mac+barnett) | hardcover | ₹1,198 |
-| 57 | sam and dave dig a hole | mac barnett & jon klassen | humor, irony | [buy](https://www.amazon.in/s?k=sam+and+dave+dig+a+hole) | paperback | ₹777 |
-| 58 | this is not my hat | jon klassen | dry humor, visual storytelling | [buy](https://www.amazon.in/s?k=this+is+not+my+hat+klassen) | paperback | ₹360 |
-| 59 | i want my hat back | jon klassen | mystery, humor | [buy](https://www.amazon.in/s?k=i+want+my+hat+back+klassen) | paperback | ₹410 |
-
----
-
-## little people big dreams (new recommendations)
-
-based on what works: relatable actions (dancing, painting, sewing), visual richness, not too abstract.
-
-**high confidence (relatable actions + visual density):**
-
-| # | title | action/theme | amazon.in | format | price (approx) |
-|---|-------|--------------|-----------|--------|----------------|
-| 60 | ella fitzgerald | singing, performing | [buy](https://www.amazon.in/s?k=little+people+big+dreams+ella+fitzgerald) | hardcover | ₹400 |
-| 61 | dolly parton | music, storytelling, sparkle | [buy](https://www.amazon.in/s?k=little+people+big+dreams+dolly+parton) | hardcover | ₹407 |
-| 62 | georgia o'keeffe | painting flowers (visual!) | [buy](https://www.amazon.in/s?k=little+people+big+dreams+georgia+okeeffe) | hardcover | ₹584 |
-| 63 | yayoi kusama | dots, patterns, visual wow | [buy](https://www.amazon.in/dp/0711292965) | hardcover | ₹457 |
-| 64 | jean-michel basquiat | drawing, colors, energy | [buy](https://www.amazon.in/s?k=little+people+big+dreams+basquiat) | hardcover | ₹497 |
-| 65 | mary anning | digging, fossils, dinosaurs | [buy](https://www.amazon.in/s?k=little+people+big+dreams+mary+anning) | hardcover | ₹465 |
-| 66 | dian fossey | gorillas, animals, observation | [buy](https://www.amazon.in/s?k=little+people+big+dreams+dian+fossey) | hardcover | ₹563 |
-| 67 | steve irwin | animals, enthusiasm, action | [buy](https://www.amazon.in/s?k=little+people+big+dreams+steve+irwin) | hardcover | ₹458 |
-| 68 | david hockney | painting, bright colors | [buy](https://www.amazon.in/s?k=little+people+big+dreams+david+hockney) | hardcover | ₹400 |
-| 69 | freddie mercury | singing, performing | [buy](https://www.amazon.in/s?k=little+people+big+dreams+freddie+mercury) | hardcover | ₹415 |
-
-**medium confidence (may work based on visuals):**
-
-| # | title | action/theme | amazon.in | format | price (approx) |
-|---|-------|--------------|-----------|--------|----------------|
-| 70 | ada lovelace | numbers, patterns | [buy](https://www.amazon.in/s?k=little+people+big+dreams+ada+lovelace) | hardcover | ₹474 |
-| 71 | marie curie | science, discovery | [buy](https://www.amazon.in/s?k=little+people+big+dreams+marie+curie) | paperback | ₹272 |
-| 72 | rosa parks | standing up, buses | [buy](https://www.amazon.in/s?k=little+people+big+dreams+rosa+parks) | hardcover | ₹563 |
-| 73 | greta thunberg | nature, speaking | [buy](https://www.amazon.in/s?k=little+people+big+dreams+greta+thunberg) | hardcover | ₹444 |
-| 74 | bruce lee | movement, discipline | [buy](https://www.amazon.in/s?k=little+people+big+dreams+bruce+lee) | hardcover | ₹929 |
-| 75 | simone biles | gymnastics, movement | [buy](https://www.amazon.in/s?k=little+people+big+dreams+simone+biles) | hardcover | ₹497 |
-
-**avoid (abstract or proven not to work):**
-- maya angelou (didn't work)
-- zaha hadid (didn't work)
-- amelia earhart (didn't work)
-- mahatma gandhi (didn't work)
-- charles dickens (never read in combined)
-- mohammed ali (barely read)
-
----
-
-## math / counting (beyond 1-2-3)
-
-she has "how many?" by christopher danielson. ready for quantity, comparison, patterns.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 76 | one is a snail ten is a crab | april pulley sayre | additive counting with feet | [buy](https://www.amazon.in/dp/0763626317) | paperback | ₹484 |
-| 77 | anno's counting book | mitsumasa anno | visual counting, wordless | [buy](https://www.amazon.in/dp/0064431231) | paperback | ₹636 |
-| 78 | each orange had 8 slices | paul giganti | multiplication intro | [buy](https://www.amazon.in/s?k=each+orange+had+8+slices) | paperback | ₹315 |
-| 79 | the doorbell rang | pat hutchins | division through cookies | [buy](https://www.amazon.in/s?k=the+doorbell+rang+pat+hutchins) | paperback | ₹776 |
-| 80 | how many snails? | paul giganti | counting categories | [buy](https://www.amazon.in/s?k=how+many+snails+paul+giganti) | paperback | ₹353 |
-| 81 | more, fewer, less | tana hoban | comparison concepts | [buy](https://www.amazon.in/s?k=more+fewer+less+tana+hoban) | hardcover | ₹1,172 |
-| 82 | shapes, shapes, shapes | tana hoban | geometry in real world | [buy](https://www.amazon.in/s?k=shapes+shapes+shapes+tana+hoban) | paperback | ₹291 |
-| 83 | is it larger? is it smaller? | tana hoban | relative size | [buy](https://www.amazon.in/s?k=is+it+larger+is+it+smaller+tana+hoban) | paperback | ₹938 |
-| 84 | ten black dots | donald crews | creative counting | [buy](https://www.amazon.in/s?k=ten+black+dots+donald+crews) | board book | ₹618 |
-| 85 | mouse count | ellen stoll walsh | counting + narrative | [buy](https://www.amazon.in/s?k=mouse+count+ellen+stoll+walsh) | board book | ₹711 |
-| 86 | fish eyes | lois ehlert | adding one more | [buy](https://www.amazon.in/s?k=fish+eyes+lois+ehlert) | paperback | ₹349 |
-| 87 | what comes in 2's, 3's, and 4's? | suzanne aker | grouping in real life | [buy](https://www.amazon.in/s?k=what+comes+in+2s+3s+4s) | paperback | ₹604 |
-| 88 | chicka chicka 1, 2, 3 | bill martin jr | numbers to 100 | [buy](https://www.amazon.in/s?k=chicka+chicka+1+2+3) | board book | ₹290 |
-| 89 | math fables | greg tang | problem solving stories | [buy](https://www.amazon.in/s?k=math+fables+greg+tang) | kindle | ₹1,799 |
-| 90 | the greedy triangle | marilyn burns | shapes + transformation | [buy](https://www.amazon.in/s?k=the+greedy+triangle+marilyn+burns) | paperback | ₹685 |
-
----
-
-## vocab / speech / words / sentences
-
-she has richard scarry's biggest word book ever. vocabulary explosion phase.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 91 | brown bear, brown bear | bill martin jr | pattern + animals | [buy](https://www.amazon.in/s?k=brown+bear+brown+bear+bill+martin) | board book | ₹338 |
-| 92 | polar bear, polar bear | bill martin jr | pattern + sounds | [buy](https://www.amazon.in/s?k=polar+bear+polar+bear+bill+martin) | board book | ₹277 |
-| 93 | panda bear, panda bear | bill martin jr | pattern + endangered animals | [buy](https://www.amazon.in/s?k=panda+bear+panda+bear+bill+martin) | board book | ₹794 |
-| 94 | chicka chicka boom boom | bill martin jr | alphabet rhythm | [buy](https://www.amazon.in/dp/1442450703) | board book | ₹715 |
-| 95 | eating the alphabet | lois ehlert | food + letters | [buy](https://www.amazon.in/s?k=eating+the+alphabet+lois+ehlert) | paperback | ₹368 |
-| 96 | alphabet city | stephen johnson | letters in city photos | [buy](https://www.amazon.in/s?k=alphabet+city+stephen+johnson) | hardcover | ₹908 |
-| 97 | freight train | donald crews | train vocabulary, colors | [buy](https://www.amazon.in/s?k=freight+train+donald+crews) | paperback | ₹480 |
-| 98 | school bus | donald crews | transportation | [buy](https://www.amazon.in/s?k=school+bus+donald+crews) | board book | ₹608 |
-| 99 | truck | donald crews | vehicle vocabulary | [buy](https://www.amazon.in/s?k=truck+donald+crews) | paperback | ₹633 |
-| 100 | sheep in a jeep | nancy shaw | rhyming + humor | [buy](https://www.amazon.in/s?k=sheep+in+a+jeep+nancy+shaw) | board book | ₹663 |
-| 101 | jamberry | bruce degen | berry word explosion | [buy](https://www.amazon.in/s?k=jamberry+bruce+degen) | board book | ₹484 |
-| 102 | the word collector | peter h. reynolds | collecting words | [buy](https://www.amazon.in/s?k=the+word+collector+peter+reynolds) | paperback | ₹852 |
-| 103 | green eggs and ham | dr. seuss | sentence patterns | [buy](https://www.amazon.in/s?k=green+eggs+and+ham+dr+seuss) | paperback | ₹226 |
-| 104 | hop on pop | dr. seuss | word families | [buy](https://www.amazon.in/s?k=hop+on+pop+dr+seuss) | paperback | ₹189 |
-| 105 | go, dog. go! | p.d. eastman | simple sentences | [buy](https://www.amazon.in/s?k=go+dog+go+pd+eastman) | board book | ₹527 |
-| 106 | are you my mother? | p.d. eastman | question patterns | [buy](https://www.amazon.in/s?k=are+you+my+mother+pd+eastman) | paperback | ₹213 |
-| 107 | put me in the zoo | robert lopshire | action words | [buy](https://www.amazon.in/s?k=put+me+in+the+zoo+robert+lopshire) | board book | ₹258 |
-
----
-
-## visual density / detailed exploration
-
-for her 30-50 minute reading sessions where she explores every visual.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 108 | richard scarry's cars and trucks and things that go | richard scarry | visual overload, goldbugs | [buy](https://www.amazon.in/s?k=richard+scarry+cars+trucks+things+that+go) | paperback | ₹374 |
-| 109 | richard scarry's what do people do all day | richard scarry | community, jobs | [buy](https://www.amazon.in/s?k=richard+scarry+what+do+people+do+all+day) | paperback | ₹346 |
-| 110 | look-alikes | joan steiner | objects hidden in scenes | [buy](https://www.amazon.in/s?k=look+alikes+joan+steiner) | hardcover | ₹3,229 |
-| 111 | i spy (any) | jean marzollo | search and find | [buy](https://www.amazon.in/s?k=i+spy+jean+marzollo) | board book | ₹608 |
-| 112 | where's waldo | martin handford | challenge mode | [buy](https://www.amazon.in/s?k=wheres+waldo+martin+handford) | paperback | ₹462 |
-| 113 | busy town | richard scarry | another scarry angle | [buy](https://www.amazon.in/s?k=richard+scarry+busy+town) | hardcover | ₹999 |
-| 114 | animalia | graeme base | alphabet + insane visual density | [buy](https://www.amazon.in/s?k=animalia+graeme+base) | paperback | ₹450 |
-| 115 | the eleventh hour | graeme base | mystery + visual puzzle | [buy](https://www.amazon.in/s?k=the+eleventh+hour+graeme+base) | paperback | ₹443 |
-
----
-
-## rhythmic / predictable / language play
-
-for her singing along, timed entries, language pattern recognition.
-
-| # | title | author | notes | amazon.in | format | price (approx) |
-|---|-------|--------|-------|-----------|--------|----------------|
-| 116 | each peach pear plum | janet & allan ahlberg | rhyme + hidden characters | [buy](https://www.amazon.in/s?k=each+peach+pear+plum+ahlberg) | board book | ₹325 |
-| 117 | room on the broom | julia donaldson | rhythm + cumulative | [buy](https://www.amazon.in/s?k=room+on+the+broom+julia+donaldson) | board book | ₹283 |
-| 118 | the gruffalo | julia donaldson | rhythm + clever ending | [buy](https://www.amazon.in/dp/1509804757) | paperback | ₹296 |
-| 119 | stick man | julia donaldson | adventure + rhythm | [buy](https://www.amazon.in/s?k=stick+man+julia+donaldson) | paperback | ₹301 |
-| 120 | giraffes can't dance | giles andreae | rhythm + determination | [buy](https://www.amazon.in/s?k=giraffes+cant+dance+giles+andreae) | board book | ₹321 |
-| 121 | llama llama red pajama | anna dewdney | rhythm + bedtime + emotion | [buy](https://www.amazon.in/s?k=llama+llama+red+pajama+anna+dewdney) | board book | ₹419 |
-
----
-
-## top 10 to order first (revised)
-
-based on gaps in her collection and developmental readiness:
-
-| priority | title | why | amazon.in | est. price |
-|----------|-------|-----|-----------|------------|
-| 1 | one is a snail ten is a crab | math beyond counting, visual, clever | [buy](https://www.amazon.in/dp/0763626317) | ₹484 |
-| 2 | where the wild things are | narrative imagination, emotional arc | [buy](https://www.amazon.in/dp/1782955038) | ₹317 |
-| 3 | what do you do with a tail like this? | animal science, guessing game | [buy](https://www.amazon.in/dp/061899713X) | ₹349 |
-| 4 | if you give a mouse a cookie | cause-effect chains | [buy](https://www.amazon.in/dp/0060245867) | ₹566 |
-| 5 | lost and found | she loves oliver jeffers | [buy](https://www.amazon.in/dp/0007150369) | ₹275 |
-| 6 | yayoi kusama (lpbd) | visual density, dots, patterns | [buy](https://www.amazon.in/dp/0711292965) | ₹457 |
-| 7 | the snowy day | perfect narrative, beautiful | [buy](https://www.amazon.in/dp/0670867330) | ₹537 |
-| 8 | over and under the snow | nature cause-effect, hidden worlds | [buy](https://www.amazon.in/dp/1452136467) | ₹655 |
-| 9 | anno's counting book | wordless, visual counting scenes | [buy](https://www.amazon.in/dp/0064431231) | ₹636 |
-| 10 | the gruffalo | rhythm, clever story, character | [buy](https://www.amazon.in/dp/1509804757) | ₹296 |
-
-**top 10 total: ₹4,371** (exact prices from amazon.in as of jan 2026)
-
----
-
-*revised: 2026-01-22*
-*for: mira, ~20mo*
-*removed: lift-the-flaps (outgrown), books she has, lpbd that didn't work, basic concept books*
-*focus: visual density, narrative complexity, cause-effect, relatable lpbd actions*
-*note: prices fetched from amazon.in on 22 jan 2026. prices may vary.*
-  </script>
-
-  <script>
-    const mdSource = document.getElementById('md-source').textContent;
-    const html = marked.parse(mdSource);
-    document.getElementById('content').innerHTML = html;
-
-    // color each table header with rotating pastels
-    const colors = ['#f5d5c8', '#c8dcc8', '#d4c8e8', '#f0d0d4', '#c8dce8', '#f0e4c8'];
-    document.querySelectorAll('.content table').forEach((table, i) => {
-      const thead = table.querySelector('thead');
-      if (thead) thead.style.background = colors[i % colors.length];
-      // wrap for horizontal scroll on mobile
-      const wrapper = document.createElement('div');
-      wrapper.className = 'table-wrapper';
-      table.parentNode.insertBefore(wrapper, table);
-      wrapper.appendChild(table);
-    });
-  </script>
 </body>
 </html>
