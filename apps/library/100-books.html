@@ -10,7 +10,6 @@
   <style>
     :root {
       --bg: #faf8f5;
-      --card-bg: #ffffff;
       --text: #3d3d3d;
       --text-light: #6b6b6b;
       --accent: #e8b4b8;
@@ -72,9 +71,9 @@
 
     .category-header {
       font-family: var(--font-body);
-      font-size: 0.85rem;
+      font-size: 1rem;
       font-weight: 400;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.12em;
       color: var(--text-light);
       margin-bottom: 1rem;
       padding: 0.75rem 0;
@@ -99,16 +98,13 @@
     }
 
     .book-card {
-      background: var(--card-bg);
       border-radius: var(--border-radius);
       padding: 1rem 1.25rem;
-      border-left: 4px solid var(--peach);
-      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
       transition: box-shadow 0.2s;
     }
 
     .book-card:hover {
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      opacity: 0.85;
     }
 
     .book-title {
@@ -150,16 +146,6 @@
       color: #d4929a;
     }
 
-    /* category border colors */
-    .cat-cause .book-card { border-left-color: var(--peach); }
-    .cat-science .book-card { border-left-color: var(--sage); }
-    .cat-story .book-card { border-left-color: var(--lavender); }
-    .cat-lpbd .book-card { border-left-color: var(--rose); }
-    .cat-math .book-card { border-left-color: var(--sky); }
-    .cat-vocab .book-card { border-left-color: var(--butter); }
-    .cat-visual .book-card { border-left-color: var(--peach); }
-    .cat-rhythm .book-card { border-left-color: var(--sage); }
-    .cat-top10 .book-card { border-left-color: var(--accent); }
 
     @media (max-width: 600px) {
       .container { padding: 1rem; }
@@ -375,5 +361,11 @@
 
     <p style="color: var(--text-light); font-size: 12px; margin-top: 2rem;">prices from amazon.in, jan 2026. may vary.</p>
   </div>
+  <script>
+    const pastels = ['#f5d5c8','#c8dcc8','#d4c8e8','#c8dce8','#f0e4c8','#f0d0d4'];
+    document.querySelectorAll('.book-card').forEach(card => {
+      card.style.backgroundColor = pastels[Math.floor(Math.random() * pastels.length)];
+    });
+  </script>
 </body>
 </html>
