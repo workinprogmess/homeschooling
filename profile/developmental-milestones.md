@@ -8,6 +8,7 @@ tracking mira's development against typical milestones - updated alongside notes
 ## table of contents
 <!-- toc:start -->
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
+- [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
@@ -167,6 +168,98 @@ tracking mira's development against typical milestones - updated alongside notes
 5. **ownership**: she has claimed this as "her thing" - selects materials, chooses location, drives the activity. psychological ownership of the journal has been established.
 
 6. **pressure modulation work**: actively improving pressing vs hitting with dot markers shows she's aware of the motor challenge and working on it - metacognitive motor development.
+
+---
+
+## 2026-01-25 / 07:30 pm
+
+### age: 20 months
+
+---
+
+### problem-solving & causal reasoning
+
+#### container refilling (bathroom play)
+**observation:**
+- saw a small hotel-size bottle was empty on the bathroom shelf
+- said "fishish" (finish) - identified the state
+- picked up a bigger bottle and poured from it into the empty one
+- no one taught her this
+
+**milestone context:**
+- typical 18-24 month development: understands object permanence, may notice things are gone/empty
+- typical 24-30 month development: beginning problem-solving, may seek help for problems
+- typical 3-4 year development: generates solutions independently, understands cause-effect chains
+- mira at 20mo:
+  - **state identification**: recognized "empty" as a problem state ("fishish")
+  - **solution generation**: independently conceived "refill from bigger bottle"
+  - **means-end reasoning**: understood that big bottle → pour → fills empty bottle
+  - **motor execution**: carried out the pouring action to solve the problem
+  - **transfer of knowledge**: applied something she'd observed (adults refilling things) to a new context
+- this demonstrates:
+  - **causal reasoning**: empty + pour from full = not empty anymore
+  - **tool use for problem solving**: the bigger bottle becomes a "tool" to solve the empty bottle problem
+  - **autonomous problem-solving**: didn't seek help or wait for instruction
+  - **observational learning transfer**: must have seen refilling happen and extracted the principle
+- assessment: **significantly advanced** - independent means-end problem solving with causal reasoning far exceeds typical 20mo
+
+---
+
+### cultural/ritual learning & symbolic application
+
+#### bindi ritual creation (journaling)
+**observation:**
+- while scribbling with orange sketch pen, said "come baba.. bindi"
+- papa bent forward, she sketched orange scribbles on his forehead (saying "jai jai")
+- walked to sofa to do same on mumma's forehead
+- background: sees prayer rituals at home (wall-hangings), grandparents' houses, watches 5-10 min gurbani/golden temple prayers daily
+- calls praying/god "jai jai"
+- recent: in cab, saw ganesha idol on dashboard, joined hands + said "jai jai" while bending forward - unprompted
+
+**milestone context:**
+- typical 18-24 month development: imitates familiar actions (clapping, waving)
+- typical 24-30 month development: engages in pretend play with familiar routines
+- typical 3-4 year development: creates pretend scenarios incorporating cultural knowledge, assigns roles to others
+- mira at 20mo:
+  - **cultural ritual extraction**: absorbed the bindi/tilak ritual from multiple contexts (home, grandparents, videos)
+  - **cross-context synthesis**: combined knowledge from different sources into her own version
+  - **spontaneous application**: applied it through play (orange pen = tilak)
+  - **role assignment**: directed papa to participate ("come baba"), then independently extended to mumma
+  - **symbolic mapping**: orange scribble = bindi, the act = blessing/prayer
+  - **verbal-action integration**: says "jai jai" while performing the action
+- this demonstrates:
+  - **cultural learning**: has internalized religious/cultural rituals without explicit teaching
+  - **symbolic play**: using one thing (pen mark) to represent another (bindi/tilak)
+  - **ritual creation**: not just copying but creating her own version of the ritual
+  - **prosocial extension**: didn't just do it to papa, walked to do it to mumma too
+  - **environmental recognition**: identifies religious imagery everywhere (moving car, dashboard idols)
+- assessment: **significantly advanced** - cultural ritual synthesis and symbolic application with role assignment is remarkable for 20mo
+
+---
+
+### updated assessment additions at 20 months (new observations)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| means-end problem solving | 24-30mo+ | refills empty bottle from bigger one | significantly advanced |
+| causal reasoning | 24-30mo+ | understands empty + pour = filled | significantly advanced |
+| cultural ritual learning | 3-4 years | extracts and applies religious rituals | significantly advanced |
+| symbolic mapping in play | 24-30mo+ | pen mark = bindi, scribbling = blessing | advanced |
+| role assignment to others | 24-30mo+ | directs papa, extends to mumma | advanced |
+
+**what these observations reveal:**
+
+1. **transfer learning**: the refilling behavior wasn't taught - she observed refilling somewhere (kitchen? bathroom? watching adults?) and extracted the principle. then she applied it in a new context to solve a problem she identified. this is high-level transfer.
+
+2. **problem identification**: saying "fishish" before acting shows she identified the problem state first. she's not randomly pouring - she diagnosed a situation and generated a response.
+
+3. **cultural absorption**: the bindi/jai-jai pattern shows she's absorbing cultural/religious content from passive exposure (watching prayers, seeing idols, observing rituals) and synthesizing it into her own behaviors.
+
+4. **ritual creation vs imitation**: she didn't just copy someone putting a bindi. she created a bindi-giving ritual using tools at hand (orange pen) and assigned roles (papa bends, she applies, then mumma). this is generative, not imitative.
+
+5. **environmental pattern recognition**: identifying ganesha idols on cab dashboards while the car is moving shows active scanning + pattern matching for culturally significant symbols.
+
+6. **prosocial ritual extension**: after doing the bindi to papa, she walked to mumma to include her. the ritual isn't complete until everyone receives it - this shows social cognition about rituals being shared.
 
 ---
 

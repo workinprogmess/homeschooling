@@ -8,6 +8,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 ## table of contents
 <!-- toc:start -->
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
+- [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
@@ -57,6 +58,39 @@ free-form observations, things she does, likes, patterns - captured as they come
 - papa date-stamps every page
 - she watches intently, trying to understand
 - attempts to do it herself but hasn't learned the mechanism yet
+
+**bindi ritual (today):**
+- while scribbling with orange sketch pen, said "come baba.. bindi"
+- papa bent forward, she sketched orange scribbles on his forehead (uttering "jai jai")
+- then walked to sofa to do it on mumma's forehead too
+- context: she's absorbed the bindi/tilak ritual from:
+  - home wall-hangings of gods
+  - dadi's house / nani's house
+  - watching 5-10 mins of gurbani/prayers at golden temple daily
+- she calls praying/god "jai jai" - identifies it everywhere (photos, videos, moving roads)
+- recent: in a cab, saw ganesha idol on dashboard, joined hands and muttered "jai jai" while bending forward on her own
+- the journal bindi moment: she created a ritual from absorbed cultural knowledge and applied it through play
+
+---
+
+## 2026-01-25 / 07:30 pm
+
+### bathroom pretend play - problem solving (refilling)
+
+**context:** continuing bathroom/shampoo pretend play from earlier
+
+**observation:**
+- small hotel-size bottles of face cleanser/body wash on the shelf
+- she noticed one bottle was empty
+- looked at it and said "fishish" (her word for "finish")
+- then picked up one of the bigger bottles
+- started pouring from the bigger bottle into the empty one
+
+**what's notable:**
+- unprompted problem-solving: saw empty → identified the problem → generated solution
+- no one taught her this - she extrapolated from observing adults or intuited it
+- understood the relationship: big bottle has more, empty bottle needs more
+- executed the motor task (pouring) to solve the problem she identified
 
 ---
 
