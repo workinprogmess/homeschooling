@@ -7,6 +7,9 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
+- [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
+- [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
@@ -20,6 +23,173 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-25 / 07:18 pm
+
+### journaling practice (started & consistent)
+
+**context:**
+- journal practice started on-off around 07.01/08.01
+- became consistent in last 3-4-5 days (from ~20.01)
+- she picks her color box + pens, asks papa to go to balcony, grabs journal
+- color box is heavy - says "aaevvviii. help. baba." (her version of "heavy")
+
+**favorite activity: stickers (animals/birds):**
+- she picks the animal/bird and color she wants
+- papa takes sticker out, she pastes it
+- first few days: pasted stickers over each other
+- now: uses empty spaces on the page
+- today's picks: whale, turtle, 3 different colored birdies
+
+**second favorite: dot markers:**
+- has learned the full drill:
+  1. asks papa to open (by rotating the cap)
+  2. shakes the marker
+  3. holds it in the right position (says "hold.." while positioning)
+  4. presses down to make the dot
+- getting better at pressing vs hitting hard (improving pressure control)
+
+**third: sketches/crayons:**
+- does what she wants, not necessarily what's asked
+- when papa asks "what color is sky?" she might use any color
+- independent creative expression over following prompts
+
+**date stamp:**
+- papa date-stamps every page
+- she watches intently, trying to understand
+- attempts to do it herself but hasn't learned the mechanism yet
+
+**bindi ritual (today):**
+- while scribbling with orange sketch pen, said "come baba.. bindi"
+- papa bent forward, she sketched orange scribbles on his forehead (uttering "jai jai")
+- then walked to sofa to do it on mumma's forehead too
+- context: she's absorbed the bindi/tilak ritual from:
+  - home wall-hangings of gods
+  - dadi's house / nani's house
+  - watching 5-10 mins of gurbani/prayers at golden temple daily
+  - **possible memory**: ~1-2 months ago at a temple, pandit ji put tikka on our foreheads, tried to do mira's but she resisted (strong body boundaries)
+- she calls praying/god "jai jai" - identifies it everywhere (photos, videos, moving roads)
+- recent: in cab, saw ganesha idol on dashboard, joined hands and muttered "jai jai" while bending forward on her own
+- the journal bindi moment: she created a ritual from absorbed cultural knowledge and applied it through play
+- **note on sharing with mumma**: this is her general pattern - if she hugs mumma, she hugs papa too; if she pours tea for papa in pretend play, she does it for mumma too. the sharing is characteristic of how she does things (includes both parents), not specific to this ritual
+
+### environmental observation (general pattern)
+- she's super observant of surroundings, sometimes more than adults
+- especially heightened in new places (cab, someone's house, unfamiliar environments)
+- actively scans and notices details others might miss
+
+### balance bike - first real sit (today, 25.01)
+- context: bike arrived 03.01, she'd been avoiding it but also approaching - touching, kissing it occasionally
+- tried to sit (barely, nearly) several times but never properly until today
+- papa stopped asking after the first few days - let it unfold on its own
+- **trigger today:** older kids (10-12yo) came on bicycles, parked by our balcony (mira drops things from balcony daily - clothes, clothespins, colors, pens, shoes, bottles - then calls for uncle/aunty/bhaiya to throw them back, or we go down together to get them)
+- when they left, papa asked if she wants to try "like bhaiyas ride their bicycles"
+- she said "go go go" and came running in
+- **first attempt:** sat on it, couldn't hold it right, it fell
+- we picked it up, guided her to hold the handle, walk slowly
+- she couldn't understand what "walk slowly while sitting on a bicycle" means (feet were on the ground)
+- she tried, walked a few steps
+- then said "ho gya" (that's it, let's stop now) - set her own limit
+- **papa's reflection:** may have over-expressed excitement in the moment; need to curb emotions on things he cares about more - neutral acknowledgment works better ("you did it" vs big celebration)
+
+### slide - first try (yesterday, 24.01)
+- context: big-ish slide in apartment downstairs
+- she does the steps (several times daily, up and down, all kinds of ways) confidently
+- but refused to do the slide - knows she's scared of letting go completely
+- at home: has small slide, does it holding hands many times; has done alone a few times but not consistently yet
+- **yesterday:** went up while papa stayed at bottom of slide (so she doesn't fall in sand)
+- saw her face when she let herself go - it was scared, but she tried anyway
+- didn't repeat it then
+- might take a few days before she tries again
+
+### how she works through fears (pattern)
+- doesn't avoid fears - circles back to them gradually until they become manageable
+- example from 6-9 months: dog toy that does backflips scared her, she'd cry
+- by 12 months: kept interacting with it on her own terms, not forced
+- became comfortable with its flips - still held papa sometimes but also laughed
+- **first instance where papa noticed:** she works on her fears (doesn't let them be), but in her own way/pace/time
+- this is a temperamental trait: self-paced exposure to challenging things
+
+---
+
+## 2026-01-25 / 07:30 pm
+
+### bathroom pretend play - problem solving (refilling)
+
+**context:** continuing bathroom/shampoo pretend play from earlier
+
+**observation:**
+- small hotel-size bottles of face cleanser/body wash on the shelf
+- she noticed one bottle was empty
+- looked at it and said "fishish" (her word for "finish")
+- then picked up one of the bigger bottles
+- started pouring from the bigger bottle into the empty one
+
+**what's notable:**
+- unprompted problem-solving: saw empty → identified the problem → generated solution
+- no one taught her this - she extrapolated from observing adults or intuited it
+- understood the relationship: big bottle has more, empty bottle needs more
+- executed the motor task (pouring) to solve the problem she identified
+
+---
+
+## 2026-01-25 / 06:54 pm
+
+### basic info
+- turned 20 months on 17.01.2026
+
+### pretend play explosion
+
+**toaster & sandwich play:**
+- friend gifted her a toaster a few weeks ago
+- makes sandwiches for us (me, mumma, aunty/househelp)
+- not just serving - expects us to taste AND react
+- we must express "mmmmm, it's yum" or similar
+- incomplete without the reaction/feedback loop
+
+**tea set play:**
+- got a tea set: 4 cups, jars of coffee/sugar/tea/honey, kettle (which we call "milk")
+- first time opening (she was sleepy) - played for an hour straight
+- plays every day since, sometimes immediately after waking up
+- has assigned cup colors: blue = baba, pink = mumma, green = mimu
+- offers cups to everyone
+- when we ask for "extra milk": sometimes brings kettle and pours, sometimes uses spoon to scoop and put in our cups
+- follows requests like "give mumma tea and sugar, baba coffee and honey"
+- sometimes mixes up jars (all white with tiny icons + text) - still learning to read/see jar before picking
+- learning visual discrimination for similar-looking objects
+
+**bathroom/shampoo pretend play:**
+- goes to bathroom on her own
+- stands at shelf where shampoos/soaps are kept (at her height)
+- sometimes wants to stand on toilet seat for better access
+- pretends to pour shampoo, rubs hands, massages her hair/head
+- calls papa: "head.. head" - when papa bends down, applies shampoo to his head
+- rubs soap on hands and applies to her face
+- can do this for 30+ minutes
+
+**birthday cake pretend play (aunty's birthday - ~2 weeks ago):**
+- context: it was aunty's (househelp) birthday + nani had gone to someone's birthday party
+- next day: opened a drawer, found small birthday candles + matchbox
+- ran to mumma: "mumma, cake. cake. candle. mimu."
+- we ordered actual cake
+- when cake arrived: went back to cupboard, took candles + matchbox, called aunty from another room
+- we lit candle, put on cake, she cut it
+- sang "happy birthday aunty aunty" (so very happy)
+- had 2-3 bites
+- repeats "happy budday aunty aunty" + adds "may dod vess you (may god bless you)"
+
+**dadi's birthday (23.01):**
+- wished dadi on phone
+- after waking from afternoon nap, said to mumma (while on bed): "mumma. cake. order. mimu. eat."
+- started singing "happy birthday dadi dadi"
+- connected the dots: birthday → cake → order → eat → sing
+
+### self-reference names
+- calls herself "mimu" (mumma's name for her)
+- also calls herself "doody" (papa's name for her)
+- uses both interchangeably
+
+---
 
 ## 2026-01-21 / 12:30 am
 
