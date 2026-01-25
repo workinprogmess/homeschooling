@@ -23,8 +23,8 @@ a living journal that mira creates (with help) - scribbles, stamps, stickers, te
 ## status
 
 - **idea started:** 2026-01-01
-- **journal started:** (pending)
-- **current stage:** gathering materials
+- **journal started:** ~2026-01-07/08 (on-off initially, consistent from ~2026-01-20)
+- **current stage:** active - daily practice established
 
 ---
 

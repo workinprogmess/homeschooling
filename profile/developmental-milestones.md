@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
@@ -21,6 +22,153 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-25 / 07:18 pm
+
+### age: 20 months
+
+---
+
+### fine motor development (journaling practice)
+
+#### sticker placement & spatial planning
+**observation:**
+- initially pasted stickers over each other
+- now uses empty spaces on the page
+- selects specific animals/colors from options
+
+**milestone context:**
+- typical 18-24 month development: can peel and stick stickers, placement often random
+- typical 24-30 month development: beginning to consider placement, may avoid overlaps
+- typical 3-4 year development: deliberate placement with spatial planning
+- mira at 20mo:
+  - **spatial awareness evolution**: progressed from overlapping to using empty spaces within days
+  - **selection specificity**: picks particular animals and colors (whale, turtle, different colored birds)
+  - **rapid behavioral adaptation**: learned through experience without explicit correction
+- this demonstrates:
+  - **self-correction**: noticed overlapping wasn't ideal and adjusted behavior
+  - **spatial planning**: scans page for empty areas before placing
+  - **preference expression**: clear choices in what she wants
+- assessment: **on track to advanced** - spatial awareness in sticker placement showing rapid improvement
+
+---
+
+#### tool use & procedural learning (dot markers)
+**observation:** has learned the complete dot marker sequence:
+1. asks papa to open (rotating cap)
+2. shakes the marker
+3. holds in correct position (says "hold..")
+4. presses to make dot
+- improving pressure control (pressing vs hitting)
+
+**milestone context:**
+- typical 18-24 month development: can make marks with chunky tools, often uncontrolled pressure
+- typical 24-30 month development: beginning to understand tool-specific procedures
+- typical 3-4 year development: follows multi-step tool procedures, controls pressure
+- mira at 20mo:
+  - **4-step procedural memory**: remembers and executes open → shake → position → press sequence
+  - **verbal self-instruction**: says "hold.." while positioning (self-talk for motor planning)
+  - **pressure modulation**: actively working on pressing vs hitting - shows awareness of force control
+  - **seeks appropriate help**: asks for cap rotation (beyond her grip strength) but does rest independently
+- this demonstrates:
+  - **procedural learning**: has internalized a multi-step sequence
+  - **self-regulatory speech**: uses language to guide own motor actions
+  - **metacognitive motor awareness**: knows she needs to control pressure, actively works on it
+  - **appropriate help-seeking**: differentiates what she can vs can't do independently
+- assessment: **advanced** - multi-step procedural tool use with self-instruction exceeds typical 20mo
+
+---
+
+#### creative autonomy (crayons/sketches)
+**observation:** uses crayons independently; does what she wants rather than following prompts ("what color is sky?")
+
+**milestone context:**
+- typical 18-24 month development: scribbling stage - exploring materials, not representational
+- typical 24-30 month development: may name scribbles, beginning to follow simple drawing requests
+- typical 3-4 year development: can follow prompts, draws with intention
+- mira at 20mo:
+  - **process over product**: engages with materials on her own terms
+  - **resists external direction**: follows her own creative intent, not adult-imposed goals
+  - **independent exploration**: uses the medium as she sees fit
+- this is developmentally appropriate and healthy:
+  - at 20mo, scribbling is pre-writing motor practice, not about "correct" outputs
+  - autonomy in creative expression supports intrinsic motivation
+  - her resistance to prompts shows she has her own agenda - a sign of cognitive independence
+- assessment: **on track** - appropriate creative autonomy for developmental stage
+
+---
+
+#### interest in tools/mechanisms (date stamp)
+**observation:** watches intently as papa date-stamps; tries to do it herself but hasn't mastered the mechanism yet
+
+**milestone context:**
+- typical 18-24 month development: interested in how things work, may attempt to use adult tools
+- typical 24-30 month development: can operate simple tools with guidance
+- mira at 20mo:
+  - **observational focus**: watches the stamping process with clear intent to understand
+  - **attempts imitation**: tries to do it herself (not waiting to be shown)
+  - **at learning edge**: hasn't mastered it yet - this is the zone of proximal development
+- date stamps require:
+  - grip strength
+  - pressure application
+  - positioning accuracy
+  - understanding the inking mechanism
+- assessment: **on track** - appropriate interest and attempt; mastery will come with practice and development
+
+---
+
+### ritual & routine (journaling as established practice)
+
+#### self-initiated activity
+**observation:**
+- picks her own color box + pens
+- asks papa to go to balcony
+- grabs her journal
+- communicates when the box is heavy ("aaevvviii. help. baba.")
+
+**milestone context:**
+- typical 18-24 month development: follows familiar routines when initiated by adults
+- typical 24-30 month development: anticipates routines, may request them
+- typical 3-4 year development: can initiate and carry out familiar activities independently
+- mira at 20mo:
+  - **initiates the activity**: doesn't wait for adult suggestion - selects materials and requests to go
+  - **material gathering**: knows what she needs (color box, pens, journal)
+  - **location specificity**: has established balcony as the journaling spot
+  - **appropriate help-seeking**: communicates when load is too heavy, uses descriptive word
+- this demonstrates:
+  - **routine internalization**: the ritual has become "her thing"
+  - **ownership and agency**: she drives the activity, not adults
+  - **practical vocabulary**: "aaevvviii" (heavy) applied appropriately to a real situation
+  - **multi-step planning**: get materials → request location → do activity
+- assessment: **advanced** - self-initiated multi-step activity with material gathering exceeds typical 20mo
+
+---
+
+### updated assessment additions at 20 months (journaling)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| sticker spatial planning | 24-30mo | using empty spaces, avoiding overlap | on track to advanced |
+| procedural tool use | 24-30mo+ | 4-step dot marker sequence with self-talk | advanced |
+| creative autonomy | 18-24mo | independent exploration, resists prompts | on track (healthy) |
+| tool interest (stamp) | 18-24mo | observes intently, attempts imitation | on track |
+| self-initiated activity | 24-30mo+ | gathers materials, requests location, drives activity | advanced |
+
+**what the journaling practice reveals:**
+
+1. **ritual internalization speed**: the journal went from concept (01.01) to started (~07-08.01) to consistent (by ~20.01) - rapid adoption suggests it aligns with her temperament and developmental readiness.
+
+2. **procedural learning**: the dot marker sequence shows she can learn and execute multi-step procedures. the verbal self-instruction ("hold..") is particularly notable - she's using language to regulate her own motor behavior.
+
+3. **spatial cognition development**: the progression from overlapping stickers to using empty spaces happened through experience, not instruction. she's self-correcting based on outcomes.
+
+4. **appropriate autonomy boundaries**: she seeks help for what she genuinely can't do (heavy box, opening caps) but maintains independence where she can (sticker selection, crayon use, pressing dots). this differentiation is sophisticated.
+
+5. **ownership**: she has claimed this as "her thing" - selects materials, chooses location, drives the activity. psychological ownership of the journal has been established.
+
+6. **pressure modulation work**: actively improving pressing vs hitting with dot markers shows she's aware of the motor challenge and working on it - metacognitive motor development.
+
+---
 
 ## 2026-01-25 / 06:54 pm
 

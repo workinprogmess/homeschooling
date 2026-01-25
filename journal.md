@@ -7,6 +7,8 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
+- [2026-01-22 / evening](#2026-01-22-evening)
 - [2026-01-07 / evening](#2026-01-07-evening)
 - [2026-01-01 / night](#2026-01-01-night)
 - [2026-01-01 / evening](#2026-01-01-evening)
@@ -29,8 +31,38 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon (session 2)](#2025-12-22-early-afternoon-session-2)
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
-- [2026-01-22 / evening](#2026-01-22-evening)
 <!-- toc:end -->
+---
+
+## 2026-01-25 / 07:18 pm
+
+### journaling practice - documented as active
+
+**what we did:**
+- updated `resources/mira-journal.md` status: journal started ~07-08.01, consistent from ~20.01, now active daily practice
+- added journaling observations to `profile/notes-about-mira.md`:
+  - self-initiated: picks color box, asks for balcony, grabs journal
+  - stickers (favorite): learned to use empty spaces instead of overlapping
+  - dot markers (second favorite): mastered 4-step procedure (open → shake → hold → press)
+  - crayons: independent creative expression, follows her own agenda
+  - date stamp: watches intently, attempting but hasn't mastered mechanism
+- added milestone assessments to `profile/developmental-milestones.md`:
+  - sticker spatial planning: on track to advanced
+  - procedural tool use: advanced (4-step sequence with self-instruction)
+  - creative autonomy: on track (healthy independence)
+  - self-initiated activity: advanced (gathers materials, requests location)
+
+**key observations:**
+- journaling ritual has been internalized - she drives it now, not adults
+- dot marker procedure shows procedural learning + self-regulatory speech ("hold..")
+- spatial cognition developing rapidly (overlapping → using empty spaces within days)
+- appropriate help-seeking: asks for heavy box help, cap rotation, but does rest independently
+
+**files modified:**
+- `resources/mira-journal.md` - status updated
+- `profile/notes-about-mira.md` - new entry 2026-01-25 / 07:18 pm
+- `profile/developmental-milestones.md` - new entry 2026-01-25 / 07:18 pm
+
 ---
 
 ## 2026-01-22 / evening

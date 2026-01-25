@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
@@ -21,6 +22,43 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-25 / 07:18 pm
+
+### journaling practice (started & consistent)
+
+**context:**
+- journal practice started on-off around 07.01/08.01
+- became consistent in last 3-4-5 days (from ~20.01)
+- she picks her color box + pens, asks papa to go to balcony, grabs journal
+- color box is heavy - says "aaevvviii. help. baba." (her version of "heavy")
+
+**favorite activity: stickers (animals/birds):**
+- she picks the animal/bird and color she wants
+- papa takes sticker out, she pastes it
+- first few days: pasted stickers over each other
+- now: uses empty spaces on the page
+- today's picks: whale, turtle, 3 different colored birdies
+
+**second favorite: dot markers:**
+- has learned the full drill:
+  1. asks papa to open (by rotating the cap)
+  2. shakes the marker
+  3. holds it in the right position (says "hold.." while positioning)
+  4. presses down to make the dot
+- getting better at pressing vs hitting hard (improving pressure control)
+
+**third: sketches/crayons:**
+- does what she wants, not necessarily what's asked
+- when papa asks "what color is sky?" she might use any color
+- independent creative expression over following prompts
+
+**date stamp:**
+- papa date-stamps every page
+- she watches intently, trying to understand
+- attempts to do it herself but hasn't learned the mechanism yet
+
+---
 
 ## 2026-01-25 / 06:54 pm
 
