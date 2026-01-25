@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
@@ -20,6 +21,127 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-25 / 06:54 pm
+
+### age: 20 months (turned 20mo on 17.01.2026)
+
+---
+
+### symbolic/pretend play development
+
+#### domestic pretend play (toaster, tea set, bathroom)
+**observation:**
+- toaster play: makes sandwiches, serves to family, expects tasting + verbal reaction ("mmmmm, it's yum")
+- tea set play: assigned cup colors (blue=baba, pink=mumma, green=mimu), pours "milk" from kettle, scoops with spoon, follows specific requests ("give mumma tea and sugar, baba coffee and honey")
+- bathroom play: pretends to pour shampoo, massage hair, calls papa to bend down so she can apply shampoo to his head, rubs soap on face - sustains 30+ minutes
+
+**milestone context:**
+- typical 18-24 month development: beginning pretend play, may pretend to feed dolls or drink from empty cup
+- typical 24-30 month development: more elaborate pretend sequences, may involve others as participants
+- typical 3-4 year development: sustained dramatic play with roles, rules, and expectations
+- mira at 20mo:
+  - **multi-step sequences**: not just "make sandwich" but make → serve → expect taste → expect verbal reaction
+  - **role assignment**: has assigned specific cups to specific people (blue=baba, pink=mumma, green=mimu)
+  - **incorporates others as active participants**: doesn't just play alone - pulls papa in to apply shampoo to his head
+  - **follows complex verbal requests**: "give mumma tea and sugar, baba coffee and honey" - parses multiple items for multiple recipients
+  - **sustained engagement**: 30+ minutes in bathroom play, 1 hour first time with tea set
+  - **feedback loop expectation**: play is incomplete without the other person's reaction
+- this demonstrates:
+  - **social reciprocity in play**: expects back-and-forth, not just solo pretend
+  - **script development**: has internalized "how tea time works", "how sandwich serving works"
+  - **theory of mind precursors**: understands others should react to her actions
+  - **visual discrimination challenge**: learning to distinguish similar-looking jars (all white with tiny icons)
+- assessment: **significantly advanced** - pretend play with role assignment, feedback expectations, and sustained engagement far exceeds typical 20mo
+
+---
+
+#### event scripting & generalization (birthday play)
+**observation:**
+- aunty's birthday: found candles + matchbox in drawer, ran to mumma saying "cake, candle, mimu", we ordered cake, she retrieved items again, called aunty, lit candle, cut cake, sang "happy birthday aunty aunty", added "may dod vess you (may god bless you)"
+- dadi's birthday (23.01): after wishing on phone, woke from nap and said "mumma. cake. order. mimu. eat." then sang "happy birthday dadi dadi"
+
+**milestone context:**
+- typical 18-24 month development: may recognize birthday songs, blow out candles with help
+- typical 24-30 month development: participates in birthday rituals, may request cake
+- typical 3-4 year development: understands birthday sequence, can plan simple celebrations
+- mira at 20mo:
+  - **extracted the birthday script**: understands birthday = candle + cake + sing + cut + eat + blessing
+  - **initiated the entire sequence**: didn't wait for adults to set up - found candles, requested cake order
+  - **generalized across events**: applied same script to aunty's birthday, then dadi's birthday
+  - **unprompted planning**: woke from nap with plan already formed ("mumma. cake. order. mimu. eat.")
+  - **verbal sequencing**: communicated multi-step plan using key words in order
+  - **cultural/religious integration**: added "may god bless you" - absorbed cultural script
+- this demonstrates:
+  - **script acquisition**: has internalized the "birthday" event structure
+  - **proactive planning**: doesn't wait for events to happen - initiates them
+  - **cross-context transfer**: applies learned script to new situations (different birthdays)
+  - **verbal planning expression**: can communicate future intentions using sequential words
+- assessment: **significantly advanced** - event scripting with proactive initiation and cross-context generalization is remarkable for 20mo
+
+---
+
+### language development (update)
+
+#### multi-word utterances for planning
+**observation:** "mumma. cake. order. mimu. eat." - expressing a future plan using sequential words
+
+**milestone context:**
+- typical 18-24 month development: 2-word combinations, mostly naming or requesting
+- typical 24-30 month development: 3-4 word sentences, beginning to express wants
+- typical 3-4 year development: can express plans and future intentions
+- mira at 20mo:
+  - **5-word sequential utterance**: mumma + cake + order + mimu + eat
+  - **future-oriented**: not describing present - communicating what should happen
+  - **logical sequence**: the words follow the actual order of events (order → eat)
+  - **self-reference**: includes herself (mimu) as participant in the plan
+- assessment: **advanced** - expressing future plans through sequential words exceeds typical 20mo
+
+---
+
+### self-concept development
+
+#### self-naming
+**observation:** calls herself "mimu" (mumma's name for her) and "doody" (papa's name for her), uses both interchangeably
+
+**milestone context:**
+- typical 18-24 month development: may recognize own name, beginning to use "me" or own name
+- typical 24-30 month development: uses name or pronouns to refer to self
+- mira at 20mo:
+  - **multiple self-references**: uses both nicknames, not just one
+  - **context-flexible**: uses whichever name fits the moment
+  - **identity integration**: has incorporated both parents' names for her into her self-concept
+- this shows secure attachment and flexible self-representation
+- assessment: **on track to advanced** - multiple self-reference names show integrated identity
+
+---
+
+### updated assessment additions at 20 months
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| pretend play complexity | 24-30mo+ | multi-step with role assignment + feedback expectation | significantly advanced |
+| pretend play duration | 24-30mo+ | 30-60+ minutes sustained | significantly advanced |
+| event scripting | 3-4 years | birthday script with proactive initiation | significantly advanced |
+| cross-context generalization | 24-30mo+ | applies scripts to new situations | advanced |
+| verbal planning | 3-4 years | 5-word sequential future plan | advanced |
+| self-naming | 18-24mo | dual nicknames, context-flexible | on track to advanced |
+
+**what these pretend play observations reveal:**
+
+1. **script acquisition depth**: mira isn't just participating in rituals - she's internalized the scripts and can initiate/direct them. the birthday sequence (find candles → request cake → call people → light → cut → sing → blessing) shows she's extracted the underlying structure.
+
+2. **social cognition in play**: her pretend play is fundamentally social. the toaster play requires reaction ("mmmmm"), the tea set has assigned roles (blue=baba), the shampoo play incorporates papa as recipient. she understands play as interactive, not solitary.
+
+3. **proactive agency**: she doesn't wait for birthdays to happen or for adults to set things up. she finds candles, requests cake orders, calls people from other rooms. she's an initiator, not just a participant.
+
+4. **verbal planning emergence**: "mumma. cake. order. mimu. eat." is a plan expressed in words. she's moved beyond naming present things to communicating future intentions. this is early executive function + language integration.
+
+5. **sustained engagement**: 30+ minutes of bathroom pretend play, 1 hour with tea set on first use - this sustained attention in self-directed play shows intrinsic motivation and executive function.
+
+6. **visual discrimination as learning edge**: her mix-ups with similar-looking jars (all white with tiny icons) shows she's at the edge of learning fine visual discrimination - a good challenge zone.
+
+---
 
 ## 2026-01-21 / 12:30 am
 

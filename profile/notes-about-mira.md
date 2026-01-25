@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
 - [2026-01-21 / 12:30 am](#2026-01-21-1230-am)
 - [2026-01-05 / 07:51 pm](#2026-01-05-0751-pm)
 - [2026-01-02 / 08:56 pm](#2026-01-02-0856-pm)
@@ -20,6 +21,64 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-25 / 06:54 pm
+
+### basic info
+- turned 20 months on 17.01.2026
+
+### pretend play explosion
+
+**toaster & sandwich play:**
+- friend gifted her a toaster a few weeks ago
+- makes sandwiches for us (me, mumma, aunty/househelp)
+- not just serving - expects us to taste AND react
+- we must express "mmmmm, it's yum" or similar
+- incomplete without the reaction/feedback loop
+
+**tea set play:**
+- got a tea set: 4 cups, jars of coffee/sugar/tea/honey, kettle (which we call "milk")
+- first time opening (she was sleepy) - played for an hour straight
+- plays every day since, sometimes immediately after waking up
+- has assigned cup colors: blue = baba, pink = mumma, green = mimu
+- offers cups to everyone
+- when we ask for "extra milk": sometimes brings kettle and pours, sometimes uses spoon to scoop and put in our cups
+- follows requests like "give mumma tea and sugar, baba coffee and honey"
+- sometimes mixes up jars (all white with tiny icons + text) - still learning to read/see jar before picking
+- learning visual discrimination for similar-looking objects
+
+**bathroom/shampoo pretend play:**
+- goes to bathroom on her own
+- stands at shelf where shampoos/soaps are kept (at her height)
+- sometimes wants to stand on toilet seat for better access
+- pretends to pour shampoo, rubs hands, massages her hair/head
+- calls papa: "head.. head" - when papa bends down, applies shampoo to his head
+- rubs soap on hands and applies to her face
+- can do this for 30+ minutes
+
+**birthday cake pretend play (aunty's birthday - ~2 weeks ago):**
+- context: it was aunty's (househelp) birthday + nani had gone to someone's birthday party
+- next day: opened a drawer, found small birthday candles + matchbox
+- ran to mumma: "mumma, cake. cake. candle. mimu."
+- we ordered actual cake
+- when cake arrived: went back to cupboard, took candles + matchbox, called aunty from another room
+- we lit candle, put on cake, she cut it
+- sang "happy birthday aunty aunty" (so very happy)
+- had 2-3 bites
+- repeats "happy budday aunty aunty" + adds "may dod vess you (may god bless you)"
+
+**dadi's birthday (23.01):**
+- wished dadi on phone
+- after waking from afternoon nap, said to mumma (while on bed): "mumma. cake. order. mimu. eat."
+- started singing "happy birthday dadi dadi"
+- connected the dots: birthday → cake → order → eat → sing
+
+### self-reference names
+- calls herself "mimu" (mumma's name for her)
+- also calls herself "doody" (papa's name for her)
+- uses both interchangeably
+
+---
 
 ## 2026-01-21 / 12:30 am
 
