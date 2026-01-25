@@ -233,6 +233,46 @@ research notes for choosing a first bike now and a pedal bike later.
 
 ---
 
+### 2026-01-25 (day 22) - first real sit
+
+**context:**
+- papa stopped asking after the first few days - let it unfold on its own
+- she'd been approaching it on her terms: touching, kissing it occasionally, trying to sit (barely) but never properly
+- relationship with the bike was forming passively
+
+**trigger:**
+- older kids (10-12yo) came on bicycles, parked by our balcony
+- when they left, papa asked if she wants to try "like bhaiyas ride their bicycles"
+- she said "go go go" and came running inside
+
+**what happened:**
+1. sat on it properly for the first time
+2. couldn't hold it right - it fell
+3. we picked it up, guided her to hold the handle
+4. suggested walking slowly while sitting
+5. she couldn't understand what that means (feet were on ground but concept was unclear)
+6. tried anyway - walked a few steps
+7. said "ho gya" (that's it, let's stop now) - set her own limit
+
+**what this confirms:**
+- she waited until she was ready (22 days of passive exposure)
+- older kids as models helped - gave her a visual reference
+- she set her own endpoint ("ho gya") - doesn't push past her comfort
+- the "let it be there" approach worked - no forcing, no repeated asking
+
+**papa's note:**
+- may have over-expressed excitement in the moment
+- need to curb emotions on things that matter more to him
+- neutral acknowledgment works better: "you did it" vs big celebration
+- her accomplishment shouldn't become about his reaction
+
+**next:**
+- continue letting it unfold at her pace
+- no pressure for the next session - she'll come back when ready
+- this is exactly how she approached the backflip dog toy (6-12mo) and the slide (ongoing)
+
+---
+
 ## transition plan (balance bike -> pedal)
 1. fit first: seat at a height where both feet are flat and knees slightly bent.
 2. glide stage: aim for 5-10 second glides with feet up and steady steering.

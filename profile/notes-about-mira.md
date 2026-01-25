@@ -78,6 +78,38 @@ free-form observations, things she does, likes, patterns - captured as they come
 - especially heightened in new places (cab, someone's house, unfamiliar environments)
 - actively scans and notices details others might miss
 
+### balance bike - first real sit (today, 25.01)
+- context: bike arrived 03.01, she'd been avoiding it but also approaching - touching, kissing it occasionally
+- tried to sit (barely, nearly) several times but never properly until today
+- papa stopped asking after the first few days - let it unfold on its own
+- **trigger today:** older kids (10-12yo) came on bicycles, parked by our balcony (mira drops things from balcony daily - clothes, clothespins, colors, pens, shoes, bottles - then calls for uncle/aunty/bhaiya to throw them back, or we go down together to get them)
+- when they left, papa asked if she wants to try "like bhaiyas ride their bicycles"
+- she said "go go go" and came running in
+- **first attempt:** sat on it, couldn't hold it right, it fell
+- we picked it up, guided her to hold the handle, walk slowly
+- she couldn't understand what "walk slowly while sitting on a bicycle" means (feet were on the ground)
+- she tried, walked a few steps
+- then said "ho gya" (that's it, let's stop now) - set her own limit
+- **papa's reflection:** may have over-expressed excitement in the moment; need to curb emotions on things he cares about more - neutral acknowledgment works better ("you did it" vs big celebration)
+
+### slide - first try (yesterday, 24.01)
+- context: big-ish slide in apartment downstairs
+- she does the steps (several times daily, up and down, all kinds of ways) confidently
+- but refused to do the slide - knows she's scared of letting go completely
+- at home: has small slide, does it holding hands many times; has done alone a few times but not consistently yet
+- **yesterday:** went up while papa stayed at bottom of slide (so she doesn't fall in sand)
+- saw her face when she let herself go - it was scared, but she tried anyway
+- didn't repeat it then
+- might take a few days before she tries again
+
+### how she works through fears (pattern)
+- doesn't avoid fears - circles back to them gradually until they become manageable
+- example from 6-9 months: dog toy that does backflips scared her, she'd cry
+- by 12 months: kept interacting with it on her own terms, not forced
+- became comfortable with its flips - still held papa sometimes but also laughed
+- **first instance where papa noticed:** she works on her fears (doesn't let them be), but in her own way/pace/time
+- this is a temperamental trait: self-paced exposure to challenging things
+
 ---
 
 ## 2026-01-25 / 07:30 pm
