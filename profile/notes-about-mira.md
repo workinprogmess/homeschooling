@@ -67,9 +67,16 @@ free-form observations, things she does, likes, patterns - captured as they come
   - home wall-hangings of gods
   - dadi's house / nani's house
   - watching 5-10 mins of gurbani/prayers at golden temple daily
+  - **possible memory**: ~1-2 months ago at a temple, pandit ji put tikka on our foreheads, tried to do mira's but she resisted (strong body boundaries)
 - she calls praying/god "jai jai" - identifies it everywhere (photos, videos, moving roads)
-- recent: in a cab, saw ganesha idol on dashboard, joined hands and muttered "jai jai" while bending forward on her own
+- recent: in cab, saw ganesha idol on dashboard, joined hands and muttered "jai jai" while bending forward on her own
 - the journal bindi moment: she created a ritual from absorbed cultural knowledge and applied it through play
+- **note on sharing with mumma**: this is her general pattern - if she hugs mumma, she hugs papa too; if she pours tea for papa in pretend play, she does it for mumma too. the sharing is characteristic of how she does things (includes both parents), not specific to this ritual
+
+### environmental observation (general pattern)
+- she's super observant of surroundings, sometimes more than adults
+- especially heightened in new places (cab, someone's house, unfamiliar environments)
+- actively scans and notices details others might miss
 
 ---
 

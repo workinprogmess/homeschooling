@@ -259,7 +259,11 @@ tracking mira's development against typical milestones - updated alongside notes
 
 5. **environmental pattern recognition**: identifying ganesha idols on cab dashboards while the car is moving shows active scanning + pattern matching for culturally significant symbols.
 
-6. **prosocial ritual extension**: after doing the bindi to papa, she walked to mumma to include her. the ritual isn't complete until everyone receives it - this shows social cognition about rituals being shared.
+6. **including both parents (general pattern)**: after doing the bindi to papa, she walked to mumma. but this is her general way of doing things - if she hugs one parent, she hugs the other; if she pours tea for one in pretend play, she does the other. this is characteristic behavior, not specific to this ritual.
+
+7. **possible embodied memory**: ~1-2 months ago at a temple, pandit ji tried to put tikka on her forehead but she resisted (strong body boundaries). she may have stored this as "how tikka works" even while refusing it on herself - observational learning despite non-participation.
+
+8. **heightened environmental observation**: she's exceptionally observant of surroundings, often more so than adults - especially in new environments (cabs, unfamiliar houses). she actively scans and notices details others miss. the cab ganesha sighting is an example of this general pattern.
 
 ---
 
