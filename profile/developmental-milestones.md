@@ -38,6 +38,7 @@ tracking mira's development against typical milestones - updated alongside notes
 - on a phone call with nani, mira picks up nanu's voice from the background (he's not on the call, just said something somewhere in the room) and says "nanu"
 - hears a doorbell ring at nani's house through the phone speaker and says "didi" (househelp)
 - hears a fan running inside the house while still standing outside a partially open door
+- woke up late one morning, heard voices from outside, said "baba, mumma. aunty. talking. outside." - identified specific people from muffled conversation through walls
 
 **milestone context:**
 - typical 18-24 month development: responds to familiar voices, turns toward sounds, recognizes common environmental sounds (doorbell, phone)
@@ -48,6 +49,7 @@ tracking mira's development against typical milestones - updated alongside notes
   - **sound-source identification across distance**: hears fan through a partially open door from outside and correctly identifies it
   - **auditory-semantic mapping**: doorbell sound → nani's house → "didi" (the person who typically arrives when the doorbell rings there)
   - **cross-context sound recognition**: recognizes sounds from a different environment (nani's house) heard through phone audio
+  - **voice identification through walls**: identified mumma and aunty talking outside from muffled voices heard through walls upon waking
 - this demonstrates:
   - **auditory attention**: she's processing background sounds even while engaged in other activities (eating, coloring, playing)
   - **parallel processing**: maintains her primary activity while monitoring ambient audio
@@ -127,7 +129,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 #### sound-startle sensitivity (loud/unexpected sounds)
 **observation:**
-- covers her eyes (not ears) when blender/mixer is on
+- covers her ears when blender/mixer is on
 - startled by aggressive dog barking
 - loud unexpected sounds can scare her
 
@@ -135,7 +137,7 @@ tracking mira's development against typical milestones - updated alongside notes
 - typical 18-24 month development: may be startled by loud sounds, may cry or seek comfort
 - typical 24-30 month development: beginning to understand that some things are loud but not dangerous
 - mira at 20mo:
-  - **covers eyes, not ears**: interesting sensory response - may be a self-soothing strategy (blocking visual input to reduce overall sensory load) or a learned gesture from peek-a-boo/hide contexts
+  - **covers ears**: appropriate self-protective response to loud sounds - she's identified the correct sensory organ and shields it
   - **discriminates between sound types**: subtle sounds (nanu's voice, fan, doorbell) → processes calmly; loud/aggressive sounds (blender, barking) → startle/avoidance
   - **has been this way since birth**: suggests this is temperamental, not situational
 - this is developmentally normal and common in children with:
@@ -143,7 +145,7 @@ tracking mira's development against typical milestones - updated alongside notes
   - strong observational tendencies
   - good auditory processing (the same system that picks up subtle sounds also amplifies loud ones)
 - the sensitivity pattern (high discrimination + low threshold for loud sounds) is consistent with what's sometimes called a "sensitive" or "orchid" temperament - children who are highly attuned to their environment
-- assessment: **on track** - sound-startle response is age-appropriate; the eyes-covering behavior is an interesting self-regulation strategy worth observing over time
+- assessment: **on track** - sound-startle response is age-appropriate; ear-covering is a healthy self-regulation strategy
 - **note**: the combination of exceptional auditory discrimination AND sensitivity to loud sounds is a coherent profile - high-resolution auditory processing means both subtle and loud sounds register strongly
 
 ---
@@ -156,7 +158,7 @@ tracking mira's development against typical milestones - updated alongside notes
 | sound-to-inference chain | 3-4 years | fan → aunty → mopped → wet (3-step chain from 1 sound) | significantly advanced |
 | auditory empathy | 24-30mo+ | verbal comfort + diagnostic questions for unseen crying baby | advanced |
 | environmental sound monitoring | 24-30mo+ | processes traffic sounds while coloring, applies safety phrase | advanced |
-| sound-startle sensitivity | 18-24mo | covers eyes for loud sounds, startled by aggressive barking | on track (temperamental) |
+| sound-startle sensitivity | 18-24mo | covers ears for loud sounds, startled by aggressive barking | on track (temperamental) |
 
 **what the sound sensitivity pattern reveals:**
 
@@ -170,11 +172,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 5. **coherent sensory profile**: the combination of exceptional subtle-sound detection AND startle sensitivity to loud sounds is internally consistent. a high-sensitivity auditory system picks up more at both ends - quiet sounds that others miss, and loud sounds that feel overwhelming. this is a temperamental trait, not a problem.
 
-6. **eyes-covering as self-regulation**: covering eyes (not ears) for loud sounds is an interesting self-regulation strategy. it may reflect:
-   - reducing overall sensory input (closing one channel when another is overwhelming)
-   - a learned gesture from hide/peek-a-boo contexts (covering eyes = making something go away)
-   - or simply that she hasn't mapped ears as the relevant sensory organ for sound yet
-   - worth observing how this evolves - whether she transitions to ear-covering or develops other strategies
+6. **ear-covering as self-regulation**: covering ears for loud sounds is an appropriate and healthy self-protective response - she's identified the correct sensory organ and actively shields it. this shows body awareness and self-regulation: she recognizes when auditory input is overwhelming and takes action.
 
 7. **since birth**: the parents note this has been present since birth, which supports a temperamental rather than developmental origin. this is who she is, not a phase. understanding this as a strength (exceptional auditory awareness) rather than a limitation (sound sensitivity) is important for supporting her development.
 

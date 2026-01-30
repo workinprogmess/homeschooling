@@ -46,7 +46,8 @@ project development log - newest entries on top
   - hears fan through partially open door → infers aunty mopped → floor is wet (3-step chain from 1 sound)
   - hears auto/bike from first floor while coloring → says "dhyaan se" (be careful)
   - hears neighbor baby crying → comforts ("it's okay baby") + diagnoses ("milk? food?")
-  - covers eyes (not ears) for loud sounds like blender; startled by aggressive dog barking
+  - hears voices through walls upon waking → identifies mumma and aunty talking outside
+  - covers ears for loud sounds like blender; startled by aggressive dog barking
 - added milestone assessments to `profile/developmental-milestones.md`:
   - auditory figure-ground separation: significantly advanced (isolates voice from phone background noise)
   - sound-to-inference chain: significantly advanced (3-step causal chain from a single sound)
@@ -59,7 +60,7 @@ project development log - newest entries on top
 - the fan → aunty → pocha → geela chain is the standout: multi-step causal inference from one sound, without any visual confirmation
 - she processes ambient sounds in parallel while doing other things (coloring, eating, playing)
 - the combination of exceptional subtle-sound detection + startle sensitivity to loud sounds = coherent high-sensitivity auditory profile
-- covers eyes (not ears) for loud sounds - interesting self-regulation strategy worth tracking
+- covers ears for loud sounds - healthy self-regulation
 - parents initially thought all children are this sensitive - but her observing nature amplifies it
 
 **files modified:**

@@ -71,8 +71,16 @@ free-form observations, things she does, likes, patterns - captured as they come
    - then asks "kilky? tood?" (want milk? food?)
    - empathic response + problem-solving from sound cue alone
 
+6. **waking up late - voices from outside:**
+   - mira and papa woke up late one morning
+   - she heard voices/chatter from outside
+   - said "baba, mumma. aunty. talking. outside."
+   - papa confirmed: yes, they are. want to go outside?
+   - she said "go go go"
+   - identified specific people (mumma and aunty) from muffled conversation through walls
+
 **sensitivity to loud/aggressive sounds:**
-- covers her eyes (not ears) when blender/mixer is on
+- covers her ears when blender/mixer is on
 - startled if a dog barks too aggressively
 - loud unexpected sounds can scare her
 
