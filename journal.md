@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-22 / evening](#2026-01-22-evening)
 - [2026-01-07 / evening](#2026-01-07-evening)
@@ -32,6 +33,41 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-01-30 / 01:31 pm
+
+### sound sensitivity & auditory awareness - documented as lifelong pattern
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md` documenting mira's sound sensitivity at 20m13d:
+  - picks up nanu's voice from background audio on nani's phone call
+  - hears nani's doorbell through phone → says "didi" (househelp)
+  - hears fan through partially open door → infers aunty mopped → floor is wet (3-step chain from 1 sound)
+  - hears auto/bike from first floor while coloring → says "dhyaan se" (be careful)
+  - hears neighbor baby crying → comforts ("it's okay baby") + diagnoses ("milk? food?")
+  - hears voices through walls upon waking → identifies mumma and aunty talking outside
+  - covers ears for loud sounds like blender; startled by aggressive dog barking
+- added milestone assessments to `profile/developmental-milestones.md`:
+  - auditory figure-ground separation: significantly advanced (isolates voice from phone background noise)
+  - sound-to-inference chain: significantly advanced (3-step causal chain from a single sound)
+  - auditory empathy: advanced (verbal comfort + diagnostic questioning for unseen baby)
+  - environmental sound monitoring: advanced (parallel processing while engaged in other tasks)
+  - sound-startle sensitivity: on track (temperamental, consistent since birth)
+
+**key observations:**
+- this is a lifelong trait (since birth), temperamental not developmental
+- the fan → aunty → pocha → geela chain is the standout: multi-step causal inference from one sound, without any visual confirmation
+- she processes ambient sounds in parallel while doing other things (coloring, eating, playing)
+- the combination of exceptional subtle-sound detection + startle sensitivity to loud sounds = coherent high-sensitivity auditory profile
+- covers ears for loud sounds - healthy self-regulation
+- parents initially thought all children are this sensitive - but her observing nature amplifies it
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-01-30 / 01:31 pm
+- `profile/developmental-milestones.md` - new entry 2026-01-30 / 01:31 pm
+- `journal.md` - this entry
+
 ---
 
 ## 2026-01-25 / 07:18 pm

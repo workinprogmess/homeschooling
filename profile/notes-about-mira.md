@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
@@ -23,6 +24,67 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-01-30 / 01:31 pm
+
+### sound sensitivity & auditory awareness (lifelong pattern, 20m13d)
+
+**context:**
+- mira has been sensitive to sounds since birth
+- parents initially thought all children are this way
+- but her observing nature + high awareness amplifies what she hears and what she derives from sounds
+- mostly manifests in positive/useful ways
+
+**positive sound sensitivity examples:**
+
+1. **phone call with nani - picking up nanu's voice:**
+   - mira could be doing anything (eating, playing with a toy, coloring)
+   - mumma/papa on call with nani
+   - nanu says something in the background on nani's end (he's not on the call, not speaking to mira, just said something somewhere in the room)
+   - mira says "nanu"
+   - she isolated his voice from background audio on a phone speaker
+
+2. **doorbell at nani's house (on phone):**
+   - a doorbell rings at nani's house during the call
+   - mira says "didi" - referring to the househelp who works at nani's house
+   - she heard the doorbell, associated it with nani's house, and predicted who it would be
+
+3. **coming home from walk - fan sound → chain of reasoning:**
+   - returning from morning walk/play downstairs
+   - mumma opened the front door just enough to tease her / not let her in yet
+   - mira heard the fan running inside (she's still outside the door)
+   - said "aunty" (househelp)
+   - said "pocha" (mopped the floor)
+   - said "geela" (must be wet)
+   - **the chain**: heard fan → knew aunty turns fan on after mopping → concluded floor was mopped → concluded it must be wet
+   - all from hearing a fan through a partially open door
+
+4. **auto/bike passing while coloring (first floor):**
+   - coloring together on the first floor
+   - auto or bike passes on the ground floor
+   - she says "dhyaan se" (please slow down a little, take it easy)
+   - picked up vehicle sound from a floor above, applied a safety phrase
+
+5. **neighbor baby crying:**
+   - hears a baby crying from the neighbor's house
+   - says "it's okay baby"
+   - then asks "kilky? tood?" (want milk? food?)
+   - empathic response + problem-solving from sound cue alone
+
+6. **waking up late - voices from outside:**
+   - mira and papa woke up late one morning
+   - she heard voices/chatter from outside
+   - said "baba, mumma. aunty. talking. outside."
+   - papa confirmed: yes, they are. want to go outside?
+   - she said "go go go"
+   - identified specific people (mumma and aunty) from muffled conversation through walls
+
+**sensitivity to loud/aggressive sounds:**
+- covers her ears when blender/mixer is on
+- startled if a dog barks too aggressively
+- loud unexpected sounds can scare her
+
+---
 
 ## 2026-01-25 / 07:18 pm
 
