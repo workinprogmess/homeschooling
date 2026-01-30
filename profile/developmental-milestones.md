@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
 - [2026-01-25 / 06:54 pm](#2026-01-25-0654-pm)
@@ -23,6 +24,161 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-01-30 / 01:31 pm
+
+### age: 20 months, 13 days
+
+---
+
+### auditory processing & sound sensitivity
+
+#### auditory discrimination (picking out specific sounds)
+**observation:**
+- on a phone call with nani, mira picks up nanu's voice from the background (he's not on the call, just said something somewhere in the room) and says "nanu"
+- hears a doorbell ring at nani's house through the phone speaker and says "didi" (househelp)
+- hears a fan running inside the house while still standing outside a partially open door
+
+**milestone context:**
+- typical 18-24 month development: responds to familiar voices, turns toward sounds, recognizes common environmental sounds (doorbell, phone)
+- typical 24-30 month development: identifies specific sounds in the environment, can name sound sources
+- typical 3-4 year development: distinguishes between similar sounds, identifies sounds in noisy backgrounds
+- mira at 20mo:
+  - **auditory figure-ground separation**: isolates nanu's voice from phone speaker background audio - this requires filtering one voice from ambient noise across a degraded audio channel (phone speaker)
+  - **sound-source identification across distance**: hears fan through a partially open door from outside and correctly identifies it
+  - **auditory-semantic mapping**: doorbell sound → nani's house → "didi" (the person who typically arrives when the doorbell rings there)
+  - **cross-context sound recognition**: recognizes sounds from a different environment (nani's house) heard through phone audio
+- this demonstrates:
+  - **auditory attention**: she's processing background sounds even while engaged in other activities (eating, coloring, playing)
+  - **parallel processing**: maintains her primary activity while monitoring ambient audio
+  - **sound memory**: has stored what nanu's voice sounds like, what nani's doorbell sounds like, what a fan sounds like
+  - **contextual sound interpretation**: doesn't just hear sounds - maps them to specific people, places, and meanings
+- assessment: **significantly advanced** - auditory figure-ground separation and cross-context sound identification far exceed typical 20mo capabilities
+
+---
+
+#### causal reasoning from auditory cues (sound → inference chain)
+**observation:**
+- heard fan running inside house while standing outside a partially open door
+- said "aunty" (househelp), then "pocha" (mopped), then "geela" (wet)
+- chain: fan sound → aunty turns fan on after mopping → floor was mopped → floor must be wet
+
+**milestone context:**
+- typical 18-24 month development: understands simple cause-effect (push button → music plays)
+- typical 24-30 month development: beginning to link two events causally
+- typical 3-4 year development: can explain simple causal chains, understands "because"
+- mira at 20mo:
+  - **multi-step causal chain from a single sound cue**: one sound (fan) triggered a 3-step inference
+  - **step 1**: fan → aunty (she's the one who turns it on in this context)
+  - **step 2**: aunty + fan → pocha (she turns fan on specifically after mopping)
+  - **step 3**: pocha → geela (mopping means the floor is wet)
+  - **temporal reasoning**: understands the sequence of events (mop first, then fan, then wet)
+  - **absent evidence reasoning**: she can't see any of this - the door is barely open. entire chain is inferred from one sound
+- this demonstrates:
+  - **inferential reasoning**: going well beyond what's directly perceived
+  - **routine knowledge application**: has internalized the househelp's cleaning routine and uses it predictively
+  - **invisible cause reasoning**: sound → unseen cause → unseen consequence
+  - **verbal narration of inference**: expressed each step aloud as she worked through the chain
+- assessment: **significantly advanced** - multi-step causal inference from a single auditory cue, without visual confirmation, is remarkable for 20mo
+
+---
+
+#### empathic response to sound (baby crying)
+**observation:**
+- hears baby crying from neighbor's house
+- says "it's okay baby"
+- then asks "kilky? tood?" (want milk? food?)
+
+**milestone context:**
+- typical 18-24 month development: may notice others crying, may look concerned or bring own comfort object
+- typical 24-30 month development: beginning to comfort others verbally, may pat or hug
+- typical 3-4 year development: offers comfort, asks what's wrong, suggests solutions
+- mira at 20mo:
+  - **verbal comfort across distance**: comforts a baby she can't see, through a wall, by voice
+  - **emotional regulation phrase**: "it's okay baby" - uses a phrase she's likely heard from her own parents
+  - **problem-solving response**: doesn't stop at comfort - asks diagnostic questions (milk? food?)
+  - **needs inference**: knows that babies cry for specific reasons and tries to identify the cause
+- this demonstrates:
+  - **auditory empathy**: emotional response triggered by sound alone (no visual cue)
+  - **comfort language**: has internalized what comforting sounds like
+  - **causal thinking about emotions**: crying → must need something → what could it be?
+  - **prosocial orientation**: her instinct is to help, even when she physically can't
+- assessment: **advanced** - verbal comfort + diagnostic questioning for an unseen baby exceeds typical 20mo empathy responses
+
+---
+
+#### environmental sound monitoring (traffic awareness)
+**observation:**
+- while coloring on the first floor, hears auto/bike pass on the ground floor
+- says "dhyaan se" (take it easy / be careful / slow down)
+
+**milestone context:**
+- typical 18-24 month development: may notice loud vehicles, may point
+- typical 24-30 month development: names vehicle sounds, may express concern about loud noises
+- typical 3-4 year development: understands basic traffic safety concepts
+- mira at 20mo:
+  - **ambient monitoring while engaged**: coloring is her primary task, but she's processing environmental sounds in parallel
+  - **safety phrase application**: applies a safety concept ("dhyaan se") to vehicles she can hear but not see
+  - **appropriate context**: the phrase matches what adults say about traffic - she's applying learned safety language
+  - **distance sound processing**: one floor up, through walls/windows, still registers and responds
+- assessment: **advanced** - ambient environmental monitoring with appropriate safety response while engaged in another activity
+
+---
+
+#### sound-startle sensitivity (loud/unexpected sounds)
+**observation:**
+- covers her eyes (not ears) when blender/mixer is on
+- startled by aggressive dog barking
+- loud unexpected sounds can scare her
+
+**milestone context:**
+- typical 18-24 month development: may be startled by loud sounds, may cry or seek comfort
+- typical 24-30 month development: beginning to understand that some things are loud but not dangerous
+- mira at 20mo:
+  - **covers eyes, not ears**: interesting sensory response - may be a self-soothing strategy (blocking visual input to reduce overall sensory load) or a learned gesture from peek-a-boo/hide contexts
+  - **discriminates between sound types**: subtle sounds (nanu's voice, fan, doorbell) → processes calmly; loud/aggressive sounds (blender, barking) → startle/avoidance
+  - **has been this way since birth**: suggests this is temperamental, not situational
+- this is developmentally normal and common in children with:
+  - high sensory awareness / sensitivity
+  - strong observational tendencies
+  - good auditory processing (the same system that picks up subtle sounds also amplifies loud ones)
+- the sensitivity pattern (high discrimination + low threshold for loud sounds) is consistent with what's sometimes called a "sensitive" or "orchid" temperament - children who are highly attuned to their environment
+- assessment: **on track** - sound-startle response is age-appropriate; the eyes-covering behavior is an interesting self-regulation strategy worth observing over time
+- **note**: the combination of exceptional auditory discrimination AND sensitivity to loud sounds is a coherent profile - high-resolution auditory processing means both subtle and loud sounds register strongly
+
+---
+
+### updated assessment additions at 20 months (sound sensitivity)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| auditory figure-ground separation | 3-4 years | isolates voice from phone background noise | significantly advanced |
+| sound-to-inference chain | 3-4 years | fan → aunty → mopped → wet (3-step chain from 1 sound) | significantly advanced |
+| auditory empathy | 24-30mo+ | verbal comfort + diagnostic questions for unseen crying baby | advanced |
+| environmental sound monitoring | 24-30mo+ | processes traffic sounds while coloring, applies safety phrase | advanced |
+| sound-startle sensitivity | 18-24mo | covers eyes for loud sounds, startled by aggressive barking | on track (temperamental) |
+
+**what the sound sensitivity pattern reveals:**
+
+1. **high-resolution auditory processing**: mira's auditory system is picking up sounds that many adults in the same room might miss. isolating nanu's voice from phone background noise, hearing a fan through a partially open door, registering a vehicle from one floor up - these require exceptional auditory attention and discrimination.
+
+2. **sound as a reasoning trigger**: the most striking observation is the fan → aunty → pocha → geela chain. she didn't just hear a sound - she ran a multi-step inference from it. this is auditory processing feeding directly into causal reasoning. the sound was the starting point for a cognitive chain that ended in a prediction about the state of the floor she couldn't see.
+
+3. **parallel auditory monitoring**: in every example, she was doing something else (eating, coloring, playing) when she picked up the sound. she's not actively listening for these sounds - her auditory system is running in the background, flagging relevant inputs. this is a form of divided attention that's sophisticated for any age, let alone 20 months.
+
+4. **sound → social/empathic mapping**: when she hears the baby crying, her response isn't just recognition ("baby") - it's comfort ("it's okay") followed by diagnosis ("milk? food?"). the sound triggers a full empathic response cycle: detect → identify emotion → comfort → problem-solve.
+
+5. **coherent sensory profile**: the combination of exceptional subtle-sound detection AND startle sensitivity to loud sounds is internally consistent. a high-sensitivity auditory system picks up more at both ends - quiet sounds that others miss, and loud sounds that feel overwhelming. this is a temperamental trait, not a problem.
+
+6. **eyes-covering as self-regulation**: covering eyes (not ears) for loud sounds is an interesting self-regulation strategy. it may reflect:
+   - reducing overall sensory input (closing one channel when another is overwhelming)
+   - a learned gesture from hide/peek-a-boo contexts (covering eyes = making something go away)
+   - or simply that she hasn't mapped ears as the relevant sensory organ for sound yet
+   - worth observing how this evolves - whether she transitions to ear-covering or develops other strategies
+
+7. **since birth**: the parents note this has been present since birth, which supports a temperamental rather than developmental origin. this is who she is, not a phase. understanding this as a strength (exceptional auditory awareness) rather than a limitation (sound sensitivity) is important for supporting her development.
+
+---
 
 ## 2026-01-25 / 07:18 pm
 
