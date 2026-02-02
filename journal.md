@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-03 / 01:00 am](#2026-02-03-0100-am)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
@@ -34,6 +35,44 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-03 / 01:00 am
+
+### created "who mira is" - personality & emerging identity profile
+
+**what we did:**
+- created new document `profile/who-mira-is.md` - a synthesis of all observations into a personality portrait
+- not milestones, not daily observations - the threads that run through everything
+
+**8 core traits identified:**
+1. **the always-on receiver**: high-bandwidth sensory intake, always processing background sounds/environment, since birth. temperamental, not learned.
+2. **the pattern extractor**: extracts rules from observation, applies them in new contexts. one-shot learning (-ji suffix, birthday script, basketball schema). doesn't memorize - extracts principles.
+3. **the self-starter**: consistently identifies and unlocks new activities herself (journal, birthday planning, bindi ritual, basketball, sharing with nature). driver, not passenger.
+4. **the narrator of her own mind**: uses language to think aloud - narrates inferences, plans, and motor actions. language as a thinking tool, not just communication.
+5. **the empathic antenna**: sensitivity extends outward - group tracking, comforting unseen baby, sharing with nature, including both parents. notices and responds to others' states.
+6. **the boundary holder**: strong body autonomy + creative autonomy. clear self. "i decide" principle (rejected temple tikka, later created own bindi ritual on her terms).
+7. **the fear approacher**: circles back to fears gradually until ready (balance bike, slide). doesn't avoid - manages exposure on her timeline. brave in the original sense.
+8. **the ritual builder**: creates multi-step rituals for activities and transitions (reading routine, bedtime goodbye, journaling, bindi ceremony). ritual architect.
+
+**the connected picture:**
+- traits aren't separate: reception → extraction → action is one unified cycle
+- sensitivity is the foundation - feeds pattern extraction, empathy, causal reasoning
+- boundaries enable empathy (clear self allows sustainable care for others)
+- fear-approach and ritual-building are both self-regulation strategies
+
+**what this might mean for her learning/growth:**
+- observational learner who needs space to watch first, then act when ready
+- high-sensitivity auditory system is a superpower AND a vulnerability - design around it
+- autonomy is core - educational approaches with choice and self-direction will suit her
+- co-created routines > imposed routines
+
+**files created/modified:**
+- `profile/who-mira-is.md` - new document
+- `wiki/index.md` - added to profile section + new tags
+- `wiki/tags.md` - added #mira-personality, #emerging-identity, #mira-superpowers, #temperament
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-03 / 12:10 am

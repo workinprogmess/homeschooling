@@ -16,6 +16,7 @@ map of content across the repo.
 ### profile
 - [developmental milestones](../profile/developmental-milestones.md)
 - [notes about mira](../profile/notes-about-mira.md)
+- [who mira is](../profile/who-mira-is.md)
 
 ### research
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
@@ -99,6 +100,11 @@ map of content across the repo.
 - [#wiki-tags](./tags.md#wiki-tags)
 - [#work-log](./tags.md#work-log)
 - [#workflow-rules](./tags.md#workflow-rules)
+
+- [#emerging-identity](./tags.md#emerging-identity)
+- [#mira-personality](./tags.md#mira-personality)
+- [#mira-superpowers](./tags.md#mira-superpowers)
+- [#temperament](./tags.md#temperament)
 
 ## sources / references
 - none yet
