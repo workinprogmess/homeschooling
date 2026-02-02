@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
@@ -24,6 +25,241 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-03 / 12:10 am
+
+### age: 20.5 months
+
+---
+
+### language development - major expansion
+
+#### spatial & relational prepositions
+**observation:**
+- uses and physically demonstrates: under/over, behind/front, up/down (upar/neeche), sit down/lie down
+- examples: bed head is "upar" when on the bed; things thrown from balcony are "neeche"; hides behind door/curtain; stands in front of swing when asked; goes under/over things while saying the words
+
+**milestone context:**
+- typical 18-24 month development: beginning to understand simple spatial words (in, on, up), may use 1-2
+- typical 24-30 month development: uses several spatial prepositions, beginning to understand relative positions
+- typical 30-36 month development: uses most common prepositions correctly, combines with actions
+- mira at 20.5mo:
+  - **breadth of spatial vocabulary**: under, over, behind, front, up, down, sit down, lie down - at least 8 spatial/positional terms
+  - **bilingual spatial terms**: up/down AND upar/neeche - same concept in two languages
+  - **embodied language**: doesn't just say the words - physically performs the action while naming it (goes under something while saying "under")
+  - **contextual accuracy**: each term used in the right context (balcony = neeche, bed head = upar, see-saw = up then down)
+  - **relational understanding**: behind/front require understanding position relative to another object - these are more abstract than simple in/on/under
+- this demonstrates:
+  - **spatial cognition**: has mental models of relative position in space
+  - **language-action integration**: words and body movements are coordinated
+  - **abstract relational thinking**: behind/front are not visible properties - they depend on perspective
+- assessment: **advanced** - breadth and accuracy of spatial prepositions exceeds typical 20mo; bilingual spatial vocabulary and embodied use are notable
+
+---
+
+#### action verbs with pragmatic differentiation
+**observation:**
+- pick up / put it: uses "pick up" when something falls, "put it" when placing something or asking others to
+- take it / give: asked yuvaan (peer, his age) to "take it" (green shovel + yellow bucket) while playing in sand; asked mumma to "give" with hand gesture when wanting blueberries
+
+**milestone context:**
+- typical 18-24 month development: uses simple action words (go, want, help), often without clear pragmatic differentiation
+- typical 24-30 month development: uses action verbs with appropriate directionality, beginning to differentiate between similar verbs
+- typical 30-36 month development: uses give/take, put/pick up with correct agent-recipient understanding
+- mira at 20.5mo:
+  - **verb-pair differentiation**: distinguishes between complementary verb pairs:
+    - pick up (from ground) vs put (onto surface) - directional opposites
+    - take it (you receive from me) vs give (i receive from you) - agent-recipient reversal
+  - **peer-directed language**: used "take it" with a peer (yuvaan), not just with adults - adjusts communication for different social partners
+  - **multimodal communication**: combined "give" with hand gesture when mumma was saying no - escalated her request through multiple channels
+  - **situational accuracy**: each verb used in the correct transactional context
+- this demonstrates:
+  - **pragmatic verb knowledge**: understands not just the action but the direction of transfer
+  - **social communication flexibility**: communicates differently with peers vs parents
+  - **persistence through multimodal means**: when verbal request meets resistance, adds gesture
+- assessment: **advanced** - verb-pair differentiation with correct agent-recipient mapping and peer-directed language exceed typical 20mo
+
+---
+
+#### sentence repetition & length
+**observation:**
+- copies/repeats new words or sentences readily
+- example: "it's late, mimu, lets go to bed, its nini time" - repeats full sentences, sometimes jumbling word order
+
+**milestone context:**
+- typical 18-24 month development: imitates 2-3 word phrases, may echo single words
+- typical 24-30 month development: repeats short sentences (3-4 words), maintains word order mostly
+- typical 30-36 month development: repeats longer sentences, beginning to self-correct word order
+- mira at 20.5mo:
+  - **sentence length**: repeats sentences of 8+ words ("it's late mimu lets go to bed its nini time")
+  - **content preservation**: retains meaning and most words even when jumbling order
+  - **immediate imitation willingness**: copies "pretty much whatever you give her" - high openness to new language input
+  - **phonological processing**: can hold a long string of words in working memory and reproduce it
+- this demonstrates:
+  - **auditory working memory**: holding 8+ words and reproducing them requires substantial verbal memory capacity
+  - **language acquisition drive**: eagerness to repeat everything signals active vocabulary building
+  - **prosodic awareness**: the jumbling suggests she's working at the edge of her capacity - she gets the sounds and meaning but is still organizing syntax
+- assessment: **advanced** - sentence repetition length of 8+ words far exceeds typical 20mo echoic capacity
+
+---
+
+#### novel concept acquisition ("new")
+**observation:**
+- the word "new" is a recent addition to vocabulary
+- applies it correctly across categories: new cycle, new book, new clothes, new shoes, new makhana packet
+
+**milestone context:**
+- typical 18-24 month development: uses concrete nouns and action verbs primarily
+- typical 24-30 month development: beginning to use adjectives, often for physical properties (big, hot, wet)
+- typical 30-36 month development: uses more abstract adjectives, beginning to understand temporal/novelty concepts
+- mira at 20.5mo:
+  - **abstract adjective use**: "new" is not a physical property you can see or touch - it's a temporal/relational concept (this thing is different from what was before)
+  - **cross-category application**: applies "new" to vehicles, books, clothing, food - understands it as a property that any object can have
+  - **productive use**: not just repeating "new X" for one item - generating novel combinations
+- this demonstrates:
+  - **abstract concept acquisition**: understanding newness as a quality independent of object type
+  - **productive language**: creating new adjective+noun combinations rather than memorizing fixed phrases
+  - **temporal reasoning precursor**: "new" implies understanding of before/after, old/new
+- assessment: **advanced** - abstract adjective use with cross-category application exceeds typical 20mo vocabulary patterns
+
+---
+
+#### morphological extraction & overgeneralization (-ji suffix)
+**observation:**
+- heard papa say "mamaji" to the househelp (while mira was doing something else on the couch)
+- extracted the -ji suffix
+- applied it to people: baba-ji, mumma-ji, mimu-ji (herself), nani-ji, dadi-ji
+- overgeneralized to objects: sofa-ji, fan-ji
+
+**milestone context:**
+- typical 18-24 month development: uses words as whole units, does not extract or apply morphological components
+- typical 24-30 month development: beginning to notice word patterns, may overgeneralize some rules (e.g., "goed" for "went")
+- typical 30-36 month development: actively applies morphological rules, overgeneralization common (shows rule learning)
+- typical 3-4 year development: refines rules, reduces overgeneralization
+- mira at 20.5mo:
+  - **morphological extraction from a single exposure**: heard -ji once and extracted it as a separable unit
+  - **productive application**: applied it to 5+ people and 2+ objects - this is rule application, not memorization
+  - **overgeneralization to objects**: sofa-ji, fan-ji - the hallmark of genuine rule learning (applying the rule beyond its valid scope shows she's internalized the pattern, not just the word)
+  - **ambient acquisition**: she wasn't being taught - she was doing something else on the couch and picked it up from conversation around her
+  - **self-application**: mimu-ji - applied the suffix to her own name, showing it's fully productive
+- this demonstrates:
+  - **morphological awareness**: can decompose words into meaningful parts (mama + ji)
+  - **rule extraction from minimal input**: one exposure → productive rule
+  - **creative overgeneralization**: the classic sign of language acquisition - errors that prove the rule has been learned (sofa-ji is "wrong" but brilliantly shows she's got the pattern)
+  - **continued ambient listening pattern**: consistent with the sound sensitivity observations from 20m13d - she processes language from conversations she's not part of
+- assessment: **significantly advanced** - morphological extraction and productive overgeneralization from a single exposure is remarkable for 20.5mo. this is the kind of rule-learning behavior typically seen at 24-36 months, and doing it from one instance of hearing the suffix is exceptional
+
+---
+
+#### narrative sequencing (event narration)
+**observation:**
+- had noticed dirty fan multiple times previously, said "aye haye" (dirty)
+- mumma told her someone would come to clean
+- when the person arrived, she narrated: "uncle, fan, dirty, stool, clean"
+- when he finished all fans: "ho gya" (it's done)
+
+**milestone context:**
+- typical 18-24 month development: names objects and actions in the present moment
+- typical 24-30 month development: beginning to describe ongoing events in 2-3 word sequences
+- typical 30-36 month development: narrates simple event sequences, can describe what happened
+- typical 3-4 year development: tells simple stories with beginning, middle, end
+- mira at 20.5mo:
+  - **5-word event narration**: "uncle, fan, dirty, stool, clean" - compressed but complete narrative
+  - **contains**: agent (uncle) + object (fan) + state (dirty) + tool (stool) + action (clean)
+  - **anticipatory narration**: she told the story as it was about to happen, not after - she predicted the sequence
+  - **completion marking**: "ho gya" (it's done) - marks the end of the event
+  - **prior observation integration**: connected the arrival of the person to her earlier observations of the dirty fan and what mumma told her
+- this demonstrates:
+  - **narrative structure**: beginning (uncle arrives) → problem (fan dirty) → method (stool) → resolution (clean) → completion (ho gya)
+  - **predictive sequencing**: narrated what would happen based on prior knowledge, not just what she saw
+  - **working memory**: held together multiple pieces of information (dirty fan observation + mumma's explanation + person arriving)
+  - **event schema**: has a mental model of "cleaning" that includes agent, target, tool, and completion
+- assessment: **significantly advanced** - predictive 5-element event narration with completion marking is well beyond typical 20mo. the narrative has structure (agent + object + state + tool + action + completion) that resembles early storytelling
+
+---
+
+### updated assessment additions at 20.5 months (language)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| spatial prepositions | 24-30mo | 8+ terms, bilingual, embodied use | advanced |
+| action verb differentiation | 24-30mo+ | pick up/put, take/give with correct directionality | advanced |
+| sentence repetition | 24-30mo+ | repeats 8+ word sentences | advanced |
+| abstract adjective ("new") | 30-36mo | cross-category application | advanced |
+| morphological extraction (-ji) | 24-36mo | single-exposure extraction + productive overgeneralization | significantly advanced |
+| event narration | 30-36mo+ | 5-element predictive sequence with completion marking | significantly advanced |
+
+**what this language snapshot reveals:**
+
+1. **rule learning, not memorization**: the -ji suffix episode is the standout. she heard it once, decomposed it, extracted the rule, and applied it productively - including overgeneralizing to objects (sofa-ji, fan-ji). overgeneralization is the gold standard evidence that a child has learned a rule rather than memorized instances. most children begin this kind of morphological productivity at 24-36 months.
+
+2. **language as a tool for prediction**: the fan-cleaning narration isn't just describing what she sees - she's narrating what's about to happen based on prior knowledge. "uncle, fan, dirty, stool, clean" is a prediction, not a description. this is language serving executive function (planning/anticipation).
+
+3. **embodied spatial language**: she doesn't just say "under" - she goes under something while saying it. this tight coupling of language and action suggests her spatial words are grounded in bodily experience, not abstract labels. this is how strong spatial reasoning develops.
+
+4. **verb directionality**: distinguishing take/give and pick up/put requires understanding who is the agent and who is the recipient, and which direction the object moves. this is pragmatic sophistication - she's not just using verbs, she's mapping social roles onto actions.
+
+5. **ambient acquisition continues**: the -ji episode happened while she was doing something else on the couch. consistent with the sound sensitivity profile documented at 20m13d - she's continuously processing language from conversations she's not directly involved in.
+
+6. **working memory capacity**: repeating 8+ word sentences, holding together a multi-element narrative, extracting a suffix from overheard conversation - all of these require substantial verbal working memory. this capacity underlies much of her advanced language performance.
+
+---
+
+### observational learning & gross motor
+
+#### sport-specific behavior from observation (basketball)
+**observation:**
+- daily routine: go down to basketball court, run, kick football, walk around
+- papa gave her a basketball to kick (their usual with any ball)
+- she kicked it once, then picked it up and walked with it in her hand
+- walked to the basket end and tried throwing the ball up to basket
+- papa tried redirecting to kicking but she persisted with the correct basketball behavior
+- may have seen papa playing a day before, has seen kids and adults play there
+- played together attempting to basket for 15-20 minutes, mumma joined
+- has become a recurring activity since - she initiated and unlocked it herself
+
+**milestone context:**
+- typical 18-24 month development: throws ball randomly, kicks ball forward, doesn't differentiate sports
+- typical 24-30 month development: throws ball in a general direction, may imitate simple sports actions
+- typical 30-36 month development: beginning to understand that different balls/equipment go with different activities
+- typical 3-4 year development: can follow basic sport-specific rules, throws toward a target
+- mira at 20.5mo:
+  - **sport-ball matching**: identified that a basketball is for throwing at a basket, not kicking - differentiated from her usual football/kicking routine
+  - **location-specific behavior**: walked to the correct end of the court (where the basket is)
+  - **goal-directed throwing**: didn't just throw the ball randomly - threw it upward toward the basket
+  - **observational source**: learned this from watching (papa, kids, adults) - not from being taught
+  - **overrode established routine**: her default with any ball is kicking. she actively chose a different action based on ball type
+  - **sustained engagement**: 15-20 minutes of attempting to basket
+  - **self-initiated activity**: papa didn't suggest basketball - she identified the correct behavior herself
+- this demonstrates:
+  - **deferred imitation with contextual accuracy**: watched basketball being played → stored the schema → applied it when given the right ball in the right location
+  - **equipment-activity mapping**: this ball → this action → this target → this location. not just "throw ball" but a complete sport schema
+  - **routine override**: she had an established pattern (ball = kick) and deliberately chose a different action based on context. this requires inhibitory control - suppressing the automatic response
+  - **self-directed learning**: identified a new activity, initiated it, and turned it into a recurring practice
+- assessment: **significantly advanced** - sport-specific observational learning with equipment-activity-location mapping, routine override, and self-initiation far exceeds typical 20mo gross motor play
+
+---
+
+### updated assessment addition at 20.5 months (basketball)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| sport-ball differentiation | 30-36mo+ | basketball = throw at basket, not kick | significantly advanced |
+| goal-directed throwing | 24-30mo+ | throws toward basket (specific target) | advanced |
+| observational sport learning | 3-4 years | learned basketball schema from watching others | significantly advanced |
+| routine override (inhibitory control) | 24-30mo+ | suppressed kick default, chose throw | advanced |
+
+**what the basketball observation reveals:**
+
+1. **complete sport schema from observation**: she didn't learn one piece of basketball - she absorbed the whole thing: specific ball → carry (not kick) → go to basket end → throw upward. this is a multi-component behavioral schema acquired entirely from watching.
+
+2. **inhibitory control**: the default routine was kick. every ball they play with gets kicked. she overrode this automatic response for the basketball. suppressing an established behavior in favor of a context-appropriate alternative requires executive function typically developing at 24-30+ months.
+
+3. **self-initiated activity unlock**: papa didn't teach her basketball. she identified the correct behavior, initiated it, and it's now a recurring activity. this is the same pattern as the journal (self-initiated), the birthday planning (self-initiated), and the bindi ritual (self-initiated) - she's consistently the one who identifies and unlocks new activities.
+
+4. **location awareness**: she didn't just throw the ball anywhere - she walked to the basket end. this means her schema included not just the action but the spatial component of the sport.
+
+---
 
 ## 2026-01-30 / 01:31 pm
 

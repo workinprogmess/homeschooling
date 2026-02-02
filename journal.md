@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-22 / evening](#2026-01-22-evening)
@@ -33,6 +34,40 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-03 / 12:10 am
+
+### language explosion documented at 20.5 months
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md` documenting major speech/language expansion at 20.5mo:
+  - spatial prepositions: under/over, behind/front, up/down (upar/neeche), sit down/lie down - 8+ terms, bilingual, used with physical actions
+  - action verb pairs: pick up/put it, take it/give - with correct directionality and social context
+  - sentence repetition: repeats 8+ word sentences (jumbles order sometimes)
+  - "new" as abstract adjective: new cycle, new book, new clothes, new shoes, new makhana packet
+  - -ji suffix extraction: heard "mamaji" once → applied to baba-ji, mumma-ji, mimu-ji, nani-ji, dadi-ji, sofa-ji, fan-ji
+  - narrative sequencing: fan cleaner arrived → "uncle, fan, dirty, stool, clean" → "ho gya" when done
+- added milestone assessments to `profile/developmental-milestones.md`:
+  - morphological extraction (-ji): significantly advanced (single-exposure rule extraction + productive overgeneralization)
+  - event narration: significantly advanced (5-element predictive sequence with completion marking)
+  - spatial prepositions, verb differentiation, sentence repetition, abstract adjective: all advanced
+
+**also documented:**
+- basketball observational learning: given a basketball on the court, overrode her usual kick-any-ball routine, walked to the basket end, and tried throwing it up to basket. learned entirely from watching papa/kids/adults. now a recurring activity she unlocked herself. assessed as significantly advanced - sport-specific schema from observation with inhibitory control (suppressing kick default).
+
+**key observations:**
+- the -ji suffix episode is the standout: heard it once, extracted the rule, applied it to people AND objects (sofa-ji, fan-ji). overgeneralization = proof of rule learning, not memorization. typically 24-36mo behavior.
+- fan-cleaning narration was predictive, not descriptive - she narrated what was about to happen based on prior knowledge
+- ambient acquisition pattern continues from sound sensitivity profile - picked up -ji from conversation she wasn't part of
+- spatial words are embodied: goes under/over things while saying the words
+- basketball observation fits the self-initiated activity pattern: journal, birthday planning, bindi ritual, and now basketball - she consistently identifies and unlocks new activities herself
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-03 / 12:10 am
+- `profile/developmental-milestones.md` - new entry 2026-02-03 / 12:10 am
+- `journal.md` - this entry
+
 ---
 
 ## 2026-01-30 / 01:31 pm
