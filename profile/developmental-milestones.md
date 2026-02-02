@@ -205,6 +205,62 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ---
 
+### observational learning & gross motor
+
+#### sport-specific behavior from observation (basketball)
+**observation:**
+- daily routine: go down to basketball court, run, kick football, walk around
+- papa gave her a basketball to kick (their usual with any ball)
+- she kicked it once, then picked it up and walked with it in her hand
+- walked to the basket end and tried throwing the ball up to basket
+- papa tried redirecting to kicking but she persisted with the correct basketball behavior
+- may have seen papa playing a day before, has seen kids and adults play there
+- played together attempting to basket for 15-20 minutes, mumma joined
+- has become a recurring activity since - she initiated and unlocked it herself
+
+**milestone context:**
+- typical 18-24 month development: throws ball randomly, kicks ball forward, doesn't differentiate sports
+- typical 24-30 month development: throws ball in a general direction, may imitate simple sports actions
+- typical 30-36 month development: beginning to understand that different balls/equipment go with different activities
+- typical 3-4 year development: can follow basic sport-specific rules, throws toward a target
+- mira at 20.5mo:
+  - **sport-ball matching**: identified that a basketball is for throwing at a basket, not kicking - differentiated from her usual football/kicking routine
+  - **location-specific behavior**: walked to the correct end of the court (where the basket is)
+  - **goal-directed throwing**: didn't just throw the ball randomly - threw it upward toward the basket
+  - **observational source**: learned this from watching (papa, kids, adults) - not from being taught
+  - **overrode established routine**: her default with any ball is kicking. she actively chose a different action based on ball type
+  - **sustained engagement**: 15-20 minutes of attempting to basket
+  - **self-initiated activity**: papa didn't suggest basketball - she identified the correct behavior herself
+- this demonstrates:
+  - **deferred imitation with contextual accuracy**: watched basketball being played → stored the schema → applied it when given the right ball in the right location
+  - **equipment-activity mapping**: this ball → this action → this target → this location. not just "throw ball" but a complete sport schema
+  - **routine override**: she had an established pattern (ball = kick) and deliberately chose a different action based on context. this requires inhibitory control - suppressing the automatic response
+  - **self-directed learning**: identified a new activity, initiated it, and turned it into a recurring practice
+- assessment: **significantly advanced** - sport-specific observational learning with equipment-activity-location mapping, routine override, and self-initiation far exceeds typical 20mo gross motor play
+
+---
+
+### updated assessment addition at 20.5 months (basketball)
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| sport-ball differentiation | 30-36mo+ | basketball = throw at basket, not kick | significantly advanced |
+| goal-directed throwing | 24-30mo+ | throws toward basket (specific target) | advanced |
+| observational sport learning | 3-4 years | learned basketball schema from watching others | significantly advanced |
+| routine override (inhibitory control) | 24-30mo+ | suppressed kick default, chose throw | advanced |
+
+**what the basketball observation reveals:**
+
+1. **complete sport schema from observation**: she didn't learn one piece of basketball - she absorbed the whole thing: specific ball → carry (not kick) → go to basket end → throw upward. this is a multi-component behavioral schema acquired entirely from watching.
+
+2. **inhibitory control**: the default routine was kick. every ball they play with gets kicked. she overrode this automatic response for the basketball. suppressing an established behavior in favor of a context-appropriate alternative requires executive function typically developing at 24-30+ months.
+
+3. **self-initiated activity unlock**: papa didn't teach her basketball. she identified the correct behavior, initiated it, and it's now a recurring activity. this is the same pattern as the journal (self-initiated), the birthday planning (self-initiated), and the bindi ritual (self-initiated) - she's consistently the one who identifies and unlocks new activities.
+
+4. **location awareness**: she didn't just throw the ball anywhere - she walked to the basket end. this means her schema included not just the action but the spatial component of the sport.
+
+---
+
 ## 2026-01-30 / 01:31 pm
 
 ### age: 20 months, 13 days

@@ -61,6 +61,17 @@ free-form observations, things she does, likes, patterns - captured as they come
 - when the person arrived, she narrated: "uncle, fan, dirty, stool, clean"
 - when he finished all the fans: "ho gya" (it's done)
 
+**observational learning → sport-specific behavior (basketball):**
+- daily routine: go to basketball court, run, kick football, walk around
+- papa gave her a basketball to kick (their usual with any ball)
+- she kicked it once, then picked it up
+- walked with the ball in her hand to the basket end
+- tried throwing the ball up to actually basket
+- context: may have seen papa playing a day before, has seen kids and adults play there
+- papa was stunned - tried to redirect to kicking but she had identified the correct sport for the ball
+- played together attempting to basket for 15-20 minutes, mumma joined too
+- has become a recurring activity since - she unlocked it herself
+
 ---
 
 ## 2026-01-30 / 01:31 pm

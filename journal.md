@@ -53,11 +53,15 @@ project development log - newest entries on top
   - event narration: significantly advanced (5-element predictive sequence with completion marking)
   - spatial prepositions, verb differentiation, sentence repetition, abstract adjective: all advanced
 
+**also documented:**
+- basketball observational learning: given a basketball on the court, overrode her usual kick-any-ball routine, walked to the basket end, and tried throwing it up to basket. learned entirely from watching papa/kids/adults. now a recurring activity she unlocked herself. assessed as significantly advanced - sport-specific schema from observation with inhibitory control (suppressing kick default).
+
 **key observations:**
 - the -ji suffix episode is the standout: heard it once, extracted the rule, applied it to people AND objects (sofa-ji, fan-ji). overgeneralization = proof of rule learning, not memorization. typically 24-36mo behavior.
 - fan-cleaning narration was predictive, not descriptive - she narrated what was about to happen based on prior knowledge
 - ambient acquisition pattern continues from sound sensitivity profile - picked up -ji from conversation she wasn't part of
 - spatial words are embodied: goes under/over things while saying the words
+- basketball observation fits the self-initiated activity pattern: journal, birthday planning, bindi ritual, and now basketball - she consistently identifies and unlocks new activities herself
 
 **files modified:**
 - `profile/notes-about-mira.md` - new entry 2026-02-03 / 12:10 am
