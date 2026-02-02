@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
 - [2026-01-25 / 07:30 pm](#2026-01-25-0730-pm)
@@ -24,6 +25,43 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-03 / 12:10 am
+
+### speech & language explosion (20.5 months)
+
+**spatial/relational words - used correctly and physically:**
+- under/over: uses the words AND goes under/over things while saying them
+- behind/front: hides behind door/curtain, stands in front of swing when asked
+- sit down/lie down: uses especially on the bed
+- up/down (upar/neeche): bed head is "upar" when she's on the bed; things thrown from balcony are "neeche"; on the see-saw "up up up" then "down"
+
+**action verbs with correct context:**
+- pick up / put it: when something falls (pick up), when she places something on table or asks someone else to (put it)
+- take it / give: this morning asked yuvaan (his age) to "take it" (green shovel + yellow bucket) while playing in sand; asked mumma to "give" with hand gesture when she wanted blueberries and mumma was saying no
+
+**sentence repetition:**
+- copies/repeats pretty much whatever you give her - new words or sentences
+- example: "it's late, mimu, lets go to bed, its nini time" - she'd repeat it just like that (jumbling words here and there)
+
+**"new" as a concept:**
+- the word "new" is new in her vocabulary
+- applies it correctly: new cycle, new book, new clothes, new shoes, new makhana packet
+
+**suffix generalization (-ji):**
+- papa said "mamaji" to the househelp while everyone was on the living room couch
+- mira was doing something else but heard it (consistent with her ambient listening pattern)
+- didn't just learn the word - extracted the suffix and applied it to everyone:
+  - baba-ji (papa), mumma-ji, mimu-ji (herself), nani-ji, dadi-ji
+  - then extended to objects: sofa-ji, fan-ji
+
+**narrative sequencing (fan cleaning):**
+- she'd noticed the dirty fan a few times, calling out "aye haye" (dirty)
+- mumma told her someone's coming to clean today
+- when the person arrived, she narrated: "uncle, fan, dirty, stool, clean"
+- when he finished all the fans: "ho gya" (it's done)
+
+---
 
 ## 2026-01-30 / 01:31 pm
 
