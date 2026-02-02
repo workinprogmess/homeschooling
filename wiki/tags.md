@@ -91,6 +91,9 @@ generated: 2026-01-01 / 08:06 pm
 ### #early-childhood-development
 - [formative years](../research/formative-years.md)
 
+### #emerging-identity
+- [who mira is](../profile/who-mira-is.md)
+
 ### #eu-bike-options
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
 
@@ -140,11 +143,18 @@ generated: 2026-01-01 / 08:06 pm
 ### #mira-journal
 - [mira's journal](../resources/mira-journal.md)
 
+### #mira-personality
+- [who mira is](../profile/who-mira-is.md)
+
 ### #mira-observations
 - [notes about mira](../profile/notes-about-mira.md)
 
 ### #mira-profile
 - [notes about mira](../profile/notes-about-mira.md)
+- [who mira is](../profile/who-mira-is.md)
+
+### #mira-superpowers
+- [who mira is](../profile/who-mira-is.md)
 
 ### #parent-sentiments
 - [indian parents on homeschooling: sentiments & questions](../research/indian-parents-homeschooling-sentiments.md)
@@ -175,6 +185,9 @@ generated: 2026-01-01 / 08:06 pm
 
 ### #social-emotional
 - [developmental milestones overview](../research/developmental-milestones-overview.md)
+
+### #temperament
+- [who mira is](../profile/who-mira-is.md)
 
 ### #temp
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
