@@ -16,6 +16,7 @@ a portrait of the person emerging - synthesized from observations across 19-20.5
 - [the boundary holder](#the-boundary-holder)
 - [the fear approacher](#the-fear-approacher)
 - [the ritual builder](#the-ritual-builder)
+- [the peer](#the-peer)
 - [the connected picture](#the-connected-picture)
 - [what this might mean going forward](#what-this-might-mean-going-forward)
 <!-- toc:end -->
@@ -187,6 +188,27 @@ this trait connects to her self-starting pattern: she doesn't just start activit
 
 ---
 
+## the peer
+
+**what it is:** mira doesn't see herself as a dependent who watches adults solve problems. she sees herself as a full participant. when something goes wrong, she doesn't wait for adults to fix it - she acts, using whatever resources are available, including other people.
+
+**where we see it:**
+- papa has been coughing, mumma told him multiple times to take steam, he didn't act. mira went to the office, used mumma's tone ("babaaa"), held his hand, pointed him to the chair, tried to pick up the steam machine. she stepped into mumma's role because mumma's approach wasn't working
+- mumma wanted to play a song but couldn't find her phone. before mumma could solve it, mira called the househelp: "aunty.. mumma phone. kong. googe pay. [song name]." she delegated to a third party with a complete instruction chain
+- refilled an empty bottle from a bigger bottle without being asked or shown. saw a problem, solved it
+- birthday planning: found candles, requested cake order, called people. she didn't assist with planning - she was the planner
+
+**what it tells us about her:**
+this is different from the self-starter (which is about initiating new activities). this is about how she relates to problems. she doesn't have a concept of "that's an adult problem, not mine." if papa is coughing, that's her problem. if mumma can't find her phone, that's her problem. if a bottle is empty, that's her problem.
+
+the steam instance is particularly revealing. she didn't just remind papa - she adopted mumma's role. the tone, the physical direction, the authority. this isn't imitation. it's role understanding: she recognized that the role (person who gets papa to take steam) wasn't being filled effectively, so she filled it herself. she understands that roles are functional, not assigned.
+
+the phone/song instance shows something else: she uses people as resources in solution chains. she mapped: problem (no song) → tool (phone) → person who can find it (aunty) → platform (google play) → specific content (song name). and she delivered this 5-element instruction chain to a third party before the adult had figured it out.
+
+the speed matters. in both cases, she moved before the adult. this isn't reactive helping. it's automatic problem-solving. she doesn't deliberate about whether she should step in. she just does it, like any member of the household would.
+
+---
+
 ## the connected picture
 
 the traits above aren't separate. they're facets of one person. here's how they connect:
@@ -205,6 +227,9 @@ her way of handling fear (circling back gradually) is connected to her ritual-bu
 
 **language as a thinking tool:**
 her narration of her own thinking (narrator of her own mind) isn't just advanced language. it's the link between her pattern extraction and her action. she talks through inferences ("aunty... pocha... geela"), narrates plans ("uncle, fan, dirty, stool, clean"), and instructs her own body ("hold.."). language is the medium through which her thinking becomes visible - to herself and to others.
+
+**the peer as the integration of everything:**
+the peer trait is where all other traits converge. it requires: ambient reception (noticing that papa hasn't taken steam, that mumma can't find her phone), pattern extraction (understanding roles and who can do what), self-starting (acting without being asked), narration (delivering multi-step instructions), empathy (caring that papa is coughing), and boundary clarity (she's not confused about who she is - she's stepping into a role deliberately, not losing herself). the peer isn't a separate trait. it's what all the other traits look like when they work together on a real problem.
 
 ---
 
@@ -230,5 +255,5 @@ she will likely thrive with consistent routines that she has a hand in creating.
 ---
 
 ## sources / references
-- all observations drawn from [notes about mira](./notes-about-mira.md) (19mo-20.5mo)
+- all observations drawn from [notes about mira](./notes-about-mira.md) (19mo-20m19d)
 - all milestone assessments from [developmental milestones](./developmental-milestones.md)

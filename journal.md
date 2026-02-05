@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 01:00 am](#2026-02-03-0100-am)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
@@ -36,6 +37,35 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-05 / 09:27 pm
+
+### problem-solving as a peer - new personality trait documented
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: two instances of mira solving household problems as a peer, not a dependent
+  1. steam for papa's cough: adopted mumma's role (tone, physical direction), stepped in when mumma's approach wasn't working
+  2. phone/song problem: delegated to househelp with 5-element instruction chain before mumma could solve it
+- added milestone assessment to `profile/developmental-milestones.md`:
+  - role adoption: significantly advanced (3-4 year typical)
+  - third-party delegation: significantly advanced (4-5 year typical)
+  - solution-chain reasoning: significantly advanced (3-4 year typical)
+- added 9th trait to `profile/who-mira-is.md`: "the peer" - she doesn't see adult problems as separate from her problems. she operates as a full participant in household problem-solving
+- updated connected picture: the peer is where all other traits converge
+
+**key insight:**
+- this is different from "self-starter" (initiating new activities). this is about how she relates to problems.
+- she doesn't have a concept of "that's not my problem." if it's happening in her world, it's her problem.
+- the phone instance shows delegation to a third party with a 5-element instruction chain at 20m19d - this is the peer trait + pattern extraction + narration + empathy all working together
+- she moves faster than the adults - not reactive but automatic
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-05 / 09:27 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-05 / 09:27 pm
+- `profile/who-mira-is.md` - added "the peer" as 9th trait, updated connected picture
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-05 / 08:27 pm

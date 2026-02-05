@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
@@ -26,6 +27,79 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-05 / 09:27 pm
+
+### age: 20 months, 19 days
+
+---
+
+### executive function & social problem-solving
+
+#### problem-solving with role adoption and delegation
+**observation (two instances):**
+
+1. **steam for papa's cough:**
+   - mumma told papa multiple times to take steam (papa in office, mumma + mira in living room)
+   - papa didn't act
+   - mira went to the office, said "babaaa" in mumma's tone, held papa's hand, pointed him to the chair, tried to pick up the steam machine, said "team. baba"
+
+2. **phone/song problem:**
+   - mira wanted a song played, they were away from google home, mumma usually plays on phone
+   - mumma looked for her phone and couldn't find it
+   - before mumma could figure it out, mira called the househelp (cleaning outside): "aunty.. mumma phone. kong (song). googe pay (google play). [song name]"
+
+**milestone context:**
+- typical 18-24 month development: may seek help from adults for problems, can point or gesture toward solutions
+- typical 24-30 month development: beginning to solve simple problems independently, may ask for specific help
+- typical 30-36 month development: generates solutions, recruits others for help, beginning to understand social roles in problem-solving
+- typical 3-4 year development: delegates tasks, adopts roles in pretend play, understands that different people can help with different things
+- typical 4-5 year development: coordinates with others to solve problems, understands chains of delegation
+- mira at 20m19d:
+
+  **steam instance:**
+  - **role adoption**: didn't just ask papa to take steam - she adopted mumma's tone, mumma's directive posture, mumma's role in the household dynamic. she stepped into a role that wasn't hers
+  - **physical problem-solving**: didn't just tell papa - held his hand, pointed to the chair, tried to pick up the steam machine. she's executing the solution, not requesting it
+  - **monitoring a stalled task**: recognized that mumma's repeated requests weren't working and intervened herself. she noticed a problem (papa not acting) within a problem (papa coughing)
+
+  **phone/song instance:**
+  - **third-party delegation**: didn't ask mumma to solve it or try to find the phone herself - identified who else could help (aunty/househelp) and recruited them directly
+  - **multi-step instruction to a third party**: "aunty.. mumma phone. kong. googe pay. [song name]" - gave a complete chain of what she needed: locate object → purpose → platform → specific content
+  - **faster than the adult**: solved the problem before mumma could. she didn't wait for the adult to figure it out - she saw the gap and filled it
+  - **understands chains of capability**: knows that aunty can find the phone, that the phone plays songs via google play, and that the song has a name. she mapped the entire solution chain
+
+- this demonstrates:
+  - **self-concept as problem-solver**: she doesn't see herself as someone who watches adults fix things. she sees herself as a participant. "she thinks she already is" (parent's words) - she operates as a peer, not a dependent
+  - **role fluidity**: she can step into mumma's role (tone, posture, authority) when the situation calls for it. she understands that roles are functional, not fixed
+  - **social delegation**: using other people as resources to solve problems. the househelp isn't her usual communication partner for this kind of request - she recruited the available person for the task
+  - **solution-chain reasoning**: in the phone instance, she mapped: problem (no song) → tool (mumma's phone) → location (aunty can find it) → platform (google play) → content (specific song). this is a 5-step means-end chain involving another person as an intermediary
+  - **intervention when systems stall**: in the steam instance, she recognized that the existing system (mumma asking papa) wasn't working and inserted herself as a new actor. this requires monitoring the effectiveness of others' actions
+- assessment: **significantly advanced** - role adoption, third-party delegation with multi-step instructions, solution-chain reasoning, and self-concept as a peer problem-solver are all well beyond typical 20mo capabilities. the delegation to the househelp with a 5-element instruction chain is particularly remarkable
+
+---
+
+### updated assessment addition at 20m19d
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| role adoption in problem-solving | 3-4 years | steps into mumma's role (tone, posture, action) | significantly advanced |
+| third-party delegation | 4-5 years | recruits househelp with multi-step instructions | significantly advanced |
+| solution-chain reasoning | 3-4 years | 5-step means-end chain through an intermediary | significantly advanced |
+| monitoring stalled tasks | 30-36mo+ | recognizes when adult's approach isn't working, intervenes | advanced |
+
+**what these two instances reveal together:**
+
+1. **self-concept as a peer**: this is the core insight. most 20-month-olds relate to problems as dependents - they cry, point, or request. mira relates to problems as a participant. she doesn't ask someone to fix things. she fixes them, using whatever resources are available - including other people. the parent captured it exactly: "she thinks she already is."
+
+2. **role adoption vs role imitation**: in the steam instance, she didn't just copy mumma. she adopted mumma's functional role - the tone, the authority, the physical direction. this isn't imitation (doing what mumma does). it's role understanding (doing what the role requires, because the role-holder wasn't succeeding).
+
+3. **people as resources**: in the phone instance, she treated the househelp as a resource in her solution chain. this requires understanding that different people have different capabilities and access. she knew aunty could find the phone. she knew mumma couldn't play the song without the phone. she connected these facts into an action plan involving a third party.
+
+4. **speed of problem-solving**: in both instances, she acted before the adults. she didn't wait to be asked, didn't wait for the adult to try first (in the phone case, she moved while mumma was still looking). this suggests her problem-solving is automatic - she's not deliberating about whether she should help. she just does it.
+
+5. **instruction quality**: "aunty.. mumma phone. kong. googe pay. [song name]" is a compressed but complete instruction. it has: addressee (aunty) → object to find (mumma's phone) → purpose (song) → platform (google play) → specific content (song name). delivering this to a third party in a coherent sequence at 20 months is exceptional language serving executive function.
+
+---
 
 ## 2026-02-05 / 08:27 pm
 

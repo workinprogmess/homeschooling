@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
@@ -26,6 +27,30 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-05 / 09:27 pm
+
+### problem-solving as a peer, not a dependent (20m19d)
+
+**instance 1 - steam for papa's cough:**
+- papa has been coughing
+- mumma told papa a few times to take steam (papa was in office room, mumma and mira in living room)
+- mira came running to the office
+- said "babaaa" in mumma's tone
+- held papa's hand and pointed him to the chair
+- tried to pick up the steam container/machine
+- said "team. baba" (steam, baba)
+- she stepped into mumma's role - used her tone, did what mumma had been trying to get papa to do
+
+**instance 2 - solving the phone/song problem:**
+- mira and mumma on the bed, mira wanted a song played
+- she has a list of 5-7 songs she knows by name (her own names, but parents understand them)
+- they were away from google home, and mira knows mumma plays songs on her phone
+- mumma looked around for her phone and didn't have it
+- before mumma could figure it out, mira called out to the househelp (cleaning outside): "aunty.. mumma phone. kong (song). googe pay (google play). [name of the song]"
+- she recruited a third party, gave a multi-step instruction chain, and solved the problem before the adult could
+
+---
 
 ## 2026-02-05 / 08:27 pm
 
