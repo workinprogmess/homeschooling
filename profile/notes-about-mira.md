@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
@@ -25,6 +26,24 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-05 / 08:27 pm
+
+### gender & age categorization (20m19d)
+
+**visual gender/age identification:**
+- casually identifies: bhaiya (boy), didi (girl), aunty (woman), uncle (man)
+- has been doing this "for some time now"
+- reading a book with children playing in the snow, points to each child (mostly covered in clothes and hats) and correctly identifies bhaiya/didi
+- ~90% accuracy even with minimal visual cues (heavy winter clothing, hats)
+
+**auditory gender identification (voice):**
+- listening to a song with both female and male singers
+- when the female singer sang, she said "aunty" + the word being sung
+- when the male singer came on, she said "uncle" + the same word
+- distinguished male/female voices and mapped them to her categories
+
+---
 
 ## 2026-02-03 / 12:10 am
 

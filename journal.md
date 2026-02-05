@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 01:00 am](#2026-02-03-0100-am)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
@@ -35,6 +36,30 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-05 / 08:27 pm
+
+### gender & age categorization documented at 20m19d
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: mira casually identifies bhaiya/didi/uncle/aunty with ~90% accuracy, even when children are bundled in winter clothes in books; also identifies male/female singers by voice
+- added milestone assessment to `profile/developmental-milestones.md`:
+  - visual gender categorization: significantly advanced (~90% in degraded-cue conditions)
+  - voice-gender mapping: significantly advanced (identifies male/female singers)
+  - 2x2 categorical thinking (gender × age): advanced
+
+**key observations:**
+- she's using a 2x2 system (child/adult × male/female), not just a binary sort
+- the snow-clothing accuracy (~90%) means she's extracting gender from deep features (face structure, proportions, movement), not surface cues (hair, clothing color)
+- voice-gender mapping connects directly to her established auditory discrimination profile
+- this is casual/automatic for her - settled knowledge, not effortful guessing
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-05 / 08:27 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-05 / 08:27 pm
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-03 / 01:00 am

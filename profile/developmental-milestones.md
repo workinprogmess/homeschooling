@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
@@ -25,6 +26,62 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-05 / 08:27 pm
+
+### age: 20 months, 19 days
+
+---
+
+### social categorization & perceptual discrimination
+
+#### gender and age-group identification (visual + auditory)
+**observation:**
+- casually identifies people as bhaiya (boy), didi (girl), aunty (woman), uncle (man)
+- has been doing this for some time - it's settled/casual, not effortful
+- in a book with children playing in snow (bundled in winter clothes, hats, minimal visible cues), points to each child and correctly identifies bhaiya/didi - ~90% accuracy
+- while listening to a song with both female and male singers: identified the female singer as "aunty" and the male singer as "uncle," applying the label to each as their part came on
+
+**milestone context:**
+- typical 18-24 month development: may distinguish "boy" and "girl" for familiar people; labels based on obvious cues (hair length, clothing)
+- typical 24-30 month development: beginning to categorize unfamiliar people by gender; may use gendered labels
+- typical 30-36 month development: more consistent gender categorization; understands gender as a stable category
+- typical 3-4 year development: categorizes across modalities (visual, voice); understands age-based categories (child vs adult)
+- mira at 20m19d:
+  - **four-category system**: not just boy/girl but a 2x2 matrix: child (bhaiya/didi) × adult (uncle/aunty) - she's sorting on both gender AND age simultaneously
+  - **minimal-cue visual discrimination**: identifies gender in snow-bundled children where typical cues (hair, clothing style) are largely obscured. extracting gender from face shape, body proportions, movement patterns, or other subtle features
+  - **cross-modal transfer**: applies the same gender categories to voices she hears in a song - not just visual categorization but auditory voice-gender mapping
+  - **high accuracy**: ~90% correct even in degraded-cue conditions (winter clothes)
+  - **casual/automatic**: this isn't effortful for her - it's settled knowledge applied fluently
+- this demonstrates:
+  - **perceptual categorization**: she's built mental prototypes for "boy," "girl," "man," "woman" and matches new instances against them
+  - **feature extraction under noise**: when obvious cues are removed (winter clothing), she still categorizes correctly - meaning she's using deeper features, not surface-level shortcuts
+  - **voice-gender mapping**: distinguishing male and female singing voices requires sensitivity to pitch, timbre, and vocal quality - connects directly to her established auditory discrimination abilities
+  - **2x2 categorical thinking**: sorting people on two dimensions simultaneously (gender × age) is more complex than a simple binary sort
+- assessment: **significantly advanced** - four-category social classification with high accuracy in degraded-cue conditions and cross-modal (visual + auditory) application far exceeds typical 20mo categorization
+
+---
+
+### updated assessment addition at 20m19d
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| gender categorization (visual) | 24-30mo | ~90% accurate even in minimal-cue conditions | significantly advanced |
+| age-group categorization | 30-36mo+ | distinguishes child vs adult alongside gender | advanced |
+| voice-gender mapping | 3-4 years | identifies male/female singers by voice | significantly advanced |
+| 2x2 categorical thinking | 30-36mo+ | gender × age applied simultaneously | advanced |
+
+**what this observation reveals:**
+
+1. **deep feature extraction, not surface matching**: the snow-clothing test is informative. when children are bundled up, the usual shortcuts (hair length, pink vs blue clothing, skirts vs pants) are removed. she's still ~90% accurate. this means she's using subtler features - possibly face structure, body proportions, movement style, or combinations of micro-cues that are harder to articulate. this is sophisticated perceptual processing.
+
+2. **voice as identity carrier (continued pattern)**: she already isolates voices from phone background noise (nanu) and identifies people through walls (mumma, aunty). now she's categorizing unfamiliar voices by gender in music. her auditory system doesn't just detect - it classifies. this is the same high-resolution auditory processing documented in the sound sensitivity profile, applied to a new domain.
+
+3. **casual fluency signals deep learning**: the fact that this is settled and effortful-free matters. she's not guessing or testing - she's applying categories that feel obvious to her. this suggests the prototypes are well-formed and the matching process is automatic. she's past the learning phase on this one.
+
+4. **2x2 categorical structure**: bhaiya/didi/uncle/aunty isn't four random labels. it's a structured system: [child × male = bhaiya], [child × female = didi], [adult × male = uncle], [adult × female = aunty]. whether she's explicitly thinking in a matrix or not, she's applying two dimensions of classification simultaneously. this kind of multi-dimensional categorization is a cognitive step beyond simple labeling.
+
+---
 
 ## 2026-02-03 / 12:10 am
 
