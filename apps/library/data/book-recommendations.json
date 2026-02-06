@@ -1,0 +1,86 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "generated_at": "2026-02-06",
+      "overall_reasoning": "mira is 20 months old with extraordinary pattern extraction, deep visual attention, and an empathic connection to characters. she memorizes books fast, pre-says words, and weaves characters into her play. these picks lean into those strengths: books she can predict, books she can look into deeply, and books with characters who'll become part of her world.",
+      "considers_feedback_from": null,
+      "categories": [
+        {
+          "name": "pattern & prediction",
+          "reasoning": "mira extracts rules from single examples and loves pre-saying words. these books have strong repetitive structures she'll internalize fast - and the payoff is in the prediction, not just the reading.",
+          "items": [
+            {
+              "id": "rec-book-1",
+              "title": "dear zoo",
+              "author": "rod campbell",
+              "amazon_url": "https://www.amazon.in/s?k=dear+zoo+rod+campbell",
+              "cover_url": null,
+              "why": "lift-the-flap with a repeating rejection pattern: 'they sent me a... he was too tall! i sent him back.' every page follows the same structure, building to the perfect pet. she'll memorize the pattern within 2-3 reads and start pre-saying 'i sent him back!' - exactly what she does with the lion inside. the flaps add a physical prediction layer."
+            },
+            {
+              "id": "rec-book-2",
+              "title": "we're going on a bear hunt",
+              "author": "michael rosen & helen oxenbury",
+              "amazon_url": "https://www.amazon.in/s?k=we%27re+going+on+a+bear+hunt+michael+rosen",
+              "cover_url": null,
+              "why": "repetitive refrain ('we can't go over it, we can't go under it, oh no! we've got to go through it!') is made for her pre-saying pattern. multi-sensory sounds (squelch squerch, swishy swashy, splash splosh) feed her auditory sensitivity. uses spatial words she already knows (under, over, through). and the fear-approach-retreat structure mirrors how she actually handles scary things."
+            }
+          ]
+        },
+        {
+          "name": "empathy & emotional connection",
+          "reasoning": "mira comforts babies she can't see, tracks who's present in a group, and runs back for one more huggie at bedtime. these books connect to that emotional depth - characters she'll care about and talk to.",
+          "items": [
+            {
+              "id": "rec-book-3",
+              "title": "owl babies",
+              "author": "martin waddell & patrick benson",
+              "amazon_url": "https://www.amazon.in/s?k=owl+babies+martin+waddell",
+              "cover_url": null,
+              "why": "three baby owls (sarah, percy, bill) wait for their mother at night. bill keeps saying 'i want my mummy!' - a phrase she'll absolutely adopt. three distinct characters with different responses to worry (she tracks individuals in groups). the separation-reunion theme connects to her bedtime goodbye ritual. beautiful dark atmospheric illustrations with detail to explore."
+            },
+            {
+              "id": "rec-book-4",
+              "title": "guess how much i love you",
+              "author": "sam mcbratney & anita jeram",
+              "amazon_url": "https://www.amazon.in/s?k=guess+how+much+i+love+you+sam+mcbratney",
+              "cover_url": null,
+              "why": "parent and child compete in expressing love: 'i love you THIS much!' with escalating gestures (arms wide, as high as i can reach, to the moon and back). the escalation is a pattern she'll predict and extend. maps directly to her huggie/kissi rituals. simple, warm text she'll memorize. the 'to the moon and back' line will become a bedtime phrase."
+            }
+          ]
+        },
+        {
+          "name": "agency & imagination",
+          "reasoning": "mira is a self-starter who does things on her own terms. she's in a pretend play explosion - toasters, tea sets, shampoo bottles, birthday ceremonies. these books celebrate imagination and doing things your own way.",
+          "items": [
+            {
+              "id": "rec-book-5",
+              "title": "not a box",
+              "author": "antoinette portis",
+              "amazon_url": "https://www.amazon.in/s?k=not+a+box+antoinette+portis",
+              "cover_url": null,
+              "why": "a rabbit with a cardboard box. someone keeps asking 'why are you sitting in a box?' rabbit insists 'it's NOT a box!' - each page reveals what the rabbit imagines (race car, mountain, robot). minimal text, maximum imagination. she'll start saying 'it's not a [thing]!' about everyday objects during pretend play. celebrates exactly what she already does - seeing bottles as shampoo, drawing as bindi, boxes as anything."
+            },
+            {
+              "id": "rec-book-6",
+              "title": "stuck",
+              "author": "oliver jeffers",
+              "amazon_url": "https://www.amazon.in/s?k=stuck+oliver+jeffers",
+              "cover_url": null,
+              "why": "she already loves oliver jeffers (here we are is an all-time classic). a kite gets stuck in a tree. floyd throws his shoe to get it down. the shoe gets stuck. he throws the other shoe, then a cat, a ladder, a whale, a house... escalating absurdity she can predict and narrate. problem-solving humor that connects to her peer trait - she'll have opinions about better solutions."
+            },
+            {
+              "id": "rec-book-7",
+              "title": "rosie's walk",
+              "author": "pat hutchins",
+              "amazon_url": "https://www.amazon.in/s?k=rosie%27s+walk+pat+hutchins",
+              "cover_url": null,
+              "why": "rosie the hen goes for a walk. the text only follows rosie. but in the pictures, a fox follows her and keeps getting into accidents (lands in pond, gets hit by rake, falls into haystack). the visual story is separate from the text - she'll narrate the fox's drama herself. rewards her deep-looking pattern: the real story is in the illustrations, not the words. short enough for 50+ re-reads, rich enough for new discoveries each time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "generated_at": "2026-02-06",
+      "overall_reasoning": "mira is deep into pretend play, journaling, and nature sharing at 20 months. she has high agency (plans activities herself), loves rituals, and processes the world through patterns and sensory detail. these activities extend what she already does naturally - they don't introduce foreign concepts, they formalize and expand her existing play patterns.",
+      "considers_feedback_from": null,
+      "categories": [
+        {
+          "name": "sensory & pattern play",
+          "reasoning": "mira extracts patterns from everything and has heightened sensory processing. these activities channel both: sorting and categorizing the physical world, and exploring textures and materials she can pour, scoop, and arrange.",
+          "items": [
+            {
+              "id": "rec-act-1",
+              "title": "color treasure hunt",
+              "description": "pick a color together. walk around the house collecting everything that's that color. lay them out, sort by shade (light to dark). count them. try a different color tomorrow.",
+              "materials": ["nothing needed - use whatever's around the house"],
+              "video_url": null,
+              "why": "she already uses color+noun combinations ('black ant', 'red shoes', 'yellow ball'). this turns her natural color awareness into a classification game. she picks the color (autonomy), she decides what counts (boundary holder), and it becomes a daily ritual (new color each day). no setup, no cleanup, instant play."
+            },
+            {
+              "id": "rec-act-2",
+              "title": "kitchen pouring station",
+              "description": "set up a tray with cups, small bowls, a funnel, and spoons of different sizes. use water with a drop of food coloring (or dry rice/lentils). let her pour, scoop, transfer between containers. no rules, no goals - just pouring.",
+              "materials": ["tray", "cups & small bowls", "funnel", "spoons", "water or rice/lentils", "food coloring (optional)"],
+              "video_url": null,
+              "why": "she already does this spontaneously - she refilled an empty bottle from a bigger bottle without being asked. this formalizes her natural pouring instinct. concepts emerge naturally: full/empty, big/small, more/less. she controls the whole process (autonomy + boundary holder). add food coloring and she gets color mixing as a bonus."
+            }
+          ]
+        },
+        {
+          "name": "extended pretend play",
+          "reasoning": "mira is in a pretend play explosion: tea sets, toaster sandwiches, shampoo routines, birthday ceremonies. she doesn't just pretend - she assigns roles, expects reactions, and creates multi-step sequences. these activities introduce new pretend play domains that build on her existing patterns.",
+          "items": [
+            {
+              "id": "rec-act-3",
+              "title": "doctor / vet checkup",
+              "description": "use a simple toy doctor kit or improvise: spoon as thermometer, cloth strip as bandage, bottle cap as stethoscope. check teddy's temperature, listen to heartbeat, wrap a bandage, give medicine. extend to a vet clinic for her animal toys.",
+              "materials": ["toy doctor kit (or spoon, cloth strips, bottle caps)", "stuffed animals / dolls as patients"],
+              "video_url": null,
+              "why": "she already does care-based pretend play (shampoo on papa's head, tea for everyone, sandwiches that need taste-reactions). doctor play adds a new domain: diagnosing + treating. feeds her empathic antenna (caring for someone who's unwell) and her peer trait (she's the one solving the problem, not watching). she heard a baby cry through a wall and asked 'milk? food?' - she already diagnoses."
+            },
+            {
+              "id": "rec-act-4",
+              "title": "restaurant / cafe play",
+              "description": "extend her tea set play: take orders from family (scribble on paper as the 'order'), 'cook' the food, serve on plates with specific cup assignments, and present a 'bill' at the end. she's already the chef - now she's the whole restaurant.",
+              "materials": ["her existing tea set + toaster", "paper & crayon for 'menu' and 'orders'", "plates, cups (real or play)"],
+              "video_url": null,
+              "why": "she already assigns cup colors (blue=baba, pink=mumma, green=mimu), makes sandwiches, expects taste reactions, and follows requests like 'give mumma tea and sugar, baba coffee and honey.' this extends it with new steps: order-taking (scribbling = early writing), a menu (visual), and sequencing (order > cook > serve > bill). she's a ritual builder - this becomes a multi-step ritual she'll own."
+            }
+          ]
+        },
+        {
+          "name": "nature & observation",
+          "reasoning": "mira already shares food with birds, ants, and flies on the balcony. she notices environmental details adults miss. she says 'dhyaan se' to passing vehicles she can only hear. these activities structure her natural observation skills into repeatable rituals.",
+          "items": [
+            {
+              "id": "rec-act-5",
+              "title": "balcony bird journal",
+              "description": "set up a dedicated feeding spot on the balcony (she already does this). add a simple observation step: after putting food out, sit and watch. when a bird comes, draw or stamp it in her journal. over time, she'll notice patterns - same bird? morning vs evening? what do they eat first?",
+              "materials": ["her existing journal + stickers/stamps", "bird food (breadcrumbs, seeds)", "a regular spot on the balcony edge"],
+              "video_url": null,
+              "why": "she independently spread food on the balcony edge for 'birdy, ant, fly' - unprompted. she already journals daily with stickers and stamps. this connects two existing rituals into one: nature sharing + journaling. feeds her observation skills (she'll track which birds come) and pattern extraction (she'll notice regularities). no new skills needed - just connecting what she already does."
+            },
+            {
+              "id": "rec-act-6",
+              "title": "sound detective game",
+              "description": "close eyes together. listen for 30 seconds. then take turns naming every sound you heard. can do anywhere: balcony, bed, during a walk, in the car. keep it playful - 'what can you hear RIGHT now?'",
+              "materials": ["nothing needed"],
+              "video_url": null,
+              "why": "her auditory system is always on. she isolates nanu's voice from phone background noise, hears a fan through a partially open door and infers the whole cleaning chain, identifies vehicles from a floor above. this game validates her superpower as play. she'll identify sounds others miss completely. it's also infinitely repeatable (different sounds every time, every place) and requires zero materials."
+            },
+            {
+              "id": "rec-act-7",
+              "title": "leaf & nature collage",
+              "description": "on walks, collect interesting leaves, small flowers, petals, tiny sticks. back home, arrange them on paper with glue. she decides the arrangement - no templates, no 'right answer.' talk about where each piece came from.",
+              "materials": ["collected leaves, petals, sticks", "paper", "glue stick", "optional: crayons to add drawings around the pieces"],
+              "video_url": null,
+              "why": "extends her journaling practice with natural materials instead of stickers. she already does sticker collages (picking animals/birds, choosing colors, using empty spaces on the page). this adds a sensory dimension: textures, smells, shapes from nature. free-form arrangement respects her creative autonomy (she does what she wants with crayons, not what's asked). and it connects outdoor experiences to indoor ritual."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
