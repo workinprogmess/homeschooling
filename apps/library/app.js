@@ -8,11 +8,20 @@ let bookRecommendations = null;
 let activityRecommendations = null;
 let feedback = {};
 
-// activity icons by category
+// activity icons & colors by category
 const ACTIVITY_ICONS = {
   'sensory & pattern play': '🎨',
   'extended pretend play': '🎭',
   'nature & observation': '🌿'
+};
+
+const CATEGORY_COLORS = {
+  'pattern & prediction': { bg: '#e8f0e8', accent: '#7ba37b', dot: '#9bc49b' },
+  'empathy & emotional connection': { bg: '#f0e4e8', accent: '#b37a8a', dot: '#d4a0af' },
+  'agency & imagination': { bg: '#e4e8f0', accent: '#7a8ab3', dot: '#a0afd4' },
+  'sensory & pattern play': { bg: '#f0ece4', accent: '#b3a07a', dot: '#d4c4a0' },
+  'extended pretend play': { bg: '#ece4f0', accent: '#9a7ab3', dot: '#bca0d4' },
+  'nature & observation': { bg: '#e4f0ec', accent: '#7ab3a0', dot: '#a0d4c4' }
 };
 
 // ============================================
@@ -264,8 +273,9 @@ function renderRecommendations(type) {
     html += `<div class="batch-reasoning"><p>${batch.overall_reasoning}</p></div>`;
 
     batch.categories.forEach(category => {
-      html += `<div class="category-group">`;
-      html += `<h3 class="category-group-header">${category.name}</h3>`;
+      const colors = CATEGORY_COLORS[category.name] || { bg: '#f0f0f0', accent: '#999', dot: '#bbb' };
+      html += `<div class="category-group" style="--cat-accent: ${colors.accent}; --cat-bg: ${colors.bg}; --cat-dot: ${colors.dot}">`;
+      html += `<h3 class="category-group-header"><span class="cat-dot"></span>${category.name}</h3>`;
       html += `<div class="category-group-reasoning"><p>${category.reasoning}</p></div>`;
       html += `<div class="rec-stack">`;
 
@@ -320,7 +330,7 @@ function createRecBookCard(item) {
   const nayActive = fb?.status === 'nay' ? 'active' : '';
 
   const coverHtml = item.cover_url
-    ? `<img src="${item.cover_url}" alt="${item.title}" class="rec-cover loading" loading="lazy" onload="this.classList.remove('loading'); this.classList.add('loaded')" crossorigin="anonymous" data-rec-id="${item.id}">`
+    ? `<img src="${item.cover_url}" alt="${item.title}" class="rec-cover loading" loading="lazy" onload="this.classList.remove('loading'); this.classList.add('loaded')" onerror="this.outerHTML='<div class=\\'rec-cover-placeholder\\' data-rec-id=\\'${item.id}\\'>📖</div>'" data-rec-id="${item.id}">`
     : `<div class="rec-cover-placeholder" data-rec-id="${item.id}">📖</div>`;
 
   const linkHtml = item.amazon_url
@@ -333,7 +343,6 @@ function createRecBookCard(item) {
       <div class="rec-info">
         <h3 class="rec-title">${item.title}</h3>
         ${item.author ? `<p class="rec-author">${item.author}</p>` : ''}
-        <p class="rec-why">${truncate(item.why, 120)}</p>
         <div class="rec-actions">
           <button class="feedback-btn yay ${yayActive}" data-status="yay" title="yay - want it!">👍</button>
           <button class="feedback-btn nay ${nayActive}" data-status="nay" title="nay - not for us">👎</button>
@@ -358,14 +367,15 @@ function createRecActivityCard(item, categoryName) {
     ? `<a href="${item.video_url}" target="_blank" rel="noopener" class="rec-external-link" onclick="event.stopPropagation()">watch ↗</a>`
     : '';
 
+  const colors = CATEGORY_COLORS[categoryName] || { bg: '#f0f0f0', accent: '#999' };
+
   return `
     <div class="rec-card" data-id="${item.id}" data-type="activity">
-      <div class="rec-activity-icon">${icon}</div>
+      <div class="rec-activity-icon" style="background: ${colors.bg};">${icon}</div>
       <div class="rec-info">
         <h3 class="rec-title">${item.title}</h3>
-        <p class="rec-description">${item.description}</p>
+        <p class="rec-description">${truncate(item.description, 80)}</p>
         ${materialsHtml}
-        <p class="rec-why">${truncate(item.why, 120)}</p>
         <div class="rec-actions">
           <button class="feedback-btn yay ${yayActive}" data-status="yay" title="yay - want to try!">👍</button>
           <button class="feedback-btn nay ${nayActive}" data-status="nay" title="nay - not for us">👎</button>
@@ -398,14 +408,13 @@ async function fetchRecBookCovers() {
               img.alt = item.title;
               img.className = 'rec-cover loading';
               img.loading = 'lazy';
-              img.crossOrigin = 'anonymous';
               img.dataset.recId = item.id;
               img.onload = function() {
                 this.classList.remove('loading');
                 this.classList.add('loaded');
-                // apply card colors
-                const card = this.closest('.rec-card');
-                if (card) applyBookCardColors(card, this);
+              };
+              img.onerror = function() {
+                this.outerHTML = `<div class="rec-cover-placeholder" data-rec-id="${item.id}">📖</div>`;
               };
               placeholder.replaceWith(img);
             }
