@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-06 / evening](#2026-02-06-evening)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 01:00 am](#2026-02-03-0100-am)
@@ -37,6 +38,38 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-06 / evening
+
+### mimimirarara.com - tabs + ai recommendations
+
+**commit:** `ed1f159` - add bottom nav with 3 tabs + ai-powered recommendations
+
+**what we did:**
+- restructured the site from a single-scroll page to a 3-tab app with bottom navigation
+  - **library** (existing book collection)
+  - **recommended books** (new - ai-generated)
+  - **recommended activities** (new - ai-generated)
+- generated first batch of ai recommendations based on mira's profile docs:
+  - 7 book recommendations across 3 categories: pattern & prediction (dear zoo, we're going on a bear hunt), empathy & emotional connection (owl babies, guess how much i love you), agency & imagination (not a box, stuck, rosie's walk)
+  - 7 activity recommendations across 3 categories: sensory & pattern play (color treasure hunt, kitchen pouring station), extended pretend play (doctor/vet checkup, restaurant/cafe play), nature & observation (balcony bird journal, sound detective game, leaf & nature collage)
+- each recommendation has personalized reasoning tied to specific traits from who-mira-is.md
+- interactive yay/nay feedback with notes (localStorage + export button)
+- switched font to geist sans throughout
+- removed add-book button (will re-add later if needed)
+- book covers for recommendations auto-fetched from google books / openlibrary apis
+- same pastel color extraction system applied to recommendation cards
+
+**files:**
+- `apps/library/index.html` - tab structure, bottom nav, unified modal
+- `apps/library/app.js` - tab switching, rec rendering, feedback system, export
+- `apps/library/styles.css` - geist font, bottom nav, rec cards, responsive
+- `apps/library/data/book-recommendations.json` - batch 1 book recs
+- `apps/library/data/activity-recommendations.json` - batch 1 activity recs
+
+**why:** the library was becoming a static catalog. adding recommendations turns it into a living tool - parents can browse ai-curated suggestions, give feedback (yay/nay + notes), and when ready for the next batch, export the feedback for the next round of recommendations. activities extend the same concept to screen-free home play.
+
 ---
 
 ## 2026-02-05 / 09:27 pm
