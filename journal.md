@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-06 / evening](#2026-02-06-evening)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
@@ -38,6 +39,30 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-09 / 04:45 pm
+
+### hitting/hurting behavior - documented with developmental context
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: mira hurt yuvaan (same age) during play - twisting fingers, pulling hair lightly over 30 mins. broader pattern: hits/bites mumma (decreasing), has pinched elder girls once or twice
+- added extensive developmental context to `profile/developmental-milestones.md`:
+  - what the behavior IS: developmentally normal (peaks 18-30mo), not aggression in the adult sense, not predictive of future aggression
+  - the communication gap: cognitive sophistication ahead of emotional regulation capacity. she can narrate 5-element instructions but can't yet say "i'm tired and i don't want to be here"
+  - connection to her personality: the boundary holder whose autonomy was overridden + the self-starter who was steered away from self-direction + depleted state (tired/sleepy)
+  - different targets = different stories: mumma (safest person, decreasing), yuvaan (depleted + forced + no exit), elder girls (rare boundary testing)
+  - neurological reality: prefrontal cortex (impulse control) is the slowest-maturing brain region. her perceptual and cognitive systems run ahead of her regulation hardware
+  - papa's analysis validated: tired + forced + steered back = precise contextual read
+  - key insight for mira specifically: prevention through autonomy respect is the deeper lever. she tried to leave multiple times - that was her communication
+
+**assessment:** on track - age-appropriate behavior with clear contextual triggers and a positive trend (decreasing frequency with mumma)
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-09 / 04:45 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-09 / 04:45 pm
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-06 / evening

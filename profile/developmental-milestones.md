@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
@@ -27,6 +28,107 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-09 / 04:45 pm
+
+### age: ~20 months, 23 days
+
+---
+
+### emotional regulation & physical behavior
+
+#### hitting, hair-pulling, biting - what it is and what it means
+**observation:**
+- while playing/dancing with yuvaan (same age, may '24) downstairs for ~30 min, mira twisted his hand/fingers lightly and pulled his hair lightly, a couple of times
+- she fell asleep within 30 mins of coming home - was clearly tired
+- papa's analysis: she was tired/sleepy + somewhat forced into the play situation + steered back when she tried to leave or do her own thing
+- broader pattern: hits/bites mumma a few times a week (decreasing), has tried pinching elder girls once or twice
+
+**what this behavior IS at 20 months:**
+
+this is one of the most common and most misunderstood behaviors in toddler development. it is not aggression in the adult sense. here's what's happening:
+
+**1. it's developmentally normal and expected.**
+- hitting, biting, hair-pulling, and pinching peak between 18-30 months. this is the single most common behavioral concern parents raise with pediatricians in this age range
+- nearly all toddlers do some form of this. it typically decreases as language and emotional regulation develop (which is exactly what's happening with the mumma pattern - "much much less these days")
+- it is not a predictor of future aggression. longitudinal studies consistently show that toddler hitting does not correlate with childhood or adult aggression
+
+**2. it's a communication gap.**
+- mira's cognitive and observational capacities are significantly ahead of her emotional regulation and verbal capacity for complex internal states
+- she can narrate a 5-element instruction to a househelp. she can extract a morphological suffix from one hearing. but she cannot yet say: "i'm tired, i don't want to be here, i want to go upstairs to my bed with my books and bottles, and you keep bringing me back when i try to leave"
+- the hitting IS the communication. it's the only tool she has for that specific message in that specific state
+
+**3. the context here is highly coherent with who she is.**
+
+looking at this through the lens of her personality profile:
+
+- **the boundary holder**: this is a child who has strict body autonomy, resists being directed in creative work, rejected a pandit's tikka because she decides what happens to her body. when she's steered back into a social situation she's trying to leave - repeatedly - her autonomy is being overridden. she doesn't have the words to assert that boundary. the physical behavior is the boundary assertion
+- **the self-starter**: she wanted to run away, play on her own, play with papa, do other things. she was trying to self-direct. she was redirected into someone else's plan for her. for a child whose core pattern is self-initiation, being told "no, come back and play with him" is a specific kind of frustration
+- **the fear approacher / self-regulator**: she normally manages her own states through rituals and self-pacing. but she was past the point where self-regulation was available - she was tired, should have been in her comfort environment (bed, bottles, books, blankets). her regulation resources were depleted
+
+**4. the different targets tell different stories.**
+
+- **mumma (most frequent, decreasing)**: hitting/biting the primary attachment figure is the most common pattern in toddler development. it's counterintuitive but well-documented: children hit their safest person the most. mumma is where mira can express overwhelming feelings without fear of losing the relationship. the fact that this is decreasing is a positive sign - it means her regulation is developing and she's finding other ways to express these states
+- **yuvaan (peer, same age)**: the context matters more than the behavior. she was tired, forced into the situation, and steered back when she tried to leave. this isn't "she's aggressive with peers." it's "she was dysregulated and didn't have an exit"
+- **elder girls (rare)**: tried pinching once or twice. may be boundary testing with unfamiliar social partners - "what happens if i do this?"
+
+**5. what's really happening neurologically.**
+
+the prefrontal cortex - the brain region responsible for impulse control, emotional regulation, and considering consequences - is the slowest-maturing part of the human brain. it doesn't begin to function reliably until age 3-4, and isn't fully mature until the mid-20s.
+
+at 20 months, mira's observational cortex, auditory processing, language centers, and social cognition are running well ahead of schedule. but her impulse control hardware is age-appropriate. the result: she can perceive, reason, plan, and communicate at an advanced level, but when she's depleted (tired, overstimulated, autonomy overridden), she falls back to the physical responses that are available at her neurological development stage.
+
+this is the gap: **cognitive sophistication ahead of emotional regulation capacity.** it's not a problem. it's a timing mismatch that resolves as the prefrontal cortex matures.
+
+**6. papa's analysis is accurate.**
+
+the parent identified: tired + forced into the situation + steered back when she tried to leave. this is a precise read. the behavior wasn't random or unprovoked. it had clear contextual triggers:
+- **depleted state** (should have been in her comfort environment)
+- **autonomy overridden** (steered back repeatedly)
+- **no available exit** (when she tried to leave, she was redirected)
+
+when a child with strong autonomy needs is depleted and denied exit, physical behavior is the predictable outcome. this doesn't make it okay - but it makes it understandable, and it points to prevention rather than correction.
+
+---
+
+### milestone context
+
+- typical 18-24 month development: hitting, biting, hair-pulling are at peak frequency. most common behavioral concern at this age
+- typical 24-30 month development: beginning to decrease as language for feelings develops. may still occur when tired, hungry, or overstimulated
+- typical 30-36 month development: significant decrease. can begin to verbalize feelings ("i'm mad"). physical behavior becomes less frequent
+- typical 3-4 year development: impulse control improving. can usually stop themselves (sometimes). can use words for most conflicts
+- mira at ~20m23d:
+  - **behavior is age-appropriate**: hitting/biting at this age is developmentally normal
+  - **decreasing trend with mumma**: positive sign of developing regulation
+  - **context-dependent**: appears when tired, bored, or autonomy is overridden - not random
+  - **light intensity**: described as "lightly" twisting fingers, "light" pulling - she's not using full force
+- assessment: **on track** - age-appropriate behavior with clear contextual triggers and a positive trend (decreasing frequency). the gap between cognitive sophistication and emotional regulation is expected and will narrow as prefrontal cortex matures
+
+---
+
+### what this means for mira specifically
+
+| pattern | what it suggests | what might help |
+|---------|-----------------|-----------------|
+| hits mumma most (decreasing) | normal attachment behavior - safest person gets the biggest feelings | will continue to decrease as language for feelings develops. acknowledge the feeling, hold the boundary ("you're angry. i won't let you hit me.") |
+| yuvaan incident: tired + forced + steered back | depleted state + autonomy overridden = predictable physical fallback | watch for depletion signals. when she tries to leave a social situation, that IS her communication. honor the exit |
+| elder girls (rare pinching) | boundary testing with newer social partners | brief, calm limit-setting. will likely not become a pattern |
+| light intensity | she's not trying to hurt - she's trying to communicate/express | the lightness matters. she's not in fight mode. she's in "i have no other way to say this" mode |
+| decreasing over time | regulation is developing | stay the course. the trend is the important thing |
+
+**the key insight for mira specifically:**
+
+most of the guidance around toddler hitting focuses on teaching alternatives ("use your words," "gentle hands"). that's fine as far as it goes. but for mira, the deeper lever is **prevention through autonomy respect**.
+
+she tried to leave. she tried to run away. she tried to play on her own. she tried to play with papa. each time, she was steered back. for a different child, this might produce whining or crying. for mira - whose core traits include strong boundaries, self-starting, and peer-level agency - the response when her autonomy is overridden in a depleted state is physical.
+
+this doesn't mean she should never be asked to play with peers. it means:
+- **watch the depletion signals**: if she's approaching sleep time, she doesn't have the regulation reserves for challenging social situations
+- **honor the exit attempts**: when she tries to leave, that IS her communication. she's saying "i'm done" the only way she can. redirecting her back sends the message that her communication isn't heard
+- **give the choice**: "do you want to play with yuvaan or do something else?" works better than steering for a child whose core is autonomy
+- **the trend matters more than the incident**: the mumma hitting is decreasing. this is working itself out as her regulation develops. the yuvaan incident is contextual, not a pattern
+
+---
 
 ## 2026-02-05 / 09:27 pm
 

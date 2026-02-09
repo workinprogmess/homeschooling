@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
@@ -27,6 +28,26 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-09 / 04:45 pm
+
+### hitting/hurting behavior - pattern and context (~20m23d)
+
+**incident (08.02.26):**
+- playing/dancing with yuvaan (same age, both may '24 born) downstairs
+- over ~30 mins of play, she twisted his hand/fingers (lightly) and pulled his hair (lightly) a couple of times
+- mumma thought it was sleep-related, and mira did fall asleep within 30 mins of coming back upstairs
+
+**papa's read on it:**
+- combination of: tired/sleepy (should have been in bed with bottles, books, blankets) + somewhat forced to play with him (parents wanted it) + steered back in a few times when she ran away or wanted to do other things or play on her own or with papa or run around
+
+**broader pattern:**
+- not the first time. hits/bites mumma a few times a week, pulls her hair at times (though much much less these days)
+- sometimes when bored, sometimes unclear why
+- has tried to pinch elder girls ("didis") on the arm once or twice
+- the mumma behavior is decreasing in frequency
+
+---
 
 ## 2026-02-05 / 09:27 pm
 
