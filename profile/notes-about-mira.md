@@ -7,6 +7,9 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
@@ -25,6 +28,68 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-09 / 04:45 pm
+
+### hitting/hurting behavior - pattern and context (~20m23d)
+
+**incident (08.02.26):**
+- playing/dancing with yuvaan (same age, both may '24 born) downstairs
+- over ~30 mins of play, she twisted his hand/fingers (lightly) and pulled his hair (lightly) a couple of times
+- mumma thought it was sleep-related, and mira did fall asleep within 30 mins of coming back upstairs
+
+**papa's read on it:**
+- combination of: tired/sleepy (should have been in bed with bottles, books, blankets) + somewhat forced to play with him (parents wanted it) + steered back in a few times when she ran away or wanted to do other things or play on her own or with papa or run around
+
+**broader pattern:**
+- not the first time. hits/bites mumma a few times a week, pulls her hair at times (though much much less these days)
+- sometimes when bored, sometimes unclear why
+- has tried to pinch elder girls ("didis") on the arm once or twice
+- the mumma behavior is decreasing in frequency
+
+---
+
+## 2026-02-05 / 09:27 pm
+
+### problem-solving as a peer, not a dependent (20m19d)
+
+**instance 1 - steam for papa's cough:**
+- papa has been coughing
+- mumma told papa a few times to take steam (papa was in office room, mumma and mira in living room)
+- mira came running to the office
+- said "babaaa" in mumma's tone
+- held papa's hand and pointed him to the chair
+- tried to pick up the steam container/machine
+- said "team. baba" (steam, baba)
+- she stepped into mumma's role - used her tone, did what mumma had been trying to get papa to do
+
+**instance 2 - solving the phone/song problem:**
+- mira and mumma on the bed, mira wanted a song played
+- she has a list of 5-7 songs she knows by name (her own names, but parents understand them)
+- they were away from google home, and mira knows mumma plays songs on her phone
+- mumma looked around for her phone and didn't have it
+- before mumma could figure it out, mira called out to the househelp (cleaning outside): "aunty.. mumma phone. kong (song). googe pay (google play). [name of the song]"
+- she recruited a third party, gave a multi-step instruction chain, and solved the problem before the adult could
+
+---
+
+## 2026-02-05 / 08:27 pm
+
+### gender & age categorization (20m19d)
+
+**visual gender/age identification:**
+- casually identifies: bhaiya (boy), didi (girl), aunty (woman), uncle (man)
+- has been doing this "for some time now"
+- reading a book with children playing in the snow, points to each child (mostly covered in clothes and hats) and correctly identifies bhaiya/didi
+- ~90% accuracy even with minimal visual cues (heavy winter clothing, hats)
+
+**auditory gender identification (voice):**
+- listening to a song with both female and male singers
+- when the female singer sang, she said "aunty" + the word being sung
+- when the male singer came on, she said "uncle" + the same word
+- distinguished male/female voices and mapped them to her categories
+
+---
 
 ## 2026-02-03 / 12:10 am
 

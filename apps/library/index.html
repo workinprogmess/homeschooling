@@ -4,10 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mira's library</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <!-- loading overlay -->
@@ -18,134 +15,128 @@
   <div class="container">
     <header>
       <h1>mira's library</h1>
-      <p class="subtitle">books she loves, books she's exploring, books we're thinking about</p>
+      <p class="subtitle" id="header-subtitle">books she loves, books she's exploring, books we're thinking about</p>
     </header>
 
-    <main>
+    <!-- TAB: library -->
+    <div class="tab-view active" id="tab-library">
       <!-- current favorites -->
       <section class="category-section" id="section-current-favorites">
-        <h2 class="category-header">📚 current favorites 📚</h2>
+        <h2 class="category-header">current favorites</h2>
         <div class="books-stack" id="grid-current-favorites"></div>
       </section>
 
       <!-- currently reading -->
       <section class="category-section" id="section-currently-reading">
-        <h2 class="category-header">📖 currently reading 📖</h2>
+        <h2 class="category-header">currently reading</h2>
         <div class="books-stack" id="grid-currently-reading"></div>
       </section>
 
       <!-- all-time classics -->
       <section class="category-section" id="section-all-time-classics">
-        <h2 class="category-header">⭐ all-time classics ⭐</h2>
+        <h2 class="category-header">all-time classics</h2>
         <div class="books-stack" id="grid-all-time-classics"></div>
       </section>
 
       <!-- read 50+ times -->
       <section class="category-section" id="section-read-50-plus">
-        <h2 class="category-header">🔁 read 50+ times 🔁</h2>
+        <h2 class="category-header">read 50+ times</h2>
         <div class="books-stack" id="grid-read-50-plus"></div>
       </section>
 
       <!-- not been a fan of -->
       <section class="category-section" id="section-not-a-fan">
-        <h2 class="category-header">🤷 not been a fan of 🤷</h2>
+        <h2 class="category-header">not been a fan of</h2>
         <div class="books-stack" id="grid-not-a-fan"></div>
       </section>
+    </div>
 
-      <!-- recommendations -->
-      <section class="category-section" id="section-recommendations">
-        <h2 class="category-header">💡 recommendations 💡</h2>
-        <div class="books-stack" id="grid-recommendations"></div>
-      </section>
-    </main>
+    <!-- TAB: recommended books -->
+    <div class="tab-view" id="tab-books">
+      <div class="tab-intro">
+        <p>ai-picked based on mira's reading history, personality & developmental stage. each book has a reason it was chosen for her specifically.</p>
+      </div>
+      <div id="recommended-books-content"></div>
+      <div class="export-section" id="export-books-section" style="display: none;">
+        <button class="export-btn" id="export-books-btn">export feedback</button>
+      </div>
+    </div>
 
-    <!-- book detail modal -->
-    <div class="modal" id="book-modal">
-      <div class="modal-content">
-        <button class="modal-close">&times;</button>
-        <div class="modal-body">
-          <div class="modal-cover">
-            <img src="" alt="" id="modal-cover-img">
+    <!-- TAB: recommended activities -->
+    <div class="tab-view" id="tab-activities">
+      <div class="tab-intro">
+        <p>screen-free, fun & educational activities for home. built around what mira already loves doing and how she learns best.</p>
+      </div>
+      <div id="recommended-activities-content"></div>
+      <div class="export-section" id="export-activities-section" style="display: none;">
+        <button class="export-btn" id="export-activities-btn">export feedback</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- book/activity detail modal -->
+  <div class="modal" id="detail-modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        <div class="modal-cover" id="modal-cover-wrap">
+          <img src="" alt="" id="modal-cover-img">
+        </div>
+        <div class="modal-info">
+          <h2 id="modal-title"></h2>
+          <p class="modal-author" id="modal-author"></p>
+          <p class="modal-mira-name" id="modal-mira-name"></p>
+          <div class="modal-stats">
+            <span class="stat" id="modal-read-count"></span>
+            <span class="stat status-badge" id="modal-status"></span>
           </div>
-          <div class="modal-info">
-            <h2 id="modal-title"></h2>
-            <p class="modal-author" id="modal-author"></p>
-            <p class="modal-mira-name" id="modal-mira-name"></p>
-            <div class="modal-stats">
-              <span class="stat" id="modal-read-count"></span>
-              <span class="stat status-badge" id="modal-status"></span>
+          <p class="modal-notes-display" id="modal-notes-display"></p>
+          <!-- recommendation details -->
+          <div class="modal-rec-details" id="modal-rec-details" style="display: none;">
+            <p class="modal-why" id="modal-why"></p>
+            <div class="modal-materials" id="modal-materials" style="display: none;">
+              <span class="materials-label">materials:</span>
+              <span id="modal-materials-list"></span>
             </div>
-            <div class="modal-notes-section">
-              <label for="modal-notes">notes</label>
-              <textarea id="modal-notes" placeholder="add notes about this book..."></textarea>
-              <button class="save-notes-btn" id="save-notes-btn">save notes</button>
+            <div class="modal-link-row" id="modal-link-row" style="display: none;">
+              <a href="" target="_blank" rel="noopener" id="modal-external-link" class="external-link"></a>
             </div>
-            <!-- for recommendations only -->
-            <div class="modal-recommendation-section" id="modal-rec-section" style="display: none;">
+            <div class="modal-feedback-section">
               <div class="yay-nay-buttons">
-                <button class="yay-btn" id="yay-btn">yay - want it!</button>
-                <button class="nay-btn" id="nay-btn">nay - not for us</button>
+                <button class="feedback-btn-large yay" id="modal-yay-btn">
+                  <span class="feedback-icon">&#128077;</span> yay
+                </button>
+                <button class="feedback-btn-large nay" id="modal-nay-btn">
+                  <span class="feedback-icon">&#128078;</span> nay
+                </button>
               </div>
-              <textarea id="modal-rec-notes" placeholder="why we want/don't want this..."></textarea>
+              <textarea id="modal-feedback-notes" placeholder="notes about this recommendation..."></textarea>
+              <button class="save-feedback-btn" id="save-feedback-btn">save notes</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- add book modal -->
-    <button class="add-book-btn" id="add-book-btn">+ add book</button>
-    <div class="modal" id="add-modal">
-      <div class="modal-content">
-        <button class="modal-close">&times;</button>
-        <h2>add a book</h2>
-        <form id="add-book-form">
-          <div class="form-group">
-            <label for="add-title">title *</label>
-            <input type="text" id="add-title" required>
-          </div>
-          <div class="form-group">
-            <label for="add-author">author</label>
-            <input type="text" id="add-author">
-          </div>
-          <div class="form-group">
-            <label for="add-isbn">isbn (for cover lookup)</label>
-            <input type="text" id="add-isbn" placeholder="optional - helps find cover">
-          </div>
-          <div class="form-group">
-            <label for="add-mira-name">mira's name for it</label>
-            <input type="text" id="add-mira-name" placeholder="e.g., 'apple go'">
-          </div>
-          <div class="form-group">
-            <label for="add-status">status</label>
-            <select id="add-status">
-              <option value="currently_reading">currently reading</option>
-              <option value="current_favorite">current favorite</option>
-              <option value="all_time_classic">all-time classic</option>
-              <option value="read_50_plus">read 50+ times</option>
-              <option value="not_a_fan">not been a fan of</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="add-read-count">read count</label>
-            <input type="number" id="add-read-count" value="0" min="0">
-          </div>
-          <div class="form-group">
-            <label for="add-notes">notes</label>
-            <textarea id="add-notes"></textarea>
-          </div>
-          <div class="form-group checkbox-group">
-            <input type="checkbox" id="add-is-recommendation">
-            <label for="add-is-recommendation">this is a recommendation (not owned yet)</label>
-          </div>
-          <button type="submit" class="submit-btn">add book</button>
-        </form>
-      </div>
-    </div>
   </div>
 
+  <!-- bottom nav -->
+  <nav class="bottom-nav">
+    <button class="nav-tab active" data-tab="library" id="nav-library">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+      <span class="nav-label">library</span>
+    </button>
+    <button class="nav-tab" data-tab="books" id="nav-books">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>
+      <span class="nav-label">books</span>
+    </button>
+    <button class="nav-tab" data-tab="activities" id="nav-activities">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z"/></svg>
+      <span class="nav-label">activities</span>
+    </button>
+  </nav>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
-  <script src="config.js?v=3"></script>
-  <script src="app.js?v=3"></script>
+  <script src="config.js?v=4"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

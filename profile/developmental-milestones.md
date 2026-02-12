@@ -7,6 +7,9 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
 - [2026-01-25 / 07:18 pm](#2026-01-25-0718-pm)
@@ -25,6 +28,236 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-09 / 04:45 pm
+
+### age: ~20 months, 23 days
+
+---
+
+### emotional regulation & physical behavior
+
+#### hitting, hair-pulling, biting - what it is and what it means
+**observation:**
+- while playing/dancing with yuvaan (same age, may '24) downstairs for ~30 min, mira twisted his hand/fingers lightly and pulled his hair lightly, a couple of times
+- she fell asleep within 30 mins of coming home - was clearly tired
+- papa's analysis: she was tired/sleepy + somewhat forced into the play situation + steered back when she tried to leave or do her own thing
+- broader pattern: hits/bites mumma a few times a week (decreasing), has tried pinching elder girls once or twice
+
+**what this behavior IS at 20 months:**
+
+this is one of the most common and most misunderstood behaviors in toddler development. it is not aggression in the adult sense. here's what's happening:
+
+**1. it's developmentally normal and expected.**
+- hitting, biting, hair-pulling, and pinching peak between 18-30 months. this is the single most common behavioral concern parents raise with pediatricians in this age range
+- nearly all toddlers do some form of this. it typically decreases as language and emotional regulation develop (which is exactly what's happening with the mumma pattern - "much much less these days")
+- it is not a predictor of future aggression. longitudinal studies consistently show that toddler hitting does not correlate with childhood or adult aggression
+
+**2. it's a communication gap.**
+- mira's cognitive and observational capacities are significantly ahead of her emotional regulation and verbal capacity for complex internal states
+- she can narrate a 5-element instruction to a househelp. she can extract a morphological suffix from one hearing. but she cannot yet say: "i'm tired, i don't want to be here, i want to go upstairs to my bed with my books and bottles, and you keep bringing me back when i try to leave"
+- the hitting IS the communication. it's the only tool she has for that specific message in that specific state
+
+**3. the context here is highly coherent with who she is.**
+
+looking at this through the lens of her personality profile:
+
+- **the boundary holder**: this is a child who has strict body autonomy, resists being directed in creative work, rejected a pandit's tikka because she decides what happens to her body. when she's steered back into a social situation she's trying to leave - repeatedly - her autonomy is being overridden. she doesn't have the words to assert that boundary. the physical behavior is the boundary assertion
+- **the self-starter**: she wanted to run away, play on her own, play with papa, do other things. she was trying to self-direct. she was redirected into someone else's plan for her. for a child whose core pattern is self-initiation, being told "no, come back and play with him" is a specific kind of frustration
+- **the fear approacher / self-regulator**: she normally manages her own states through rituals and self-pacing. but she was past the point where self-regulation was available - she was tired, should have been in her comfort environment (bed, bottles, books, blankets). her regulation resources were depleted
+
+**4. the different targets tell different stories.**
+
+- **mumma (most frequent, decreasing)**: hitting/biting the primary attachment figure is the most common pattern in toddler development. it's counterintuitive but well-documented: children hit their safest person the most. mumma is where mira can express overwhelming feelings without fear of losing the relationship. the fact that this is decreasing is a positive sign - it means her regulation is developing and she's finding other ways to express these states
+- **yuvaan (peer, same age)**: the context matters more than the behavior. she was tired, forced into the situation, and steered back when she tried to leave. this isn't "she's aggressive with peers." it's "she was dysregulated and didn't have an exit"
+- **elder girls (rare)**: tried pinching once or twice. may be boundary testing with unfamiliar social partners - "what happens if i do this?"
+
+**5. what's really happening neurologically.**
+
+the prefrontal cortex - the brain region responsible for impulse control, emotional regulation, and considering consequences - is the slowest-maturing part of the human brain. it doesn't begin to function reliably until age 3-4, and isn't fully mature until the mid-20s.
+
+at 20 months, mira's observational cortex, auditory processing, language centers, and social cognition are running well ahead of schedule. but her impulse control hardware is age-appropriate. the result: she can perceive, reason, plan, and communicate at an advanced level, but when she's depleted (tired, overstimulated, autonomy overridden), she falls back to the physical responses that are available at her neurological development stage.
+
+this is the gap: **cognitive sophistication ahead of emotional regulation capacity.** it's not a problem. it's a timing mismatch that resolves as the prefrontal cortex matures.
+
+**6. papa's analysis is accurate.**
+
+the parent identified: tired + forced into the situation + steered back when she tried to leave. this is a precise read. the behavior wasn't random or unprovoked. it had clear contextual triggers:
+- **depleted state** (should have been in her comfort environment)
+- **autonomy overridden** (steered back repeatedly)
+- **no available exit** (when she tried to leave, she was redirected)
+
+when a child with strong autonomy needs is depleted and denied exit, physical behavior is the predictable outcome. this doesn't make it okay - but it makes it understandable, and it points to prevention rather than correction.
+
+---
+
+### milestone context
+
+- typical 18-24 month development: hitting, biting, hair-pulling are at peak frequency. most common behavioral concern at this age
+- typical 24-30 month development: beginning to decrease as language for feelings develops. may still occur when tired, hungry, or overstimulated
+- typical 30-36 month development: significant decrease. can begin to verbalize feelings ("i'm mad"). physical behavior becomes less frequent
+- typical 3-4 year development: impulse control improving. can usually stop themselves (sometimes). can use words for most conflicts
+- mira at ~20m23d:
+  - **behavior is age-appropriate**: hitting/biting at this age is developmentally normal
+  - **decreasing trend with mumma**: positive sign of developing regulation
+  - **context-dependent**: appears when tired, bored, or autonomy is overridden - not random
+  - **light intensity**: described as "lightly" twisting fingers, "light" pulling - she's not using full force
+- assessment: **on track** - age-appropriate behavior with clear contextual triggers and a positive trend (decreasing frequency). the gap between cognitive sophistication and emotional regulation is expected and will narrow as prefrontal cortex matures
+
+---
+
+### what this means for mira specifically
+
+| pattern | what it suggests | what might help |
+|---------|-----------------|-----------------|
+| hits mumma most (decreasing) | normal attachment behavior - safest person gets the biggest feelings | will continue to decrease as language for feelings develops. acknowledge the feeling, hold the boundary ("you're angry. i won't let you hit me.") |
+| yuvaan incident: tired + forced + steered back | depleted state + autonomy overridden = predictable physical fallback | watch for depletion signals. when she tries to leave a social situation, that IS her communication. honor the exit |
+| elder girls (rare pinching) | boundary testing with newer social partners | brief, calm limit-setting. will likely not become a pattern |
+| light intensity | she's not trying to hurt - she's trying to communicate/express | the lightness matters. she's not in fight mode. she's in "i have no other way to say this" mode |
+| decreasing over time | regulation is developing | stay the course. the trend is the important thing |
+
+**the key insight for mira specifically:**
+
+most of the guidance around toddler hitting focuses on teaching alternatives ("use your words," "gentle hands"). that's fine as far as it goes. but for mira, the deeper lever is **prevention through autonomy respect**.
+
+she tried to leave. she tried to run away. she tried to play on her own. she tried to play with papa. each time, she was steered back. for a different child, this might produce whining or crying. for mira - whose core traits include strong boundaries, self-starting, and peer-level agency - the response when her autonomy is overridden in a depleted state is physical.
+
+this doesn't mean she should never be asked to play with peers. it means:
+- **watch the depletion signals**: if she's approaching sleep time, she doesn't have the regulation reserves for challenging social situations
+- **honor the exit attempts**: when she tries to leave, that IS her communication. she's saying "i'm done" the only way she can. redirecting her back sends the message that her communication isn't heard
+- **give the choice**: "do you want to play with yuvaan or do something else?" works better than steering for a child whose core is autonomy
+- **the trend matters more than the incident**: the mumma hitting is decreasing. this is working itself out as her regulation develops. the yuvaan incident is contextual, not a pattern
+
+---
+
+## 2026-02-05 / 09:27 pm
+
+### age: 20 months, 19 days
+
+---
+
+### executive function & social problem-solving
+
+#### problem-solving with role adoption and delegation
+**observation (two instances):**
+
+1. **steam for papa's cough:**
+   - mumma told papa multiple times to take steam (papa in office, mumma + mira in living room)
+   - papa didn't act
+   - mira went to the office, said "babaaa" in mumma's tone, held papa's hand, pointed him to the chair, tried to pick up the steam machine, said "team. baba"
+
+2. **phone/song problem:**
+   - mira wanted a song played, they were away from google home, mumma usually plays on phone
+   - mumma looked for her phone and couldn't find it
+   - before mumma could figure it out, mira called the househelp (cleaning outside): "aunty.. mumma phone. kong (song). googe pay (google play). [song name]"
+
+**milestone context:**
+- typical 18-24 month development: may seek help from adults for problems, can point or gesture toward solutions
+- typical 24-30 month development: beginning to solve simple problems independently, may ask for specific help
+- typical 30-36 month development: generates solutions, recruits others for help, beginning to understand social roles in problem-solving
+- typical 3-4 year development: delegates tasks, adopts roles in pretend play, understands that different people can help with different things
+- typical 4-5 year development: coordinates with others to solve problems, understands chains of delegation
+- mira at 20m19d:
+
+  **steam instance:**
+  - **role adoption**: didn't just ask papa to take steam - she adopted mumma's tone, mumma's directive posture, mumma's role in the household dynamic. she stepped into a role that wasn't hers
+  - **physical problem-solving**: didn't just tell papa - held his hand, pointed to the chair, tried to pick up the steam machine. she's executing the solution, not requesting it
+  - **monitoring a stalled task**: recognized that mumma's repeated requests weren't working and intervened herself. she noticed a problem (papa not acting) within a problem (papa coughing)
+
+  **phone/song instance:**
+  - **third-party delegation**: didn't ask mumma to solve it or try to find the phone herself - identified who else could help (aunty/househelp) and recruited them directly
+  - **multi-step instruction to a third party**: "aunty.. mumma phone. kong. googe pay. [song name]" - gave a complete chain of what she needed: locate object → purpose → platform → specific content
+  - **faster than the adult**: solved the problem before mumma could. she didn't wait for the adult to figure it out - she saw the gap and filled it
+  - **understands chains of capability**: knows that aunty can find the phone, that the phone plays songs via google play, and that the song has a name. she mapped the entire solution chain
+
+- this demonstrates:
+  - **self-concept as problem-solver**: she doesn't see herself as someone who watches adults fix things. she sees herself as a participant. "she thinks she already is" (parent's words) - she operates as a peer, not a dependent
+  - **role fluidity**: she can step into mumma's role (tone, posture, authority) when the situation calls for it. she understands that roles are functional, not fixed
+  - **social delegation**: using other people as resources to solve problems. the househelp isn't her usual communication partner for this kind of request - she recruited the available person for the task
+  - **solution-chain reasoning**: in the phone instance, she mapped: problem (no song) → tool (mumma's phone) → location (aunty can find it) → platform (google play) → content (specific song). this is a 5-step means-end chain involving another person as an intermediary
+  - **intervention when systems stall**: in the steam instance, she recognized that the existing system (mumma asking papa) wasn't working and inserted herself as a new actor. this requires monitoring the effectiveness of others' actions
+- assessment: **significantly advanced** - role adoption, third-party delegation with multi-step instructions, solution-chain reasoning, and self-concept as a peer problem-solver are all well beyond typical 20mo capabilities. the delegation to the househelp with a 5-element instruction chain is particularly remarkable
+
+---
+
+### updated assessment addition at 20m19d
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| role adoption in problem-solving | 3-4 years | steps into mumma's role (tone, posture, action) | significantly advanced |
+| third-party delegation | 4-5 years | recruits househelp with multi-step instructions | significantly advanced |
+| solution-chain reasoning | 3-4 years | 5-step means-end chain through an intermediary | significantly advanced |
+| monitoring stalled tasks | 30-36mo+ | recognizes when adult's approach isn't working, intervenes | advanced |
+
+**what these two instances reveal together:**
+
+1. **self-concept as a peer**: this is the core insight. most 20-month-olds relate to problems as dependents - they cry, point, or request. mira relates to problems as a participant. she doesn't ask someone to fix things. she fixes them, using whatever resources are available - including other people. the parent captured it exactly: "she thinks she already is."
+
+2. **role adoption vs role imitation**: in the steam instance, she didn't just copy mumma. she adopted mumma's functional role - the tone, the authority, the physical direction. this isn't imitation (doing what mumma does). it's role understanding (doing what the role requires, because the role-holder wasn't succeeding).
+
+3. **people as resources**: in the phone instance, she treated the househelp as a resource in her solution chain. this requires understanding that different people have different capabilities and access. she knew aunty could find the phone. she knew mumma couldn't play the song without the phone. she connected these facts into an action plan involving a third party.
+
+4. **speed of problem-solving**: in both instances, she acted before the adults. she didn't wait to be asked, didn't wait for the adult to try first (in the phone case, she moved while mumma was still looking). this suggests her problem-solving is automatic - she's not deliberating about whether she should help. she just does it.
+
+5. **instruction quality**: "aunty.. mumma phone. kong. googe pay. [song name]" is a compressed but complete instruction. it has: addressee (aunty) → object to find (mumma's phone) → purpose (song) → platform (google play) → specific content (song name). delivering this to a third party in a coherent sequence at 20 months is exceptional language serving executive function.
+
+---
+
+## 2026-02-05 / 08:27 pm
+
+### age: 20 months, 19 days
+
+---
+
+### social categorization & perceptual discrimination
+
+#### gender and age-group identification (visual + auditory)
+**observation:**
+- casually identifies people as bhaiya (boy), didi (girl), aunty (woman), uncle (man)
+- has been doing this for some time - it's settled/casual, not effortful
+- in a book with children playing in snow (bundled in winter clothes, hats, minimal visible cues), points to each child and correctly identifies bhaiya/didi - ~90% accuracy
+- while listening to a song with both female and male singers: identified the female singer as "aunty" and the male singer as "uncle," applying the label to each as their part came on
+
+**milestone context:**
+- typical 18-24 month development: may distinguish "boy" and "girl" for familiar people; labels based on obvious cues (hair length, clothing)
+- typical 24-30 month development: beginning to categorize unfamiliar people by gender; may use gendered labels
+- typical 30-36 month development: more consistent gender categorization; understands gender as a stable category
+- typical 3-4 year development: categorizes across modalities (visual, voice); understands age-based categories (child vs adult)
+- mira at 20m19d:
+  - **four-category system**: not just boy/girl but a 2x2 matrix: child (bhaiya/didi) × adult (uncle/aunty) - she's sorting on both gender AND age simultaneously
+  - **minimal-cue visual discrimination**: identifies gender in snow-bundled children where typical cues (hair, clothing style) are largely obscured. extracting gender from face shape, body proportions, movement patterns, or other subtle features
+  - **cross-modal transfer**: applies the same gender categories to voices she hears in a song - not just visual categorization but auditory voice-gender mapping
+  - **high accuracy**: ~90% correct even in degraded-cue conditions (winter clothes)
+  - **casual/automatic**: this isn't effortful for her - it's settled knowledge applied fluently
+- this demonstrates:
+  - **perceptual categorization**: she's built mental prototypes for "boy," "girl," "man," "woman" and matches new instances against them
+  - **feature extraction under noise**: when obvious cues are removed (winter clothing), she still categorizes correctly - meaning she's using deeper features, not surface-level shortcuts
+  - **voice-gender mapping**: distinguishing male and female singing voices requires sensitivity to pitch, timbre, and vocal quality - connects directly to her established auditory discrimination abilities
+  - **2x2 categorical thinking**: sorting people on two dimensions simultaneously (gender × age) is more complex than a simple binary sort
+- assessment: **significantly advanced** - four-category social classification with high accuracy in degraded-cue conditions and cross-modal (visual + auditory) application far exceeds typical 20mo categorization
+
+---
+
+### updated assessment addition at 20m19d
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| gender categorization (visual) | 24-30mo | ~90% accurate even in minimal-cue conditions | significantly advanced |
+| age-group categorization | 30-36mo+ | distinguishes child vs adult alongside gender | advanced |
+| voice-gender mapping | 3-4 years | identifies male/female singers by voice | significantly advanced |
+| 2x2 categorical thinking | 30-36mo+ | gender × age applied simultaneously | advanced |
+
+**what this observation reveals:**
+
+1. **deep feature extraction, not surface matching**: the snow-clothing test is informative. when children are bundled up, the usual shortcuts (hair length, pink vs blue clothing, skirts vs pants) are removed. she's still ~90% accurate. this means she's using subtler features - possibly face structure, body proportions, movement style, or combinations of micro-cues that are harder to articulate. this is sophisticated perceptual processing.
+
+2. **voice as identity carrier (continued pattern)**: she already isolates voices from phone background noise (nanu) and identifies people through walls (mumma, aunty). now she's categorizing unfamiliar voices by gender in music. her auditory system doesn't just detect - it classifies. this is the same high-resolution auditory processing documented in the sound sensitivity profile, applied to a new domain.
+
+3. **casual fluency signals deep learning**: the fact that this is settled and effortful-free matters. she's not guessing or testing - she's applying categories that feel obvious to her. this suggests the prototypes are well-formed and the matching process is automatic. she's past the learning phase on this one.
+
+4. **2x2 categorical structure**: bhaiya/didi/uncle/aunty isn't four random labels. it's a structured system: [child × male = bhaiya], [child × female = didi], [adult × male = uncle], [adult × female = aunty]. whether she's explicitly thinking in a matrix or not, she's applying two dimensions of classification simultaneously. this kind of multi-dimensional categorization is a cognitive step beyond simple labeling.
+
+---
 
 ## 2026-02-03 / 12:10 am
 

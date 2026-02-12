@@ -7,6 +7,10 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
+- [2026-02-06 / evening](#2026-02-06-evening)
+- [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
+- [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
 - [2026-02-03 / 01:00 am](#2026-02-03-0100-am)
 - [2026-02-03 / 12:10 am](#2026-02-03-1210-am)
 - [2026-01-30 / 01:31 pm](#2026-01-30-0131-pm)
@@ -35,6 +39,115 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-09 / 04:45 pm
+
+### hitting/hurting behavior - documented with developmental context
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: mira hurt yuvaan (same age) during play - twisting fingers, pulling hair lightly over 30 mins. broader pattern: hits/bites mumma (decreasing), has pinched elder girls once or twice
+- added extensive developmental context to `profile/developmental-milestones.md`:
+  - what the behavior IS: developmentally normal (peaks 18-30mo), not aggression in the adult sense, not predictive of future aggression
+  - the communication gap: cognitive sophistication ahead of emotional regulation capacity. she can narrate 5-element instructions but can't yet say "i'm tired and i don't want to be here"
+  - connection to her personality: the boundary holder whose autonomy was overridden + the self-starter who was steered away from self-direction + depleted state (tired/sleepy)
+  - different targets = different stories: mumma (safest person, decreasing), yuvaan (depleted + forced + no exit), elder girls (rare boundary testing)
+  - neurological reality: prefrontal cortex (impulse control) is the slowest-maturing brain region. her perceptual and cognitive systems run ahead of her regulation hardware
+  - papa's analysis validated: tired + forced + steered back = precise contextual read
+  - key insight for mira specifically: prevention through autonomy respect is the deeper lever. she tried to leave multiple times - that was her communication
+
+**assessment:** on track - age-appropriate behavior with clear contextual triggers and a positive trend (decreasing frequency with mumma)
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-09 / 04:45 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-09 / 04:45 pm
+- `journal.md` - this entry
+
+---
+
+## 2026-02-06 / evening
+
+### mimimirarara.com - tabs + ai recommendations
+
+**commit:** `ed1f159` - add bottom nav with 3 tabs + ai-powered recommendations
+
+**what we did:**
+- restructured the site from a single-scroll page to a 3-tab app with bottom navigation
+  - **library** (existing book collection)
+  - **recommended books** (new - ai-generated)
+  - **recommended activities** (new - ai-generated)
+- generated first batch of ai recommendations based on mira's profile docs:
+  - 7 book recommendations across 3 categories: pattern & prediction (dear zoo, we're going on a bear hunt), empathy & emotional connection (owl babies, guess how much i love you), agency & imagination (not a box, stuck, rosie's walk)
+  - 7 activity recommendations across 3 categories: sensory & pattern play (color treasure hunt, kitchen pouring station), extended pretend play (doctor/vet checkup, restaurant/cafe play), nature & observation (balcony bird journal, sound detective game, leaf & nature collage)
+- each recommendation has personalized reasoning tied to specific traits from who-mira-is.md
+- interactive yay/nay feedback with notes (localStorage + export button)
+- switched font to geist sans throughout
+- removed add-book button (will re-add later if needed)
+- book covers for recommendations auto-fetched from google books / openlibrary apis
+- same pastel color extraction system applied to recommendation cards
+
+**files:**
+- `apps/library/index.html` - tab structure, bottom nav, unified modal
+- `apps/library/app.js` - tab switching, rec rendering, feedback system, export
+- `apps/library/styles.css` - geist font, bottom nav, rec cards, responsive
+- `apps/library/data/book-recommendations.json` - batch 1 book recs
+- `apps/library/data/activity-recommendations.json` - batch 1 activity recs
+
+**why:** the library was becoming a static catalog. adding recommendations turns it into a living tool - parents can browse ai-curated suggestions, give feedback (yay/nay + notes), and when ready for the next batch, export the feedback for the next round of recommendations. activities extend the same concept to screen-free home play.
+
+---
+
+## 2026-02-05 / 09:27 pm
+
+### problem-solving as a peer - new personality trait documented
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: two instances of mira solving household problems as a peer, not a dependent
+  1. steam for papa's cough: adopted mumma's role (tone, physical direction), stepped in when mumma's approach wasn't working
+  2. phone/song problem: delegated to househelp with 5-element instruction chain before mumma could solve it
+- added milestone assessment to `profile/developmental-milestones.md`:
+  - role adoption: significantly advanced (3-4 year typical)
+  - third-party delegation: significantly advanced (4-5 year typical)
+  - solution-chain reasoning: significantly advanced (3-4 year typical)
+- added 9th trait to `profile/who-mira-is.md`: "the peer" - she doesn't see adult problems as separate from her problems. she operates as a full participant in household problem-solving
+- updated connected picture: the peer is where all other traits converge
+
+**key insight:**
+- this is different from "self-starter" (initiating new activities). this is about how she relates to problems.
+- she doesn't have a concept of "that's not my problem." if it's happening in her world, it's her problem.
+- the phone instance shows delegation to a third party with a 5-element instruction chain at 20m19d - this is the peer trait + pattern extraction + narration + empathy all working together
+- she moves faster than the adults - not reactive but automatic
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-05 / 09:27 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-05 / 09:27 pm
+- `profile/who-mira-is.md` - added "the peer" as 9th trait, updated connected picture
+- `journal.md` - this entry
+
+---
+
+## 2026-02-05 / 08:27 pm
+
+### gender & age categorization documented at 20m19d
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: mira casually identifies bhaiya/didi/uncle/aunty with ~90% accuracy, even when children are bundled in winter clothes in books; also identifies male/female singers by voice
+- added milestone assessment to `profile/developmental-milestones.md`:
+  - visual gender categorization: significantly advanced (~90% in degraded-cue conditions)
+  - voice-gender mapping: significantly advanced (identifies male/female singers)
+  - 2x2 categorical thinking (gender × age): advanced
+
+**key observations:**
+- she's using a 2x2 system (child/adult × male/female), not just a binary sort
+- the snow-clothing accuracy (~90%) means she's extracting gender from deep features (face structure, proportions, movement), not surface cues (hair, clothing color)
+- voice-gender mapping connects directly to her established auditory discrimination profile
+- this is casual/automatic for her - settled knowledge, not effortful guessing
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-05 / 08:27 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-05 / 08:27 pm
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-03 / 01:00 am

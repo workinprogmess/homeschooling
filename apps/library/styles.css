@@ -1,5 +1,14 @@
 /* mira's library - soft, warm, playful */
 
+/* geist sans - variable font */
+@font-face {
+  font-family: 'Geist';
+  src: url('https://cdn.jsdelivr.net/npm/geist@1.5.1/dist/fonts/geist-sans/Geist-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #faf8f5;
   --card-bg: #ffffff;
@@ -10,8 +19,8 @@
   --shadow-hover: rgba(0, 0, 0, 0.12);
   --border-radius: 20px;
   --border-radius-sm: 12px;
-  --font-title: 'Instrument Serif', Georgia, serif;
-  --font-body: 'Inter Tight', system-ui, sans-serif;
+  --font: 'Geist', system-ui, -apple-system, sans-serif;
+  --nav-height: 72px;
 }
 
 * {
@@ -21,54 +30,154 @@
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font);
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
   font-weight: 400;
+  padding-bottom: calc(var(--nav-height) + 1rem);
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
+  padding: 3rem 1.5rem 2rem;
 }
 
-/* header */
+/* ============================================
+   HEADER
+   ============================================ */
 header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 header h1 {
-  font-family: var(--font-title);
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-family: var(--font);
+  font-size: 2.2rem;
+  font-weight: 500;
   color: var(--text);
   margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
 }
 
 .subtitle {
   color: var(--text-light);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 300;
-  font-style: italic;
 }
 
-/* category sections */
+/* ============================================
+   TAB VIEWS
+   ============================================ */
+.tab-view {
+  display: none;
+}
+
+.tab-view.active {
+  display: block;
+}
+
+.tab-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 0 1rem;
+}
+
+.tab-intro p {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ============================================
+   BOTTOM NAV
+   ============================================ */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  background: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  z-index: 100;
+  padding: 0 1rem;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.nav-tab {
+  flex: 1;
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-light);
+  transition: color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-tab:hover {
+  color: var(--text);
+}
+
+.nav-tab.active {
+  color: var(--text);
+}
+
+.nav-tab.active .nav-icon {
+  opacity: 1;
+}
+
+.nav-tab.active .nav-label {
+  font-weight: 500;
+  opacity: 1;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.nav-label {
+  font-family: var(--font);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+/* ============================================
+   CATEGORY SECTIONS (library tab)
+   ============================================ */
 .category-section {
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 
 .category-header {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 400;
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 500;
   color: var(--text-light);
   margin-bottom: 1.5rem;
   text-align: center;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: lowercase;
   position: sticky;
   top: 0;
@@ -84,7 +193,9 @@ header h1 {
   gap: 1.25rem;
 }
 
-/* book card - landscape layout */
+/* ============================================
+   BOOK CARDS (library)
+   ============================================ */
 .book-card {
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -112,7 +223,7 @@ header h1 {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
 }
 
-/* cover image - free dimensions */
+/* cover image */
 .book-cover {
   max-width: 120px;
   max-height: 180px;
@@ -145,18 +256,19 @@ header h1 {
   opacity: 0.5;
 }
 
-/* book info - right side */
+/* book info */
 .book-info {
   flex: 1;
   min-width: 0;
 }
 
 .book-title {
-  font-family: var(--font-title);
-  font-weight: 400;
-  font-size: 1.35rem;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.2rem;
   margin-bottom: 0.3rem;
-  line-height: 1.25;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 
 .book-author {
@@ -164,7 +276,6 @@ header h1 {
   color: inherit;
   opacity: 0.7;
   margin-bottom: 0.5rem;
-  font-style: italic;
   font-weight: 300;
 }
 
@@ -176,11 +287,11 @@ header h1 {
 }
 
 .book-mira-name::before {
-  content: '"';
+  content: '\201C';
 }
 
 .book-mira-name::after {
-  content: '"';
+  content: '\201D';
 }
 
 /* meta info row */
@@ -209,26 +320,300 @@ header h1 {
   color: inherit;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  font-style: normal;
 }
 
-/* recommendation badges */
-.rec-status {
-  padding: 0.25rem 0.6rem;
-  border-radius: var(--border-radius-sm);
-  font-size: 0.75rem;
+/* ============================================
+   RECOMMENDATION SECTIONS (books & activities tabs)
+   ============================================ */
+.batch-section {
+  margin-bottom: 3rem;
+}
+
+.batch-reasoning {
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, rgba(232, 180, 184, 0.08) 0%, rgba(232, 200, 180, 0.08) 100%);
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.batch-reasoning p {
+  color: var(--text-light);
+  font-size: 0.84rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.category-group {
+  margin-bottom: 2.5rem;
+}
+
+.category-group-header {
+  font-family: var(--font);
+  font-size: 0.8rem;
   font-weight: 500;
+  color: var(--cat-accent, var(--text-light));
+  margin-bottom: 0.75rem;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  padding: 0.75rem 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.rec-status.yay {
-  background: rgba(184, 201, 184, 0.6);
+.cat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cat-dot, var(--text-light));
+  flex-shrink: 0;
 }
 
-.rec-status.nay {
-  background: rgba(245, 213, 200, 0.6);
+.category-group-reasoning {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--cat-bg, rgba(0, 0, 0, 0.02));
+  border-radius: var(--border-radius-sm);
+  border-left: 3px solid var(--cat-dot, rgba(0, 0, 0, 0.08));
 }
 
-/* loading overlay */
+.category-group-reasoning p {
+  color: var(--text-light);
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+  font-style: italic;
+  text-align: left;
+}
+
+.rec-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* ============================================
+   RECOMMENDATION CARDS
+   ============================================ */
+.rec-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px var(--shadow);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.rec-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--shadow-hover);
+}
+
+.rec-card[style*="background-color"] {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.rec-card[style*="background-color"]:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* activity icon (for cards without covers) */
+.rec-activity-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+/* rec card cover (for book recommendations) */
+.rec-cover {
+  max-width: 100px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--border-radius-sm);
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: filter 0.4s ease;
+}
+
+.rec-cover.loading {
+  filter: blur(8px);
+}
+
+.rec-cover.loaded {
+  filter: blur(0);
+}
+
+.rec-cover-placeholder {
+  width: 80px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: linear-gradient(135deg, #f0ece4 0%, #e8e4dc 100%);
+  border-radius: var(--border-radius-sm);
+  flex-shrink: 0;
+  color: var(--text-light);
+  opacity: 0.6;
+}
+
+.rec-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.rec-title {
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.rec-author {
+  font-size: 0.82rem;
+  color: inherit;
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.rec-description {
+  font-size: 0.85rem;
+  color: inherit;
+  opacity: 0.75;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.rec-why {
+  font-size: 0.8rem;
+  color: inherit;
+  opacity: 0.6;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+
+.rec-materials {
+  font-size: 0.75rem;
+  color: inherit;
+  opacity: 0.55;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.rec-materials-label {
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+/* feedback controls on card */
+.rec-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.feedback-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.feedback-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+  transform: scale(1.1);
+}
+
+.feedback-btn.active.yay {
+  background: rgba(130, 180, 130, 0.35);
+}
+
+.feedback-btn.active.nay {
+  background: rgba(220, 160, 140, 0.35);
+}
+
+.rec-external-link {
+  font-size: 0.75rem;
+  color: inherit;
+  opacity: 0.5;
+  text-decoration: none;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--border-radius-sm);
+  background: rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.rec-external-link:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* ============================================
+   EXPORT SECTION
+   ============================================ */
+.export-section {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 1rem;
+}
+
+.export-btn {
+  padding: 0.6rem 1.5rem;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--border-radius-sm);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.export-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--text);
+}
+
+/* ============================================
+   LOADING OVERLAY
+   ============================================ */
 .loading-overlay {
   position: fixed;
   top: 0;
@@ -251,8 +636,8 @@ header h1 {
 
 .loading-text {
   color: var(--text-light);
-  font-size: 1rem;
-  font-style: italic;
+  font-size: 0.95rem;
+  font-weight: 300;
   animation: pulse 1.5s ease-in-out infinite;
 }
 
@@ -261,7 +646,9 @@ header h1 {
   50% { opacity: 1; }
 }
 
-/* modal */
+/* ============================================
+   MODAL
+   ============================================ */
 .modal {
   display: none;
   position: fixed;
@@ -292,7 +679,6 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
-/* when modal has dynamic colors applied */
 .modal-content[style*="background-color"] {
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
 }
@@ -307,6 +693,7 @@ header h1 {
   cursor: pointer;
   color: var(--text-light);
   transition: color 0.2s;
+  z-index: 1;
 }
 
 .modal-close:hover {
@@ -337,16 +724,16 @@ header h1 {
 }
 
 .modal-info h2 {
-  font-family: var(--font-title);
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-family: var(--font);
+  font-size: 1.4rem;
+  font-weight: 500;
   margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
 }
 
 .modal-author {
   color: inherit;
   opacity: 0.7;
-  font-style: italic;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
@@ -362,205 +749,163 @@ header h1 {
 .modal-stats {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .modal-stats .stat {
-  background: var(--bg);
+  background: rgba(0, 0, 0, 0.04);
   opacity: 1;
   color: var(--text-light);
 }
 
-.modal-notes-section label,
-.modal-recommendation-section label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  color: var(--text-light);
-  font-size: 0.9rem;
+.modal-notes-display {
+  font-size: 0.85rem;
+  color: inherit;
+  opacity: 0.7;
+  line-height: 1.6;
+  font-weight: 300;
 }
 
-.modal-notes-section textarea,
-.modal-recommendation-section textarea {
-  width: 100%;
-  min-height: 80px;
-  padding: 0.75rem;
-  border: 2px solid var(--bg);
+/* recommendation details in modal */
+.modal-rec-details {
+  margin-top: 1rem;
+}
+
+.modal-why {
+  font-size: 0.85rem;
+  color: inherit;
+  opacity: 0.7;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.02);
   border-radius: var(--border-radius-sm);
-  font-family: inherit;
-  font-size: 0.9rem;
-  resize: vertical;
-  transition: border-color 0.2s;
 }
 
-.modal-notes-section textarea:focus,
-.modal-recommendation-section textarea:focus {
-  outline: none;
-  border-color: var(--accent);
+.modal-materials {
+  font-size: 0.82rem;
+  color: inherit;
+  opacity: 0.6;
+  margin-bottom: 1rem;
 }
 
-.save-notes-btn {
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: var(--bg);
-  border: none;
-  border-radius: var(--border-radius-sm);
-  font-family: inherit;
+.materials-label {
   font-weight: 500;
-  cursor: pointer;
-  transition: background 0.2s;
 }
 
-.save-notes-btn:hover {
-  background: var(--accent);
-  color: white;
+.modal-link-row {
+  margin-bottom: 1rem;
 }
 
-/* yay/nay buttons */
+.external-link {
+  font-size: 0.85rem;
+  color: inherit;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--border-radius-sm);
+  background: rgba(0, 0, 0, 0.04);
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.external-link:hover {
+  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+/* yay/nay in modal */
+.modal-feedback-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
 .yay-nay-buttons {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.yay-btn, .nay-btn {
+.feedback-btn-large {
   flex: 1;
-  padding: 0.75rem 1rem;
+  padding: 0.7rem 1rem;
   border: none;
   border-radius: var(--border-radius-sm);
-  font-family: inherit;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.yay-btn {
-  background: rgba(184, 201, 184, 0.5);
-  color: var(--text);
-}
-
-.yay-btn:hover, .yay-btn.active {
-  background: #8fb08f;
-  color: white;
-}
-
-.nay-btn {
-  background: rgba(245, 213, 200, 0.5);
-  color: var(--text);
-}
-
-.nay-btn:hover, .nay-btn.active {
-  background: #e6a896;
-  color: white;
-}
-
-/* add book button */
-.add-book-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  padding: 1rem 1.5rem;
-  background: var(--accent);
-  color: white;
-  border: none;
-  border-radius: var(--border-radius);
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  transition: all 0.2s;
-}
-
-.add-book-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* add book form */
-#add-modal .modal-content {
-  max-width: 500px;
-}
-
-#add-modal h2 {
-  margin-bottom: 1.5rem;
-  font-weight: 500;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-group label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 0.25rem;
-  color: var(--text-light);
+  font-family: var(--font);
+  font-weight: 400;
   font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
-.form-group input,
-.form-group select,
-.form-group textarea {
+.feedback-btn-large.yay {
+  background: rgba(184, 201, 184, 0.3);
+  color: var(--text);
+}
+
+.feedback-btn-large.yay:hover,
+.feedback-btn-large.yay.active {
+  background: rgba(130, 180, 130, 0.5);
+}
+
+.feedback-btn-large.nay {
+  background: rgba(245, 213, 200, 0.3);
+  color: var(--text);
+}
+
+.feedback-btn-large.nay:hover,
+.feedback-btn-large.nay.active {
+  background: rgba(220, 160, 140, 0.5);
+}
+
+.feedback-icon {
+  font-size: 1.1rem;
+}
+
+.modal-feedback-section textarea {
   width: 100%;
+  min-height: 70px;
   padding: 0.75rem;
-  border: 2px solid var(--bg);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: var(--border-radius-sm);
-  font-family: inherit;
-  font-size: 0.95rem;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  font-weight: 300;
+  resize: vertical;
   transition: border-color 0.2s;
+  background: rgba(255, 255, 255, 0.5);
 }
 
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
+.modal-feedback-section textarea:focus {
   outline: none;
   border-color: var(--accent);
 }
 
-.form-group textarea {
-  min-height: 60px;
-  resize: vertical;
-}
-
-.checkbox-group {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.checkbox-group input {
-  width: auto;
-}
-
-.checkbox-group label {
-  margin-bottom: 0;
-}
-
-.submit-btn {
-  width: 100%;
-  padding: 0.75rem;
-  background: var(--accent);
-  color: white;
-  border: none;
+.save-feedback-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: var(--border-radius-sm);
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 500;
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 400;
   cursor: pointer;
-  transition: background 0.2s;
-}
-
-.submit-btn:hover {
-  opacity: 0.9;
-}
-
-/* empty state */
-.empty-state {
-  text-align: center;
-  padding: 3rem;
+  transition: all 0.2s;
   color: var(--text-light);
-  font-style: italic;
+}
+
+.save-feedback-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
 }
 
 /* ============================================
@@ -568,27 +913,27 @@ header h1 {
    ============================================ */
 @media (max-width: 600px) {
   .container {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem;
   }
 
   header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   header h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
 
   .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .category-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
   }
 
   .category-header {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     margin-bottom: 1rem;
   }
 
@@ -603,8 +948,6 @@ header h1 {
   .book-cover {
     max-width: 140px;
     max-height: 200px;
-    width: auto;
-    height: auto;
   }
 
   .book-info {
@@ -612,13 +955,41 @@ header h1 {
   }
 
   .book-title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .book-meta {
     justify-content: center;
   }
 
+  /* rec cards mobile */
+  .rec-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+
+  .rec-cover {
+    max-width: 120px;
+    max-height: 170px;
+  }
+
+  .rec-activity-icon {
+    margin: 0 auto;
+    width: 56px;
+    height: 56px;
+  }
+
+  .rec-info {
+    width: 100%;
+  }
+
+  .rec-actions {
+    justify-content: center;
+  }
+
+  /* modal mobile */
   .modal-body {
     flex-direction: column;
     align-items: center;
@@ -632,9 +1003,12 @@ header h1 {
     justify-content: center;
   }
 
-  .add-book-btn {
-    bottom: 1rem;
-    right: 1rem;
-    padding: 0.75rem 1rem;
+  /* nav */
+  .bottom-nav {
+    padding: 0 0.5rem;
+  }
+
+  .nav-label {
+    font-size: 0.65rem;
   }
 }
