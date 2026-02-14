@@ -7,6 +7,7 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-14 / 10:51 pm](#2026-02-14-1051-pm)
 - [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
@@ -28,6 +29,147 @@ tracking mira's development against typical milestones - updated alongside notes
 
 ## sources / references
 - none yet
+
+## 2026-02-14 / 10:51 pm
+
+### age: ~20 months, 28 days (3 days to 21mo)
+
+---
+
+### sustained conversational engagement (video call)
+
+#### 15+ minute bidirectional conversation with remote family
+**observation:**
+- mami/mamu called on video. mira picked up the phone, navigated the ui (blue accept button, not red decline), and spoke for 15+ minutes
+- shared: red balloon decor, cat crying outside another day, baba falling from table, a full song stanza, bob the builder theme, a hindi poem
+- when asked "kuch aur hai?": started naming/pointing to things in the room (fans, mirror, tea set)
+- showed the red glass on the microwave by running around saying "kittu dekh" / "kittu see"
+- when kittu said she had to leave for yoga: mira came up with more things (rhymes, songs) to share
+
+**milestone context:**
+- typical 18-24 month development: may say a few words on phone, often loses interest quickly, doesn't sustain conversation
+- typical 24-30 month development: can have brief phone/video conversations (2-5 minutes), mostly answering questions
+- typical 30-36 month development: can sustain short conversations, beginning to share events and stories
+- typical 3-4 year development: sustains 10+ minute conversations, shares experiences, performs songs/rhymes
+- mira at ~20m28d:
+  - **duration**: 15+ minutes of active, self-driven conversation on a video call
+  - **content generation**: wasn't just answering questions - she was generating content to share (events, songs, poems, objects)
+  - **episodic memory sharing**: shared events from different days (cat crying, baba falling from table) - narrating past experiences to someone who wasn't there
+  - **performance**: delivered a full song stanza, bob the builder theme, a hindi poem - performing for an audience
+  - **environmental scanning**: when asked "kuch aur?" she scanned the room and started naming things to show - actively searched for more content
+  - **strategic conversation extension**: when kittu said she had to leave, mira came up with more things to share. whether this was strategic (keep her on the call) or just "i have more to say," the effect is the same - she was managing the conversation's duration
+  - **show-and-tell behavior**: ran around with the phone to show the red glass - understands that video means the other person can see what she sees
+- this demonstrates:
+  - **conversational stamina**: sustained engagement far beyond typical for age
+  - **narrative sharing**: recounting past events to a non-present audience is autobiographical narration
+  - **audience awareness**: performing songs/poems and showing objects = understanding that the other person is watching and listening
+  - **conversational initiative**: she drove the conversation, not the adults. they asked "kuch aur?" but she was the content generator
+- assessment: **significantly advanced** - 15+ minutes of self-driven, content-generating video conversation with episodic memory sharing and performance is far beyond typical 20mo. this is more typical of 3-4 year old conversational behavior
+
+---
+
+### prosodic memory & script storage
+
+#### reproducing family members' voices (tone, stretch, full phrases)
+**observation:**
+- when mamu asked what everyone calls her, she reproduced each person's calling pattern with their specific prosody:
+  - nani: "cookiieeeee" (stretched the sound, matching nani's way)
+  - dadu: "raaadheeee" (stretched the ae sound at the end, matching dadu's way)
+  - nanu: "shonu baby, how are you? good? yea" (reproduced the entire phrase sequence)
+  - mamu: "hi bhagik" (stored not what mamu calls her, but the conversational script - see below)
+
+**milestone context:**
+- typical 18-24 month development: imitates words and simple intonation patterns, may mimic a familiar voice
+- typical 24-30 month development: can imitate how people speak, beginning to differentiate voice qualities
+- typical 30-36 month development: can reproduce familiar phrases with some prosodic accuracy
+- typical 3-4 year development: can imitate different voices, understands that people speak differently
+- mira at ~20m28d:
+  - **prosodic fidelity**: didn't just say the words - reproduced the specific way each person stretches, intones, and delivers their greeting. "cookiieeeee" with nani's stretch vs "raaadheeee" with dadu's different stretch pattern
+  - **phrase-level memory**: for nanu, stored an entire conversational sequence: "shonu baby, how are you? good? yea" - this isn't a word, it's a multi-utterance script with its own rhythm
+  - **person-specific voice profiles**: has stored distinct vocal profiles for at least 4-5 family members, recallable on request
+  - **differentiated prosody**: each reproduction is different from the others - she's not using a generic "mimicking" voice. each one sounds like the person it represents
+- this demonstrates:
+  - **auditory memory depth**: she's not storing words. she's storing sound patterns - pitch, duration, rhythm, intonation contour. this is musical/prosodic memory, not just lexical memory
+  - **person-voice binding**: each family member is stored with their specific vocal signature, recallable on demand
+  - **connects directly to the always-on receiver profile**: the same high-resolution auditory system that isolates nanu's voice from phone background noise has been storing these prosodic patterns all along
+- assessment: **significantly advanced** - prosodic reproduction of multiple family members' distinct vocal patterns with phrase-level memory far exceeds typical 20mo imitation capacity
+
+---
+
+#### conversational script storage ("hi bhagik")
+**observation:**
+- when asked what mamu calls her, she said "hi bhagik" (her pronunciation of "hi bhavik")
+- even mumma didn't understand why she said this
+- mamu's explanation: every time he appears on video, mira asks for "kittu" (mami). papa then urges her to say "hi bhavik" (to mamu). then kittu comes
+- so she stored not what mamu calls her, but the interaction script associated with mamu's appearance
+
+**milestone context:**
+- typical 18-24 month development: stores words associated with people, may have simple associations (nani = cookies)
+- typical 24-30 month development: beginning to store routines and sequences associated with events
+- typical 30-36 month development: can describe simple routines, understands "what happens when..."
+- typical 3-4 year development: stores and can narrate multi-step social scripts
+- mira at ~20m28d:
+  - **script storage, not label storage**: she didn't store a label for mamu ("what does mamu call you?"). she stored the entire interaction script: mamu appears → she says kittu → papa says "say hi bhavik" → she says hi bhagik → kittu comes
+  - **the stored element is HER line**: from the multi-party script, she extracted and stored the part that SHE says. not what mamu says to her, not what papa says - her own line in the interaction
+  - **pragmatic association**: "hi bhagik" is associated with mamu not because he says it, but because it's what the mamu-interaction requires from her. it's the key that unlocks kittu
+  - **compressed script retrieval**: when asked "what does mamu call you?" she retrieved the mamu-script and produced her line from it. the question didn't match the answer because her storage system is organized by interaction pattern, not by semantic label
+- this demonstrates:
+  - **social script architecture**: her memory for people isn't just person → label. it's person → interaction pattern → her role in it. this is script theory in action - she stores social encounters as structured sequences with roles
+  - **pragmatic memory**: she remembers what works. "hi bhagik" is stored because it's the functional key in the mamu interaction (say this → kittu comes). this is goal-oriented memory
+  - **self-as-agent in scripts**: she stores scripts from the first-person perspective. when asked about mamu, she produces her own line, not his. her memory is organized around her own agency within interactions
+  - **the answer reveals the storage format**: the "wrong" answer is actually the most informative data point. it shows us that her social memory is organized by interaction patterns, not by the semantic question being asked. when you ask "what does mamu call you?" she retrieves the mamu-interaction and plays her part
+- assessment: **significantly advanced** - social script storage organized by interaction pattern with self-as-agent retrieval is a sophisticated memory architecture. the "hi bhagik" answer is more revealing than any "correct" answer would have been
+
+---
+
+### technology interaction
+
+#### ui navigation (spotify + phone call interface)
+**observation:**
+- spotify: scrolls song lists, taps to play, recognizes 7-10 songs by their tiny square thumbnail. sometimes taps wrong one (fine motor developing)
+- phone call: picks up video calls by pressing the small blue accept button (not the red decline), has a game with nani where she disconnects and nani calls back
+- understands video call = other person can see what she shows (runs around to show the red glass)
+
+**milestone context:**
+- typical 18-24 month development: may tap/swipe on screens, beginning to understand cause-effect on devices
+- typical 24-30 month development: can navigate familiar apps with guidance, beginning to recognize icons
+- typical 30-36 month development: navigates familiar apps independently, understands multiple ui elements
+- mira at ~20m28d:
+  - **icon recognition by thumbnail**: recognizes songs by their tiny album art - visual discrimination at small scale
+  - **fine motor + ui interaction**: scrolls and taps within a list. the occasional wrong-target tap is expected fine motor development, not a comprehension issue
+  - **discriminating small ui elements**: the blue accept and red decline circles are small and adjacent. she reliably selects the correct one
+  - **video call comprehension**: understands that the camera shows the other person what she points at - spatial perspective-taking through technology
+  - **game creation with technology**: the nani disconnect/reconnect game is a self-created ritual using the phone interface
+- assessment: **advanced** - ui navigation with thumbnail recognition and precise small-target selection, plus understanding of video perspective, exceed typical 20mo technology interaction
+
+---
+
+### updated assessment additions at ~20m28d
+
+| area | typical milestone age | mira's level | assessment |
+|------|----------------------|--------------|------------|
+| sustained video conversation | 3-4 years | 15+ min self-driven with content generation | significantly advanced |
+| episodic narration to non-present audience | 30-36mo+ | shares past events (cat, papa falling) on video call | significantly advanced |
+| prosodic memory (voice reproduction) | 3-4 years | reproduces 4-5 family members' distinct vocal patterns | significantly advanced |
+| conversational script storage | 3-4 years | stores interaction patterns with self-as-agent retrieval | significantly advanced |
+| technology ui navigation | 24-30mo+ | spotify thumbnails, call accept/decline, video perspective | advanced |
+| conversation extension strategy | 3-4 years | generates new content when call is ending | advanced |
+
+**what this video call reveals:**
+
+1. **her memory is organized by interaction patterns, not labels.** the "hi bhagik" answer is the most important data point in this entire observation. when asked "what does mamu call you?" a label-based memory would return mamu's pet name for her. instead, she returned her own line from the mamu-interaction-script. this tells us her social memory is structured as: person → interaction sequence → her role within it. she stores encounters, not facts.
+
+2. **prosodic memory is separate from lexical memory.** she didn't just remember WHAT nani/dadu/nanu say. she remembered HOW they say it - the stretch, the pitch, the rhythm, the full phrase contour. "cookiieeeee" vs "raaadheeee" vs "shonu baby, how are you? good? yea" - each one has a different prosodic envelope. she's storing vocal fingerprints, not words. this is the always-on receiver operating at a level we haven't documented before - she's been recording the musical quality of people's voices all along.
+
+3. **she drives conversations, not just participates.** this wasn't a Q&A session where adults asked and she answered. she was the content generator. she decided what to share (balloons, cat, papa falling, songs, poems). when they asked "kuch aur?" she scanned the room for more content. when kittu said she had to leave, she generated more material. she's treating the conversation as her stage, not an interrogation.
+
+4. **episodic sharing to a non-present audience is narrative cognition.** telling kittu about the cat that cried the other day, or about baba falling from the table - these are past events being narrated to someone who wasn't there. this requires: remembering the event, selecting it as shareable, encoding it in language, and delivering it with the understanding that the listener has no prior knowledge. this is autobiographical narration - the foundation of storytelling.
+
+5. **the nani disconnect/reconnect game is a self-created technology ritual.** she disconnects → nani calls back → she picks up. this is the ritual builder using the phone interface as material. she's created a repeatable interactive sequence using technology - a game with its own rules and structure.
+
+6. **conversation extension may be social strategy.** when kittu said she had to leave, mira came up with more songs and rhymes. this could be: (a) she genuinely had more to share, (b) she understands that providing content keeps the other person present, or (c) both. if (b), this is early conversational strategy - understanding that you can influence whether someone stays by giving them a reason to.
+
+---
 
 ## 2026-02-09 / 04:45 pm
 
