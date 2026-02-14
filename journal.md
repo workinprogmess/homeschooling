@@ -7,6 +7,7 @@ project development log - newest entries on top
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-14 / 10:51 pm](#2026-02-14-1051-pm)
 - [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-06 / evening](#2026-02-06-evening)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
@@ -39,6 +40,35 @@ project development log - newest entries on top
 - [2025-12-22 / early afternoon](#2025-12-22-early-afternoon)
 - [2025-12-20 / time: current session](#2025-12-20-time-current-session)
 <!-- toc:end -->
+---
+
+## 2026-02-14 / 10:51 pm
+
+### video call, prosodic memory, and "hi bhagik" script storage at ~20m28d
+
+**what we did:**
+- added observation to `profile/notes-about-mira.md`: full video call episode with mami/mamu
+  - spotify ui familiarity (scrolling, tapping, thumbnail recognition for 7-10 songs)
+  - phone call ui navigation (accepts calls precisely, disconnect/reconnect game with nani)
+  - 15+ min self-driven video conversation (shared events, songs, poems, room objects)
+  - prosodic memory: reproduced 4-5 family members' voices with exact tone/stretch/rhythm
+  - "hi bhagik" script storage: stored interaction pattern (not label) for mamu
+- added milestone assessments to `profile/developmental-milestones.md`:
+  - sustained video conversation: significantly advanced (3-4 year typical)
+  - prosodic memory: significantly advanced (vocal fingerprint storage)
+  - conversational script storage: significantly advanced (interaction-pattern memory, not label memory)
+  - technology ui navigation: advanced
+
+**key insights:**
+- "hi bhagik" is the most revealing data point: her social memory is organized by interaction patterns, not labels. she stored her own line from the mamu-script, not what mamu calls her. memory organized as person → interaction sequence → her role
+- prosodic memory: she's been storing vocal fingerprints all along - not just words but pitch, duration, rhythm, stretch. nani's "cookiieeeee" vs dadu's "raaadheeee" vs nanu's full phrase with intonation
+- she drove the conversation (content generator, not Q&A responder), scanned room for more material, possibly used conversation extension strategy when kittu said she had to leave
+
+**files modified:**
+- `profile/notes-about-mira.md` - new entry 2026-02-14 / 10:51 pm
+- `profile/developmental-milestones.md` - new entry 2026-02-14 / 10:51 pm
+- `journal.md` - this entry
+
 ---
 
 ## 2026-02-09 / 04:45 pm

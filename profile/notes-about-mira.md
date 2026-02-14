@@ -7,6 +7,7 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## table of contents
 <!-- toc:start -->
+- [2026-02-14 / 10:51 pm](#2026-02-14-1051-pm)
 - [2026-02-09 / 04:45 pm](#2026-02-09-0445-pm)
 - [2026-02-05 / 09:27 pm](#2026-02-05-0927-pm)
 - [2026-02-05 / 08:27 pm](#2026-02-05-0827-pm)
@@ -28,6 +29,54 @@ free-form observations, things she does, likes, patterns - captured as they come
 
 ## sources / references
 - none yet
+
+## 2026-02-14 / 10:51 pm
+
+### the video call & voice-prosody memory (~20m28d, 3 days to 21mo)
+
+**spotify ui familiarity:**
+- very familiar with spotify's song list screen
+- scrolls up/down and taps to play
+- sometimes taps the one above or below (fine motor still developing)
+- recognizes 7-10 songs by their tiny square thumbnail - knows which is which
+- these are songs she listens/dances/moves to on repeat
+
+**phone call ui navigation:**
+- mami/mamu called on atima's phone (kept next to them)
+- she picked it up, saw who was calling
+- pressed the tiny blue circle (accept) precisely, not the red cross (decline) next to it
+- this isn't the first time: she plays a game with nani where she disconnects the video call (bigger red circle at bottom) and nani calls back and she picks up
+
+**the 15+ minute video call conversation:**
+- first word: "kittu" (mami's name) - she says this when mamu appears because she knows kittu will come if she asks
+- mamu pleads her to talk or say "hi bhavik" - she would if she feels like, or just asks for "kittu" again
+- when kittu/mami came on: for the next 15+ minutes she shared everything she could:
+  - red balloon decor
+  - cat that was crying outside the other day
+  - how baba/papa fell from the table the other day
+  - one song (full stanza)
+  - bob the builder theme song
+  - a hindi poem
+- when they asked "kuch aur hai?" (anything more?): she started pointing to and naming fans, mirror, tea set (pretend play)
+- the red glass: mumma took out a special red glass for a celebratory dinner, kept on the microwave. she ran around saying "kittu dekh" / "kittu see" (kittu look)
+- jumped on the table, laid flat on the meditation cushion, plenty of other things
+- when kittu said she had to leave for yoga class: mira came up with a couple more things (rhymes, songs) to share - possibly to keep her on the call
+
+**voice/prosody memory - how each family member calls her:**
+- mamu asked her one by one what everyone calls her
+- she reproduced not just the words but the exact tone/stretch/prosody:
+  - nani: "cookiieeeee" (stretched the sound)
+  - dadu: "raaadheeee" (stretched the ae sound at the end)
+  - nanu: "shonu baby, how are you? good? yea" (the whole phrase)
+  - mamu: "hi bhagik"
+
+**the "hi bhagik" mystery:**
+- even mumma didn't get why she said "hi bhagik" for what mamu calls her
+- mamu's explanation: every time he comes on video call, mira asks for "kittu" (mami). then papa urges her to say "hi bhavik" (to mamu), and then kittu will come
+- so she stored "hi bhagik" (her pronunciation of "hi bhavik") as THE thing associated with mamu - not what he calls her, but the conversational script that plays out when he appears
+- she stored the interaction pattern: mamu appears → she says kittu → papa says "say hi bhavik" → she says it → kittu comes
+
+---
 
 ## 2026-02-09 / 04:45 pm
 
