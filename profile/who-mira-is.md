@@ -3,7 +3,7 @@
 a portrait of the person emerging - synthesized from observations across 19-20.5 months. not milestones, not assessments. the threads that run through everything.
 
 **tags:** #mira-personality #mira-profile #emerging-identity #temperament #mira-superpowers
-**related:** [notes about mira](./notes-about-mira.md), [developmental milestones](./developmental-milestones.md), [wiki index](../wiki/index.md)
+**related:** [notes about mira](./notes-about-mira.md), [mira's milestones](./developmental-milestones.md), [wiki index](../wiki/index.md)
 
 ## table of contents
 <!-- toc:start -->
@@ -256,4 +256,4 @@ she will likely thrive with consistent routines that she has a hand in creating.
 
 ## sources / references
 - all observations drawn from [notes about mira](./notes-about-mira.md) (19mo-20m19d)
-- all milestone assessments from [developmental milestones](./developmental-milestones.md)
+- all milestone assessments from [mira's milestones](./developmental-milestones.md)

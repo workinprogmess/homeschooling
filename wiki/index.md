@@ -14,7 +14,7 @@ map of content across the repo.
 
 ## by folder
 ### profile
-- [developmental milestones](../profile/developmental-milestones.md)
+- [mira's milestones](../profile/developmental-milestones.md)
 - [notes about mira](../profile/notes-about-mira.md)
 - [who mira is](../profile/who-mira-is.md)
 
