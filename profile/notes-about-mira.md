@@ -3,7 +3,7 @@
 free-form observations, things she does, likes, patterns - captured as they come up naturally
 
 **tags:** #mira-observations #mira-profile #growth-notes #daily-patterns
-**related:** [developmental milestones](./developmental-milestones.md), [bicycles research](../research/bicycles-mira.md), [wiki index](../wiki/index.md)
+**related:** [mira's milestones](./developmental-milestones.md), [bicycles research](../research/bicycles-mira.md), [wiki index](../wiki/index.md)
 
 ## table of contents
 <!-- toc:start -->

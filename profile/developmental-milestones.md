@@ -1,4 +1,4 @@
-# developmental milestones
+# mira's milestones
 
 tracking mira's development against typical milestones - updated alongside notes-about-mira.md
 

@@ -72,7 +72,7 @@ generated: 2026-01-01 / 08:06 pm
 - [journal.md](../journal.md)
 
 ### #developmental-assessment
-- [developmental milestones](../profile/developmental-milestones.md)
+- [mira's milestones](../profile/developmental-milestones.md)
 
 ### #developmental-milestones
 - [developmental milestones overview](../research/developmental-milestones-overview.md)
@@ -132,10 +132,10 @@ generated: 2026-01-01 / 08:06 pm
 - [temp: language development at 19mo](../resources/temp-language-dev-19mo.md)
 
 ### #milestone-tracking
-- [developmental milestones](../profile/developmental-milestones.md)
+- [mira's milestones](../profile/developmental-milestones.md)
 
 ### #mira-development
-- [developmental milestones](../profile/developmental-milestones.md)
+- [mira's milestones](../profile/developmental-milestones.md)
 
 ### #mira-first-bicycle
 - [bicycles research: mira (bangalore) - balance vs pedal](../research/bicycles-mira.md)
